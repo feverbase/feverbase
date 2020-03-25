@@ -10,3 +10,4 @@ env/
 data
 *.DS_Store
 twitter.txt
+.vscode/
