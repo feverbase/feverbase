@@ -3,11 +3,8 @@ import os
 import utils
 
 FILENAME = 'clinicaltrialsgov.json'
-FILEPATH = os.path.join(utils.FOLDER, FILENAME)
-
 POSTED_WITHIN_DAYS = 200  # posted within the last X days
-
-TERMS = utils.get_queries()
+TERMS = utils.get_query_terms()
 
 data = []
 
@@ -52,5 +49,5 @@ data = sorted(data, key=lambda d: d['date'], reverse=True)
 print('Fetched {} results'.format(len(data)))
 
 # print(data)
-utils.save_json(data, FILEPATH)
-print('Saved to {}'.format(FILEPATH))
+filepath = utils.save_json(data, FILENAME)
+print('Saved to {}'.format(filepath))
