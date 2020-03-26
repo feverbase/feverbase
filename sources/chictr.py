@@ -32,13 +32,20 @@ for query in TERMS:
                 for result in records:
                     trials = result.find_all('tr', {'class': ''})
                     for trial in trials:
-                        html_info = trial.find_all('a')[1]
+                        html_info = trial.find_all('td')
+
+                        title = html_info[2].find_all('p')[0].find_all('a')[0].find(text=True)
+                        url_path = html_info[2].find_all('p')[0].find_all('a')[0].get('href')
+                        affiliation = html_info[2].find_all('p')[1].find(text=True).strip()
+                        date = '-'.join(html_info[4].find(text=True).strip().split('/'))
 
                         info = {
-                            'url': '{base}{path}'.format(base=BASE_URL, path=html_info.get('href')),
-                            'title': html_info.find(text=True)
+                            'url': '{base}{path}'.format(base=BASE_URL, path=url_path),
+                            'title': title,
+                            'affiliation': affiliation,
+                            'timestamp': date
                         }
-
+                        
                         data.append(info)
                         count += 1
 
