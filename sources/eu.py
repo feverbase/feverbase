@@ -49,6 +49,8 @@ for query in TERMS:
                     next_siblings = [span.next_sibling.strip() for span in spans]
 
                     date = next_siblings[2]
+                    if "Information" in date:
+                        date = None
                     title = next_siblings[4]
 
                     # looks like some studies are done for multiple countries
