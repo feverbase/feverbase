@@ -9,7 +9,7 @@ import tempfile
 # -----------------------------------------------------------------------------
 class Config(object):
     # main paper information repo file
-    db_path = 'db.p'
+    db_path = 'db.json'
     # intermediate processing folders
     pdf_dir = os.path.join('data', 'pdf')
     txt_dir = os.path.join('data', 'txt')

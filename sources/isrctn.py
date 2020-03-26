@@ -7,11 +7,8 @@ BASE_URL = "https://www.isrctn.com"
 QUERY_URL = "{BASE_URL}/search?q={query}"
 PAGINATE_QUERY = "&page={page_num}&searchType=basic-search"
 
-TERMS = utils.get_query_terms()
-
-data = []
-
-for query in TERMS:
+def find(query):
+    data = []
     count = 0
     url = QUERY_URL.format(BASE_URL=BASE_URL, query=query)
     page = requests.get(url)
@@ -36,6 +33,10 @@ for query in TERMS:
                     dd_texts = [dd.text.strip() for dd in dds]
                     date = dd_texts[2]
 
+                    # Put date in ISO 8601
+                    comps = date.split("/")
+                    date = f"{comps[2]}-{comps[1]}-{comps[0]}"
+
                     for link in result.find_all('a', href=True):
                         title = link.text.split(":")[1].strip()
                         link = link.get("href")
@@ -45,5 +46,4 @@ for query in TERMS:
                                 "title": title})
                             count += 1
     print(f"Fetched {count} results for {query}")
-
-utils.save_json(data, FILENAME)
+    return data

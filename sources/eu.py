@@ -11,11 +11,8 @@ BASE_URL = "https://www.clinicaltrialsregister.eu"
 QUERY_URL = "{BASE_URL}/ctr-search/search?query={query}"
 PAGINATE_QUERY = "&page={page_num}"
 
-TERMS = utils.get_query_terms()
-
-data = []
-
-for query in TERMS:
+def find(query):
+    data = []
     count = 0
     url = QUERY_URL.format(BASE_URL=BASE_URL, query=query)
     page = requests.get(url, verify=False)
@@ -68,5 +65,5 @@ for query in TERMS:
                             )
                             count += 1
     print(f"Fetched {count} results for {query}")
-
-utils.save_json(data, FILENAME)
+    
+    return data
