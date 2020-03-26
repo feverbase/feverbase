@@ -1,1082 +1,1802 @@
 [
     {
-        "link": "https://www.isrctn.com/ISRCTN83971151?q=coronavirus&filters=&sort=&offset=1&totalResults=3&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN83971151?q=coronavirus&filters=&sort=&offset=1&totalResults=3&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/03/2020",
+        "title": "Public health emergency SOLIDARITY trial of treatments for COVID-19 infection in hospitalized patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN86534580?q=coronavirus&filters=&sort=&offset=2&totalResults=3&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN86534580?q=coronavirus&filters=&sort=&offset=2&totalResults=3&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "22/03/2020",
+        "title": "A trial evaluating treatments for suspected coronavirus infection in people aged 50 years and above with pre-existing conditions and those aged 65 years and above"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN14966673?q=coronavirus&filters=&sort=&offset=3&totalResults=3&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN14966673?q=coronavirus&filters=&sort=&offset=3&totalResults=3&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "18/03/2020",
+        "title": "Does point-of-care testing for coronavirus in hospital improve patient care compared to laboratory testing?"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN83971151?q=covid&filters=&sort=&offset=1&totalResults=3&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN83971151?q=covid&filters=&sort=&offset=1&totalResults=3&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/03/2020",
+        "title": "Public health emergency SOLIDARITY trial of treatments for COVID-19 infection in hospitalized patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN86534580?q=covid&filters=&sort=&offset=2&totalResults=3&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN86534580?q=covid&filters=&sort=&offset=2&totalResults=3&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "22/03/2020",
+        "title": "A trial evaluating treatments for suspected coronavirus infection in people aged 50 years and above with pre-existing conditions and those aged 65 years and above"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN14966673?q=covid&filters=&sort=&offset=3&totalResults=3&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN14966673?q=covid&filters=&sort=&offset=3&totalResults=3&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "18/03/2020",
+        "title": "Does point-of-care testing for coronavirus in hospital improve patient care compared to laboratory testing?"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN83971151?q=sars-cov-2&filters=&sort=&offset=1&totalResults=3&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN83971151?q=sars-cov-2&filters=&sort=&offset=1&totalResults=3&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/03/2020",
+        "title": "Public health emergency SOLIDARITY trial of treatments for COVID-19 infection in hospitalized patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN86534580?q=sars-cov-2&filters=&sort=&offset=2&totalResults=3&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN86534580?q=sars-cov-2&filters=&sort=&offset=2&totalResults=3&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "22/03/2020",
+        "title": "A trial evaluating treatments for suspected coronavirus infection in people aged 50 years and above with pre-existing conditions and those aged 65 years and above"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN14966673?q=sars-cov-2&filters=&sort=&offset=3&totalResults=3&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN14966673?q=sars-cov-2&filters=&sort=&offset=3&totalResults=3&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "18/03/2020",
+        "title": "Does point-of-care testing for coronavirus in hospital improve patient care compared to laboratory testing?"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN83971151?q=remdesivir&filters=&sort=&offset=1&totalResults=1&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN83971151?q=remdesivir&filters=&sort=&offset=1&totalResults=1&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/03/2020",
+        "title": "Public health emergency SOLIDARITY trial of treatments for COVID-19 infection in hospitalized patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN83971151?q=chloroquine&filters=&sort=&offset=1&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN83971151?q=chloroquine&filters=&sort=&offset=1&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/03/2020",
+        "title": "Public health emergency SOLIDARITY trial of treatments for COVID-19 infection in hospitalized patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN20647977?q=chloroquine&filters=&sort=&offset=2&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN20647977?q=chloroquine&filters=&sort=&offset=2&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "05/04/2019",
+        "title": "Examining whether any interactions occur between the antibiotic Ciprofloxacin and the antimalarial treatment Chloroquine/Proguanil"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN10751859?q=chloroquine&filters=&sort=&offset=3&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN10751859?q=chloroquine&filters=&sort=&offset=3&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "03/04/2017",
+        "title": "A phase II clinical trial of  Detection of Apoptosing Retinal Cells (DARC II)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN16273289?q=chloroquine&filters=&sort=&offset=4&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN16273289?q=chloroquine&filters=&sort=&offset=4&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "18/07/2016",
+        "title": "Improving the radical cure of vivax malaria (IMPROV)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN17372582?q=chloroquine&filters=&sort=&offset=5&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN17372582?q=chloroquine&filters=&sort=&offset=5&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "31/05/2016",
+        "title": "Plasmodium Sp. Sporozoites immunization of human volunteers"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN82148651?q=chloroquine&filters=&sort=&offset=6&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN82148651?q=chloroquine&filters=&sort=&offset=6&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "28/10/2013",
+        "title": "Age-related macular degeneration (AMD) Light trial"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN60655195?q=chloroquine&filters=&sort=&offset=7&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN60655195?q=chloroquine&filters=&sort=&offset=7&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "01/08/2013",
+        "title": "SPIRIT 3"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN10524984?q=chloroquine&filters=&sort=&offset=8&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN10524984?q=chloroquine&filters=&sort=&offset=8&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "04/06/2013",
+        "title": "Laser for Early Age related macular Degeneration"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN34010937?q=chloroquine&filters=&sort=&offset=9&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN34010937?q=chloroquine&filters=&sort=&offset=9&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "08/05/2013",
+        "title": "STOPMiP"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN82366390?q=chloroquine&filters=&sort=&offset=10&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN82366390?q=chloroquine&filters=&sort=&offset=10&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "20/03/2013",
+        "title": "Radical cure for vivax malaria in Indonesia 2"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN83971151?q=chloroquine&filters=&sort=&offset=1&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN83971151?q=chloroquine&filters=&sort=&offset=1&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/03/2020",
+        "title": "Public health emergency SOLIDARITY trial of treatments for COVID-19 infection in hospitalized patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN20647977?q=chloroquine&filters=&sort=&offset=2&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN20647977?q=chloroquine&filters=&sort=&offset=2&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "05/04/2019",
+        "title": "Examining whether any interactions occur between the antibiotic Ciprofloxacin and the antimalarial treatment Chloroquine/Proguanil"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN10751859?q=chloroquine&filters=&sort=&offset=3&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN10751859?q=chloroquine&filters=&sort=&offset=3&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "03/04/2017",
+        "title": "A phase II clinical trial of  Detection of Apoptosing Retinal Cells (DARC II)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN16273289?q=chloroquine&filters=&sort=&offset=4&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN16273289?q=chloroquine&filters=&sort=&offset=4&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "18/07/2016",
+        "title": "Improving the radical cure of vivax malaria (IMPROV)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN17372582?q=chloroquine&filters=&sort=&offset=5&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN17372582?q=chloroquine&filters=&sort=&offset=5&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "31/05/2016",
+        "title": "Plasmodium Sp. Sporozoites immunization of human volunteers"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN82148651?q=chloroquine&filters=&sort=&offset=6&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN82148651?q=chloroquine&filters=&sort=&offset=6&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "28/10/2013",
+        "title": "Age-related macular degeneration (AMD) Light trial"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN60655195?q=chloroquine&filters=&sort=&offset=7&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN60655195?q=chloroquine&filters=&sort=&offset=7&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "01/08/2013",
+        "title": "SPIRIT 3"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN10524984?q=chloroquine&filters=&sort=&offset=8&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN10524984?q=chloroquine&filters=&sort=&offset=8&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "04/06/2013",
+        "title": "Laser for Early Age related macular Degeneration"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN34010937?q=chloroquine&filters=&sort=&offset=9&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN34010937?q=chloroquine&filters=&sort=&offset=9&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "08/05/2013",
+        "title": "STOPMiP"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN82366390?q=chloroquine&filters=&sort=&offset=10&totalResults=42&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN82366390?q=chloroquine&filters=&sort=&offset=10&totalResults=42&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "20/03/2013",
+        "title": "Radical cure for vivax malaria in Indonesia 2"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN83765567?q=chloroquine&filters=&sort=&offset=11&totalResults=42&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN83765567?q=chloroquine&filters=&sort=&offset=11&totalResults=42&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "16/01/2013",
+        "title": "Evaluation of patient adherence to artemether-lumefantrine (AL) obtained from public and private drug outlets in Tanzania"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN74331412?q=chloroquine&filters=&sort=&offset=12&totalResults=42&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN74331412?q=chloroquine&filters=&sort=&offset=12&totalResults=42&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "02/02/2012",
+        "title": "Vascular Function Intervention Trial in sickle cell disease"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN14027467?q=chloroquine&filters=&sort=&offset=13&totalResults=42&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN14027467?q=chloroquine&filters=&sort=&offset=13&totalResults=42&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "16/11/2011",
+        "title": "Radical cure of vivax malaria"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN89222125?q=chloroquine&filters=&sort=&offset=14&totalResults=42&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN89222125?q=chloroquine&filters=&sort=&offset=14&totalResults=42&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "24/11/2010",
+        "title": "Switching to alternative tumour-necrosis factor (TNF)-blocking drugs or abatacept or rituximab in patients with rheumatoid arthritis who have failed an initial TNF-blocking drug"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN21216199?q=chloroquine&filters=&sort=&offset=15&totalResults=42&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN21216199?q=chloroquine&filters=&sort=&offset=15&totalResults=42&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "29/04/2010",
+        "title": "Efficacy of tocilizumab in patients with rheumatoid arthritis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN61568166?q=chloroquine&filters=&sort=&offset=16&totalResults=42&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN61568166?q=chloroquine&filters=&sort=&offset=16&totalResults=42&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "19/11/2009",
+        "title": "Imatinib (IM) versus hydroxychloroquine (HCQ) and IM for patients with chronic myeloid leukaemia (CML) in cytogenetic response (CyR) with residual disease detectable by quantitative polymerase chain reaction (Q-PCR)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN17842302?q=chloroquine&filters=&sort=&offset=17&totalResults=42&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN17842302?q=chloroquine&filters=&sort=&offset=17&totalResults=42&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "01/10/2009",
+        "title": "The effect of nutritional supplementation on retinal function"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN92328241?q=chloroquine&filters=&sort=&offset=18&totalResults=42&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN92328241?q=chloroquine&filters=&sort=&offset=18&totalResults=42&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "28/08/2009",
+        "title": "Head to head study of influenza H1N1 vaccines in adults"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN36517335?q=chloroquine&filters=&sort=&offset=19&totalResults=42&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN36517335?q=chloroquine&filters=&sort=&offset=19&totalResults=42&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "29/05/2009",
+        "title": "Efficacy of the antimalarial drugs recommended by the National Malaria Control Programme in Madagascar"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN59761234?q=chloroquine&filters=&sort=&offset=20&totalResults=42&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN59761234?q=chloroquine&filters=&sort=&offset=20&totalResults=42&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "05/02/2008",
+        "title": "Pharmacokinetics and efficacy of dihydroartemisinin-piperaquine in the treatment of uncomplicated falciparum malaria in children in Burkina Faso"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN64835265?q=chloroquine&filters=&sort=&offset=21&totalResults=42&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN64835265?q=chloroquine&filters=&sort=&offset=21&totalResults=42&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "25/01/2008",
+        "title": "Study of resistance to artesunate of malaria parasite"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN17027907?q=chloroquine&filters=&sort=&offset=22&totalResults=42&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN17027907?q=chloroquine&filters=&sort=&offset=22&totalResults=42&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "23/01/2008",
+        "title": "The efficacy of chloroquine in treatment of vivax malaria in southern Laos"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN07576538?q=chloroquine&filters=&sort=&offset=23&totalResults=42&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN07576538?q=chloroquine&filters=&sort=&offset=23&totalResults=42&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "29/11/2007",
+        "title": "A randomised, controlled, open-label, parallel-group study comparing the efficacy and safety of an oral artesunate-amodiaquine fixed-dose combination therapy over 3 subsequent days to an equivalent dose regimen of the individual drugs for the treatment of children with Plasmodium falciparum"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN40223079?q=chloroquine&filters=&sort=&offset=24&totalResults=42&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN40223079?q=chloroquine&filters=&sort=&offset=24&totalResults=42&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "15/11/2007",
+        "title": "Efficacy and safety of artesunate and sulfadoxine-pyrimethamine for the treatment of uncomplicated Plasmodium falciparum malaria and chloroquine for the treatment of vivax malaria in Nangarhar, Takhar and Faryab provinces, Afghanistan"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN05620936?q=chloroquine&filters=&sort=&offset=25&totalResults=42&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN05620936?q=chloroquine&filters=&sort=&offset=25&totalResults=42&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "30/10/2007",
+        "title": "Development of a simple protocol to enhance compliance in home management of malaria"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN01449944?q=chloroquine&filters=&sort=&offset=26&totalResults=42&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN01449944?q=chloroquine&filters=&sort=&offset=26&totalResults=42&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "16/07/2007",
+        "title": "A non-controlled trial of anti-Tumour Necrotising Factor alpha (anti-TNFa) chimeric monoclonal antibody (Infliximab, Remicade®) in exudative age-related macular degeneration"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN34104704?q=chloroquine&filters=&sort=&offset=27&totalResults=42&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN34104704?q=chloroquine&filters=&sort=&offset=27&totalResults=42&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "31/05/2007",
+        "title": "Improving the management of childhood MAlaria"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN94367569?q=chloroquine&filters=&sort=&offset=28&totalResults=42&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN94367569?q=chloroquine&filters=&sort=&offset=28&totalResults=42&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "24/04/2007",
+        "title": "Treatment of uncomplicated falciparum malaria in Bobo-Dioulasso, Burkina Faso"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN18863931?q=chloroquine&filters=&sort=&offset=29&totalResults=42&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN18863931?q=chloroquine&filters=&sort=&offset=29&totalResults=42&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "20/04/2007",
+        "title": "Phase II, multi-centre, randomised, two-part pilot study (Part 1 open, uncontrolled; Part 2 double-blind, placebo controlled) to determine the efficacy, safety, tolerability and preliminary pharmacokinetics of PSD502 in the management of pain from donor sites in burns subjects undergoing skin grafts"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN38002730?q=chloroquine&filters=&sort=&offset=30&totalResults=42&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN38002730?q=chloroquine&filters=&sort=&offset=30&totalResults=42&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "21/11/2006",
+        "title": "A research study of the role of chloroquine in treating patients with dengue"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN87827353?q=chloroquine&filters=&sort=&offset=31&totalResults=42&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN87827353?q=chloroquine&filters=&sort=&offset=31&totalResults=42&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "08/08/2006",
+        "title": "A randomised, open comparative study of Dihydroartemisinin-piperaquine versus Chloroquine for the treatment of Vivax malaria"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN64793756?q=chloroquine&filters=&sort=&offset=32&totalResults=42&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN64793756?q=chloroquine&filters=&sort=&offset=32&totalResults=42&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "08/08/2006",
+        "title": "Evaluating the potential role of oral activated charcoal as an adjunct treatment for severe bacterial infections and severe malaria - a preliminary safety study"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN22508774?q=chloroquine&filters=&sort=&offset=33&totalResults=42&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN22508774?q=chloroquine&filters=&sort=&offset=33&totalResults=42&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "01/02/2006",
+        "title": "A single dose two-phase crossover study to assess the tolerability and pharmacokinetic parameters of a fixed dose formulation of artesunate-mefloquine and standard dose artesunate and mefloquine as loose tablets in healthy normal volunteers (Thailand)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN46326316?q=chloroquine&filters=&sort=&offset=34&totalResults=42&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN46326316?q=chloroquine&filters=&sort=&offset=34&totalResults=42&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "20/12/2005",
+        "title": "Comparison between immune response to different modes of vaccination"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN36731786?q=chloroquine&filters=&sort=&offset=35&totalResults=42&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN36731786?q=chloroquine&filters=&sort=&offset=35&totalResults=42&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "26/10/2005",
+        "title": "Dose finding for a safe and efficacious combination of chloroquine (CQ) and methylene blue in the treatment of uncomplicated falciparum malaria in young children of Burkina Faso"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN75303340?q=chloroquine&filters=&sort=&offset=36&totalResults=42&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN75303340?q=chloroquine&filters=&sort=&offset=36&totalResults=42&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "22/07/2005",
+        "title": "Randomised comparison of chloroquine plus sulfadoxine-pyrimethamine versus artesunate plus mefloquine versus artemether-lumefantrine in the treatment of uncomplicated falciparum malaria in the Lao People's Democratic Republic"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN22075368?q=chloroquine&filters=&sort=&offset=37&totalResults=42&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN22075368?q=chloroquine&filters=&sort=&offset=37&totalResults=42&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "22/07/2005",
+        "title": "Sulfadoxine-pyrimethamine combinations study"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN11805747?q=chloroquine&filters=&sort=&offset=38&totalResults=42&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN11805747?q=chloroquine&filters=&sort=&offset=38&totalResults=42&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "22/07/2005",
+        "title": "Measuring malaria transmission after drug treatment"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN30087513?q=chloroquine&filters=&sort=&offset=39&totalResults=42&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN30087513?q=chloroquine&filters=&sort=&offset=39&totalResults=42&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "22/07/2005",
+        "title": "Research to improve economical anti-rabies treatment"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN70132716?q=chloroquine&filters=&sort=&offset=40&totalResults=42&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN70132716?q=chloroquine&filters=&sort=&offset=40&totalResults=42&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "07/06/2005",
+        "title": "Artesunate and Amodiaquine"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN83971151?q=hydroxychloroquine&filters=&sort=&offset=1&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN83971151?q=hydroxychloroquine&filters=&sort=&offset=1&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/03/2020",
+        "title": "Public health emergency SOLIDARITY trial of treatments for COVID-19 infection in hospitalized patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN86534580?q=hydroxychloroquine&filters=&sort=&offset=2&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN86534580?q=hydroxychloroquine&filters=&sort=&offset=2&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "22/03/2020",
+        "title": "A trial evaluating treatments for suspected coronavirus infection in people aged 50 years and above with pre-existing conditions and those aged 65 years and above"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN16371380?q=hydroxychloroquine&filters=&sort=&offset=3&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN16371380?q=hydroxychloroquine&filters=&sort=&offset=3&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "27/06/2019",
+        "title": "BIO-FLARE"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN10751859?q=hydroxychloroquine&filters=&sort=&offset=4&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN10751859?q=hydroxychloroquine&filters=&sort=&offset=4&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "03/04/2017",
+        "title": "A phase II clinical trial of  Detection of Apoptosing Retinal Cells (DARC II)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN58955026?q=hydroxychloroquine&filters=&sort=&offset=5&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN58955026?q=hydroxychloroquine&filters=&sort=&offset=5&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "02/12/2015",
+        "title": "Treating neovascular age-related macular degeneration with aflibercept"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN36667085?q=hydroxychloroquine&filters=&sort=&offset=6&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN36667085?q=hydroxychloroquine&filters=&sort=&offset=6&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "26/09/2014",
+        "title": "Targeting the rheumatoid arthritis synovial fibroblast via cyclin dependent kinase inhibition - an early phase trial"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN81883379?q=hydroxychloroquine&filters=&sort=&offset=7&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN81883379?q=hydroxychloroquine&filters=&sort=&offset=7&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "12/06/2014",
+        "title": "Systemic therapy for vulval erosive lichen planus"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN23400701?q=hydroxychloroquine&filters=&sort=&offset=8&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN23400701?q=hydroxychloroquine&filters=&sort=&offset=8&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "19/12/2013",
+        "title": "ChILD-EU database and observational study"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN77854383?q=hydroxychloroquine&filters=&sort=&offset=9&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN77854383?q=hydroxychloroquine&filters=&sort=&offset=9&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/10/2013",
+        "title": "Pain reduction with oral methotrexate in knee osteoarthritis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN91859104?q=hydroxychloroquine&filters=&sort=&offset=10&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN91859104?q=hydroxychloroquine&filters=&sort=&offset=10&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "24/10/2012",
+        "title": "Does hydroxychloroquine provide effective pain relief for people with hand osteoarthritis?"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN83971151?q=hydroxychloroquine&filters=&sort=&offset=1&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN83971151?q=hydroxychloroquine&filters=&sort=&offset=1&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/03/2020",
+        "title": "Public health emergency SOLIDARITY trial of treatments for COVID-19 infection in hospitalized patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN86534580?q=hydroxychloroquine&filters=&sort=&offset=2&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN86534580?q=hydroxychloroquine&filters=&sort=&offset=2&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "22/03/2020",
+        "title": "A trial evaluating treatments for suspected coronavirus infection in people aged 50 years and above with pre-existing conditions and those aged 65 years and above"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN16371380?q=hydroxychloroquine&filters=&sort=&offset=3&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN16371380?q=hydroxychloroquine&filters=&sort=&offset=3&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "27/06/2019",
+        "title": "BIO-FLARE"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN10751859?q=hydroxychloroquine&filters=&sort=&offset=4&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN10751859?q=hydroxychloroquine&filters=&sort=&offset=4&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "03/04/2017",
+        "title": "A phase II clinical trial of  Detection of Apoptosing Retinal Cells (DARC II)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN58955026?q=hydroxychloroquine&filters=&sort=&offset=5&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN58955026?q=hydroxychloroquine&filters=&sort=&offset=5&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "02/12/2015",
+        "title": "Treating neovascular age-related macular degeneration with aflibercept"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN36667085?q=hydroxychloroquine&filters=&sort=&offset=6&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN36667085?q=hydroxychloroquine&filters=&sort=&offset=6&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "26/09/2014",
+        "title": "Targeting the rheumatoid arthritis synovial fibroblast via cyclin dependent kinase inhibition - an early phase trial"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN81883379?q=hydroxychloroquine&filters=&sort=&offset=7&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN81883379?q=hydroxychloroquine&filters=&sort=&offset=7&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "12/06/2014",
+        "title": "Systemic therapy for vulval erosive lichen planus"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN23400701?q=hydroxychloroquine&filters=&sort=&offset=8&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN23400701?q=hydroxychloroquine&filters=&sort=&offset=8&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "19/12/2013",
+        "title": "ChILD-EU database and observational study"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN77854383?q=hydroxychloroquine&filters=&sort=&offset=9&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN77854383?q=hydroxychloroquine&filters=&sort=&offset=9&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/10/2013",
+        "title": "Pain reduction with oral methotrexate in knee osteoarthritis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN91859104?q=hydroxychloroquine&filters=&sort=&offset=10&totalResults=30&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN91859104?q=hydroxychloroquine&filters=&sort=&offset=10&totalResults=30&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "24/10/2012",
+        "title": "Does hydroxychloroquine provide effective pain relief for people with hand osteoarthritis?"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN46445413?q=hydroxychloroquine&filters=&sort=&offset=11&totalResults=30&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN46445413?q=hydroxychloroquine&filters=&sort=&offset=11&totalResults=30&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "09/06/2011",
+        "title": "Hydroxychloroquine (HCQ) in patients with inflammatory osteoarthritis (OA) of the hands"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN89222125?q=hydroxychloroquine&filters=&sort=&offset=12&totalResults=30&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN89222125?q=hydroxychloroquine&filters=&sort=&offset=12&totalResults=30&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "24/11/2010",
+        "title": "Switching to alternative tumour-necrosis factor (TNF)-blocking drugs or abatacept or rituximab in patients with rheumatoid arthritis who have failed an initial TNF-blocking drug"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN65360827?q=hydroxychloroquine&filters=&sort=&offset=13&totalResults=30&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN65360827?q=hydroxychloroquine&filters=&sort=&offset=13&totalResults=30&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "09/07/2010",
+        "title": "Rituximab in patients with primary Sjögren's syndrome"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN34974208?q=hydroxychloroquine&filters=&sort=&offset=14&totalResults=30&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN34974208?q=hydroxychloroquine&filters=&sort=&offset=14&totalResults=30&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "17/06/2010",
+        "title": "Comparison of efficacy and safety of Betesil® medicated plaster versus Daivobet®/Dovobet® ointment in the treatment of chronic plaque psoriasis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN21216199?q=hydroxychloroquine&filters=&sort=&offset=15&totalResults=30&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN21216199?q=hydroxychloroquine&filters=&sort=&offset=15&totalResults=30&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "29/04/2010",
+        "title": "Efficacy of tocilizumab in patients with rheumatoid arthritis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN39045408?q=hydroxychloroquine&filters=&sort=&offset=16&totalResults=30&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN39045408?q=hydroxychloroquine&filters=&sort=&offset=16&totalResults=30&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "06/04/2010",
+        "title": "Anti-tumour necrosis factor (anti-TNF) therapy over two years increases body fat mass in early rheumatoid arthritis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN50655730?q=hydroxychloroquine&filters=&sort=&offset=17&totalResults=30&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN50655730?q=hydroxychloroquine&filters=&sort=&offset=17&totalResults=30&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "19/02/2010",
+        "title": "The safety and efficacy of CCX354-C in subjects with rheumatoid arthritis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN18445519?q=hydroxychloroquine&filters=&sort=&offset=18&totalResults=30&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN18445519?q=hydroxychloroquine&filters=&sort=&offset=18&totalResults=30&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "27/11/2009",
+        "title": "Combination therapy in rheumatoid arthritis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN61568166?q=hydroxychloroquine&filters=&sort=&offset=19&totalResults=30&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN61568166?q=hydroxychloroquine&filters=&sort=&offset=19&totalResults=30&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "19/11/2009",
+        "title": "Imatinib (IM) versus hydroxychloroquine (HCQ) and IM for patients with chronic myeloid leukaemia (CML) in cytogenetic response (CyR) with residual disease detectable by quantitative polymerase chain reaction (Q-PCR)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN55552928?q=hydroxychloroquine&filters=&sort=&offset=20&totalResults=30&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN55552928?q=hydroxychloroquine&filters=&sort=&offset=20&totalResults=30&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "31/03/2008",
+        "title": "Combination therapy with rheumatoid arthritis (COBRA)-light study, an open randomised trial comparing a modified COBRA therapy with the COBRA therapy according to treatment strategies for rheumatoid arthritis (BeSt) in early rheumatoid arthritis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN83971151?q=ritonavir&filters=&sort=&offset=1&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN83971151?q=ritonavir&filters=&sort=&offset=1&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/03/2020",
+        "title": "Public health emergency SOLIDARITY trial of treatments for COVID-19 infection in hospitalized patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN15724013?q=ritonavir&filters=&sort=&offset=2&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN15724013?q=ritonavir&filters=&sort=&offset=2&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/02/2020",
+        "title": "H-PRIME"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN61522291?q=ritonavir&filters=&sort=&offset=3&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN61522291?q=ritonavir&filters=&sort=&offset=3&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "04/10/2019",
+        "title": "VIETNarms"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN10280992?q=ritonavir&filters=&sort=&offset=4&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN10280992?q=ritonavir&filters=&sort=&offset=4&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/04/2019",
+        "title": "Rivaroxaban for stroke patients with antiphospholipid syndrome"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN12816166?q=ritonavir&filters=&sort=&offset=5&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN12816166?q=ritonavir&filters=&sort=&offset=5&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "31/03/2019",
+        "title": "Comparison of two adjunctive systemic antibiotic regimens to initial therapy for periodontitis patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN12196200?q=ritonavir&filters=&sort=&offset=6&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN12196200?q=ritonavir&filters=&sort=&offset=6&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "11/03/2019",
+        "title": "Can we use estrogen-containing therapy to improve pain in women after menopause with hand osteoarthritis? (HOPE-e study)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN17896007?q=ritonavir&filters=&sort=&offset=7&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN17896007?q=ritonavir&filters=&sort=&offset=7&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/02/2019",
+        "title": "Optimal timing of anticoagulation after acute ischaemic stroke"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN41325341?q=ritonavir&filters=&sort=&offset=8&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN41325341?q=ritonavir&filters=&sort=&offset=8&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "29/01/2019",
+        "title": "Prednisolone in adrenal insufficiency disease"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN42218549?q=ritonavir&filters=&sort=&offset=9&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN42218549?q=ritonavir&filters=&sort=&offset=9&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "24/04/2018",
+        "title": "Improving diagnosis and treatment of HIV-associated Tuberculous meningitis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN14784018?q=ritonavir&filters=&sort=&offset=10&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN14784018?q=ritonavir&filters=&sort=&offset=10&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "19/01/2018",
+        "title": "Trial of different drug and treatment combinations for patients who are considering further therapy to treat their ovarian cancer"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN83971151?q=ritonavir&filters=&sort=&offset=1&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN83971151?q=ritonavir&filters=&sort=&offset=1&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/03/2020",
+        "title": "Public health emergency SOLIDARITY trial of treatments for COVID-19 infection in hospitalized patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN15724013?q=ritonavir&filters=&sort=&offset=2&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN15724013?q=ritonavir&filters=&sort=&offset=2&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/02/2020",
+        "title": "H-PRIME"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN61522291?q=ritonavir&filters=&sort=&offset=3&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN61522291?q=ritonavir&filters=&sort=&offset=3&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "04/10/2019",
+        "title": "VIETNarms"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN10280992?q=ritonavir&filters=&sort=&offset=4&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN10280992?q=ritonavir&filters=&sort=&offset=4&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/04/2019",
+        "title": "Rivaroxaban for stroke patients with antiphospholipid syndrome"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN12816166?q=ritonavir&filters=&sort=&offset=5&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN12816166?q=ritonavir&filters=&sort=&offset=5&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "31/03/2019",
+        "title": "Comparison of two adjunctive systemic antibiotic regimens to initial therapy for periodontitis patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN12196200?q=ritonavir&filters=&sort=&offset=6&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN12196200?q=ritonavir&filters=&sort=&offset=6&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "11/03/2019",
+        "title": "Can we use estrogen-containing therapy to improve pain in women after menopause with hand osteoarthritis? (HOPE-e study)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN17896007?q=ritonavir&filters=&sort=&offset=7&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN17896007?q=ritonavir&filters=&sort=&offset=7&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/02/2019",
+        "title": "Optimal timing of anticoagulation after acute ischaemic stroke"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN41325341?q=ritonavir&filters=&sort=&offset=8&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN41325341?q=ritonavir&filters=&sort=&offset=8&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "29/01/2019",
+        "title": "Prednisolone in adrenal insufficiency disease"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN42218549?q=ritonavir&filters=&sort=&offset=9&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN42218549?q=ritonavir&filters=&sort=&offset=9&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "24/04/2018",
+        "title": "Improving diagnosis and treatment of HIV-associated Tuberculous meningitis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN14784018?q=ritonavir&filters=&sort=&offset=10&totalResults=69&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN14784018?q=ritonavir&filters=&sort=&offset=10&totalResults=69&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "19/01/2018",
+        "title": "Trial of different drug and treatment combinations for patients who are considering further therapy to treat their ovarian cancer"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN22964075?q=ritonavir&filters=&sort=&offset=11&totalResults=69&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN22964075?q=ritonavir&filters=&sort=&offset=11&totalResults=69&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "20/10/2017",
+        "title": "Children with HIV in Africa – pharmacokinetics and acceptability of simple second-line antiretroviral regimens"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN38690336?q=ritonavir&filters=&sort=&offset=12&totalResults=69&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN38690336?q=ritonavir&filters=&sort=&offset=12&totalResults=69&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "06/10/2017",
+        "title": "Is it safe to add cediranib to weekly paclitaxel chemotherapy in women with ovarian cancer who are at risk of developing malignant bowel obstruction?"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN16320634?q=ritonavir&filters=&sort=&offset=13&totalResults=69&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN16320634?q=ritonavir&filters=&sort=&offset=13&totalResults=69&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "18/08/2017",
+        "title": "Does cediranib together with paclitaxel chemotherapy, or cediranib and olaparib, treat advanced endometrial cancer better than paclitaxel chemotherapy?"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN10577372?q=ritonavir&filters=&sort=&offset=14&totalResults=69&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN10577372?q=ritonavir&filters=&sort=&offset=14&totalResults=69&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "09/08/2017",
+        "title": "Study of treatment of patients with Opisthorchis felineus infection"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN74587134?q=ritonavir&filters=&sort=&offset=15&totalResults=69&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN74587134?q=ritonavir&filters=&sort=&offset=15&totalResults=69&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "05/10/2016",
+        "title": "A study to see how [14C]-S-033188 is taken up, broken down and removed from the body"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN92746680?q=ritonavir&filters=&sort=&offset=16&totalResults=69&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN92746680?q=ritonavir&filters=&sort=&offset=16&totalResults=69&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "06/05/2016",
+        "title": "Clinical efficacy and mechanistic evaluation of Eplerenone for central serous chorio-retinopathy – the VICI randomised trial"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN37915093?q=ritonavir&filters=&sort=&offset=17&totalResults=69&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN37915093?q=ritonavir&filters=&sort=&offset=17&totalResults=69&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "14/04/2016",
+        "title": "STOP HCV-1 – Stratified Treatment Optimisation for HCV-1"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN10361292?q=ritonavir&filters=&sort=&offset=18&totalResults=69&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN10361292?q=ritonavir&filters=&sort=&offset=18&totalResults=69&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "20/04/2015",
+        "title": "A study for patients with advanced pancreatic cancer looking at adding olaparib to chemotherapy with radiotherapy (chemoradiation)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN14616088?q=ritonavir&filters=&sort=&offset=19&totalResults=69&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN14616088?q=ritonavir&filters=&sort=&offset=19&totalResults=69&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "16/04/2015",
+        "title": "Comparison of the pharmacokinetic profiles of separately administered sublingual  testosterone followed by a sildenafil citrate tablet, versus sublingual testosterone and sildenafil citrate combined in a fixed-dose combination tablet"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN11193709?q=ritonavir&filters=&sort=&offset=20&totalResults=69&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN11193709?q=ritonavir&filters=&sort=&offset=20&totalResults=69&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "06/03/2015",
+        "title": "SMILE"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN62125126?q=ritonavir&filters=&sort=&offset=21&totalResults=69&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN62125126?q=ritonavir&filters=&sort=&offset=21&totalResults=69&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "19/02/2015",
+        "title": "The formation of carbamazepine metabolites and carbamazepine-protein conjugates in epilepsy patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN69497594?q=ritonavir&filters=&sort=&offset=22&totalResults=69&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN69497594?q=ritonavir&filters=&sort=&offset=22&totalResults=69&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "18/02/2015",
+        "title": "Is there a rebound increase in platelet aggregation following withdrawal of aspirin or ticagrelor in patients who have recently undergone PCI?"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN15280205?q=ritonavir&filters=&sort=&offset=23&totalResults=69&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN15280205?q=ritonavir&filters=&sort=&offset=23&totalResults=69&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "28/11/2014",
+        "title": "Dose-finding and pharmacokinetic studies of praziquantel in children infected with schistosomes"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN77186750?q=ritonavir&filters=&sort=&offset=24&totalResults=69&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN77186750?q=ritonavir&filters=&sort=&offset=24&totalResults=69&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "27/08/2014",
+        "title": "Dose-finding and pharmacokinetic studies of praziquantel in patients infected with Opisthorchis viverrini"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN97420179?q=ritonavir&filters=&sort=&offset=25&totalResults=69&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN97420179?q=ritonavir&filters=&sort=&offset=25&totalResults=69&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "31/07/2014",
+        "title": "The influence of ivabradine in a healthy volunteer pain model"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN24987553?q=ritonavir&filters=&sort=&offset=26&totalResults=69&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN24987553?q=ritonavir&filters=&sort=&offset=26&totalResults=69&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "29/07/2014",
+        "title": "CAM2038, pharmacokinetics (PK), bioavailability and safety in healthy volunteers"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN41550730?q=ritonavir&filters=&sort=&offset=27&totalResults=69&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN41550730?q=ritonavir&filters=&sort=&offset=27&totalResults=69&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "19/05/2014",
+        "title": "A Phase I, randomized, open-label, active-controlled, three-way treatment trial assessing pharmacokinetics, bioavailability and safety of three doses of CAM2038 q1w (once-weekly) (buprenorphine FluidCrystal® injection depot), versus active comparators, intravenous and sublingual buprenorphine, in healthy volunteers under naltrexone blockage"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN70833965?q=ritonavir&filters=&sort=&offset=28&totalResults=69&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN70833965?q=ritonavir&filters=&sort=&offset=28&totalResults=69&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "25/10/2013",
+        "title": "A phase II double-blind, randomised controlled trial of VEGF inhibitor axitinib monotherapy with early dynamic contrast-enhanced ultrasound monitoring in chemo-refractory third-line metastatic colorectal cancer"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN14354426?q=ritonavir&filters=&sort=&offset=29&totalResults=69&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN14354426?q=ritonavir&filters=&sort=&offset=29&totalResults=69&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "18/09/2013",
+        "title": "Botswana-Baylor ANtiretroviral Assessment"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN68222801?q=ritonavir&filters=&sort=&offset=30&totalResults=69&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN68222801?q=ritonavir&filters=&sort=&offset=30&totalResults=69&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "18/10/2012",
+        "title": "Rivaroxaban in Antiphospholipid Syndrome (RAPS)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN73411795?q=ritonavir&filters=&sort=&offset=31&totalResults=69&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN73411795?q=ritonavir&filters=&sort=&offset=31&totalResults=69&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "16/08/2012",
+        "title": "Efficacy of switch to lopinavir/ritonavir in improving cognitive function in efavirenz treated patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN51069819?q=ritonavir&filters=&sort=&offset=32&totalResults=69&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN51069819?q=ritonavir&filters=&sort=&offset=32&totalResults=69&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "29/06/2012",
+        "title": "TAILoR - (TelmisArtan and InsuLin Resistance in HIV)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN12600624?q=ritonavir&filters=&sort=&offset=33&totalResults=69&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN12600624?q=ritonavir&filters=&sort=&offset=33&totalResults=69&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "19/06/2012",
+        "title": "INTENSIFY"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN13074752?q=ritonavir&filters=&sort=&offset=34&totalResults=69&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN13074752?q=ritonavir&filters=&sort=&offset=34&totalResults=69&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "03/04/2012",
+        "title": "Europe - Africa Research Network for Evaluation of Second-line Therapy (EARNEST) Rifabutin Pharmacokinetics (PK) substudy"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN63350011?q=ritonavir&filters=&sort=&offset=35&totalResults=69&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN63350011?q=ritonavir&filters=&sort=&offset=35&totalResults=69&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "09/03/2012",
+        "title": "Tolerability and completion of Maraviroc compared to Kaletra® in combination with Truvada® for HIV Post Exposure Prophylaxis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN49989464?q=ritonavir&filters=&sort=&offset=36&totalResults=69&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN49989464?q=ritonavir&filters=&sort=&offset=36&totalResults=69&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "14/02/2012",
+        "title": "Activity of sorafenib in schwannomas"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN87590288?q=ritonavir&filters=&sort=&offset=37&totalResults=69&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN87590288?q=ritonavir&filters=&sort=&offset=37&totalResults=69&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "04/01/2012",
+        "title": "The effect of ivabradine on hemodynamics in patients with chronic heart failure"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN54001953?q=ritonavir&filters=&sort=&offset=38&totalResults=69&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN54001953?q=ritonavir&filters=&sort=&offset=38&totalResults=69&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "29/09/2011",
+        "title": "Effect of MIFepristone on COGnitive impairment in alcoholics"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN01946535?q=ritonavir&filters=&sort=&offset=39&totalResults=69&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN01946535?q=ritonavir&filters=&sort=&offset=39&totalResults=69&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "28/04/2011",
+        "title": "Children with HIV in Africa - Pharmacokinetics and Adherence of Simple Antiretroviral Regimens (CHAPAS-2)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN36672232?q=ritonavir&filters=&sort=&offset=40&totalResults=69&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN36672232?q=ritonavir&filters=&sort=&offset=40&totalResults=69&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "15/04/2011",
+        "title": "Polypill Prevention Trial 1"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN12205188?q=ritonavir&filters=&sort=&offset=41&totalResults=69&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN12205188?q=ritonavir&filters=&sort=&offset=41&totalResults=69&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "28/02/2011",
+        "title": "ADOPT"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN32770468?q=ritonavir&filters=&sort=&offset=42&totalResults=69&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN32770468?q=ritonavir&filters=&sort=&offset=42&totalResults=69&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "10/01/2011",
+        "title": "Weekly administration of oral docetaxel in combination with ritonavir for the treatment of a variety of tumour types"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN11504121?q=ritonavir&filters=&sort=&offset=43&totalResults=69&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN11504121?q=ritonavir&filters=&sort=&offset=43&totalResults=69&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "12/11/2010",
+        "title": "Metabolic Impact of Darunavir monotherapy vs Atripla in HIV patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN73466214?q=ritonavir&filters=&sort=&offset=44&totalResults=69&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN73466214?q=ritonavir&filters=&sort=&offset=44&totalResults=69&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "18/05/2010",
+        "title": "Carboplatin with or without ZD4054 in patients with metastatic breast cancer"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN53233058?q=ritonavir&filters=&sort=&offset=45&totalResults=69&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN53233058?q=ritonavir&filters=&sort=&offset=45&totalResults=69&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "22/04/2010",
+        "title": "ADDITIONS"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN45190901?q=ritonavir&filters=&sort=&offset=46&totalResults=69&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN45190901?q=ritonavir&filters=&sort=&offset=46&totalResults=69&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "08/03/2010",
+        "title": "Collaborative H1N1 Adjuvant Treatment pilot trial"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN50655730?q=ritonavir&filters=&sort=&offset=47&totalResults=69&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN50655730?q=ritonavir&filters=&sort=&offset=47&totalResults=69&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "19/02/2010",
+        "title": "The safety and efficacy of CCX354-C in subjects with rheumatoid arthritis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN60408425?q=ritonavir&filters=&sort=&offset=48&totalResults=69&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN60408425?q=ritonavir&filters=&sort=&offset=48&totalResults=69&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "20/01/2010",
+        "title": "The effect of fluticasone and formoterol in combination administered through Dry Powder Inhaler (DPI) versus budesonide and formoterol in combination (Symbicort Turbuhaler) in the maintenance treatment of asthma in adults."
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN93019988?q=ritonavir&filters=&sort=&offset=49&totalResults=69&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN93019988?q=ritonavir&filters=&sort=&offset=49&totalResults=69&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "18/01/2010",
+        "title": "Multicentre open-label study of neurotransmitters and neuropeptides in schizophrenia"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN03247616?q=ritonavir&filters=&sort=&offset=50&totalResults=69&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN03247616?q=ritonavir&filters=&sort=&offset=50&totalResults=69&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "21/12/2009",
+        "title": "Effect of concomitant treatment with an androgen on sexual functioning in women using an oral contraception"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN06414473?q=ritonavir&filters=&sort=&offset=51&totalResults=69&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN06414473?q=ritonavir&filters=&sort=&offset=51&totalResults=69&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "21/12/2009",
+        "title": "Effects of concomitant treatment with an androgen on androgen metabolism, biochemical parameters, mood, fat, muscle and bone in women using an oral contraception"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN37737787?q=ritonavir&filters=&sort=&offset=52&totalResults=69&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN37737787?q=ritonavir&filters=&sort=&offset=52&totalResults=69&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "22/09/2009",
+        "title": "Europe - Africa Research Network for Evaluation of Second-line Therapy"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN02452400?q=ritonavir&filters=&sort=&offset=53&totalResults=69&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN02452400?q=ritonavir&filters=&sort=&offset=53&totalResults=69&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "10/07/2009",
+        "title": "PENTA18"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN78584791?q=ritonavir&filters=&sort=&offset=54&totalResults=69&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN78584791?q=ritonavir&filters=&sort=&offset=54&totalResults=69&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "23/12/2008",
+        "title": "Pilot study of simplification with fosamprenavir/ritonavir (FPV/r) monotherapy"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN76548641?q=ritonavir&filters=&sort=&offset=55&totalResults=69&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN76548641?q=ritonavir&filters=&sort=&offset=55&totalResults=69&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "13/11/2008",
+        "title": "Intracellular boosting of human immunodeficiency virus (HIV) protease inhibitors"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN04857074?q=ritonavir&filters=&sort=&offset=56&totalResults=69&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN04857074?q=ritonavir&filters=&sort=&offset=56&totalResults=69&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "01/02/2008",
+        "title": "A randomised controlled trial of a strategy of switching to boosted protease inhibitor monotherapy versus continuing combination antiretroviral therapy for the long-term management of HIV-1 infected patients who have achieved sustained virological suppression on highly-active antiretroviral therapy"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN30271509?q=ritonavir&filters=&sort=&offset=57&totalResults=69&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN30271509?q=ritonavir&filters=&sort=&offset=57&totalResults=69&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "28/09/2007",
+        "title": "The pharmacological basis for the increase in visual time constants induced by single oral doses of sildenafil"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN38934710?q=ritonavir&filters=&sort=&offset=58&totalResults=69&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN38934710?q=ritonavir&filters=&sort=&offset=58&totalResults=69&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "30/08/2007",
+        "title": "SORCE"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN74137878?q=ritonavir&filters=&sort=&offset=59&totalResults=69&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN74137878?q=ritonavir&filters=&sort=&offset=59&totalResults=69&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "23/08/2007",
+        "title": "A study to evaluate the different levels of attention and VALence direction for erotic stimuli, in relation to genital and subjective sexual arousal in healthy female subjects and healthy female subjects with female sexual dysfunction"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN53817258?q=ritonavir&filters=&sort=&offset=60&totalResults=69&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN53817258?q=ritonavir&filters=&sort=&offset=60&totalResults=69&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "31/05/2007",
+        "title": "Second-line Anti-Retroviral therapy in Africa"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN83971151?q=lopinavir&filters=&sort=&offset=1&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN83971151?q=lopinavir&filters=&sort=&offset=1&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/03/2020",
+        "title": "Public health emergency SOLIDARITY trial of treatments for COVID-19 infection in hospitalized patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN61522291?q=lopinavir&filters=&sort=&offset=2&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN61522291?q=lopinavir&filters=&sort=&offset=2&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "04/10/2019",
+        "title": "VIETNarms"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN12816166?q=lopinavir&filters=&sort=&offset=3&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN12816166?q=lopinavir&filters=&sort=&offset=3&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "31/03/2019",
+        "title": "Comparison of two adjunctive systemic antibiotic regimens to initial therapy for periodontitis patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN22964075?q=lopinavir&filters=&sort=&offset=4&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN22964075?q=lopinavir&filters=&sort=&offset=4&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "20/10/2017",
+        "title": "Children with HIV in Africa – pharmacokinetics and acceptability of simple second-line antiretroviral regimens"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN62125126?q=lopinavir&filters=&sort=&offset=5&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN62125126?q=lopinavir&filters=&sort=&offset=5&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "19/02/2015",
+        "title": "The formation of carbamazepine metabolites and carbamazepine-protein conjugates in epilepsy patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN48776874?q=lopinavir&filters=&sort=&offset=6&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN48776874?q=lopinavir&filters=&sort=&offset=6&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "29/05/2014",
+        "title": "Evaluation of a new self applied treatment for early stage pre cancerous disease of the cervix"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN70833965?q=lopinavir&filters=&sort=&offset=7&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN70833965?q=lopinavir&filters=&sort=&offset=7&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/10/2013",
+        "title": "A phase II double-blind, randomised controlled trial of VEGF inhibitor axitinib monotherapy with early dynamic contrast-enhanced ultrasound monitoring in chemo-refractory third-line metastatic colorectal cancer"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN14354426?q=lopinavir&filters=&sort=&offset=8&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN14354426?q=lopinavir&filters=&sort=&offset=8&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "18/09/2013",
+        "title": "Botswana-Baylor ANtiretroviral Assessment"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN73411795?q=lopinavir&filters=&sort=&offset=9&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN73411795?q=lopinavir&filters=&sort=&offset=9&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "16/08/2012",
+        "title": "Efficacy of switch to lopinavir/ritonavir in improving cognitive function in efavirenz treated patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN51069819?q=lopinavir&filters=&sort=&offset=10&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN51069819?q=lopinavir&filters=&sort=&offset=10&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "29/06/2012",
+        "title": "TAILoR - (TelmisArtan and InsuLin Resistance in HIV)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN83971151?q=lopinavir&filters=&sort=&offset=1&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN83971151?q=lopinavir&filters=&sort=&offset=1&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/03/2020",
+        "title": "Public health emergency SOLIDARITY trial of treatments for COVID-19 infection in hospitalized patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN61522291?q=lopinavir&filters=&sort=&offset=2&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN61522291?q=lopinavir&filters=&sort=&offset=2&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "04/10/2019",
+        "title": "VIETNarms"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN12816166?q=lopinavir&filters=&sort=&offset=3&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN12816166?q=lopinavir&filters=&sort=&offset=3&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "31/03/2019",
+        "title": "Comparison of two adjunctive systemic antibiotic regimens to initial therapy for periodontitis patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN22964075?q=lopinavir&filters=&sort=&offset=4&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN22964075?q=lopinavir&filters=&sort=&offset=4&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "20/10/2017",
+        "title": "Children with HIV in Africa – pharmacokinetics and acceptability of simple second-line antiretroviral regimens"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN62125126?q=lopinavir&filters=&sort=&offset=5&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN62125126?q=lopinavir&filters=&sort=&offset=5&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "19/02/2015",
+        "title": "The formation of carbamazepine metabolites and carbamazepine-protein conjugates in epilepsy patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN48776874?q=lopinavir&filters=&sort=&offset=6&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN48776874?q=lopinavir&filters=&sort=&offset=6&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "29/05/2014",
+        "title": "Evaluation of a new self applied treatment for early stage pre cancerous disease of the cervix"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN70833965?q=lopinavir&filters=&sort=&offset=7&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN70833965?q=lopinavir&filters=&sort=&offset=7&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/10/2013",
+        "title": "A phase II double-blind, randomised controlled trial of VEGF inhibitor axitinib monotherapy with early dynamic contrast-enhanced ultrasound monitoring in chemo-refractory third-line metastatic colorectal cancer"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN14354426?q=lopinavir&filters=&sort=&offset=8&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN14354426?q=lopinavir&filters=&sort=&offset=8&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "18/09/2013",
+        "title": "Botswana-Baylor ANtiretroviral Assessment"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN73411795?q=lopinavir&filters=&sort=&offset=9&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN73411795?q=lopinavir&filters=&sort=&offset=9&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "16/08/2012",
+        "title": "Efficacy of switch to lopinavir/ritonavir in improving cognitive function in efavirenz treated patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN51069819?q=lopinavir&filters=&sort=&offset=10&totalResults=22&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN51069819?q=lopinavir&filters=&sort=&offset=10&totalResults=22&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "29/06/2012",
+        "title": "TAILoR - (TelmisArtan and InsuLin Resistance in HIV)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN13074752?q=lopinavir&filters=&sort=&offset=11&totalResults=22&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN13074752?q=lopinavir&filters=&sort=&offset=11&totalResults=22&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "03/04/2012",
+        "title": "Europe - Africa Research Network for Evaluation of Second-line Therapy (EARNEST) Rifabutin Pharmacokinetics (PK) substudy"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN63350011?q=lopinavir&filters=&sort=&offset=12&totalResults=22&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN63350011?q=lopinavir&filters=&sort=&offset=12&totalResults=22&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "09/03/2012",
+        "title": "Tolerability and completion of Maraviroc compared to Kaletra® in combination with Truvada® for HIV Post Exposure Prophylaxis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN01946535?q=lopinavir&filters=&sort=&offset=13&totalResults=22&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN01946535?q=lopinavir&filters=&sort=&offset=13&totalResults=22&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "28/04/2011",
+        "title": "Children with HIV in Africa - Pharmacokinetics and Adherence of Simple Antiretroviral Regimens (CHAPAS-2)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN81110147?q=lopinavir&filters=&sort=&offset=14&totalResults=22&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN81110147?q=lopinavir&filters=&sort=&offset=14&totalResults=22&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "28/05/2010",
+        "title": "Pharmacogenetics of human immunodeficiency virus therapy"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN45190901?q=lopinavir&filters=&sort=&offset=15&totalResults=22&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN45190901?q=lopinavir&filters=&sort=&offset=15&totalResults=22&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "08/03/2010",
+        "title": "Collaborative H1N1 Adjuvant Treatment pilot trial"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN37737787?q=lopinavir&filters=&sort=&offset=16&totalResults=22&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN37737787?q=lopinavir&filters=&sort=&offset=16&totalResults=22&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "22/09/2009",
+        "title": "Europe - Africa Research Network for Evaluation of Second-line Therapy"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN02452400?q=lopinavir&filters=&sort=&offset=17&totalResults=22&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN02452400?q=lopinavir&filters=&sort=&offset=17&totalResults=22&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "10/07/2009",
+        "title": "PENTA18"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN76548641?q=lopinavir&filters=&sort=&offset=18&totalResults=22&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN76548641?q=lopinavir&filters=&sort=&offset=18&totalResults=22&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "13/11/2008",
+        "title": "Intracellular boosting of human immunodeficiency virus (HIV) protease inhibitors"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN53817258?q=lopinavir&filters=&sort=&offset=19&totalResults=22&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN53817258?q=lopinavir&filters=&sort=&offset=19&totalResults=22&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "31/05/2007",
+        "title": "Second-line Anti-Retroviral therapy in Africa"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN45284754?q=lopinavir&filters=&sort=&offset=20&totalResults=22&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN45284754?q=lopinavir&filters=&sort=&offset=20&totalResults=22&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "27/01/2006",
+        "title": "HAART followed by maintenance with monotherapy - Kaletra (MAIMOKA)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN83971151?q=interferon&filters=&sort=&offset=1&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN83971151?q=interferon&filters=&sort=&offset=1&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/03/2020",
+        "title": "Public health emergency SOLIDARITY trial of treatments for COVID-19 infection in hospitalized patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN61522291?q=interferon&filters=&sort=&offset=2&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN61522291?q=interferon&filters=&sort=&offset=2&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "04/10/2019",
+        "title": "VIETNarms"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN12885480?q=interferon&filters=&sort=&offset=3&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN12885480?q=interferon&filters=&sort=&offset=3&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "28/08/2019",
+        "title": "Ruxolitinib versus hydroxycarbamide or interferon as first-line therapy in high-risk polcythemia vera"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN47127434?q=interferon&filters=&sort=&offset=4&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN47127434?q=interferon&filters=&sort=&offset=4&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "14/08/2019",
+        "title": "A trial to look for markers in the tumour cells and blood which signal that trial treatments are working in a patient with triple negative breast cancer, for whom upfront chemotherapy has not provided the maximum expected benefit"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN78466206?q=interferon&filters=&sort=&offset=5&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN78466206?q=interferon&filters=&sort=&offset=5&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "13/08/2019",
+        "title": "The quality of life of multiple sclerosis patients in Europe"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN10891611?q=interferon&filters=&sort=&offset=6&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN10891611?q=interferon&filters=&sort=&offset=6&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "04/07/2019",
+        "title": "Does eating artisanal bread affect metabolism, inflammation or gut flora in people with metabolic syndrome?"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN68270067?q=interferon&filters=&sort=&offset=7&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN68270067?q=interferon&filters=&sort=&offset=7&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "13/02/2019",
+        "title": "Clinical trial for patients with TKI resistant chronic myeloid leukaemia  in chronic or accelerated phase"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN14843579?q=interferon&filters=&sort=&offset=8&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN14843579?q=interferon&filters=&sort=&offset=8&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "02/01/2019",
+        "title": "German translation, cultural adaption and validation of the Unidimensional Self-Efficacy scale for Multiple Sclerosis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN17100273?q=interferon&filters=&sort=&offset=9&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN17100273?q=interferon&filters=&sort=&offset=9&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "17/09/2018",
+        "title": "A pilot study to assess shortened therapy for hepatitis C infected adults in Vietnam"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN14274380?q=interferon&filters=&sort=&offset=10&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN14274380?q=interferon&filters=&sort=&offset=10&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "24/08/2018",
+        "title": "Ustekinumab in adolescents with recent-onset type 1 diabetes"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN83971151?q=interferon&filters=&sort=&offset=1&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN83971151?q=interferon&filters=&sort=&offset=1&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "25/03/2020",
+        "title": "Public health emergency SOLIDARITY trial of treatments for COVID-19 infection in hospitalized patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN61522291?q=interferon&filters=&sort=&offset=2&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN61522291?q=interferon&filters=&sort=&offset=2&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "04/10/2019",
+        "title": "VIETNarms"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN12885480?q=interferon&filters=&sort=&offset=3&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN12885480?q=interferon&filters=&sort=&offset=3&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "28/08/2019",
+        "title": "Ruxolitinib versus hydroxycarbamide or interferon as first-line therapy in high-risk polcythemia vera"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN47127434?q=interferon&filters=&sort=&offset=4&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN47127434?q=interferon&filters=&sort=&offset=4&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "14/08/2019",
+        "title": "A trial to look for markers in the tumour cells and blood which signal that trial treatments are working in a patient with triple negative breast cancer, for whom upfront chemotherapy has not provided the maximum expected benefit"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN78466206?q=interferon&filters=&sort=&offset=5&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN78466206?q=interferon&filters=&sort=&offset=5&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "13/08/2019",
+        "title": "The quality of life of multiple sclerosis patients in Europe"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN10891611?q=interferon&filters=&sort=&offset=6&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN10891611?q=interferon&filters=&sort=&offset=6&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "04/07/2019",
+        "title": "Does eating artisanal bread affect metabolism, inflammation or gut flora in people with metabolic syndrome?"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN68270067?q=interferon&filters=&sort=&offset=7&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN68270067?q=interferon&filters=&sort=&offset=7&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "13/02/2019",
+        "title": "Clinical trial for patients with TKI resistant chronic myeloid leukaemia  in chronic or accelerated phase"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN14843579?q=interferon&filters=&sort=&offset=8&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN14843579?q=interferon&filters=&sort=&offset=8&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "02/01/2019",
+        "title": "German translation, cultural adaption and validation of the Unidimensional Self-Efficacy scale for Multiple Sclerosis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN17100273?q=interferon&filters=&sort=&offset=9&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN17100273?q=interferon&filters=&sort=&offset=9&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "17/09/2018",
+        "title": "A pilot study to assess shortened therapy for hepatitis C infected adults in Vietnam"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN14274380?q=interferon&filters=&sort=&offset=10&totalResults=164&page=1&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN14274380?q=interferon&filters=&sort=&offset=10&totalResults=164&page=1&pageSize=10&searchType=basic-search",
+        "timestamp": "24/08/2018",
+        "title": "Ustekinumab in adolescents with recent-onset type 1 diabetes"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN10481319?q=interferon&filters=&sort=&offset=11&totalResults=164&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN10481319?q=interferon&filters=&sort=&offset=11&totalResults=164&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "17/08/2018",
+        "title": "Re-evaluating Optimal Vaccine Schedules Against Ebola (REVOLVE)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN15434137?q=interferon&filters=&sort=&offset=12&totalResults=164&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN15434137?q=interferon&filters=&sort=&offset=12&totalResults=164&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "12/07/2018",
+        "title": "Re-evaluating optimal vaccine schedules against Ebola in Senegal"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN21654693?q=interferon&filters=&sort=&offset=13&totalResults=164&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN21654693?q=interferon&filters=&sort=&offset=13&totalResults=164&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "12/02/2018",
+        "title": "Vaccination against chickenpox in immunosuppressed children with rheumatic diseases"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN11965217?q=interferon&filters=&sort=&offset=14&totalResults=164&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN11965217?q=interferon&filters=&sort=&offset=14&totalResults=164&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "30/11/2017",
+        "title": "A trial to assess whether the addition of atezolizumab to current standard treatment for patients with relapsed or refractory Diffuse Large B-Cell Lymphoma, who are not able to have high dose therapy, improves survival outcomes"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN17257070?q=interferon&filters=&sort=&offset=15&totalResults=164&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN17257070?q=interferon&filters=&sort=&offset=15&totalResults=164&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "27/06/2017",
+        "title": "The influences of smartphone use on the status of the tear film and the ocular surface"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN32224252?q=interferon&filters=&sort=&offset=16&totalResults=164&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN32224252?q=interferon&filters=&sort=&offset=16&totalResults=164&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "26/01/2017",
+        "title": "Immunmonitoring in kidney transplant recipients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN84346215?q=interferon&filters=&sort=&offset=17&totalResults=164&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN84346215?q=interferon&filters=&sort=&offset=17&totalResults=164&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "11/11/2016",
+        "title": "Nucleos(t)ide withdrawal in Hepatitis B virus infection (NUC-B)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN14654848?q=interferon&filters=&sort=&offset=18&totalResults=164&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN14654848?q=interferon&filters=&sort=&offset=18&totalResults=164&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "10/10/2016",
+        "title": "Vaccination against prostate cancer"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN58774519?q=interferon&filters=&sort=&offset=19&totalResults=164&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN58774519?q=interferon&filters=&sort=&offset=19&totalResults=164&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "22/09/2016",
+        "title": "Personalised cancer vaccines"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN16067611?q=interferon&filters=&sort=&offset=20&totalResults=164&page=2&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN16067611?q=interferon&filters=&sort=&offset=20&totalResults=164&page=2&pageSize=10&searchType=basic-search",
+        "timestamp": "06/09/2016",
+        "title": "Enhanced epidermal antigen specific immunotherapy trial - Type 1 Diabetes"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN12811193?q=interferon&filters=&sort=&offset=21&totalResults=164&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN12811193?q=interferon&filters=&sort=&offset=21&totalResults=164&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "26/08/2016",
+        "title": "HBsAg clearance with pegylated interferon and tenofovir combination"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN63321797?q=interferon&filters=&sort=&offset=22&totalResults=164&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN63321797?q=interferon&filters=&sort=&offset=22&totalResults=164&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "22/07/2016",
+        "title": "Immunological effects of local low-dose immunotherapy in early stage melanoma patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN17414946?q=interferon&filters=&sort=&offset=23&totalResults=164&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN17414946?q=interferon&filters=&sort=&offset=23&totalResults=164&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "19/07/2016",
+        "title": "Interferon-β treatment for Ebola virus disease"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN65011803?q=interferon&filters=&sort=&offset=24&totalResults=164&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN65011803?q=interferon&filters=&sort=&offset=24&totalResults=164&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "20/06/2016",
+        "title": "Effects of tamoxifen in patients with myeloproliferratIve disorders"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN37915093?q=interferon&filters=&sort=&offset=25&totalResults=164&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN37915093?q=interferon&filters=&sort=&offset=25&totalResults=164&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "14/04/2016",
+        "title": "STOP HCV-1 – Stratified Treatment Optimisation for HCV-1"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN49793874?q=interferon&filters=&sort=&offset=26&totalResults=164&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN49793874?q=interferon&filters=&sort=&offset=26&totalResults=164&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "09/03/2016",
+        "title": "Comparing the effects of infliximab and alpha interferon in the treatment of Behçet’s Disease"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN36702813?q=interferon&filters=&sort=&offset=27&totalResults=164&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN36702813?q=interferon&filters=&sort=&offset=27&totalResults=164&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "11/12/2015",
+        "title": "A low FODMAP diet for diarrhoea predominant functional gastrointestinal disorders in neuroendocrine tumour patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN76212203?q=interferon&filters=&sort=&offset=28&totalResults=164&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN76212203?q=interferon&filters=&sort=&offset=28&totalResults=164&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "03/11/2015",
+        "title": "The evaluation of a training for patients with hepatitis C to improve their quality of life"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN14265371?q=interferon&filters=&sort=&offset=29&totalResults=164&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN14265371?q=interferon&filters=&sort=&offset=29&totalResults=164&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "14/10/2015",
+        "title": "A trial to determine bexarotene's safety and tolerability and its ability to promote brain repair in patients with multiple sclerosis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN23257928?q=interferon&filters=&sort=&offset=30&totalResults=164&page=3&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN23257928?q=interferon&filters=&sort=&offset=30&totalResults=164&page=3&pageSize=10&searchType=basic-search",
+        "timestamp": "05/10/2015",
+        "title": "The adjunctive effects of Omega-3 dietary supplementation in the treatment of periodontitis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN14138956?q=interferon&filters=&sort=&offset=31&totalResults=164&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN14138956?q=interferon&filters=&sort=&offset=31&totalResults=164&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "19/03/2015",
+        "title": "Stereotactic body radiation therapy pre-operatively for borderline resectable pancreatic cancer"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN82138287?q=interferon&filters=&sort=&offset=32&totalResults=164&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN82138287?q=interferon&filters=&sort=&offset=32&totalResults=164&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "18/09/2014",
+        "title": "A Mechanistic Study Of Mifamurtide (MTPPE) In Patients With Metastatic And/Or Recurrent Osteosarcoma"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN28440672?q=interferon&filters=&sort=&offset=33&totalResults=164&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN28440672?q=interferon&filters=&sort=&offset=33&totalResults=164&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "25/10/2013",
+        "title": "MS-SMART"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN60655195?q=interferon&filters=&sort=&offset=34&totalResults=164&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN60655195?q=interferon&filters=&sort=&offset=34&totalResults=164&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "01/08/2013",
+        "title": "SPIRIT 3"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN82177408?q=interferon&filters=&sort=&offset=35&totalResults=164&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN82177408?q=interferon&filters=&sort=&offset=35&totalResults=164&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "26/06/2013",
+        "title": "To investigate the ability of the Heidelberg Assay Panel (HAP) score to predict responders to Octagam 5% in patients with early relapsing multiple sclerosis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN74084226?q=interferon&filters=&sort=&offset=36&totalResults=164&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN74084226?q=interferon&filters=&sort=&offset=36&totalResults=164&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "12/06/2013",
+        "title": "De-escalation and stopping treatment of imatinib, nilotinib or sprycel in chronic myeloid leukaemia"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN99153976?q=interferon&filters=&sort=&offset=37&totalResults=164&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN99153976?q=interferon&filters=&sort=&offset=37&totalResults=164&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "03/05/2013",
+        "title": "Amiloride Clinical Trial in Optic Neuritis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN79871784?q=interferon&filters=&sort=&offset=38&totalResults=164&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN79871784?q=interferon&filters=&sort=&offset=38&totalResults=164&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "02/05/2013",
+        "title": "Efficacy and safety of gabapentin versus placebo to prevent the incidence of postherpetic neuralgia"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN06166891?q=interferon&filters=&sort=&offset=39&totalResults=164&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN06166891?q=interferon&filters=&sort=&offset=39&totalResults=164&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "19/03/2013",
+        "title": "MINERAL (Magnetic-resonance Image of Nutraceutical Efficacy on Relapsing-ms Autoimmune Lesions) study"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN04379941?q=interferon&filters=&sort=&offset=40&totalResults=164&page=4&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN04379941?q=interferon&filters=&sort=&offset=40&totalResults=164&page=4&pageSize=10&searchType=basic-search",
+        "timestamp": "26/02/2013",
+        "title": "The HALT Latent Tuberculosis study"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN27564683?q=interferon&filters=&sort=&offset=41&totalResults=164&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN27564683?q=interferon&filters=&sort=&offset=41&totalResults=164&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "22/11/2012",
+        "title": "Eradicate Hepatitis C Virus"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN87032740?q=interferon&filters=&sort=&offset=42&totalResults=164&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN87032740?q=interferon&filters=&sort=&offset=42&totalResults=164&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "09/10/2012",
+        "title": "Study of co-trimoxazole in advanced pulmonary fibrosis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN73411795?q=interferon&filters=&sort=&offset=43&totalResults=164&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN73411795?q=interferon&filters=&sort=&offset=43&totalResults=164&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "16/08/2012",
+        "title": "Efficacy of switch to lopinavir/ritonavir in improving cognitive function in efavirenz treated patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN55287110?q=interferon&filters=&sort=&offset=44&totalResults=164&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN55287110?q=interferon&filters=&sort=&offset=44&totalResults=164&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "03/02/2012",
+        "title": "Anti-CD20 monoclonal antibody therapy for type II mixed cryoglobulinemia syndrome"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN19562321?q=interferon&filters=&sort=&offset=45&totalResults=164&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN19562321?q=interferon&filters=&sort=&offset=45&totalResults=164&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "03/11/2011",
+        "title": "Clinical trial to assess the importance of nephrectomy"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN53253537?q=interferon&filters=&sort=&offset=46&totalResults=164&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN53253537?q=interferon&filters=&sort=&offset=46&totalResults=164&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "29/07/2011",
+        "title": "Study to compare two methods of treatment to prevent active tuberculosis (TB) in children"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN03274575?q=interferon&filters=&sort=&offset=47&totalResults=164&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN03274575?q=interferon&filters=&sort=&offset=47&totalResults=164&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "28/07/2011",
+        "title": "Enhanced recovery in liver resection surgery"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN04929580?q=interferon&filters=&sort=&offset=48&totalResults=164&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN04929580?q=interferon&filters=&sort=&offset=48&totalResults=164&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "12/07/2011",
+        "title": "In vivo changes in haemostasis after intravenous administration of plasma-derived factor VII and recombinant factor VII(a)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN14095893?q=interferon&filters=&sort=&offset=49&totalResults=164&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN14095893?q=interferon&filters=&sort=&offset=49&totalResults=164&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "06/05/2011",
+        "title": "Addition of Ipilumimab to Carboplatin and Etoposide chemotherapy for the first line treatment of extensive small cell lung cancer"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN14703590?q=interferon&filters=&sort=&offset=50&totalResults=164&page=5&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN14703590?q=interferon&filters=&sort=&offset=50&totalResults=164&page=5&pageSize=10&searchType=basic-search",
+        "timestamp": "15/04/2011",
+        "title": "The effect of a Bacterial Extract on Asthma Control (BEAC)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN71212110?q=interferon&filters=&sort=&offset=51&totalResults=164&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN71212110?q=interferon&filters=&sort=&offset=51&totalResults=164&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "23/02/2011",
+        "title": "Prospective clinical study in children with severe haemophilia A to investigate clinical efficacy, immunogenicity, pharmacokinetics, and safety of Human-cl rhFVIII"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN45526724?q=interferon&filters=&sort=&offset=52&totalResults=164&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN45526724?q=interferon&filters=&sort=&offset=52&totalResults=164&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "21/01/2011",
+        "title": "Evaluation of serum levels of chemokines during interferon beta treatment in multiple sclerosis patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN62678383?q=interferon&filters=&sort=&offset=53&totalResults=164&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN62678383?q=interferon&filters=&sort=&offset=53&totalResults=164&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "21/01/2011",
+        "title": "WT1 immunity via DNA vaccination in haematological malignancies by intramuscular injection and electroporation"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN21665331?q=interferon&filters=&sort=&offset=54&totalResults=164&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN21665331?q=interferon&filters=&sort=&offset=54&totalResults=164&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "06/09/2010",
+        "title": "Normalising sex hormone levels in obese hypogonadal men"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN21216199?q=interferon&filters=&sort=&offset=55&totalResults=164&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN21216199?q=interferon&filters=&sort=&offset=55&totalResults=164&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "29/04/2010",
+        "title": "Efficacy of tocilizumab in patients with rheumatoid arthritis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN18563749?q=interferon&filters=&sort=&offset=56&totalResults=164&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN18563749?q=interferon&filters=&sort=&offset=56&totalResults=164&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "31/03/2010",
+        "title": "A phase II study of Gemcitabine and Bexarotene (GemBex) in the treatment of cutaneous T-cell lymphoma"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN44746369?q=interferon&filters=&sort=&offset=57&totalResults=164&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN44746369?q=interferon&filters=&sort=&offset=57&totalResults=164&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "25/03/2010",
+        "title": "Safety and clinical effects of IDX320 in Hepatitis C infection"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN56886343?q=interferon&filters=&sort=&offset=58&totalResults=164&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN56886343?q=interferon&filters=&sort=&offset=58&totalResults=164&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "05/02/2010",
+        "title": "COSAK trial"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN29259563?q=interferon&filters=&sort=&offset=59&totalResults=164&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN29259563?q=interferon&filters=&sort=&offset=59&totalResults=164&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "22/01/2010",
+        "title": "Short versus standard treatment with pegylated interferon alfa-2a plus ribavirin in patients with hepatitis C virus genotype 2 or 3"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN64847145?q=interferon&filters=&sort=&offset=60&totalResults=164&page=6&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN64847145?q=interferon&filters=&sort=&offset=60&totalResults=164&page=6&pageSize=10&searchType=basic-search",
+        "timestamp": "15/01/2010",
+        "title": "Exploring the effect of disturbance in insulin metabolism on the treatment response of hepatitis C virus to find options to  improve response rate"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN90038418?q=interferon&filters=&sort=&offset=61&totalResults=164&page=7&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN90038418?q=interferon&filters=&sort=&offset=61&totalResults=164&page=7&pageSize=10&searchType=basic-search",
+        "timestamp": "16/11/2009",
+        "title": "Clinical study to investigate the long-term safety and efficacy of human cell line recombinant Factor VIII (human-cl rhFVIII) in previously treated patients with severe haemophilia A"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN92328241?q=interferon&filters=&sort=&offset=62&totalResults=164&page=7&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN92328241?q=interferon&filters=&sort=&offset=62&totalResults=164&page=7&pageSize=10&searchType=basic-search",
+        "timestamp": "28/08/2009",
+        "title": "Head to head study of influenza H1N1 vaccines in adults"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN93000276?q=interferon&filters=&sort=&offset=63&totalResults=164&page=7&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN93000276?q=interferon&filters=&sort=&offset=63&totalResults=164&page=7&pageSize=10&searchType=basic-search",
+        "timestamp": "19/08/2009",
+        "title": "Mangosteen juice blend for the reduction of inflammation in obese subjects"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN98817459?q=interferon&filters=&sort=&offset=64&totalResults=164&page=7&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN98817459?q=interferon&filters=&sort=&offset=64&totalResults=164&page=7&pageSize=10&searchType=basic-search",
+        "timestamp": "19/08/2009",
+        "title": "Immunomodulatory effects of a proprietary Arabinogalactan extract"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN85785327?q=interferon&filters=&sort=&offset=65&totalResults=164&page=7&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN85785327?q=interferon&filters=&sort=&offset=65&totalResults=164&page=7&pageSize=10&searchType=basic-search",
+        "timestamp": "28/05/2009",
+        "title": "HYMN"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN85736336?q=interferon&filters=&sort=&offset=66&totalResults=164&page=7&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN85736336?q=interferon&filters=&sort=&offset=66&totalResults=164&page=7&pageSize=10&searchType=basic-search",
+        "timestamp": "15/05/2009",
+        "title": "Controlled study of hepatitis B virus level alteration in hepatocellular carcinoma while treating with transcatheter arterial chemoembolisation alone or in combination with interferon-alpha"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN16202527?q=interferon&filters=&sort=&offset=67&totalResults=164&page=7&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN16202527?q=interferon&filters=&sort=&offset=67&totalResults=164&page=7&pageSize=10&searchType=basic-search",
+        "timestamp": "24/04/2009",
+        "title": "Study to investigate the combination of methylprednisolone and interferon-beta in the treatment of multiple sclerosis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN08193901?q=interferon&filters=&sort=&offset=68&totalResults=164&page=7&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN08193901?q=interferon&filters=&sort=&offset=68&totalResults=164&page=7&pageSize=10&searchType=basic-search",
+        "timestamp": "23/04/2009",
+        "title": "Dynamic contrast enhanced magnetic resonance imaging (DCE-MRI) assessment of the vascular changes induced with bevacizumab alone and in combination with interferon-alpha in patients with advanced renal cell carcinoma"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN31487459?q=interferon&filters=&sort=&offset=69&totalResults=164&page=7&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN31487459?q=interferon&filters=&sort=&offset=69&totalResults=164&page=7&pageSize=10&searchType=basic-search",
+        "timestamp": "03/04/2009",
+        "title": "The efficacy of treatment with St Johns Wort for premenstrual syndrome (PMS)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN57377482?q=interferon&filters=&sort=&offset=70&totalResults=164&page=7&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN57377482?q=interferon&filters=&sort=&offset=70&totalResults=164&page=7&pageSize=10&searchType=basic-search",
+        "timestamp": "18/03/2009",
+        "title": "A prospective, multicentre, open label, exploratory study to investigate the ability of the Heidelberg assay panel and the B-Cell/antibody response panel to predict the clinical effect of Octagam® 5% in subjects with relapsing/remitting multiple sclerosis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN21534255?q=interferon&filters=&sort=&offset=71&totalResults=164&page=8&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN21534255?q=interferon&filters=&sort=&offset=71&totalResults=164&page=8&pageSize=10&searchType=basic-search",
+        "timestamp": "11/03/2009",
+        "title": "Comparison of Alemtuzumab and Rebif® Efficacy in Multiple Sclerosis, Study One"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN70702834?q=interferon&filters=&sort=&offset=72&totalResults=164&page=8&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN70702834?q=interferon&filters=&sort=&offset=72&totalResults=164&page=8&pageSize=10&searchType=basic-search",
+        "timestamp": "11/03/2009",
+        "title": "Comparison of Alemtuzumab and Rebif® Efficacy in Multiple Sclerosis, Study Two"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN66756285?q=interferon&filters=&sort=&offset=73&totalResults=164&page=8&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN66756285?q=interferon&filters=&sort=&offset=73&totalResults=164&page=8&pageSize=10&searchType=basic-search",
+        "timestamp": "09/03/2009",
+        "title": "Can Valaciclovir delay the need for initiation of human immunodeficiency virus (HIV) treatment in HIV – infected individuals"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN41541516?q=interferon&filters=&sort=&offset=74&totalResults=164&page=8&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN41541516?q=interferon&filters=&sort=&offset=74&totalResults=164&page=8&pageSize=10&searchType=basic-search",
+        "timestamp": "05/02/2009",
+        "title": "Exercise Intervention for Multiple Sclerosis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN87293301?q=interferon&filters=&sort=&offset=75&totalResults=164&page=8&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN87293301?q=interferon&filters=&sort=&offset=75&totalResults=164&page=8&pageSize=10&searchType=basic-search",
+        "timestamp": "03/02/2009",
+        "title": "Clinical study to investigate the pharmacokinetics, efficacy, safety and immunogenicity of human-cl rhFVIII in previously treated patients with severe haemophilia A"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN50861407?q=interferon&filters=&sort=&offset=76&totalResults=164&page=8&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN50861407?q=interferon&filters=&sort=&offset=76&totalResults=164&page=8&pageSize=10&searchType=basic-search",
+        "timestamp": "16/01/2009",
+        "title": "Development and evaluation of an exercise intervention programme to improve cardiovascular fitness and vascular responses in patients with rheumatoid arthritis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN83977250?q=interferon&filters=&sort=&offset=77&totalResults=164&page=8&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN83977250?q=interferon&filters=&sort=&offset=77&totalResults=164&page=8&pageSize=10&searchType=basic-search",
+        "timestamp": "10/11/2008",
+        "title": "A preliminary study of the safety, immunogenicity and clinical efficacy of TroVax® given in conjunction with interleukin 2 (IL-2) in the treatment of stage IV renal cell cancer"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN01405766?q=interferon&filters=&sort=&offset=78&totalResults=164&page=8&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN01405766?q=interferon&filters=&sort=&offset=78&totalResults=164&page=8&pageSize=10&searchType=basic-search",
+        "timestamp": "27/10/2008",
+        "title": "Open multicentre, phase IV study to evaluate efficacy and safety of pegylated interferon alpha-2a (40 KD) plus ribavirin for chronic hepatitis C with normal transaminases in human immunodeficiency virus-infected patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN54923521?q=interferon&filters=&sort=&offset=79&totalResults=164&page=8&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN54923521?q=interferon&filters=&sort=&offset=79&totalResults=164&page=8&pageSize=10&searchType=basic-search",
+        "timestamp": "09/10/2008",
+        "title": "STI571 Prospective International RandomIsed Trial 2"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN84821453?q=interferon&filters=&sort=&offset=80&totalResults=164&page=8&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN84821453?q=interferon&filters=&sort=&offset=80&totalResults=164&page=8&pageSize=10&searchType=basic-search",
+        "timestamp": "09/10/2008",
+        "title": "Open randomised study for evaluation of an active hepatitis B vaccination (HBVAXPRO) in combination with a passive immunisation with hepatitis B immunoglobulins (Hepatect) for subjects who did not show any or an adequate reaction to a previous sole active hepatitis B immunisation"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN37909269?q=interferon&filters=&sort=&offset=81&totalResults=164&page=9&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN37909269?q=interferon&filters=&sort=&offset=81&totalResults=164&page=9&pageSize=10&searchType=basic-search",
+        "timestamp": "29/08/2008",
+        "title": "Understanding the mechanism of the acute phase response following intravenous (IV) bisphosphonates and its prevention"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN66931248?q=interferon&filters=&sort=&offset=82&totalResults=164&page=9&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN66931248?q=interferon&filters=&sort=&offset=82&totalResults=164&page=9&pageSize=10&searchType=basic-search",
+        "timestamp": "28/08/2008",
+        "title": "The role and modulation of the adaptive immune response in human limb ischaemia reperfusion injury by ischaemic preconditioning"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN96199656?q=interferon&filters=&sort=&offset=83&totalResults=164&page=9&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN96199656?q=interferon&filters=&sort=&offset=83&totalResults=164&page=9&pageSize=10&searchType=basic-search",
+        "timestamp": "26/06/2008",
+        "title": "A double blind, placebo controlled study to evaluate the safety and immunogenicity of escalating doses of 10^8 colony forming units (CFU), 10^9 CFU and 10^10 CFU of M04NM11 in patients who have chronic hepatitis B infection"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN79802092?q=interferon&filters=&sort=&offset=84&totalResults=164&page=9&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN79802092?q=interferon&filters=&sort=&offset=84&totalResults=164&page=9&pageSize=10&searchType=basic-search",
+        "timestamp": "22/05/2008",
+        "title": "Comparison of three different therapies (radio-, chemo- and immunotherapy) in patients with resected pancreatic adenocarcinoma"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN48248159?q=interferon&filters=&sort=&offset=85&totalResults=164&page=9&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN48248159?q=interferon&filters=&sort=&offset=85&totalResults=164&page=9&pageSize=10&searchType=basic-search",
+        "timestamp": "27/03/2008",
+        "title": "A randomised, controlled, factorial pilot study investigating omacor and/or fluvastatin in patients with chronic hepatitis C who have not responded to standard combination anti-viral therapy"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN52111135?q=interferon&filters=&sort=&offset=86&totalResults=164&page=9&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN52111135?q=interferon&filters=&sort=&offset=86&totalResults=164&page=9&pageSize=10&searchType=basic-search",
+        "timestamp": "26/03/2008",
+        "title": "Comparison of three diagnostic tools for latent tuberculosis in haemodialysis patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN18543567?q=interferon&filters=&sort=&offset=87&totalResults=164&page=9&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN18543567?q=interferon&filters=&sort=&offset=87&totalResults=164&page=9&pageSize=10&searchType=basic-search",
+        "timestamp": "20/03/2008",
+        "title": "MINDACT (Microarray In Node-negative Disease may Avoid Chemotherapy)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN83107787?q=interferon&filters=&sort=&offset=88&totalResults=164&page=9&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN83107787?q=interferon&filters=&sort=&offset=88&totalResults=164&page=9&pageSize=10&searchType=basic-search",
+        "timestamp": "27/02/2008",
+        "title": "Phase I study to assess the safety and tolerability of inhaled interferon-beta (IFN-beta1a) in controlled asthmatic male and female subjects"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN59318247?q=interferon&filters=&sort=&offset=89&totalResults=164&page=9&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN59318247?q=interferon&filters=&sort=&offset=89&totalResults=164&page=9&pageSize=10&searchType=basic-search",
+        "timestamp": "08/02/2008",
+        "title": "Study to evaluate Pegasys® Sustained Viral Load (SVR) in genotype 3 Hepatitis C Virus (HCV) infected cirrhotic patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN04857074?q=interferon&filters=&sort=&offset=90&totalResults=164&page=9&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN04857074?q=interferon&filters=&sort=&offset=90&totalResults=164&page=9&pageSize=10&searchType=basic-search",
+        "timestamp": "01/02/2008",
+        "title": "A randomised controlled trial of a strategy of switching to boosted protease inhibitor monotherapy versus continuing combination antiretroviral therapy for the long-term management of HIV-1 infected patients who have achieved sustained virological suppression on highly-active antiretroviral therapy"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN17498868?q=interferon&filters=&sort=&offset=91&totalResults=164&page=10&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN17498868?q=interferon&filters=&sort=&offset=91&totalResults=164&page=10&pageSize=10&searchType=basic-search",
+        "timestamp": "25/01/2008",
+        "title": "Safety and immunogenicity of a new tuberculosis (TB) vaccine (MVA85A) in healthy volunteers in Cape Town"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN32763606?q=interferon&filters=&sort=&offset=92&totalResults=164&page=10&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN32763606?q=interferon&filters=&sort=&offset=92&totalResults=164&page=10&pageSize=10&searchType=basic-search",
+        "timestamp": "31/10/2007",
+        "title": "Receptor for Hyaluronan-Mediated Motility (RHAMM [CD168]) peptide vaccination for patients with haematological malignancies"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN00680126?q=interferon&filters=&sort=&offset=93&totalResults=164&page=10&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN00680126?q=interferon&filters=&sort=&offset=93&totalResults=164&page=10&pageSize=10&searchType=basic-search",
+        "timestamp": "25/10/2007",
+        "title": "A randomised, open-label, multicentre, efficacy and safety study examining the effects on viral kinetics of all-trans retinoic acid (Tretinoin) (VESANOID®) in combination with pegylated interferon alpha-2a (PEGASYS®) and ribavirin (COPEGUS®) therapy in patients with genotype 1-chronic hepatitis C and non-response to a previous course of peg-interferon alpha/ribavirin combination (ATRACTION)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN42223114?q=interferon&filters=&sort=&offset=94&totalResults=164&page=10&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN42223114?q=interferon&filters=&sort=&offset=94&totalResults=164&page=10&pageSize=10&searchType=basic-search",
+        "timestamp": "17/10/2007",
+        "title": "MUltiple Sclerosis and Extract of Cannabis (MUSEC)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN19938041?q=interferon&filters=&sort=&offset=95&totalResults=164&page=10&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN19938041?q=interferon&filters=&sort=&offset=95&totalResults=164&page=10&pageSize=10&searchType=basic-search",
+        "timestamp": "25/09/2007",
+        "title": "Prospective, multi-center, one-arm pilot trial of Trizivir plus Tenofovir in adult HIV-infected antiretroviral-naive patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN72024361?q=interferon&filters=&sort=&offset=96&totalResults=164&page=10&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN72024361?q=interferon&filters=&sort=&offset=96&totalResults=164&page=10&pageSize=10&searchType=basic-search",
+        "timestamp": "23/08/2007",
+        "title": "Short course interferon-gamma for human immunodeficiency virus (HIV)-associated cryptococcal meningitis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN80852505?q=interferon&filters=&sort=&offset=97&totalResults=164&page=10&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN80852505?q=interferon&filters=&sort=&offset=97&totalResults=164&page=10&pageSize=10&searchType=basic-search",
+        "timestamp": "13/08/2007",
+        "title": "The effect of vitamin A and zinc supplementation on the bacteriological response of persons with pulmonary tuberculosis in the Western Cape"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN20946776?q=interferon&filters=&sort=&offset=98&totalResults=164&page=10&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN20946776?q=interferon&filters=&sort=&offset=98&totalResults=164&page=10&pageSize=10&searchType=basic-search",
+        "timestamp": "29/06/2007",
+        "title": "A phase I/II trial to compare the immunogenicity and safety of three DNA C prime followed by one NYVAC C boost to two DNA C prime followed by two NYVAC C boost"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN58830535?q=interferon&filters=&sort=&offset=99&totalResults=164&page=10&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN58830535?q=interferon&filters=&sort=&offset=99&totalResults=164&page=10&pageSize=10&searchType=basic-search",
+        "timestamp": "02/05/2007",
+        "title": "Group training for hepatitis C patients to improve quality of life"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN07772084?q=interferon&filters=&sort=&offset=100&totalResults=164&page=10&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN07772084?q=interferon&filters=&sort=&offset=100&totalResults=164&page=10&pageSize=10&searchType=basic-search",
+        "timestamp": "22/02/2007",
+        "title": "German Acute Hepatitis B Study"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN70900209?q=interferon&filters=&sort=&offset=101&totalResults=164&page=11&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN70900209?q=interferon&filters=&sort=&offset=101&totalResults=164&page=11&pageSize=10&searchType=basic-search",
+        "timestamp": "21/02/2007",
+        "title": "Use of interferon gamma as adjuvant to chemotherapy in patients with pulmonary atypical mycobacteriosis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN12365646?q=interferon&filters=&sort=&offset=102&totalResults=164&page=11&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN12365646?q=interferon&filters=&sort=&offset=102&totalResults=164&page=11&pageSize=10&searchType=basic-search",
+        "timestamp": "28/12/2006",
+        "title": "The effects of low dose 1,25-dihydroxyvitamin D3 on the polarising of cellular immune reactivity towards type two immunity"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN83525871?q=interferon&filters=&sort=&offset=103&totalResults=164&page=11&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN83525871?q=interferon&filters=&sort=&offset=103&totalResults=164&page=11&pageSize=10&searchType=basic-search",
+        "timestamp": "29/09/2006",
+        "title": "Evaluation of the inflammatory response to minilaparotomy compared to conventional laparotomy in the surgical resection of colorectal cancer including its influence on long term survival and local recurrence"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN77073364?q=interferon&filters=&sort=&offset=104&totalResults=164&page=11&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN77073364?q=interferon&filters=&sort=&offset=104&totalResults=164&page=11&pageSize=10&searchType=basic-search",
+        "timestamp": "15/09/2006",
+        "title": "Response and markers of response in chronic hepatitis B patients treated with peg-interferon alfa-2a and adefovir"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN38456328?q=interferon&filters=&sort=&offset=105&totalResults=164&page=11&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN38456328?q=interferon&filters=&sort=&offset=105&totalResults=164&page=11&pageSize=10&searchType=basic-search",
+        "timestamp": "15/09/2006",
+        "title": "Fluoxetine in progressive multiple sclerosis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN62432886?q=interferon&filters=&sort=&offset=106&totalResults=164&page=11&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN62432886?q=interferon&filters=&sort=&offset=106&totalResults=164&page=11&pageSize=10&searchType=basic-search",
+        "timestamp": "04/09/2006",
+        "title": "Individually adapted therapy duration from 24 to 72 weeks for the treatment of a chronic hepatitis C genotype one infection with peginterferon alfa-2b plus ribavirin in dependence of the initial concentration and the decline of the hepatitis C virus ribonucleic acid"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN11801541?q=interferon&filters=&sort=&offset=107&totalResults=164&page=11&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN11801541?q=interferon&filters=&sort=&offset=107&totalResults=164&page=11&pageSize=10&searchType=basic-search",
+        "timestamp": "23/08/2006",
+        "title": "Consecutive blood letting and peginterferon alfa-2a/ribavirin standard treatment compared to peginterferon alfa-2a/ribavirin standard treatment alone for naive patients with hepatitis C virus genotype one and elevated ferritin levels"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN48965919?q=interferon&filters=&sort=&offset=108&totalResults=164&page=11&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN48965919?q=interferon&filters=&sort=&offset=108&totalResults=164&page=11&pageSize=10&searchType=basic-search",
+        "timestamp": "04/08/2006",
+        "title": "Hookworm infestation as therapy in Crohn's disease"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN12471415?q=interferon&filters=&sort=&offset=109&totalResults=164&page=11&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN12471415?q=interferon&filters=&sort=&offset=109&totalResults=164&page=11&pageSize=10&searchType=basic-search",
+        "timestamp": "02/06/2006",
+        "title": "Effectiveness of patient support programme for the treatment of hepatitis C"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN81525828?q=interferon&filters=&sort=&offset=110&totalResults=164&page=11&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN81525828?q=interferon&filters=&sort=&offset=110&totalResults=164&page=11&pageSize=10&searchType=basic-search",
+        "timestamp": "15/05/2006",
+        "title": "A phase II, randomised, double-blind, placebo-controlled pilot study of the safety, tolerability and activity of intramuscularly administered a-Epi-Br (HE2000) in late stage human immunodeficiency virus-infected patients at risk for opportunistic infections"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN81765620?q=interferon&filters=&sort=&offset=111&totalResults=164&page=12&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN81765620?q=interferon&filters=&sort=&offset=111&totalResults=164&page=12&pageSize=10&searchType=basic-search",
+        "timestamp": "10/05/2006",
+        "title": "Effectiveness and safety of the treatment of chronic hepatitis C in patients infected with the human immunodeficiency virus comparing two types of pegylated interferon and ribavirin"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN59358441?q=interferon&filters=&sort=&offset=112&totalResults=164&page=12&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN59358441?q=interferon&filters=&sort=&offset=112&totalResults=164&page=12&pageSize=10&searchType=basic-search",
+        "timestamp": "04/04/2006",
+        "title": "Interferon (IFN) induction followed by PEG-interferon combined with ribavirin and amantadine for treatment of naive chronic hepatitis C patients with genotype 1 or 4"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN20254161?q=interferon&filters=&sort=&offset=113&totalResults=164&page=12&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN20254161?q=interferon&filters=&sort=&offset=113&totalResults=164&page=12&pageSize=10&searchType=basic-search",
+        "timestamp": "03/03/2006",
+        "title": "Islet autoantigen-derived peptides eluted from Human Leucocyte Antigen (HLA) class II molecules as vaccines for the immunotherapy of type 1 diabetes"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN81536220?q=interferon&filters=&sort=&offset=114&totalResults=164&page=12&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN81536220?q=interferon&filters=&sort=&offset=114&totalResults=164&page=12&pageSize=10&searchType=basic-search",
+        "timestamp": "14/02/2006",
+        "title": "Retreatment of chronic hepatitis C patients with pegylated interferon (IFN), ribavirin and amantadine; a pilot study to establish if initial drop in viral load is predictive for sustained virological response"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN35124268?q=interferon&filters=&sort=&offset=115&totalResults=164&page=12&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN35124268?q=interferon&filters=&sort=&offset=115&totalResults=164&page=12&pageSize=10&searchType=basic-search",
+        "timestamp": "06/02/2006",
+        "title": "A randomised phase II study comparing capecitabine plus streptozocin with or without cisplatin in the treatment of unresectable or metastatic gastroentero-neuroendocrine tumours of the foregut, pancreatic neuroendocrine tumours and neuroendocrine tumours of unknown primary site"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN65586975?q=interferon&filters=&sort=&offset=116&totalResults=164&page=12&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN65586975?q=interferon&filters=&sort=&offset=116&totalResults=164&page=12&pageSize=10&searchType=basic-search",
+        "timestamp": "27/01/2006",
+        "title": "Fluoxetine therapy in multiple sclerosis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN84226319?q=interferon&filters=&sort=&offset=117&totalResults=164&page=12&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN84226319?q=interferon&filters=&sort=&offset=117&totalResults=164&page=12&pageSize=10&searchType=basic-search",
+        "timestamp": "20/12/2005",
+        "title": "High-dose cytarabin versus low-dose cytarabin plus interferon-alpha-2a both followed by maintenance with interferon-alpha-2a in chronic myeloid leukemia"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN74271466?q=interferon&filters=&sort=&offset=118&totalResults=164&page=12&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN74271466?q=interferon&filters=&sort=&offset=118&totalResults=164&page=12&pageSize=10&searchType=basic-search",
+        "timestamp": "20/12/2005",
+        "title": "Study on chronic hepatitis C treatment with interferon alpha, ribavirin and amantadine in naive patients."
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN06413384?q=interferon&filters=&sort=&offset=119&totalResults=164&page=12&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN06413384?q=interferon&filters=&sort=&offset=119&totalResults=164&page=12&pageSize=10&searchType=basic-search",
+        "timestamp": "20/12/2005",
+        "title": "A randomised phase III study on the effect of thalidomide combined with Adriamycin®, dexamethasone and high dose melphalan in patients with multiple myeloma"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN82155239?q=interferon&filters=&sort=&offset=120&totalResults=164&page=12&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN82155239?q=interferon&filters=&sort=&offset=120&totalResults=164&page=12&pageSize=10&searchType=basic-search",
+        "timestamp": "20/12/2005",
+        "title": "Myelo-ablative chemo/radiotherapy and autologous stem cell transplantation as compared to only chemotherapy in patients with multiple myeloma"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN90692740?q=interferon&filters=&sort=&offset=121&totalResults=164&page=13&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN90692740?q=interferon&filters=&sort=&offset=121&totalResults=164&page=13&pageSize=10&searchType=basic-search",
+        "timestamp": "20/12/2005",
+        "title": "Randomised phase III study in elderly patients with a multiple myeloma on the value of Thalidomide added to Melphalan plus Prednisone"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN45483324?q=interferon&filters=&sort=&offset=122&totalResults=164&page=13&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN45483324?q=interferon&filters=&sort=&offset=122&totalResults=164&page=13&pageSize=10&searchType=basic-search",
+        "timestamp": "03/11/2005",
+        "title": "A strategy to immunize young infants against measles"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN88008850?q=interferon&filters=&sort=&offset=123&totalResults=164&page=13&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN88008850?q=interferon&filters=&sort=&offset=123&totalResults=164&page=13&pageSize=10&searchType=basic-search",
+        "timestamp": "25/10/2005",
+        "title": "A phase III, randomised, multicentre, dose escalation, efficacy and safety study examining the effects of treatment with peginterferon alfa-2a with Child's A or B cirrhosis in Chronic Hepatitis C virus infection"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN75125874?q=interferon&filters=&sort=&offset=124&totalResults=164&page=13&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN75125874?q=interferon&filters=&sort=&offset=124&totalResults=164&page=13&pageSize=10&searchType=basic-search",
+        "timestamp": "21/10/2005",
+        "title": "Randomised phase III clinical trial in patients radically operated for stage III melanoma (American Joint Committee on Cancer [AJCC])"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN31557558?q=interferon&filters=&sort=&offset=125&totalResults=164&page=13&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN31557558?q=interferon&filters=&sort=&offset=125&totalResults=164&page=13&pageSize=10&searchType=basic-search",
+        "timestamp": "30/09/2005",
+        "title": "A pilot multi-centre randomised controlled trial of sequential treatment with Mitoxantrone and Glatiramer Acetate vs Interferon Beta-1a in early active relapsing remitting Multiple Sclerosis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN71794661?q=interferon&filters=&sort=&offset=126&totalResults=164&page=13&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN71794661?q=interferon&filters=&sort=&offset=126&totalResults=164&page=13&pageSize=10&searchType=basic-search",
+        "timestamp": "30/09/2005",
+        "title": "Therapeutic vaccination in patients with chronic hepatitis C genotype 1 using four courses of 8 + 6 + 6 + 6 intramuscular injections of 50 µg E1y at 3 week intervals"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN45169013?q=interferon&filters=&sort=&offset=127&totalResults=164&page=13&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN45169013?q=interferon&filters=&sort=&offset=127&totalResults=164&page=13&pageSize=10&searchType=basic-search",
+        "timestamp": "26/09/2005",
+        "title": "Comparison of Three Regimens of PEG-Intron plus Ribavirin in the Treatment of Chronic Hepatitis C, Genotype 2 or 3, in Previously Untreated Patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN98373474?q=interferon&filters=&sort=&offset=128&totalResults=164&page=13&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN98373474?q=interferon&filters=&sort=&offset=128&totalResults=164&page=13&pageSize=10&searchType=basic-search",
+        "timestamp": "20/09/2005",
+        "title": "A double-blind placebo-controlled multicenter study to evaluate the efficacy and safety of MBP8298 in subjects with secondary progressive multiple sclerosis (SPMS)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN87763194?q=interferon&filters=&sort=&offset=129&totalResults=164&page=13&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN87763194?q=interferon&filters=&sort=&offset=129&totalResults=164&page=13&pageSize=10&searchType=basic-search",
+        "timestamp": "12/09/2005",
+        "title": "ELISA-2 (Early or Late Intervention in unStable Angina)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN51477478?q=interferon&filters=&sort=&offset=130&totalResults=164&page=13&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN51477478?q=interferon&filters=&sort=&offset=130&totalResults=164&page=13&pageSize=10&searchType=basic-search",
+        "timestamp": "09/09/2005",
+        "title": "Combination therapy using pegylated interferon alfa-2a and ribavirin in patients with chronic hepatitis C virus (HCV) infection 3 to 120 months after liver transplantation"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN88729946?q=interferon&filters=&sort=&offset=131&totalResults=164&page=14&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN88729946?q=interferon&filters=&sort=&offset=131&totalResults=164&page=14&pageSize=10&searchType=basic-search",
+        "timestamp": "09/09/2005",
+        "title": "Treatment of acute hepatitis C infection"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN83587695?q=interferon&filters=&sort=&offset=132&totalResults=164&page=14&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN83587695?q=interferon&filters=&sort=&offset=132&totalResults=164&page=14&pageSize=10&searchType=basic-search",
+        "timestamp": "09/09/2005",
+        "title": "A multicenter randomised study comparing the efficacy of adefovir dipivoxil versus pegylated interferon alpha-2a plus placebo versus adefovir dipivoxil plus peglyated interferon alpha-2a for the treatment of chronic delta hepatitis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN27745631?q=interferon&filters=&sort=&offset=133&totalResults=164&page=14&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN27745631?q=interferon&filters=&sort=&offset=133&totalResults=164&page=14&pageSize=10&searchType=basic-search",
+        "timestamp": "16/05/2005",
+        "title": "Acetylsalicylic acid as an adjuvant therapy for schizophrenia"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN62866759?q=interferon&filters=&sort=&offset=134&totalResults=164&page=14&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN62866759?q=interferon&filters=&sort=&offset=134&totalResults=164&page=14&pageSize=10&searchType=basic-search",
+        "timestamp": "16/02/2005",
+        "title": "A phase III trial of postoperative cisplatin, interferon alpha-2b, and 5-FU combined with external radiation treatment versus 5-FU alone for patients with resected pancreatic adenocarcinoma"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN52566041?q=interferon&filters=&sort=&offset=135&totalResults=164&page=14&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN52566041?q=interferon&filters=&sort=&offset=135&totalResults=164&page=14&pageSize=10&searchType=basic-search",
+        "timestamp": "30/09/2004",
+        "title": "40kD pegylated interferon alpha 2a plus ribavirin compared to 40 kD pegylated interferon alpha 2a plus ribavirin and mycophenolate in the management of patients with refractory chronic HCV infection"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN67613327?q=interferon&filters=&sort=&offset=136&totalResults=164&page=14&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN67613327?q=interferon&filters=&sort=&offset=136&totalResults=164&page=14&pageSize=10&searchType=basic-search",
+        "timestamp": "30/09/2004",
+        "title": "A randomised trial of the EURopean and AMerican Osteosarcoma Study group to optimize treatment strategies for resectable osteosarcoma based on histological response to pre-operative chemotherapy"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN68218781?q=interferon&filters=&sort=&offset=137&totalResults=164&page=14&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN68218781?q=interferon&filters=&sort=&offset=137&totalResults=164&page=14&pageSize=10&searchType=basic-search",
+        "timestamp": "01/04/2004",
+        "title": "A Multi-center, Double Blind, Randomized, Placebo Controlled, Parallel Group Trial Investigating Methylprednisolone in Combination with Interferon-beta-1a for the Treatment of Relapsing-Remitting Multiple Sclerosis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN03626626?q=interferon&filters=&sort=&offset=138&totalResults=164&page=14&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN03626626?q=interferon&filters=&sort=&offset=138&totalResults=164&page=14&pageSize=10&searchType=basic-search",
+        "timestamp": "23/10/2003",
+        "title": "Phase IIa trial of interferon-beta-1a (Avonex) in patients with rheumatoid arthritis"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN34382898?q=interferon&filters=&sort=&offset=139&totalResults=164&page=14&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN34382898?q=interferon&filters=&sort=&offset=139&totalResults=164&page=14&pageSize=10&searchType=basic-search",
+        "timestamp": "12/09/2003",
+        "title": "Efficacy of subcutaneous interleukin-2 (IL-2) in the treament of advanced HIV-1 infections in persons with CD4+ T lymphoytes <100/mm3 and undetectable plasma viral load"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN53821378?q=interferon&filters=&sort=&offset=140&totalResults=164&page=14&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN53821378?q=interferon&filters=&sort=&offset=140&totalResults=164&page=14&pageSize=10&searchType=basic-search",
+        "timestamp": "11/08/2003",
+        "title": "Retreatment of hepatitis C non-responsive to Interferon"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN87885087?q=interferon&filters=&sort=&offset=141&totalResults=164&page=15&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN87885087?q=interferon&filters=&sort=&offset=141&totalResults=164&page=15&pageSize=10&searchType=basic-search",
+        "timestamp": "27/05/2003",
+        "title": "A phase II, randomised, open-label, three-arm study comparing low-and high-dose Campath® (MabCampath®) and high-dose Rebif® in patients with early, active relapsing-remitting Multiple Sclerosis (MS)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN24461054?q=interferon&filters=&sort=&offset=142&totalResults=164&page=15&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN24461054?q=interferon&filters=&sort=&offset=142&totalResults=164&page=15&pageSize=10&searchType=basic-search",
+        "timestamp": "25/04/2003",
+        "title": "Health benefits from anti-viral therapy for mild chronic hepatitis C"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN81939169?q=interferon&filters=&sort=&offset=143&totalResults=164&page=15&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN81939169?q=interferon&filters=&sort=&offset=143&totalResults=164&page=15&pageSize=10&searchType=basic-search",
+        "timestamp": "19/08/2002",
+        "title": "Marrow-ablative chemotherapy and autologous stem cell transplantation followed by interferon-alpha maintenance treatment versus interferon-alpha maintenance treatment alone for stage III and IV follicular Non-Hodgkin's lymphoma"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN46123985?q=interferon&filters=&sort=&offset=144&totalResults=164&page=15&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN46123985?q=interferon&filters=&sort=&offset=144&totalResults=164&page=15&pageSize=10&searchType=basic-search",
+        "timestamp": "19/08/2002",
+        "title": "Trial of alpha-interferon in chronic myeloid leukaemia and a comparison of busulphan and hydroxyurea for induction and maintenance"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN11978947?q=interferon&filters=&sort=&offset=145&totalResults=164&page=15&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN11978947?q=interferon&filters=&sort=&offset=145&totalResults=164&page=15&pageSize=10&searchType=basic-search",
+        "timestamp": "19/08/2002",
+        "title": "Interferon alpha in combination with thalidomide in the treatment of metastatic renal cell carcinoma - a randomised phase II study"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN95638591?q=interferon&filters=&sort=&offset=146&totalResults=164&page=15&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN95638591?q=interferon&filters=&sort=&offset=146&totalResults=164&page=15&pageSize=10&searchType=basic-search",
+        "timestamp": "19/08/2002",
+        "title": "A Randomised Trial of 5-Fluorouracil (5FU) and Leucovorin (LV) versus 5-Fluorouracil, leucovorin and Interferon-Alpha 2a for Advanced Colorectal Adenocarcinoma"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN13456221?q=interferon&filters=&sort=&offset=147&totalResults=164&page=15&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN13456221?q=interferon&filters=&sort=&offset=147&totalResults=164&page=15&pageSize=10&searchType=basic-search",
+        "timestamp": "19/08/2002",
+        "title": "A Randomised Study of Observation versus Adjuvant Low Dose Extended Duration Interferon Alpha-2a in High Risk Resected Malignant Melanoma"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN42493631?q=interferon&filters=&sort=&offset=148&totalResults=164&page=15&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN42493631?q=interferon&filters=&sort=&offset=148&totalResults=164&page=15&pageSize=10&searchType=basic-search",
+        "timestamp": "19/08/2002",
+        "title": "A Randomised Trial Comparing the Efficacy of Infusional 5-Fluorouracil (5-FU) to 5-FU plus Alpha Interferon in Patients with Unresectable Colorectal Cancer"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN53211392?q=interferon&filters=&sort=&offset=149&totalResults=164&page=15&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN53211392?q=interferon&filters=&sort=&offset=149&totalResults=164&page=15&pageSize=10&searchType=basic-search",
+        "timestamp": "19/08/2002",
+        "title": "Randomised Controlled Trial of CID versus CD for Induction of Remission in Low Grade Non-Hodgkin's Lymphoma and Randomised Controlled Assessment of Interferon as Maintenance Treatment after Remission Induction"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN46751362?q=interferon&filters=&sort=&offset=150&totalResults=164&page=15&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN46751362?q=interferon&filters=&sort=&offset=150&totalResults=164&page=15&pageSize=10&searchType=basic-search",
+        "timestamp": "19/08/2002",
+        "title": "A European randomised multicentre study of interferon alpha-2b versus no treatment after intensive therapy and Autologous hematopoeitic Stem Cell Transplantation (ASCT) for relapsing lymphoma patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN47723344?q=interferon&filters=&sort=&offset=151&totalResults=164&page=16&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN47723344?q=interferon&filters=&sort=&offset=151&totalResults=164&page=16&pageSize=10&searchType=basic-search",
+        "timestamp": "19/08/2002",
+        "title": "Medical Research Council sixth myelomatosis trial for previously untreated patients"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN53369512?q=interferon&filters=&sort=&offset=152&totalResults=164&page=16&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN53369512?q=interferon&filters=&sort=&offset=152&totalResults=164&page=16&pageSize=10&searchType=basic-search",
+        "timestamp": "19/08/2002",
+        "title": "Medical Research Council/ European Blood and Marrow Transplant Prospective Randomised Trial of Autograft in Chronic Myeloid Leukaemia (CML)"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN16387614?q=interferon&filters=&sort=&offset=153&totalResults=164&page=16&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN16387614?q=interferon&filters=&sort=&offset=153&totalResults=164&page=16&pageSize=10&searchType=basic-search",
+        "timestamp": "01/07/2001",
+        "title": "Adjuvant interleukin-2, interferon-alpha and 5-fluorouracil for patients with high risk of relapse after surgical treatment for renal cell carcinoma"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN59346371?q=interferon&filters=&sort=&offset=154&totalResults=164&page=16&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN59346371?q=interferon&filters=&sort=&offset=154&totalResults=164&page=16&pageSize=10&searchType=basic-search",
+        "timestamp": "18/05/2001",
+        "title": "A phase III, prospective randomised comparison of imatinib (STI571, Glivec/Gleevec) 400 mg daily versus imatinib 800 mg daily versus imatinib plus PEG interferon-alpha 2a (Pegasys) in patients with newly-diagnosed chronic phasechronic myeloid leukaemia"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN89397749?q=interferon&filters=&sort=&offset=155&totalResults=164&page=16&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN89397749?q=interferon&filters=&sort=&offset=155&totalResults=164&page=16&pageSize=10&searchType=basic-search",
+        "timestamp": "28/02/2001",
+        "title": "A randomised trial of alpha-interferon versus medroxyprogesterone acetate for metastatic renal carcinoma"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN46518965?q=interferon&filters=&sort=&offset=156&totalResults=164&page=16&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN46518965?q=interferon&filters=&sort=&offset=156&totalResults=164&page=16&pageSize=10&searchType=basic-search",
+        "timestamp": "08/11/2000",
+        "title": "A randomised controlled trial of Interferon-alpha (IFN-alpha), Interleukin-2 (IL-2) and 5 Fluorourcil (5-FU) versus Interferon-alpha alone in patients with advanced renal cell carcinoma"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN68784584?q=interferon&filters=&sort=&offset=157&totalResults=164&page=16&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN68784584?q=interferon&filters=&sort=&offset=157&totalResults=164&page=16&pageSize=10&searchType=basic-search",
+        "timestamp": "25/10/2000",
+        "title": "CML V - chronic phase Chronic Myeloid Leukaemia"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN61147621?q=interferon&filters=&sort=&offset=158&totalResults=164&page=16&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN61147621?q=interferon&filters=&sort=&offset=158&totalResults=164&page=16&pageSize=10&searchType=basic-search",
+        "timestamp": "25/10/2000",
+        "title": "CML IV - Chronic phase chronic myeloid leukaemia/CML 2000"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN66518389?q=interferon&filters=&sort=&offset=159&totalResults=164&page=16&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN66518389?q=interferon&filters=&sort=&offset=159&totalResults=164&page=16&pageSize=10&searchType=basic-search",
+        "timestamp": "25/10/2000",
+        "title": "Myeloma VII - myelomatosis therapy trial"
     },
     {
-        "link": "https://www.isrctn.com/ISRCTN77346223?q=interferon&filters=&sort=&offset=160&totalResults=164&page=16&pageSize=10&searchType=basic-search"
+        "url": "https://www.isrctn.com/ISRCTN77346223?q=interferon&filters=&sort=&offset=160&totalResults=164&page=16&pageSize=10&searchType=basic-search",
+        "timestamp": "25/10/2000",
+        "title": "Acute lymphoblastic leukaemia (ALL) trial XII (joint trial with Eastern Co-operative Oncology Group - E2993)"
     }
 ]
