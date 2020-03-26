@@ -14,5 +14,5 @@ def get_records():
         # data.extend(eu.find(query))
         data.extend(isrctn.find(query))
     # sort the data and return it
-    data = sorted(data, key=lambda d: d["timestamp"], reverse=True)
+    data = sorted(data, key=lambda d: float('-inf') if d["timestamp"] == None else d["timestamp"], reverse=True)
     return data
