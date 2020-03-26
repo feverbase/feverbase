@@ -31,10 +31,18 @@ for query in TERMS:
                 soup = BeautifulSoup(page.content, 'html.parser')
                 my_lis = soup.findAll("li", {"class": "ResultsList_item"})
                 for result in my_lis:
+
+                    dds = result.findAll("dd", {"class": "Meta_value"})
+                    dd_texts = [dd.text.strip() for dd in dds]
+                    date = dd_texts[2]
+
                     for link in result.find_all('a', href=True):
+                        title = link.text.split(":")[1].strip()
                         link = link.get("href")
                         if link:
-                            data.append({"link": f"{BASE_URL}{link}"})
+                            data.append({"url": f"{BASE_URL}{link}",
+                                "timestamp": date,
+                                "title": title})
                             count += 1
     print(f"Fetched {count} results for {query}")
 
