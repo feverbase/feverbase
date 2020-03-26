@@ -8,14 +8,13 @@ BASE_URL = "http://www.chictr.org.cn/"
 QUERY_URL = "{BASE_URL}/searchprojen.aspx?officialname=&subjectid=&secondaryid=&applier=&studyleader=&ethicalcommitteesanction=&sponsor=&studyailment=&studyailmentcode=&studytype=0&studystage=0&studydesign=0&minstudyexecutetime=&maxstudyexecutetime=&recruitmentstatus=0&gender=0&agreetosign=&secsponsor=&regno=&regstatus=0&country=&province=&city=&institution=&institutionlevel=&measure=&intercode=&sourceofspends=&createyear=0&isuploadrf=&whetherpublic=&btngo=btn&verifycode=&title={query}"
 PAGINATE_QUERY = "&page={page_num}"
 
-TERMS = utils.get_query_terms()
-
-data = []
-
-for query in TERMS:
+def find(query):
+    data = []
     count = 0
     url = QUERY_URL.format(BASE_URL=BASE_URL, query=query)
+    
     page = requests.get(url)
+
     if page.status_code == 200:
         soup = BeautifulSoup(page.content, 'html.parser')
 
@@ -52,5 +51,6 @@ for query in TERMS:
                     print(f'Page {page_num} out of {num_pages} fetched {len(trials)} results for {query}')
     
     print(f"Fetched {count} results for {query}")
+    
+    return data
 
-utils.save_json(data, FILENAME)

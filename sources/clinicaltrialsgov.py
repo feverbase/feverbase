@@ -6,14 +6,14 @@ from datetime import timezone
 
 FILENAME = "clinicaltrialsgov.json"
 POSTED_WITHIN_DAYS = 200  # posted within the last X days
-TERMS = utils.get_query_terms()
 
-data = []
+def find(term):
+    data = []
 
-print(f"Fetching data for last {POSTED_WITHIN_DAYS} days...")
+    print(f"Fetching data for last {POSTED_WITHIN_DAYS} days...")
 
-added_ids = set()
-for term in TERMS:
+    added_ids = set()
+
     url = f"https://clinicaltrials.gov/ct2/results/rss.xml?rcv_d={POSTED_WITHIN_DAYS}&cond={term}&count=10000"
 
     # feed keys:
@@ -54,10 +54,8 @@ for term in TERMS:
         }
         data.append(entry_dict)
 
-data = sorted(data, key=lambda d: d["timestamp"], reverse=True)
+    data = sorted(data, key=lambda d: d["timestamp"], reverse=True)
 
-print(f"Fetched {len(data)} results")
+    print(f"Fetched {len(data)} results")
 
-# print(data)
-filepath = utils.save_json(data, FILENAME)
-print(f"Saved to {filepath}")
+    return data
