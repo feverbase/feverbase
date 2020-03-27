@@ -3,6 +3,7 @@ import requests
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 import utils
 import re
+import time
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
@@ -32,6 +33,7 @@ def find(query):
             url = QUERY_URL.format(
                 BASE_URL=BASE_URL, query=query
             ) + PAGINATE_QUERY.format(page_num=page_num)
+            time.sleep(1)
             page = requests.get(url, verify=False)
             if page.status_code == 200:
                 soup = BeautifulSoup(page.content, "html.parser")
@@ -64,7 +66,7 @@ def find(query):
                                 }
                             
                             count += 1
-                print(f'Page {page_num} out of {num_pages} fetched for {query}')
+                print(f'Page {page_num + 1} out of {num_pages} fetched for {query}')
 
     print(f"Fetched {count} results for {query}")
     
