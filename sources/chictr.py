@@ -9,7 +9,7 @@ QUERY_URL = "{BASE_URL}/searchprojen.aspx?officialname=&subjectid=&secondaryid=&
 PAGINATE_QUERY = "&page={page_num}"
 
 def find(query):
-    data = []
+    data = {}
     count = 0
     url = QUERY_URL.format(BASE_URL=BASE_URL, query=query)
     
@@ -37,15 +37,16 @@ def find(query):
                         url_path = html_info[2].find_all('p')[0].find_all('a')[0].get('href')
                         affiliation = html_info[2].find_all('p')[1].find(text=True).strip()
                         date = '-'.join(html_info[4].find(text=True).strip().split('/'))
+                        url = '{base}{path}'.format(base=BASE_URL, path=url_path)
 
                         info = {
-                            'url': '{base}{path}'.format(base=BASE_URL, path=url_path),
+                            'url': url,
                             'title': title,
                             'affiliation': affiliation,
                             'timestamp': date
                         }
                         
-                        data.append(info)
+                        data[url] = info
                         count += 1
 
                     print(f'Page {page_num} out of {num_pages} fetched {len(trials)} results for {query}')

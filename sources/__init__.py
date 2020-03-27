@@ -7,12 +7,14 @@ from . import utils
 TERMS = utils.get_query_terms()
 
 def get_records():
-    data = []
+    data = {}
     for query in TERMS:
-        data.extend(chictr.find(query))
-        data.extend(clinicaltrialsgov.find(query))
-        # data.extend(eu.find(query))
-        data.extend(isrctn.find(query))
+        data.update(chictr.find(query))
+        data.update(clinicaltrialsgov.find(query))
+        # data.update(eu.find(query))
+        data.update(isrctn.find(query))
+
     # sort the data and return it
-    data = sorted(data, key=lambda d: float('-inf') if d["timestamp"] == None else d["timestamp"], reverse=True)
-    return data
+    items = data.values()
+    items = sorted(items, key=lambda d: float('-inf') if d["timestamp"] == None else d["timestamp"], reverse=True)
+    return items
