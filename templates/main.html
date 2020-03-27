@@ -41,7 +41,6 @@
 
 // passed in from flask as json
 var papers = {{ papers | tojson }};
-var msg = "{{ msg }}";
 var render_format = "{{ render_format }}";
 var username = "{{ g.user.username }}";
 var numresults = "{{ numresults }}";
@@ -54,7 +53,7 @@ $(document).ready(function(){
 	urlq = QueryString.q;
 
   // display message, if any
-  if(msg !== '') { d3.select("#rtable").append('div').classed('msg', true).html(msg); }
+  // if(msg !== '') { d3.select("#rtable").append('div').classed('msg', true).html(msg); }
 
   // add papers to #rtable
 	var done = addPapers(10, false);
