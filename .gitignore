@@ -13,3 +13,5 @@ twitter.txt
 
 .vscode/
 geckodriver.log
+
+venv/
