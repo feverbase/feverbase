@@ -40,6 +40,8 @@ if __name__ == "__main__":
 
     print('Saving database with %d papers to %s' %
           (len(db), Config.db_path))
-    with open(Config.db_path, "w", encoding="utf-8") as f:
+
+    dirname = os.path.dirname(__file__)
+    with open(f'{dirname}/{Config.db_path}', "w", encoding="utf-8") as f:
         json.dump(db, f, ensure_ascii=False, indent=4)
 
