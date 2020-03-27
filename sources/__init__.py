@@ -16,5 +16,5 @@ def get_records():
 
     # sort the data and return it
     items = data.values()
-    items = sorted(items, key=lambda d: "" if not d["timestamp"] else d["timestamp"], reverse=True)
+    items = sorted(items, key=lambda d: "" if d["timestamp"] == None else d["timestamp"], reverse=True)
     return items
