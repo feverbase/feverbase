@@ -8,6 +8,7 @@ BASE_URL = "https://www.isrctn.com"
 QUERY_URL = "{BASE_URL}/search?q={query}"
 PAGINATE_QUERY = "&page={page_num}&searchType=basic-search"
 
+
 def to_iso8601(date):
     comps = date.split("/")
     return f"{comps[2]}-{comps[1]}-{comps[0]}"
@@ -32,18 +33,19 @@ def parse_plain_english_summary(summary):
     main_contact = summary.split(p8)[1]
 
     summary_data = {
-            "background_study_aims": background_study_aims,
-            "who_can_participate": who_can_participate,
-            "study_involves": study_involves,
-            "benefits_risks": benefits_risks,
-            "where_run_from": where_run_from,
-            "when_start_how_long": when_start_how_long,
-            "who_funding": who_funding,
-            "main_contact": main_contact
-            }
+        "background_study_aims": background_study_aims,
+        "who_can_participate": who_can_participate,
+        "study_involves": study_involves,
+        "benefits_risks": benefits_risks,
+        "where_run_from": where_run_from,
+        "when_start_how_long": when_start_how_long,
+        "who_funding": who_funding,
+        "main_contact": main_contact,
+    }
 
-    #pprint(summary_data)
+    # pprint(summary_data)
     return summary_data
+
 
 def find(query):
     data = {}
@@ -51,7 +53,7 @@ def find(query):
     url = QUERY_URL.format(BASE_URL=BASE_URL, query=query)
     page = requests.get(url)
     if page.status_code == 200:
-        soup = BeautifulSoup(page.content, 'html.parser')
+        soup = BeautifulSoup(page.content, "html.parser")
 
         results_number = soup.findAll("span", {"class": "Control_name"})
         if len(results_number) == 0:
@@ -60,16 +62,18 @@ def find(query):
             num_pages = int(results_number[1].text.split("of")[1].strip())
 
         for page_num in range(num_pages):
-            url = QUERY_URL.format(BASE_URL=BASE_URL, query=query) + PAGINATE_QUERY.format(page_num=page_num)
+            url = QUERY_URL.format(
+                BASE_URL=BASE_URL, query=query
+            ) + PAGINATE_QUERY.format(page_num=page_num)
             page = requests.get(url)
             if page.status_code == 200:
-                soup = BeautifulSoup(page.content, 'html.parser')
+                soup = BeautifulSoup(page.content, "html.parser")
                 my_lis = soup.findAll("li", {"class": "ResultsList_item"})
                 for result in my_lis:
-                    for link in result.find_all('a', href=True):
+                    for link in result.find_all("a", href=True):
                         isrctn_id = link.text.split(":")[0].strip()
                         title = link.text.split(":")[1].strip()
-                        link = link.get("href").split('?')[0]
+                        link = link.get("href").split("?")[0]
                         if link:
                             url = f"{BASE_URL}{link}"
                             page = requests.get(url)
@@ -88,23 +92,24 @@ def find(query):
 
                                 ps = soup.findAll("p")
                                 plain_english_summary = ps[0].text
-                                summar_data = parse_plain_english_summary(plain_english_summary)
-
+                                summar_data = parse_plain_english_summary(
+                                    plain_english_summary
+                                )
 
                                 data[url] = {
-                                        "id": isrctn_id,
-                                        "url": url,
-                                        "timestamp": last_edited,
-                                        "title": title,
-                                        "condition_category": condition_category,
-                                        "date_applied": date_applied,
-                                        "date_assigned": date_assigned,
-                                        "last_edited": last_edited,
-                                        "prospective_retrospective": prospective_retrospective,
-                                        "overall_trial_status": overall_trial_status,
-                                        "recruitment_status": recruitment_status,
-                                        "summary": summary_data,
-                                        }
+                                    "id": isrctn_id,
+                                    "url": url,
+                                    "timestamp": last_edited,
+                                    "title": title,
+                                    "condition_category": condition_category,
+                                    "date_applied": date_applied,
+                                    "date_assigned": date_assigned,
+                                    "last_edited": last_edited,
+                                    "prospective_retrospective": prospective_retrospective,
+                                    "overall_trial_status": overall_trial_status,
+                                    "recruitment_status": recruitment_status,
+                                    "summary": summary_data,
+                                }
                                 count += 1
 
     print(f"Fetched {count} results for {query}")
