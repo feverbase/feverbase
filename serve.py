@@ -261,8 +261,7 @@ def intmain():
   # papers = [db[pid] for pid in DATE_SORTED_PIDS] # precomputed
   # papers = papers_filter_version(papers, vstr)
   papers = db['data']
-  ctx = default_context(papers, render_format='recent',
-                        msg='Showing most recent papers:')
+  ctx = default_context(papers, render_format='recent')
   return render_template('main.html', **ctx)
 
 @app.route("/<request_pid>")
