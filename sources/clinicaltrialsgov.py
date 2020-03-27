@@ -8,7 +8,7 @@ FILENAME = "clinicaltrialsgov.json"
 POSTED_WITHIN_DAYS = 200  # posted within the last X days
 
 def find(term):
-    data = []
+    data = {}
 
     print(f"Fetching data for last {POSTED_WITHIN_DAYS} days...")
 
@@ -37,7 +37,7 @@ def find(term):
         added_ids.add(identifier)
 
         title = entry["title"]
-        url = entry["link"]
+        url = entry["link"].replace(f'cond={term}&', '')
         summary = entry["summary"]
 
         # published = entry['published_parsed']
@@ -52,9 +52,7 @@ def find(term):
             "url": url,
             "timestamp": iso,
         }
-        data.append(entry_dict)
-
-    data = sorted(data, key=lambda d: d["timestamp"], reverse=True)
+        data[url] = entry_dict
 
     print(f"Fetched {len(data)} results")
 

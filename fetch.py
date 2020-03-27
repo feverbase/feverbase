@@ -22,19 +22,19 @@ if __name__ == "__main__":
                         help='break out early if all returned query papers are already in db? 1=yes, 0=no')
     args = parser.parse_args()
 
-    # lets load the existing database to memory
-    try:
-        db = pickle.load(open(Config.db_path, 'rb'))
-    except Exception as e:
-        print('error loading existing database:')
-        print(e)
-        print('starting from an empty database')
-        db = {}
+    # # lets load the existing database to memory
+    # try:
+    #     db = pickle.load(open(Config.db_path, 'rb'))
+    # except Exception as e:
+    #     print('error loading existing database:')
+    #     print(e)
+    #     print('starting from an empty database')
+    #     db = {}
 
-    # -----------------------------------------------------------------------------
-    # main loop where we fetch the new results
-    print('database has %d entries at start' % (len(db), ))
-    num_added_total = 0
+    # # -----------------------------------------------------------------------------
+    # # main loop where we fetch the new results
+    # print('database has %d entries at start' % (len(db), ))
+    # num_added_total = 0
 
     db = {'data': sources.get_records()}
 

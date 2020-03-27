@@ -8,7 +8,7 @@ QUERY_URL = "{BASE_URL}/search?q={query}"
 PAGINATE_QUERY = "&page={page_num}&searchType=basic-search"
 
 def find(query):
-    data = []
+    data = {}
     count = 0
     url = QUERY_URL.format(BASE_URL=BASE_URL, query=query)
     page = requests.get(url)
@@ -39,11 +39,13 @@ def find(query):
 
                     for link in result.find_all('a', href=True):
                         title = link.text.split(":")[1].strip()
-                        link = link.get("href")
+                        link = link.get("href").split('?')[0]
+
                         if link:
-                            data.append({"url": f"{BASE_URL}{link}",
+                            url = f"{BASE_URL}{link}"
+                            data[url] = {"url": url,
                                 "timestamp": date,
-                                "title": title})
+                                "title": title}
                             count += 1
     print(f"Fetched {count} results for {query}")
     return data

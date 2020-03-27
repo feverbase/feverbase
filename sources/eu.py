@@ -12,7 +12,7 @@ QUERY_URL = "{BASE_URL}/ctr-search/search?query={query}"
 PAGINATE_QUERY = "&page={page_num}"
 
 def find(query):
-    data = []
+    data = {}
     count = 0
     url = QUERY_URL.format(BASE_URL=BASE_URL, query=query)
     page = requests.get(url, verify=False)
@@ -55,15 +55,17 @@ def find(query):
                         country = link.text
                         link = link.get("href")
                         if link:
-                            data.append(
-                                {
-                                    "url": f"{BASE_URL}{link}",
+                            url = f"{BASE_URL}{link}"
+                            data[url] = {
+                                    "url": url,
                                     "title": title,
                                     "country": country,
                                     "timestamp": date,
                                 }
-                            )
+                            
                             count += 1
+                print(f'Page {page_num} out of {num_pages} fetched for {query}')
+
     print(f"Fetched {count} results for {query}")
     
     return data
