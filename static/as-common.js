@@ -89,8 +89,9 @@ function addPapers(num, dynamic) {
   var base_ix = pointer_ix;
   for(var i=0;i<num;i++) {
     var ix = base_ix + i;
-    if(ix >= papers.length) {
-      if(!showed_end_msg) {
+    if (ix >= papers.length) {
+      // dont show this for now
+      if(false && !showed_end_msg) {
         if (ix >= numresults){
           var msg = 'Results complete.';
         } else {
