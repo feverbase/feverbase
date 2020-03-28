@@ -92,9 +92,12 @@ def find(query):
 
                                 ps = soup.findAll("p")
                                 plain_english_summary = ps[0].text
-                                summar_data = parse_plain_english_summary(
+                                summary_data = parse_plain_english_summary(
                                     plain_english_summary
                                 )
+                                cleaned_ps = [p.text.strip().rstrip() for p in ps[1:]]
+                                # TODO: Get all additional data
+                                # example url: https://www.isrctn.com/ISRCTN51287266?q=covid&filters=&sort=&offset=4&totalResults=4&page=1&pageSize=10&searchType=basic-search
 
                                 data[url] = {
                                     "id": isrctn_id,
