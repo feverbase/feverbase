@@ -3,6 +3,7 @@ import requests
 import utils
 from pprint import pprint
 
+SOURCE = "isrctn.com"
 FILENAME = "isrctn.json"
 BASE_URL = "https://www.isrctn.com"
 QUERY_URL = "{BASE_URL}/search?q={query}"
@@ -378,3 +379,7 @@ def find(query):
 
     print(f"Fetched {count} results for {query}")
     return data
+
+
+def translate(info):
+    return info
