@@ -308,7 +308,7 @@ def find(query):
                                     "recruitment_status": recruitment_status,
                                     "summary": summary_data,
                                     "primary_contact": primary_contact,
-                                    "additional_contacts": additional_contacts,
+                                    #"additional_contacts": additional_contacts,
                                     "numbers": {
                                         "eudract_number": eudract_number,
                                         "clinical_trials_gov_number": clinical_trials_gov_number,
@@ -348,7 +348,7 @@ def find(query):
                                     },
                                     "locations": {
                                         "countries_of_recruitment": countries_of_recruitment,
-                                        "trial_participation_centers": trial_participation_centers,
+                                        #"trial_participation_centers": trial_participation_centers,
                                     },
                                     "sponsor": {
                                         "organization": organization,
