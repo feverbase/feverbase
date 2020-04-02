@@ -296,6 +296,7 @@ def find(query):
 
                                 data[url] = {
                                     "id": isrctn_id,
+                                    "SOURCE": SOURCE,
                                     "url": url,
                                     "timestamp": last_edited,
                                     "title": title.text,
