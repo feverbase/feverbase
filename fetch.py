@@ -8,8 +8,6 @@ import urllib.request
 
 import sources
 
-from utils import Config, safe_pickle_dump
-
 if __name__ == "__main__":
 
     # parse input arguments
@@ -47,8 +45,6 @@ if __name__ == "__main__":
 
     db = {"data": sources.get_records()}
 
-    print("Saving database with %d trials to %s" % (len(db["data"]), Config.db_path))
-
     dirname = os.path.dirname(os.path.abspath(__file__))
-    with open(f"{dirname}/{Config.db_path}", "w", encoding="utf-8") as f:
+    with open(f"{dirname}/db.json", "w", encoding="utf-8") as f:
         json.dump(db, f, ensure_ascii=False, indent=4)
