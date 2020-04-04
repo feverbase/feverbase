@@ -1,621 +1,1516 @@
 {
     "data": [
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=49420",
-            "title": "A multicenter, single-blind, randomized controlled clinical trial for chloroquine phosphate in the treatment of novel coronavirus pneumonia (COVID-19)",
-            "affiliation": "Beijing you'an Hospital, Capital Medical University",
-            "timestamp": "2020-03-24"
+            "title": "A Multicenter Observational Study About the Clinical Characteristics and Long-term Prognosis of 2019-nCoV Infection in Children",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04270383",
+            "timestamp": "2020-02-17"
         },
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=51437",
-            "title": "Effectiveness and safety of hydroxychloroquine sulfate in the preventive treatment of novel coronavirus pneumonia (COVID-19)",
-            "affiliation": "Shanghai Public Health Clinical Center",
-            "timestamp": "2020-03-23"
+            "title": "Immunoregulatory Therapy for 2019-nCoV-induced Severe Pneumonia Patients",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04268537",
+            "timestamp": "2020-02-13"
         },
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=51329",
-            "title": "A Randomized Controlled Trial for Favipiravir Tablets Combine With Chloroquine Phosphate in the Treatment of Novel Coronavirus Pneumonia (COVID-19)",
-            "affiliation": "Beijing Chao-yang Hospital, Capital Medical University",
-            "timestamp": "2020-03-20"
+            "title": "A Phase 3 Randomized, Double-blind, Placebo-controlled Multicenter Study to Evaluate the Efficacy and Safety of Remdesivir in Hospitalized Adult Patients With Mild and Moderate 2019-nCoV Respiratory Disease.",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04252664",
+            "timestamp": "2020-02-05"
         },
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=50843",
-            "title": "Randomized controlled trial for Chloroquine Phosphate in the Treatment of novel coronavirus pneumonia (COVID-19)",
-            "affiliation": "Zhongnan Hospital of Wuhan University",
-            "timestamp": "2020-03-11"
+            "title": "A Randomized, Open-label, Controlled, Single-center Study to Evaluate the Efficacy of Intravenous Immunoglobulin Therapy in Patients With Severe 2019- nCoV Pneumonia",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04261426",
+            "timestamp": "2020-02-07"
         },
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=50279",
-            "title": "Cancelled by the investigator                               Efficacy and safety of chloroquine phosphate inhalation combined with standard therapy in the treatment of novel coronavirus pneumonia (COVID-19)",
-            "affiliation": "Harbin infectious diseases hospital",
-            "timestamp": "2020-03-01"
+            "title": "An Open, Prospective/Retrospective, Randomized Controlled Cohort Study to Compare the Efficacy of Three Antiviral Drugs(Abidol Hydrochloride, Oseltamivir and Lopinavir/Ritonavir) in the Treatment of 2019-nCoV Pneumonia.",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04255017",
+            "timestamp": "2020-02-05"
         },
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=49869",
-            "title": "A prospective, open label, randomized, control trial for chloroquine or hydroxychloroquine in patients with mild and common novel coronavirus pulmonary (COVIP-19)",
-            "affiliation": "Zhongshan Hospital Affiliated to Xiamen University",
-            "timestamp": "2020-02-22"
+            "title": "An Open, Prospective/Retrospective, Randomized Controlled Cohort Study to Compare the Efficacy of Two Therapeutic Schemes(Abidol Hydrochloride,Abidol Hydrochloride Combined With Interferon Atomization)in the Treatment of 2019-nCoV Pneumonia.",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04254874",
+            "timestamp": "2020-02-05"
         },
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=49806",
-            "title": "Cancelled by the investigator                              A randomized, double-blind, parallel, controlled trial for comparison of phosphoric chloroquine combined with standard therapy and standard therapy in mild/common patients with novel coronavirus pneumonia (COV",
-            "affiliation": "The Sixth Affiliated Hospital of Guangzhou Medical University (Qingyuan People's Hospital)",
+            "title": "A Randomized,Open,Controlled Small Sample Clinical Study to Evaluate the Efficacy and Safety of ASC09/Ritonavir Compound Tablets and Ritonavir for 2019-nCoV Pneumonia",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04261270",
+            "timestamp": "2020-02-07"
+        },
+        {
+            "title": "An Open, Prospective/Retrospective, Randomized Controlled Cohort Study to Compare the Efficacy of Different Hormone Doses in the Treatment of 2019-nCoV Severe Pneumonia",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04263402",
+            "timestamp": "2020-02-10"
+        },
+        {
+            "title": "Prognostic Characteristics Difference Between the Hypertension Patients With and Without ACEI Treatment When Suffered With 2019-nCoV Infection in China",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04272710",
+            "timestamp": "2020-02-17"
+        },
+        {
+            "title": "A Randomized, Placebo-Controlled, Multi-Center Study on the Efficacy and Safety of Fuzheng Huayu on Pulmonary Fibrosis Due to 2019-nCoV",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04279197",
             "timestamp": "2020-02-21"
         },
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=49574",
-            "title": "A prospective, randomized, open label, controlled trial for chloroquine and hydroxychloroquine in patients with severe novel coronavirus pneumonia (COVID-19)",
-            "affiliation": "Zhongshan Hospital Affiliated to Xiamen University",
-            "timestamp": "2020-02-18"
+            "title": "CT Scores Predict Mortality in 2019-nCoV Pneumonia",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04284046",
+            "timestamp": "2020-02-25"
         },
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=49218",
-            "title": "Clinical Study of Chloroquine Phosphate in the Treatment of Severe Novel Coronavirus Pneumonia (COVID-19)",
-            "affiliation": "Zhongnan Hospital of Wuhan University",
-            "timestamp": "2020-02-18"
-        },
-        {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=49592",
-            "title": "Single arm study for exploration of chloroquine phosphate aerosol inhalation in the treatment of novel coronavirus pneumonia (COVID-19)",
-            "affiliation": "The First Hospital of Jilin University",
-            "timestamp": "2020-02-18"
-        },
-        {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=49612",
-            "title": "A Single-blind, Randomized, Controlled Clinical Trial for Chloroquine Phosphate in the treatment of Novel Coronavirus Pneumonia 2019 (COVID-19) ",
-            "affiliation": "HwaMei Hospital, University of Chinese Academy of Sciences",
-            "timestamp": "2020-02-16"
-        },
-        {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=49607",
-            "title": "A Single-arm Clinical Trial for Chloroquine Phosphate in the treatment of Novel Coronavirus Pneumonia 2019 (COVID-19)",
-            "affiliation": "HwaMei Hospital, University of Chinese Academy of Sciences",
-            "timestamp": "2020-02-16"
-        },
-        {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=49536",
-            "title": "Evaluation the Efficacy and Safety of Hydroxychloroquine Sulfate in Comparison with Phosphate Chloroquine in Mild and Commen Patients with Novel Coronavirus Pneumonia (COVID-19): a Randomized, Open-label, Parallel, Controlled Trial ",
-            "affiliation": "Peking University Third Hospital",
-            "timestamp": "2020-02-16"
-        },
-        {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=49482",
-            "title": "Evaluation the Efficacy and Safety of Hydroxychloroquine Sulfate in Comparison with Phosphate Chloroquine in Severe Patients with Novel Coronavirus Pneumonia (COVID-19): a Randomized, Open-Label, Parallel, Controlled Trial ",
-            "affiliation": "Peking University Third Hospital",
-            "timestamp": "2020-02-16"
-        },
-        {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=49524",
-            "title": "Hydroxychloroquine treating novel coronavirus pneumonia (COVID-19): a randomized controlled, open label, multicenter trial",
-            "affiliation": "Ruijin Hospital, Shanghai Jiaotong University School of Medicine",
-            "timestamp": "2020-02-15"
-        },
-        {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=49495",
-            "title": "Cancelled by the investigator          A randomized, double-blind, parallel, controlled trial for comparison of phosphoric chloroquine combined with standard therapy and standard therapy in mild/common patients with novel coronavirus pneumonia (COVID-19)",
-            "affiliation": "Jingzhou Central Hospital",
-            "timestamp": "2020-02-15"
-        },
-        {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=49481",
-            "title": "Cancelled by the investigator            A randomized, double-blind, parallel, controlled trial for comparison of phosphoric chloroquine combined with standard therapy and standard therapy in serious/critically ill patients with novel coronavirus pneumonia (COVID-19)",
-            "affiliation": "Jingzhou Central Hospital",
-            "timestamp": "2020-02-14"
-        },
-        {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=49428",
-            "title": "A prospective, randomized, open-label, controlled clinical study to evaluate the preventive effect of hydroxychloroquine on close contacts after exposure to the Novel Coronavirus Pneumonia (COVID-19) ",
-            "affiliation": "Renmin Hospital of Wuhan University",
-            "timestamp": "2020-02-14"
-        },
-        {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=49400",
-            "title": "Cancelled due to lack of patient                Clinical study on the safety and effectiveness of Hydroxychloroquine Sulfate tablets in the treatment of patients with novel coronavirus pneumonia (COVID-19)",
-            "affiliation": "The First Affiliated Hospital of Chongqing Medical University",
-            "timestamp": "2020-02-12"
-        },
-        {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=49369",
-            "title": "Cancelled due to lack of patient                              A study for the efficacy of hydroxychloroquine for mild and moderate COVID-19 infectious diseases",
-            "affiliation": "The Second Affiliated Hospital of Chongqing Medical University",
-            "timestamp": "2020-02-12"
-        },
-        {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=49263",
-            "title": "Efficacy of Chloroquine and Lopinavir/ Ritonavir in mild/general novel coronavirus (CoVID-19) infections: a prospective, open-label, multicenter randomized controlled clinical study",
-            "affiliation": "The Fifth Affiliated Hospital Sun Yat-Sen University",
+            "title": "An Exploratory Clinical Study on the Treatment of Acute Severe 2019-nCoV Pneumonia With Immunoglobulin From Cured 2019-nCoV Pneumonia Patients",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04264858",
             "timestamp": "2020-02-11"
         },
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=49145",
-            "title": "A prospective, open-label, multiple-center study for the efficacy of chloroquine phosphate in patients with novel coronavirus pneumonia (COVID-19)",
-            "affiliation": "The Fifth Affiliated Hospital of Sun Yat-Sen University",
+            "title": "Washed Microbiota Transplantation for Patients With 2019-nCoV Infection: a Randomized, Double-blind, Placebo-controlled Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04251767",
+            "timestamp": "2020-02-05"
+        },
+        {
+            "title": "Assessment of Covid-19 Infection Rates in Healthcare Workers Using a Desynchronization Strategy",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04333862",
+            "timestamp": "2020-04-03"
+        },
+        {
+            "title": "Application of Iron Chelator (Desferal) to Reduce the Severity of COVID-19 Manifestations",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04333550",
+            "timestamp": "2020-04-03"
+        },
+        {
+            "title": "Randomized, Open, Multicenter Study on the Efficacy and Safety of Arbidol Hydrochloride Tablets in Treating Pneumonia in Patients Infected With Novel Coronavirus (2019-ncov).",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04260594",
+            "timestamp": "2020-02-07"
+        },
+        {
+            "title": "Effectiveness of Hydroxychloroquine in Covid-19 Patients: A Single Centred Single-blind RCT Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04328272",
+            "timestamp": "2020-03-31"
+        },
+        {
+            "title": "COVID-19 Public Image Registry",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04331860",
+            "timestamp": "2020-04-02"
+        },
+        {
+            "title": "COVID-19 Symptom Tracker",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04331509",
+            "timestamp": "2020-04-02"
+        },
+        {
+            "title": "Preventing Cardiac Complication of COVID-19 Disease With Early Acute Coronary Syndrome Therapy: A Randomised Controlled Trial.",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04333407",
+            "timestamp": "2020-04-03"
+        },
+        {
+            "title": "Plasma From Donors Recovered From New Coronavirus 2019 As Therapy For Critical Patients With Covid-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04321421",
+            "timestamp": "2020-03-25"
+        },
+        {
+            "title": "Phase 1 Study to Evaluate the Safety of Convalescent Plasma as an Adjuvant Therapy in Patients With SARS-CoV-2 Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04333355",
+            "timestamp": "2020-04-03"
+        },
+        {
+            "title": "A Randomized, Double-blind, Placebo-controlled Trial to Assess the Efficacy and Safety of Oral Hydroxychloroquine for the Treatment of SARS-CoV-2 Positive Patients for the Prevention of Severe COVID-19 Disease",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04329611",
+            "timestamp": "2020-04-01"
+        },
+        {
+            "title": "The Efficacy and Safety of Huai er in the Adjuvant Treatment of COVID-19: a Prospective, Multicenter, Randomized, Parallel Controlled Clinical Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04291053",
+            "timestamp": "2020-03-02"
+        },
+        {
+            "title": "A Randomized, Open Label, Controlled Clinical Study to Evaluate the Recombinant Human Angiotensin-converting Enzyme 2 (rhACE2) in Adult Patients With COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04287686",
+            "timestamp": "2020-02-27"
+        },
+        {
+            "title": "DAS181 for Severe COVID-19: Compassionate Use",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04324489",
+            "timestamp": "2020-03-27"
+        },
+        {
+            "title": "A PRAGMATIC ADAPTIVE OPEN LABEL, RANDOMIZED PHASE II/III MULTICENTER STUDY OF IFX-1 IN PATIENTS WITH SEVERE COVID-19 PNEUMONIA",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04333420",
+            "timestamp": "2020-04-03"
+        },
+        {
+            "title": "A Multi Center Randomized Open Label Trial on the Safety and Efficacy of Chloroquine for the Treatment of Hospitalized Adults With Laboratory Confirmed SARS-CoV-2 Infection in Vietnam",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04328493",
+            "timestamp": "2020-03-31"
+        },
+        {
+            "title": "Prevalence of SARS -Cov2 Carriage in Asymptomatic and Mildly-symptomatic Children, a Cross-sectional, Prospective, Multicentre, Observational Study in Primary Care.",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04318431",
+            "timestamp": "2020-03-24"
+        },
+        {
+            "title": "An Open Clinical Trial to Evaluate Ganovo（Danoprevir ） Combined With Ritonavir in the Treatment of Novel Coronavirus（2019-nCoV） Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04291729",
+            "timestamp": "2020-03-02"
+        },
+        {
+            "title": "Anti-inflammatory/Antioxidant Oral Nutrition Supplementation on the Cytokine Storm and Progression of COVID-19: A Randomized Controlled Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04323228",
+            "timestamp": "2020-03-26"
+        },
+        {
+            "title": "Hydroxychloroquine vs. Azithromycin for Hospitalized Patients With Suspected or Confirmed COVID-19 (HAHPS): A Prospective Pragmatic Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04329832",
+            "timestamp": "2020-04-01"
+        },
+        {
+            "title": "Efficacy of Addition of Naproxen in the Treatment of Critically Ill Patients Hospitalized for COVID-19 Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04325633",
+            "timestamp": "2020-03-27"
+        },
+        {
+            "title": "Multicenter Study on the Efficacy and Tolerability of Tocilizumab in the Treatment of Patients With COVID-19 Pneumonia",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04317092",
+            "timestamp": "2020-03-20"
+        },
+        {
+            "title": "A Retrospective Cohort Study to Evaluate the Efficacy and Safety of Traditional Chinese Medicine as an Adjuvant Treatment for Patients With Severe COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04323332",
+            "timestamp": "2020-03-26"
+        },
+        {
+            "title": "Clinical Trial on Regularity of TCM Syndrome and Differentiation Treatment of COVID-19 in Jiangsu Province",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04306497",
+            "timestamp": "2020-03-13"
+        },
+        {
+            "title": "A Phase I/II Study of Universal Off-the-shelf NKG2D-ACE2 CAR-NK Cells Secreting IL15 Superagonist and GM-CSF-neutralizing scFv for Therapy of COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04324996",
+            "timestamp": "2020-03-27"
+        },
+        {
+            "title": "Chemoprophylaxis of SARS-CoV-2 Infection (COVID-19) in Exposed Healthcare Workers : A Randomized Double-blind Placebo-controlled Clinical Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04328285",
+            "timestamp": "2020-03-31"
+        },
+        {
+            "title": "A Trial of Ciclesonide Alone or in Combination With Hydroxychloroquine for Adults With Mild COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04330586",
+            "timestamp": "2020-04-01"
+        },
+        {
+            "title": "Epidemiological Observation From a Smartphone Self-monitoring Application for Suspected COVID-19 Patients' Triage",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04331171",
+            "timestamp": "2020-04-02"
+        },
+        {
+            "title": "Safety and Immunity Evaluation of A Covid-19 Coronavirus Artificial Antigen Presenting Cell Vaccine",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04299724",
+            "timestamp": "2020-03-09"
+        },
+        {
+            "title": "An Adaptive Phase 2/3, Randomized, Double-Blind, Placebo-Controlled Study Assessing Efficacy and Safety of Sarilumab for Hospitalized Patients With COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04315298",
+            "timestamp": "2020-03-19"
+        },
+        {
+            "title": "The COVID-19 Mobile Health Study, a Large-scale Clinical Observational Study Using nCapp",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04275947",
+            "timestamp": "2020-02-19"
+        },
+        {
+            "title": "A Phase 2 Randomized, Open Label Study of a Single Dose of Peginterferon Lambda-1a Compared With Placebo in Outpatients With Mild COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04331899",
+            "timestamp": "2020-04-02"
+        },
+        {
+            "title": "A Prospective, Randomized, Factorial Design, Interventional Study to Compare the Safety and Efficacy of Combinations of Blockade of Interleukin-6 Pathway and Interleukin-1 Pathway to Best Standard of Care in Improving Oxygenation and Short- and Long-term Outcome of COVID-19 Patients With Acute Hypoxic Respiratory Failure and Systemic Cytokine Release Syndrome",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04330638",
+            "timestamp": "2020-04-01"
+        },
+        {
+            "title": "Treatment of COVID-19 Patients Using Wharton's Jelly-Mesenchymal Stem Cells",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04313322",
+            "timestamp": "2020-03-18"
+        },
+        {
+            "title": "Evaluating the Efficacy and Safety of Bromhexine Hydrochloride Tablets Combined With Standard Treatment/ Standard Treatment in Patients With Suspected and Mild Novel Coronavirus Pneumonia (COVID-19)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04273763",
+            "timestamp": "2020-02-18"
+        },
+        {
+            "title": "Clinical Study of Tetrandrine Tablets Adjuvant Treatment With COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04308317",
+            "timestamp": "2020-03-16"
+        },
+        {
+            "title": "A Prospective, Randomized, Open-label, Interventional Study to Investigate the Efficacy of Sargramostim (Leukine®) in Improving Oxygenation and Short- and Long-term Outcome of COVID-19 (Corona Virus Disease) Patients With Acute Hypoxic Respiratory Failure.",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04326920",
+            "timestamp": "2020-03-30"
+        },
+        {
+            "title": "Open Label Single-Center Study of Emergency Hyperbaric Oxygen for Respiratory Distress in Patients With COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04332081",
+            "timestamp": "2020-04-02"
+        },
+        {
+            "title": "A Pilot Study of Sildenafi in the Treatment of COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04304313",
+            "timestamp": "2020-03-11"
+        },
+        {
+            "title": "Sars-CoV2 Seroconversion Among Medical and Paramedical Staff in Emergency, ICU and Infectious Disease Services During the 2020 Epidemic",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04304690",
+            "timestamp": "2020-03-11"
+        },
+        {
+            "title": "The Use of Focused Lung Ultrasound in Patients Suspected of COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04327674",
+            "timestamp": "2020-03-31"
+        },
+        {
+            "title": "Azithromycin for Prevention of Disease Progression in Patients With Mild or Moderate COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04332107",
+            "timestamp": "2020-04-02"
+        },
+        {
+            "title": "The PATCH Trial (Prevention And Treatment of COVID-19 With Hydroxychloroquine)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04329923",
+            "timestamp": "2020-04-01"
+        },
+        {
+            "title": "A Multi-centre, Adaptive, Randomized, Open-label, Controlled Clinical Trial of the Safety and Efficacy of Investigational Therapeutics for the Treatment of COVID-19 in Hospitalized Patients",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04330690",
+            "timestamp": "2020-04-01"
+        },
+        {
+            "title": "ACE Inhibitors, Angiotensin II Type-I Receptor Blockers and Severity of COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04318418",
+            "timestamp": "2020-03-24"
+        },
+        {
+            "title": "Critically Ill Patients With COVID-19 in Hong Kong: a Multicentre Observational Cohort Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04285801",
+            "timestamp": "2020-02-26"
+        },
+        {
+            "title": "Treatment of Non-severe Confirmed Cases of COVID-19 and Chemoprophylaxis of Their Contacts as Prevention Strategy: a Cluster Randomized Clinical Trial (PEP CoV-2 Study)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04304053",
+            "timestamp": "2020-03-11"
+        },
+        {
+            "title": "Human Umbilical Cord Mesenchymal Stem Cells Treatment for Pneumonia Patients Infected by 2019 Novel Coronavirus",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04293692",
+            "timestamp": "2020-03-03"
+        },
+        {
+            "title": "Phase I/II Multicenter Trial of Lentiviral Minigene Vaccine (LV-SMENP) of Covid-19 Coronavirus",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04276896",
+            "timestamp": "2020-02-19"
+        },
+        {
+            "title": "Impact of Social Media on Knowledge Dissemination Between Physicians During COVID-19 Virus Outbreak",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04319315",
+            "timestamp": "2020-03-24"
+        },
+        {
+            "title": "Treatment of Moderate to Severe Coronavirus Disease (COVID-19) in Hospitalized Patients",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04321993",
+            "timestamp": "2020-03-26"
+        },
+        {
+            "title": "Retrospective Study of Myocardial Damage in COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04312464",
+            "timestamp": "2020-03-18"
+        },
+        {
+            "title": "GO2 PEEP Study: The Use of a Bidirectional Oxygenation Valve in the Management of Pulmonary Complications of COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04331366",
+            "timestamp": "2020-04-02"
+        },
+        {
+            "title": "Early Institution of Tocilizumab Titration in Non-Critical Hospitalized COVID-19 Pneumonitis",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04331795",
+            "timestamp": "2020-04-02"
+        },
+        {
+            "title": "A Prospective Clinical Study of Hydroxychloroquine in the Prevention of SARS- CoV-2 (COVID-19) Infection in Healthcare Workers After High-risk Exposures",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04333225",
+            "timestamp": "2020-04-03"
+        },
+        {
+            "title": "Non-invasive Detection of Pneumonia in Context of Covid-19 Using Gas Chromatography - Ion Mobility Spectrometry (GC-IMS)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04329507",
+            "timestamp": "2020-04-01"
+        },
+        {
+            "title": "Treatment of Severe Acute Respiratory Syndrome Caused by COVID-19 With Ruxolitinib",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04334044",
+            "timestamp": "2020-04-03"
+        },
+        {
+            "title": "Safety and Efficiency of Mesenchymal Stem Cell in Treating Pneumonia Patients Infected With 2019 Novel Coronavirus",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04252118",
+            "timestamp": "2020-02-05"
+        },
+        {
+            "title": "A Phase 2 Multiple Dose Study to Evaluate the Efficacy and Safety of PUL-042 Inhalation Solution in Reducing COVID-19 Infection in Adults Exposed to COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04313023",
+            "timestamp": "2020-03-18"
+        },
+        {
+            "title": "Reducing Health Care Workers Absenteeism in SARS-CoV-2 Pandemic by Enhanced Trained Immune Responses Through Bacillus Calmette-Guérin Vaccination, a Randomized Controlled Trial.",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04328441",
+            "timestamp": "2020-03-31"
+        },
+        {
+            "title": "Randomized Controlled Clinical Trials of Lopinavir/Ritonavir or Hydroxychloroquine in Patients With Mild Coronavirus Disease (COVID-19)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04307693",
+            "timestamp": "2020-03-13"
+        },
+        {
+            "title": "Phase 2, Randomized, Open-label Study to Compare Efficacy and Safety of Siltuximab vs. Corticosteroids in Hospitalized Patients With COVID19 Pneumonia",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04329650",
+            "timestamp": "2020-04-01"
+        },
+        {
+            "title": "Hydroxychloroquine for the Treatment of Patients With Mild to Moderate COVID-19 to Prevent Progression to Severe Infection or Death",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04323631",
+            "timestamp": "2020-03-26"
+        },
+        {
+            "title": "Pre-Exposure Prophylaxis With Hydroxychloroquine for High-Risk Healthcare Workers During the COVID-19 Pandemic: A Unicentric, Double-Blinded Randomized Controlled Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04331834",
+            "timestamp": "2020-04-02"
+        },
+        {
+            "title": "Evaluation of Efficacy of Pharmacotherapy Treatment of COVID- 19 Infection Using Oral Levamisole and Formoterol+Budesonide Inhaler and Comparison of This Treatment Protocol With Standard National Treatment of the Disease",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04331470",
+            "timestamp": "2020-04-02"
+        },
+        {
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Severe COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04292899",
+            "timestamp": "2020-03-03"
+        },
+        {
+            "title": "A Phase 2 Multiple Dose Study to Evaluate the Efficacy and Safety of PUL-042 Inhalation Solution in Reducing the Severity of COVID-19 in Adults Positive for SARS-CoV-2 Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04312997",
+            "timestamp": "2020-03-18"
+        },
+        {
+            "title": "Open, Multicentric, Non Randomized, Exploratory Clinical Trial to Assess the Efficacy and Safety of Hydroxychloroquine and Azithromycin for the Treatment of Acute Respiratory Syndrome (COVID-19) Caused by SARS-CoV-2 Virus",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04329572",
+            "timestamp": "2020-04-01"
+        },
+        {
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Moderate COVID-19 Compared to Standard of Care Treatment",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04292730",
+            "timestamp": "2020-03-03"
+        },
+        {
+            "title": "Evaluation of Covid 19 Knowledge Anxiety and Expectation Levels of Turkish Physicians, Survey Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04327531",
+            "timestamp": "2020-03-31"
+        },
+        {
+            "title": "A Phase 2/3, Randomized, Open-label, Parallel Group, 3-arm, Multicenter Study Investigating the Efficacy and Safety of Intravenous Administrations of Emapalumab, an Anti-interferon Gamma (Anti-IFNγ) Monoclonal Antibody, and Anakinra, an Interleukin-1(IL-1) Receptor Antagonist, Versus Standard of Care, in Reducing Hyper-inflammation and Respiratory Distress in Patients With SARS-CoV-2 Infection.",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04324021",
+            "timestamp": "2020-03-27"
+        },
+        {
+            "title": "A Study of Hydroxychloroquine as Post Exposure Prophylaxis for SARS-CoV-2(HOPE Trial)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04330144",
+            "timestamp": "2020-04-01"
+        },
+        {
+            "title": "Hydroxychloroquine Treatment for Severe COVID-19 Respiratory Disease: Randomised Clinical Trial (HYDRA Trial)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04315896",
+            "timestamp": "2020-03-20"
+        },
+        {
+            "title": "Use of Ascorbic Acid in Patients With COVID 19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04323514",
+            "timestamp": "2020-03-26"
+        },
+        {
+            "title": "An Observational Case-control Study of the Use of Siltuximab (SYLVANT) in Patients Diagnosed With COVID-19 Infection Who Have Developed Serious Respiratory Complications",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04322188",
+            "timestamp": "2020-03-26"
+        },
+        {
+            "title": "A Phase 3 Randomized, Double-blind, Placebo-controlled, Multicenter Study to Evaluate the Efficacy and Safety of Remdesivir in Hospitalized Adult Patients With Severe 2019-nCoVRespiratory Disease.",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04257656",
             "timestamp": "2020-02-06"
         },
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=48880",
-            "title": "Therapeutic effect of hydroxychloroquine on novel coronavirus pneumonia (COVID-19)",
-            "affiliation": "Renmin Hospital of Wuhan University",
-            "timestamp": "2020-02-04"
+            "title": "Predictors of Respiratory Failure Requiring ICU Admission Among Hospitalized Patients With SARS-Cov-2 Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04316949",
+            "timestamp": "2020-03-20"
         },
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=48968",
-            "title": "Study for the efficacy of chloroquine in patients with novel coronavirus pneumonia (COVID-19)",
-            "affiliation": "Sun Yat sen Memorial Hospital of Sun Yat sen University",
-            "timestamp": "2020-02-03"
+            "title": "A Pilot Study of Human Amniotic Fluid for COVID19 Associated Respiratory Failure",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04319731",
+            "timestamp": "2020-03-24"
         },
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=44890",
-            "title": "Efficacy of hydroxychloroquine pretreatment on improving pregnancy outcome in patients with polycystic ovary syndrome",
-            "affiliation": "International Peace Maternal and Child Health Hospital",
-            "timestamp": "2019-10-26"
+            "title": "The Efficacy and Safety of Bevacizumab in Severe or Critical Patients With COVID-19--a Multicenter Randomized Controlled Clinical Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04305106",
+            "timestamp": "2020-03-12"
         },
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=25808",
-            "title": "The efficacy and safety of low-dose glucocorticoids combined withmethotrexate and hydroxychloroquine in the treatment of early rheumatoid arthritis: a randomized, double-blinded, controlled trial",
-            "affiliation": "Central Hospital of Jinhua",
-            "timestamp": "2019-09-22"
+            "title": "Exploratory Clinical Study to Assess the Efficacy of NestCell® Mesenchymal Stem Cell to Treat Patients With Severe COVID-19 Pneumonia",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04315987",
+            "timestamp": "2020-03-20"
         },
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=36535",
-            "title": "A randomized controlled trial for hydroxychloroquine sulfate in the treatment of idiopathic membranous nephropathy",
-            "affiliation": "Nephrology Division, First  Hospital  Affiliated to Army Medical University",
-            "timestamp": "2019-03-08"
+            "title": "Efficacy of Dexamethasone Treatment for Patients With ARDS Caused by COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04325061",
+            "timestamp": "2020-03-27"
         },
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=19887",
-            "title": "A multicenter, randomized, double-blind, double-mock test for the efficacy and safety of hydroxychloroquine in the treatment of rosacea",
-            "affiliation": "Central South University Xiangya Hospital",
-            "timestamp": "2017-08-02"
+            "title": "Expanded Access Treatment Protocol: Remdesivir (RDV; GS-5734) for the Treatment of SARS-CoV2 (CoV) Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04323761",
+            "timestamp": "2020-03-27"
         },
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=17972",
-            "title": "The effect of the treatment with hydroxychloroquine or compound glycyrrhisim on the blood glucose of patients with oral lichen planus companying diabetes mellitus",
-            "affiliation": "Shanghai Ninth People's Hospital, Shanghai Jiao Tong University, School of Medicine",
-            "timestamp": "2017-02-13"
+            "title": "Efficacy and Safety of Tocilizumab in the Treatment of Patients With Respiratory Distress Syndrome and Cytokine Release Syndrome Secondary to COVID-19: a Proof of Concept Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04332913",
+            "timestamp": "2020-04-03"
         },
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=10178",
-            "title": "Prospective, Randomized, placebo-cOntrolled, double-blind, MultIcenter, parallel group Study to assess the Efficacy and safety of hydroxychloroquine in chinese patients with primary Sjogren's Syndrome",
-            "affiliation": "Peking Union Medical College Hospital",
-            "timestamp": "2013-11-20"
+            "title": "A Randomized, Double-Blind, Placebo-Controlled, Multicenter Study to Evaluate the Safety and Efficacy of Tocilizumab in Patients With Severe COVID-19 Pneumonia",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04320615",
+            "timestamp": "2020-03-25"
         },
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=5311",
-            "title": "Hydroxychloroquine in the treatment of the lupus nephritis",
-            "affiliation": "the Affiliated Hospital of Guangdong Medical College",
-            "timestamp": "2013-11-28"
+            "title": "The Efficacy and Safety of Thalidomide in the Adjuvant Treatment of Moderate New Coronavirus (COVID-19) Pneumonia: a Prospective, Multicenter, Randomized, Double-blind, Placebo, Parallel Controlled Clinical Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04273529",
+            "timestamp": "2020-02-18"
         },
         {
-            "SOURCE": "chictr.org.cn",
-            "url": "http://www.chictr.org.cn/showprojen.aspx?proj=7466",
-            "title": "An Open-Label, Randomized-Sequence, Single-Dose, Parallel Study of Generic and Branded Hydroxychloroquine Sulfate Tablet in Healthy Chinese Male Volunteers",
-            "affiliation": "Shanghai Xuhui Central Hospital",
-            "timestamp": "2012-04-06"
+            "title": "The Efficacy and Safety of Thalidomide Combined With Low-dose Hormones in the Treatment of Severe New Coronavirus (COVID-19) Pneumonia: a Prospective, Multicenter, Randomized, Double-blind, Placebo, Parallel Controlled Clinical Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04273581",
+            "timestamp": "2020-02-18"
         },
         {
-            "SOURCE": "clinicaltrials.gov",
-            "ID": "NCT04323527",
-            "URL": "https://clinicaltrials.gov/ct2/show/NCT04323527",
-            "SCRAPE_URL": "https://clinicaltrials.gov/ct2/show/record/NCT04323527",
-            "First Submitted Date": "March 19, 2020",
-            "First Posted Date": "March 26, 2020",
-            "Last Update Posted Date": "March 26, 2020",
-            "Actual Study Start Date": "March 23, 2020",
-            "Estimated Primary Completion Date": "August 31, 2020   (Final data collection date for primary outcome measure)",
-            "Current Primary Outcome Measures": "Absolute mortality at day 28 [ Time Frame: 28 days after drug first dose ]number of deaths at day 28 between groups compared",
-            "Original Primary Outcome Measures": "Same as current",
-            "Change History": "No Changes Posted",
-            "Current Secondary Outcome Measures": "Absolute mortality on days 7 and 14 [ Time Frame: 7 and 14 days after first dose ]number of deaths at days 7 and 14 between groups compared\nImprovement in overall subject's clinical status assessed in standardized clinical questionnaires on days 14 and 28 [ Time Frame: 14 and 28 days after first dose ]clinical status\nImprovement in daily clinical status assessed in standardized clinical questionnaires during hospitalization [ Time Frame: during and after intervention, up to 28 days ]clinical status\nDuration of supplemental oxygen (if applicable) [ Time Frame: during and after intervention, up to 28 days ]supplemental oxygen\nDuration of mechanical ventilation (if applicable) [ Time Frame: during and after intervention, up to 28 days ]mechanical ventilation\nAbsolute duration of hospital stay in days [ Time Frame: during and after intervention, up to 28 days ]hospitalization\nPrevalence of grade 3 and 4 adverse events [ Time Frame: during and after intervention, up to 28 days ]adverse events grade 3 and 4\nPrevalence of serious adverse events [ Time Frame: during and after intervention, up to 28 days ]adverse events\nChange in serum creatinine level [ Time Frame: during and after intervention, up to 28 days ]increase or decrease in serum creatinine compared to baseline\nChange in serum troponin I level [ Time Frame: during and after intervention, up to 28 days ]increase or decrease in serum troponin I compared to baseline\nChange in serum aspartate aminotransferase level [ Time Frame: during and after intervention, up to 28 days ]increase or decrease in serum aspartate aminotransferase compared to baseline\nChange in serum CK-MB level [ Time Frame: during and after intervention, up to 28 days ]increase or decrease in serum aspartate aminotransferase compared to baseline\nChange in detectable viral load in respiratory tract swabs [ Time Frame: during and after intervention, up to 28 days ]virus clearance from respiratory tract secretion\nViral concentration in blood samples [ Time Frame: during and after intervention, up to 28 days ]viremia in blood detected through RT-PCR\nAbsolute number of causes leading to participant death (if applicable) [ Time Frame: during and after intervention, up to 28 days ]death",
-            "Original Secondary Outcome Measures": "Same as current",
-            "Current Other Pre-specified Outcome Measures": null,
-            "Original Other Pre-specified Outcome Measures": null,
-            "Brief Title": "Chloroquine Diphosphate for the Treatment of Severe Acute Respiratory Syndrome Secondary to SARS-CoV2",
-            "Official Title": "Efficacy and Safety of Chloroquine Diphosphate for the Treatment of Hospitalized Patients With Severe Acute Respiratory Syndrome Secondary to SARS-CoV2: a Phase IIb, Double-blind, Randomized Adaptive Clinical Trial",
-            "Brief Summary": "In December 2019, the Municipal Health Committee of Wuhan, China, identified an outbreak of viral pneumonia of unknown cause. Coronavirus RNA was quickly identified in some of these patients. This new coronavirus was called SARS-CoV-2 and the disease caused by that virus, COVID-19. Recent numbers show that 222,643 infections have been diagnosed with 9115 deaths, worldwide. This has been escalating fast. Currently, there are no approved therapeutic agents available for coronaviruses. In this scenario, the situation of a global public health emergency and evidence about the potential positive effect of chloroquine (CQ) in most coronaviruses, including SARS-CoV-1, and recent data on small trials on SARS-CoV-2, the investigators intend to investigate the efficacy and the safety of CQ diphosphate in the treatment of hospitalized patients with severe acute respiratory syndrome in the scenario of SARS-CoV2. Preliminary in vitro studies and uncontrolled trials with low number of patients of CQ repositioning in the treatment of COVID-19 have been encouraging. The main hypothesis is that CQ diphosphate will reduce mortality in 50% in those with severe acute respiratory syndrome infected by the SARS-COV2. Therefore, the main objective is to assess whether the use of chloroquine diphosphate reduces mortality by 50% in the study population. The primary outcome is mortality in day 28 of follow-up. According to local contingency plan, developed by local government for COVID-19 in the State of Amazonas, the Hospital Pronto-Socorro Delphina Aziz, located in the northern region of Manaus, is the reference unit for the admission of serious cases of the new virus. The unit currently has 50 ICU beds, with the possibility of expanding to 335 beds, if needed. The hospital also has trained multiprofessional human resources and adequate infrastructure. The treatment regimen of chloroquine group consists of 600 mg bid (4 tablets of 150 mg, every 12 hours), orally (or via nasogastric tube in case of orotracheal intubation - IOT) for 10 days; placebo group will receive similar pills with no active ingredient in the same regimen, both produced by Farmanguinhos. Clinical and laboratory data during hospitalization will be used to assess efficacy and safety outcomes.",
-            "Detailed Description": null,
-            "Study Type": "Interventional",
-            "Study Phase": "Phase 2",
-            "Study Design": "Allocation: RandomizedIntervention Model: Parallel AssignmentMasking: Quadruple (Participant, Care Provider, Investigator, Outcomes Assessor)Primary Purpose: Treatment",
-            "Condition": "SARS-CoV Infection\nSevere Acute Respiratory Syndrome (SARS) Pneumonia",
-            "Intervention": "Drug: Chloroquine diphosphate\n150mg chloroquine diphosphate tablets.\nOther Name: chloroquine",
-            "Study Arms": "Active Comparator: Low Dose Chloroquine Diphosphate (5 days)\nLow dose chloroquine group consists of 450 mg bid (3 tablets of 150 mg, every 12 hours) on D1, 3 tablets of 150 mg once daily from D2 to D5. Oral administration or via nasogastric tube in case of orotracheal intubation.\nIntervention: Drug: Chloroquine diphosphate\nActive Comparator: High Dose Chloroquine Diphosphate (10 days)\nHigh dose chloroquine group consists of 600 mg bid (4 tablets of 150 mg, every 12 hours) for 10 days. Oral administration or via nasogastric tube in case of orotracheal intubation.\nIntervention: Drug: Chloroquine diphosphate",
-            "Publications": null,
-            "Recruitment Status": "Recruiting",
-            "Estimated Enrollment": "440",
-            "Original Estimated Enrollment": "Same as current",
-            "Estimated Study Completion Date": "August 31, 2020",
-            "Eligibility Criteria": "Inclusion criteria:\n\nMale and female participants hospitalized due to severe respiratory syndrome with or without a confirmatory diagnosis of SARS-CoV-2\naged over 18 years old\nprovide written informed consent prior to the commencement of any study procedure\n\nmeeting at least one the following criteria:\n\nage over 51 years OR\npre-existing pulmonary disease OR\ndecompensated chronic kidney impairment OR\ndecompensated diabetes OR\nsystemic arterial hypertension OR\ncardiovascular disease OR\nuse of immunobiological drugs OR\nuse of immunosuppressive drugs OR\nHIV/AIDS patients (CD4+ lymphocytes below 250) OR\ncancer.\n\nAND in addition to hospitalization, patients must present at least one of the following criteria:\n\nrespiratory rate higher than 24 breathing incursions per minute OR\nheart rate higher than 125 beats per minute (in the absence of fever) OR\nperipheral oxygen saturation lower than 90% in ambient air OR\nshock (defined as mean arterial pressure less than 65 mmHg, requiring vasopressor or oliguria or lowering level of consciousness)\n\nExclusion Criteria:\n• None.",
-            "Sex/Gender": "Sexes Eligible for Study:\nAll",
-            "Ages": "18 Years to 100 Years   (Adult, Older Adult)",
-            "Accepts Healthy Volunteers": "No",
-            "Contacts": "Contact: Marcus Lacerda, PhD\n+55 92 99114 7633\nmarcuslacerda.br@gmail.com\n\n\n\nContact: Fernando Val, PhD\n+55 92 99116 3107\nffaval@gmail.com",
-            "Listed Location Countries": "Brazil",
-            "Removed Location Countries": "",
-            "NCT Number": "NCT04323527",
-            "Other Study ID Numbers": "CAAE: 30152620.1.0000.0005",
-            "Has Data Monitoring Committee": null,
-            "U.S. FDA-regulated Product": "Studies a U.S. FDA-regulated Drug Product:  \nNo\n\n\nStudies a U.S. FDA-regulated Device Product:  \nNo",
-            "IPD Sharing Statement": "Plan to Share IPD:\nYes\n\n\nPlan Description:\nall patient data will be shared after study publication\n\n\nSupporting Materials:\nStudy Protocol\n\n\nSupporting Materials:\nStatistical Analysis Plan (SAP)\n\n\nSupporting Materials:\nClinical Study Report (CSR)\n\n\nTime Frame:\nafter study publication\n\n\nAccess Criteria:\nupon request to researchers",
-            "Responsible Party": "Fundação de Medicina Tropical Dr. Heitor Vieira Dourado",
-            "Study Sponsor": "Fundação de Medicina Tropical Dr. Heitor Vieira Dourado",
-            "Collaborators": "Marcus Vinícius Guimarães de Lacerda\nMayla Gabriela Silva Borba\nWuelton Marcelo Monteiro\nGisely Cardoso de Melo\nFernando Fonseca de Almeida e Val\nFelipe Gomes Naveca\nMaria Paula Gomes Mourão\nLudmila Abrahão Hajjar\nJorge Souza Mendonça",
-            "Investigators": null,
-            "PRS Account": "Fundação de Medicina Tropical Dr. Heitor Vieira Dourado",
-            "Verification Date": "March 2020"
+            "title": "Comparison Of Therapeutics for Hospitalized Patients Infected With SARS-CoV-2 In a Pragmatic aDaptive randoMizED Clinical Trial During the COVID-19 Pandemic (COVID MED Trial)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04328012",
+            "timestamp": "2020-03-31"
         },
         {
-            "SOURCE": "clinicaltrials.gov",
-            "ID": "NCT04322396",
-            "URL": "https://clinicaltrials.gov/ct2/show/NCT04322396",
-            "SCRAPE_URL": "https://clinicaltrials.gov/ct2/show/record/NCT04322396",
-            "First Submitted Date": "March 23, 2020",
-            "First Posted Date": "March 26, 2020",
-            "Last Update Posted Date": "March 26, 2020",
-            "Estimated Study Start Date": "April 1, 2020",
-            "Estimated Primary Completion Date": "October 31, 2020   (Final data collection date for primary outcome measure)",
-            "Current Primary Outcome Measures": "Number of days alive and discharged from hospital within 14 days [ Time Frame: 14 days ]",
-            "Original Primary Outcome Measures": "Same as current",
-            "Change History": "No Changes Posted",
-            "Current Secondary Outcome Measures": "Categorization of hospitalization status [ Time Frame: 14 days ]The patient will becategorized into one of the following 8 categories depending on status of their hospitalization:\r\n\nDead (yes/no)\nHospitalized and receiving mechanical ventilation or ExtraCorporalMembraneOxygenation (ECMO) (yes/no)\nHospitalized and receiving Non-invasive ventilation or \"high-flow oxygen device\" (yes/no)\nHospitalized and given oxygen supplements different from (2) and (3) (yes/no)\nHospitalized and without oxygen treatment, but receiving other treatment (both related to COVID-19 or other) (yes/no)\nHospitalized for observation (yes/no)\nDischarged from hospital with restriction of activity level (yes/no)\nDischarged from hospital without any restrictions of activity level (yes/no)\n\r\nOnly one category can be \"yes\".\nAdmitted to intensive care unit, if admitted to ICU then length of stay [ Time Frame: 14 days ]\nHave used Non-invasive ventilation (NIV) during hospitalization [ Time Frame: 14 days ]\nMortality [ Time Frame: 30 days ]\nLength of hospitalization [ Time Frame: 14 days ]\nDays alive and discharged from hospital [ Time Frame: 30 days ]\nMortality [ Time Frame: 90 days ]\nMortality [ Time Frame: 365 days ]\nNumber of readmissions (all causes) [ Time Frame: 30 days ]\nNumber of days using non-invasive ventilation (NIV) [ Time Frame: 14 days ]\nChange in patient's oxygen partial pressure [ Time Frame: 4 days ]Delta PaO2 measured in arterial puncture\nChange in patient's carbondioxid partial pressure [ Time Frame: 4 days ]Delta PaCO2 measured in arterial puncture\nLevel of pH in blood [ Time Frame: 4 days ]pH measured in arterial puncture\nTime for no oxygen supplement (or regular oxygen supplement \"LTOT\") [ Time Frame: 14 days ]",
-            "Original Secondary Outcome Measures": "Same as current",
-            "Current Other Pre-specified Outcome Measures": null,
-            "Original Other Pre-specified Outcome Measures": null,
-            "Brief Title": "Proactive Prophylaxis With Azithromycin and Chloroquine in Hospitalized Patients With COVID-19",
-            "Official Title": "Proactive Prophylaxis With Azithromycin and Chloroquine in Hospitalized Patients With COVID: A Randomized, Placebo-controlled Double-blinded Trial Evaluating Treatment With Azithromycin and Hydroxychloroquine to Patients With COVID-19",
-            "Brief Summary": "This study explores whether patients acutely hospitalized may have shorter hospitalization and fewer admittances at Intensive Care Units by treatment with azithromycin and hydroxychloroquine.",
-            "Detailed Description": "In the ongoing coronavirus pandemic, COVID-19, that arose in Wuhan China, there is still sparse data in the course, risk of various complications, and in particular how patients who are hospitalized are best treated to ensure high survival and short hospitalization. Despite the rapid spread of the disease globally, there is no solid data yet to recommend any specific treatments, which is why symptomatic, organ supportive therapy including respiratory therapy in acute pulmonary failure is recommended. There has been reported a high incidence of bacterial super-infections in patients with COVID-19. Patients with COVID-19 also have a higher risk of dying because of septic shock. Thus, there is an urgent need for treatment that can improve the patient's chance of the shortest hospitalization possible, and treatment that can lower the risk of secondary infection and death.\nThis is a randomized, placebo-controlled, double-blinded multi-center trial evaluating the effect of azithromycin and hydroxychloroquine treatment in patients with COVID-19 during hospitalization. The aim of the study is to investigate whether the treatment can shorten hospitalization, reduce the risk of non-invasive ventilation, admittance to Intensive Care Units and death.",
-            "Study Type": "Interventional",
-            "Study Phase": "Phase 4",
-            "Study Design": "Allocation: RandomizedIntervention Model: Parallel AssignmentMasking: Quadruple (Participant, Care Provider, Investigator, Outcomes Assessor)Primary Purpose: Treatment",
-            "Condition": "Virus Diseases\nInfection Viral",
-            "Intervention": "Drug: Azithromycin\nAzithromycin\nDrug: Hydroxychloroquine\nHydroxychloroquine\nDrug: Placebo oral tablet\nPlacebo Azithromycin\nDrug: Placebo oral tablet\nPlacebo Hydroxychloroquine",
-            "Study Arms": "Placebo Comparator: Control\nThis arm will receive standard care and placebo in 15 days.\nInterventions:\nDrug: Placebo oral tablet\nDrug: Placebo oral tablet\n\n\nActive Comparator: Intervention\nThis arm will receive standard care and azithromycin and hydroxychloroquine in 15 days.\nInterventions:\nDrug: Azithromycin\nDrug: Hydroxychloroquine",
-            "Publications": null,
-            "Recruitment Status": "Not yet recruiting",
-            "Estimated Enrollment": "226",
-            "Original Estimated Enrollment": "Same as current",
-            "Estimated Study Completion Date": "March 31, 2021",
-            "Eligibility Criteria": "Inclusion Criteria:\n\nPatient admitted to a Danish emergency department, lung medical department or medical department\nAge >18 years\nHospitalized <48 hours\nPositive COVID-19 test/diagnosis during the hospitalization\nSignes informed consent\n\nExclusion Criteria:\n\nIf the patient uses > 5 LO2/min at time of recruitment\nKnown intolerance/allergy to azithromycin or hydroxychloroquine or hypersensitivity to quinine or 4-aminoquinolinderivates\nPregnancy\nBreatfeeding\nNeurogenic hearing loss\nPsoriasis\nRetinopathy\nMaculopathy\nChanges in vision field\nSevere liver disease other than amoebiases\nSevere gastrointestinal, neurological or haematological disorders\neGFR < 45 ml/min/1.73m2\nClinically significant cardiac conduction disorders/arrhytmias or prolonged QTc interval\nMyasthenia Gravis\nUses Digoxin\nGlucose-6-phosphate dehydrogenase defiency\nPorphyria\nHypoglycemia at any time since hospitalization\nSevere mental illness which significantly impedes cooperation\nSevere linguistic problems that significantly impedes cooperation\nTreatment with sickle alkaloids",
-            "Sex/Gender": "Sexes Eligible for Study:\nAll",
-            "Ages": "Child, Adult, Older Adult",
-            "Accepts Healthy Volunteers": "No",
-            "Contacts": "Contact: Jens-Ulrik Stæhr Jensen, MD, PhD\n004528938168\njens.ulrik.jensen@regionh.dk",
-            "Listed Location Countries": null,
-            "Removed Location Countries": "",
-            "NCT Number": "NCT04322396",
-            "Other Study ID Numbers": "KronLungesyg_COVID_19_protokol",
-            "Has Data Monitoring Committee": "Yes",
-            "U.S. FDA-regulated Product": "Studies a U.S. FDA-regulated Drug Product:  \nNo\n\n\nStudies a U.S. FDA-regulated Device Product:  \nNo\n\n\nProduct Manufactured in and Exported from the U.S.:  \nNo",
-            "IPD Sharing Statement": null,
-            "Responsible Party": "Chronic Obstructive Pulmonary Disease Trial Network, Denmark",
-            "Study Sponsor": "Chronic Obstructive Pulmonary Disease Trial Network, Denmark",
-            "Collaborators": null,
-            "Investigators": null,
-            "PRS Account": "Chronic Obstructive Pulmonary Disease Trial Network, Denmark",
-            "Verification Date": "March 2020"
+            "title": "TOFAcitinib in Patients With Early Onset SARS-CoV2 Interstitial Pneumonia",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04332042",
+            "timestamp": "2020-04-02"
         },
         {
-            "SOURCE": "clinicaltrials.gov",
-            "ID": "NCT04324463",
-            "URL": "https://clinicaltrials.gov/ct2/show/NCT04324463",
-            "SCRAPE_URL": "https://clinicaltrials.gov/ct2/show/record/NCT04324463",
-            "First Submitted Date": "March 25, 2020",
-            "First Posted Date": "March 27, 2020",
-            "Last Update Posted Date": "March 27, 2020",
-            "Estimated Study Start Date": "April 1, 2020",
-            "Estimated Primary Completion Date": "September 30, 2020   (Final data collection date for primary outcome measure)",
-            "Current Primary Outcome Measures": "Outpatients: Hospital Admission or Death [ Time Frame: Up to 6 weeks post randomization ]In outpatients with COVID-19, the occurrence of hospital admission or death\nInpatients: Invasive mechanical ventilation or mortality [ Time Frame: Up to 6 weeks post randomization ]Patients intubated or requiring imminent intubation at the time of randomization will only be followed for the primary outcome of death.",
-            "Original Primary Outcome Measures": "Same as current",
-            "Change History": "No Changes Posted",
-            "Current Secondary Outcome Measures": null,
-            "Original Secondary Outcome Measures": null,
-            "Current Other Pre-specified Outcome Measures": null,
-            "Original Other Pre-specified Outcome Measures": null,
-            "Brief Title": "Anti-Coronavirus Therapies to Prevent Progression of Coronavirus Disease 2019 (COVID-19) Trial",
-            "Official Title": "Anti-Coronavirus Therapies to Prevent Progression of COVID-19, a Randomized Trial",
-            "Brief Summary": "ACT is a randomized clinical trial to assess therapies to reduce the clinical progression of COVID-19.",
-            "Detailed Description": "The ACT COVID-19 program consists of two parallel trials evaluating azithromycin and chloroquine therapy (ACT) versus usual care in outpatients and inpatients who have tested positive for COVID-19. The trial is an open-label, parallel group, randomized controlled trial with an adaptive design. Adaptive design features include adaptive intervention arms and adaptive sample size based on new and emerging data.",
-            "Study Type": "Interventional",
-            "Study Phase": "Phase 3",
-            "Study Design": "Allocation: RandomizedIntervention Model: Parallel AssignmentIntervention Model Description: Open-label, parallel group randomized controlled trialMasking: None (Open Label)Primary Purpose: Treatment",
-            "Condition": "Coronavirus\nSevere Acute Respiratory Syndrome",
-            "Intervention": "Drug: Azithromycin\noral medication\nDrug: Chloroquine\noral medication",
-            "Study Arms": "Experimental: Azithromycin and Chloroquine Therapy (ACT)\nChloroquine (Adults with a bodyweight ≥ 50 kg: 500 mg twice daily for 7 days; Adults with a bodyweight < 50 kg: 500 mg twice daily on days 1 and 2, followed by 500 mg once daily for days 3-7), plus Azithromycin (500 mg on day 1 followed by 250 mg daily for 4 days)\nInterventions:\nDrug: Azithromycin\nDrug: Chloroquine\n\n\nNo Intervention: Standard of Care\nNo constraints for treating physicians on the therapies within the standard of care arm. All key co-interventions will be documented.",
-            "Publications": null,
-            "Recruitment Status": "Not yet recruiting",
-            "Estimated Enrollment": "1500",
-            "Original Estimated Enrollment": "Same as current",
-            "Estimated Study Completion Date": "December 31, 2020",
-            "Eligibility Criteria": "Inclusion Criteria:\n\nAge ≥ 18 years of age\nInformed consent\nCOVID-19 confirmed by established testing\n\nExclusion Criteria:\n\nKnown glucose-6-phosphate dehydrogenase (G6PD) deficiency\nContra-indication to chloroquine or azithromycin\nAlready receiving chloroquine or azithromycin",
-            "Sex/Gender": "Sexes Eligible for Study:\nAll",
-            "Ages": "18 Years and older   (Adult, Older Adult)",
-            "Accepts Healthy Volunteers": "No",
-            "Contacts": "Contact: ACT COVID-19 Study Coordinator\n905-297-3479\nACT.ProjectTeam@PHRI.ca",
-            "Listed Location Countries": "Canada",
-            "Removed Location Countries": "",
-            "NCT Number": "NCT04324463",
-            "Other Study ID Numbers": "PHRI.ACT.COVID19",
-            "Has Data Monitoring Committee": "Yes",
-            "U.S. FDA-regulated Product": "Studies a U.S. FDA-regulated Drug Product:  \nNo\n\n\nStudies a U.S. FDA-regulated Device Product:  \nNo\n\n\nProduct Manufactured in and Exported from the U.S.:  \nNo",
-            "IPD Sharing Statement": "Plan to Share IPD:\nUndecided",
-            "Responsible Party": "Population Health Research Institute",
-            "Study Sponsor": "Population Health Research Institute",
-            "Collaborators": null,
-            "Investigators": "Principal Investigator:\nRichard Whitlock, MD PhD\nPopulation Health Research Institute\n\n\nPrincipal Investigator:\nEmilie Belley-Cote, MD PhD\nPopulation Health Research Institute",
-            "PRS Account": "Population Health Research Institute",
-            "Verification Date": "March 2020"
+            "title": "An Clinic Trial of Recombinant Human Interferon Alpha Nasal Drops to Prevent Coronavirus Disease 2019 in Medical Staff in Epidemic Area",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04320238",
+            "timestamp": "2020-03-24"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN83971151",
-            "timestamp": "2020-03-25",
-            "title": "Public health emergency SOLIDARITY trial of treatments for COVID-19 infection in hospitalized patients"
+            "title": "Clinical Characteristics of COVID-19 in Patients With Pre-existing Cirrhosis (COVID-Cirrhosis-CHESS2002): A Multicentre Observational Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04329559",
+            "timestamp": "2020-04-01"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN20647977",
-            "timestamp": "2019-04-05",
-            "title": "Examining whether any interactions occur between the antibiotic Ciprofloxacin and the antimalarial treatment Chloroquine/Proguanil"
+            "title": "Hypertension in Patients Hospitalized With COVID-19 in Wuhan, China: A Single-center Retrospective Observational Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04318301",
+            "timestamp": "2020-03-23"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN10751859",
-            "timestamp": "2017-04-03",
-            "title": "A phase II clinical trial of  Detection of Apoptosing Retinal Cells (DARC II)"
+            "title": "ACE Inhibitors or ARBs Discontinuation for Clinical Outcome Risk Reduction in Patients Hospitalized for the Endemic Severe Acute Respiratory Syndrome Coronavirus (SARS-CoV-2) Infection: the Randomized ACORES-2 Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04329195",
+            "timestamp": "2020-04-01"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN16273289",
-            "timestamp": "2016-07-18",
-            "title": "Improving the radical cure of vivax malaria (IMPROV)"
+            "title": "Efficacy of Fingolimod in the Treatment of New Coronavirus Pneumonia (COVID-19)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04280588",
+            "timestamp": "2020-02-21"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN17372582",
-            "timestamp": "2016-05-31",
-            "title": "Plasmodium Sp. Sporozoites immunization of human volunteers"
+            "title": "Impact of the Coronavirus (COVID-19) on Patients With Cancer",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04330521",
+            "timestamp": "2020-04-01"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN82148651",
-            "timestamp": "2013-10-28",
-            "title": "Age-related macular degeneration (AMD) Light trial"
+            "title": "Effect of Vitamin D Administration on Prevention and Treatment of Mild Forms of Suspected Covid-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04334005",
+            "timestamp": "2020-04-03"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN60655195",
-            "timestamp": "2013-08-01",
-            "title": "SPIRIT 3"
+            "title": "Prospective Observational Study for Patients With HIV and Confirmed SARS-CoV-2",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04333953",
+            "timestamp": "2020-04-03"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN10524984",
-            "timestamp": "2013-06-04",
-            "title": "Laser for Early Age related macular Degeneration"
+            "title": "A Randomized, Double-blind, Placebo-controlled, Multi-site, Phase III Study to Evaluate the Safety and Efficacy of CD24Fc in COVID-19 Treatment",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04317040",
+            "timestamp": "2020-03-20"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN34010937",
-            "timestamp": "2013-05-08",
-            "title": "STOPMiP"
+            "title": "The GReek Study in the Effects of Colchicine in Covid-19 cOmplications Prevention",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04326790",
+            "timestamp": "2020-03-30"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN82366390",
-            "timestamp": "2013-03-20",
-            "title": "Radical cure for vivax malaria in Indonesia 2"
+            "title": "Multicenter, Randomized, Open-label, Non-commercial, Investigator-initiated Study to Evaluate the Effectiveness and Safety of Chloroquine Phosphate in Combination With Telemedicine in the Reduction of Risk of Disease-related Hospitalization or Death, in Ambulatory Patients With COVID-19 at Particular Risk of Serious Complications",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04331600",
+            "timestamp": "2020-04-02"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN83765567",
-            "timestamp": "2013-01-16",
-            "title": "Evaluation of patient adherence to artemether-lumefantrine (AL) obtained from public and private drug outlets in Tanzania"
+            "title": "Protective Role of Inhaled Steroids for Covid-19 Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04331054",
+            "timestamp": "2020-04-02"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN74331412",
-            "timestamp": "2012-02-02",
-            "title": "Vascular Function Intervention Trial in sickle cell disease"
+            "title": "Cell Therapy Using Umbilical Cord-derived Mesenchymal Stromal Cells in SARS-CoV-2-related ARDS",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04333368",
+            "timestamp": "2020-04-03"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN14027467",
-            "timestamp": "2011-11-16",
-            "title": "Radical cure of vivax malaria"
+            "title": "Prospective, Randomized, Multi-center Phase 2 Clinical Trial of Mesenchymal Stem Cell(MSC) for the Treatment of Severe Corona Virus Disease 2019(COVID-19)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04288102",
+            "timestamp": "2020-02-28"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN89222125",
-            "timestamp": "2010-11-24",
-            "title": "Switching to alternative tumour-necrosis factor (TNF)-blocking drugs or abatacept or rituximab in patients with rheumatoid arthritis who have failed an initial TNF-blocking drug"
+            "title": "The Efficacy and Safety of Carrimycin Treatment in Patients With Novel Coronavirus Infectious Disease (COVID-19) : A Multicenter, Randomized, Open-controlled Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04286503",
+            "timestamp": "2020-02-27"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN21216199",
-            "timestamp": "2010-04-29",
-            "title": "Efficacy of tocilizumab in patients with rheumatoid arthritis"
+            "title": "Piclidenoson for Treatment of COVID-19 - A Randomized Open Label Pilot Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04333472",
+            "timestamp": "2020-04-03"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN61568166",
-            "timestamp": "2009-11-19",
-            "title": "Imatinib (IM) versus hydroxychloroquine (HCQ) and IM for patients with chronic myeloid leukaemia (CML) in cytogenetic response (CyR) with residual disease detectable by quantitative polymerase chain reaction (Q-PCR)"
+            "title": "Prognostic Factors of Patients With COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04292964",
+            "timestamp": "2020-03-03"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN17842302",
-            "timestamp": "2009-10-01",
-            "title": "The effect of nutritional supplementation on retinal function"
+            "title": "Efficacy and Safety of Corticosteroids in COVID-19: A Prospective Randomized Controlled Trails",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04273321",
+            "timestamp": "2020-02-18"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN92328241",
-            "timestamp": "2009-08-28",
-            "title": "Head to head study of influenza H1N1 vaccines in adults"
+            "title": "Proflaxis for Healthcare Professionals Using Hydroxychloroquine Plus Vitamin Combining Vitamins A, C, D and Zinc During COVID-19 Pandemia: An Observational Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04326725",
+            "timestamp": "2020-03-30"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN36517335",
-            "timestamp": "2009-05-29",
-            "title": "Efficacy of the antimalarial drugs recommended by the National Malaria Control Programme in Madagascar"
+            "title": "Chloroquine for Mild Symptomatic and Asymptomatic COVID-19 in A Two Staged, Multicenter, Open Label and Randomized Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04333628",
+            "timestamp": "2020-04-03"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN59761234",
-            "timestamp": "2008-02-05",
-            "title": "Pharmacokinetics and efficacy of dihydroartemisinin-piperaquine in the treatment of uncomplicated falciparum malaria in children in Burkina Faso"
+            "title": "A Single Arm Open-label Clinical Study to Investigate the Efficacy and Safety of Ruxolitinib for the Treatment of COVID-19 Pneumonia",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04331665",
+            "timestamp": "2020-04-02"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN64835265",
-            "timestamp": "2008-01-25",
-            "title": "Study of resistance to artesunate of malaria parasite"
+            "title": "Analysis of Safety Related Factors of Endotracheal Intubation in Patients With Severe Covid-19 Pneumonia",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04298814",
+            "timestamp": "2020-03-06"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN17027907",
-            "timestamp": "2008-01-23",
-            "title": "The efficacy of chloroquine in treatment of vivax malaria in southern Laos"
+            "title": "Adaptive, Randomized, Single-blind, Three-arm Parallel Controlled Clinical Trial of Yinhu Qingwen Decoction in the Treatment of Mild / Common CoVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04278963",
+            "timestamp": "2020-02-20"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN07576538",
-            "timestamp": "2007-11-29",
-            "title": "A randomised, controlled, open-label, parallel-group study comparing the efficacy and safety of an oral artesunate-amodiaquine fixed-dose combination therapy over 3 subsequent days to an equivalent dose regimen of the individual drugs for the treatment of children with Plasmodium falciparum"
+            "title": "Hydroxychloroquine Post Exposure Prophylaxis (PEP) for Household Contacts of COVID-19 Patients: A NYC Community-Based Randomized Clinical Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04318444",
+            "timestamp": "2020-03-24"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN40223079",
-            "timestamp": "2007-11-15",
-            "title": "Efficacy and safety of artesunate and sulfadoxine-pyrimethamine for the treatment of uncomplicated Plasmodium falciparum malaria and chloroquine for the treatment of vivax malaria in Nangarhar, Takhar and Faryab provinces, Afghanistan"
+            "title": "Chemoprophylaxis With Hydroxychloroquine in Healthcare Personnel in Contact With COVID-19 Patients: A Randomized Controlled Trial (PHYDRA Trial)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04318015",
+            "timestamp": "2020-03-23"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN05620936",
-            "timestamp": "2007-10-30",
-            "title": "Development of a simple protocol to enhance compliance in home management of malaria"
+            "title": "Sero-epidemiological Study of the SARS-CoV-2 Virus in France: Constitution of a Collection of Human Biological Samples",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04325646",
+            "timestamp": "2020-03-27"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN01449944",
-            "timestamp": "2007-07-16",
-            "title": "A non-controlled trial of anti-Tumour Necrotising Factor alpha (anti-TNFa) chimeric monoclonal antibody (Infliximab, Remicade®) in exudative age-related macular degeneration"
+            "title": "A Randomized, Open-label, Multi-centre Clinical Trial Evaluating and Comparing the Safety and Efficiency of ASC09/Ritonavir and Lopinavir/Ritonavir for Confirmed Cases of Pneumonia Caused by Novel Coronavirus Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04261907",
+            "timestamp": "2020-02-10"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN34104704",
-            "timestamp": "2007-05-31",
-            "title": "Improving the management of childhood MAlaria"
+            "title": "Randomized, Controlled, Double-blind Clinical Trial Comparing the Efficacy and Safety of Chemoprophylaxis With Hydroxychloroquine in Patients Under Biological Treatment and / or JAK Inhibitors in the Prevention of SARS-CoV-2 Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04330495",
+            "timestamp": "2020-04-01"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN94367569",
-            "timestamp": "2007-04-24",
-            "title": "Treatment of uncomplicated falciparum malaria in Bobo-Dioulasso, Burkina Faso"
+            "title": "COVID CT, Beaumont Quantitative Lung Function Imaging to Characterize Patients With SARS-COV 2",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04320511",
+            "timestamp": "2020-03-25"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN18863931",
-            "timestamp": "2007-04-20",
-            "title": "Phase II, multi-centre, randomised, two-part pilot study (Part 1 open, uncontrolled; Part 2 double-blind, placebo controlled) to determine the efficacy, safety, tolerability and preliminary pharmacokinetics of PSD502 in the management of pain from donor sites in burns subjects undergoing skin grafts"
+            "title": "A Prospective, Controlled, Randomized, Multicenter Study to Compare the Efficacy of a Chloroquine Analog (GNS561), an Anti PD-1 (Nivolumab) and an Anti-interleukine-6 Receptor (Tocilizumab) Versus Standard of Care in Patients With Advanced or Metastatic Cancer and SARS-CoV-2 (COVID-19) Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04333914",
+            "timestamp": "2020-04-03"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN38002730",
-            "timestamp": "2006-11-21",
-            "title": "A research study of the role of chloroquine in treating patients with dengue"
+            "title": "A 6 Week Prospective, Open Label, Randomized, in Multicenter Study of, Oseltamivir Plus Hydroxychloroquine Versus Lopipinavir/ Ritonavir Plus Oseltamivir Versus Darunavir/ Ritonavir Plus Oseltamivir Plus Hydroxychloroquine in Mild COVID19 AND Lopipinavir/ Ritonavir Plus Oseltamivir Versus Favipiravir Plus Lopipinavir / Ritonavir Versus Darunavir/ Ritonavir Plus Oseltamivir Plus Hydroxychloroquine Versus Favipiravir Plus Darunavir and Ritonavir Plus Hydroxychloroquine in Moderate to Critically Ill COVID19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04303299",
+            "timestamp": "2020-03-11"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN87827353",
-            "timestamp": "2006-08-08",
-            "title": "A randomised, open comparative study of Dihydroartemisinin-piperaquine versus Chloroquine for the treatment of Vivax malaria"
+            "title": "Outcomes of Surgery in COVID-19 Infection: International Cohort Study (CovidSurg)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04323644",
+            "timestamp": "2020-03-26"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN64793756",
-            "timestamp": "2006-08-08",
-            "title": "Evaluating the potential role of oral activated charcoal as an adjunct treatment for severe bacterial infections and severe malaria - a preliminary safety study"
+            "title": "A Phase 2, International Multi-site, Bayesian Adaptive, Randomised, Double-blinded, Placebo-controlled Trial Assessing the Effectiveness of Varied Doses of Oral Chloroquine in Preventing or Reducing the Severity of COVID-19 Disease in Healthcare Workers",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04333732",
+            "timestamp": "2020-04-03"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN22508774",
-            "timestamp": "2006-02-01",
-            "title": "A single dose two-phase crossover study to assess the tolerability and pharmacokinetic parameters of a fixed dose formulation of artesunate-mefloquine and standard dose artesunate and mefloquine as loose tablets in healthy normal volunteers (Thailand)"
+            "title": "Online Support for Psychosocial Stress in the Context of the COVID-19 Pandemic",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04324190",
+            "timestamp": "2020-03-27"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN46326316",
-            "timestamp": "2005-12-20",
-            "title": "Comparison between immune response to different modes of vaccination"
+            "title": "Outcomes of Vascular Surgery in COVID-19 Infection: National Cohort Study (Covid-VAS)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04333693",
+            "timestamp": "2020-04-03"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN36731786",
-            "timestamp": "2005-10-26",
-            "title": "Dose finding for a safe and efficacious combination of chloroquine (CQ) and methylene blue in the treatment of uncomplicated falciparum malaria in young children of Burkina Faso"
+            "title": "The Efficacy of Natural Honey in Patients Infected With Novel Coronavirus (COVID-19) : A Randomized, Controlled ,Single Masked , Investigator Initiated, Multi-center Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04323345",
+            "timestamp": "2020-03-26"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN75303340",
-            "timestamp": "2005-07-22",
-            "title": "Randomised comparison of chloroquine plus sulfadoxine-pyrimethamine versus artesunate plus mefloquine versus artemether-lumefantrine in the treatment of uncomplicated falciparum malaria in the Lao People's Democratic Republic"
+            "title": "Efficacy of Hydroxychloroquine for Post-exposure Prophylaxis (PEP) to Prevent Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Infection Among Adults Exposed to Coronavirus Disease (COVID-19): a Blinded, Randomized Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04328961",
+            "timestamp": "2020-04-01"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN22075368",
-            "timestamp": "2005-07-22",
-            "title": "Sulfadoxine-pyrimethamine combinations study"
+            "title": "Phase IV Observational Study to Associate Hypertension and Hypertensinon Treatment to COVID19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04331574",
+            "timestamp": "2020-04-02"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN11805747",
-            "timestamp": "2005-07-22",
-            "title": "Measuring malaria transmission after drug treatment"
+            "title": "Outcomes in Patients With Acute Encephalopathy and SARS-Cov-2 Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04320472",
+            "timestamp": "2020-03-25"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN30087513",
-            "timestamp": "2005-07-22",
-            "title": "Research to improve economical anti-rabies treatment"
+            "title": "Acute Kidney Injury in Patients Hospitalized With COVID-19 in Wuhan, China: a Single-center Retrospective Observational Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04316299",
+            "timestamp": "2020-03-20"
         },
         {
-            "SOURCE": "isrctn.com",
-            "url": "https://www.isrctn.com/ISRCTN70132716",
-            "timestamp": "2005-06-07",
-            "title": "Artesunate and Amodiaquine"
+            "title": "An Adaptive, Randomized, Double-blind, Parallel-controlled Clinical Trial of Yinhu Qingwen Granula for the Treatment of Severe CoVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04310865",
+            "timestamp": "2020-03-17"
+        },
+        {
+            "title": "Chloroquine/ Hydroxychloroquine Prevention of Coronavirus Disease (COVID-19) in the Healthcare Setting; a Randomised, Placebo-controlled Prophylaxis Study (COPCOV)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04303507",
+            "timestamp": "2020-03-11"
+        },
+        {
+            "title": "Personalized Health Education Against the Health Damage of COVID-19 Epidemic in Hungary (PROACTIVE-19)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04321928",
+            "timestamp": "2020-03-25"
+        },
+        {
+            "title": "The (Norwegian) NOR Solidarity Multicenter Trial on the Efficacy of Different Anti-viral Drugs in SARS-CoV-2 Infected Patients",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04321616",
+            "timestamp": "2020-03-25"
+        },
+        {
+            "title": "Evaluation of Novel Diagnostic Tests for 2019-nCOV",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04326387",
+            "timestamp": "2020-03-30"
+        },
+        {
+            "title": "Joint Use of Electrocardiogram and Transthoracic Echocardiography in an Observational Study to Monitor Cardio-vascular Events in Patients Diagnosed With COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04320017",
+            "timestamp": "2020-03-24"
+        },
+        {
+            "title": "Outcomes and Prognostic Factors in Coronavirus Disease (COVID-19) in Very Old Intensive Care Patients",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04321265",
+            "timestamp": "2020-03-25"
+        },
+        {
+            "title": "BCG Vaccination to Reduce the Impact of COVID-19 in Australian Healthcare Workers Following Coronavirus Exposure (BRACE) Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04327206",
+            "timestamp": "2020-03-31"
+        },
+        {
+            "title": "Vitamin C Infusion for the Treatment of Severe 2019-nCoV Infected Pneumonia: a Prospective Randomized Clinical Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04264533",
+            "timestamp": "2020-02-11"
+        },
+        {
+            "title": "Development of a Simple, Fast and Portable Recombinase Aided Amplification (RAA) Assay for 2019-nCoV",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04245631",
+            "timestamp": "2020-01-29"
+        },
+        {
+            "title": "Phase I, Open-Label, Dose-Ranging Study of the Safety and Immunogenicity of 2019-nCoV Vaccine (mRNA-1273) in Healthy Adults",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04283461",
+            "timestamp": "2020-02-25"
+        },
+        {
+            "title": "Clinical Research Regarding the Availability and Safety of UC-MSCs Treatment for Serious Pneumonia and Critical Pneumonia Caused by the 2019-nCOV Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04269525",
+            "timestamp": "2020-02-13"
+        },
+        {
+            "title": "How Immune Responses Shape Virological and Clinical Characteristics of COVID-19: a Prospective Cohort Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04329546",
+            "timestamp": "2020-04-01"
+        },
+        {
+            "title": "Impact of a Novel Coronavirus (2019-nCoV) Outbreak on Public Anxiety and Cardiovascular Disease Risk in China",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04255940",
+            "timestamp": "2020-02-05"
+        },
+        {
+            "title": "Angiotensin-(1,7) Treatment in COVID-19: the ATCO Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04332666",
+            "timestamp": "2020-04-03"
+        },
+        {
+            "title": "Safety and Efficacy Study of Human Embryonic Stem Cells Derived M Cells (CAStem) for the Treatment of Severe COVID-19 Associated With or Without Acute Respiratory Distress Syndrome (ARDS)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04331613",
+            "timestamp": "2020-04-02"
+        },
+        {
+            "title": "Clinical Progressive Characteristics and Treatment Effects of 2019-novel Coronavirus(2019-nCoV)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04292327",
+            "timestamp": "2020-03-03"
+        },
+        {
+            "title": "Mindfulness During COVID-19 - Remote Mindfulness Sessions",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04319445",
+            "timestamp": "2020-03-24"
+        },
+        {
+            "title": "Viral Excretion in Contact Subjects at High/Moderate Risk of Coronavirus 2019-nCoV Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04259892",
+            "timestamp": "2020-02-07"
+        },
+        {
+            "title": "Efficacy and Safety of Darunavir and Cobicistat for Treatment of Pneumonia Caused by 2019-nCoV",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04252274",
+            "timestamp": "2020-02-05"
+        },
+        {
+            "title": "Efficacy and Safety of Hydroxychloroquine for Treatment of Pneumonia Caused by 2019-nCoV ( HC-nCoV )",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04261517",
+            "timestamp": "2020-02-07"
+        },
+        {
+            "title": "Effects of Traditional Chinese Medicines (TCMs) on Patients With 2019-nCoV Infection: A Perspective, Open-labeled, Randomized, Controlled Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04251871",
+            "timestamp": "2020-02-05"
+        },
+        {
+            "title": "Single Center, Single Arm, Open Clinical Study to Access Safety and Initial Efficacy of Anti-CD147 Humanized Meplazumab for Injection to Treat With 2019-nCoV Pneumonia",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04275245",
+            "timestamp": "2020-02-19"
+        },
+        {
+            "title": "In-depth Characterisation of the Dynamic Host Immune Response to Coronavirus SARS-CoV-2",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04327570",
+            "timestamp": "2020-03-31"
+        },
+        {
+            "title": "Outcomes Related to COVID-19 Treated With Hydroxychloroquine Among In-patients With Symptomatic Disease",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04332991",
+            "timestamp": "2020-04-03"
+        },
+        {
+            "title": "The Impact of Camostat Mesilate on COVID-19 Infection: An Investigator-initiated Randomized, Placebo-controlled, Phase IIa Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04321096",
+            "timestamp": "2020-03-25"
+        },
+        {
+            "title": "Cytokine Adsorption in Severe COVID-19 Pneumonia Requiring Extracorporeal Membrane Oxygenation",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04324528",
+            "timestamp": "2020-03-27"
+        },
+        {
+            "title": "Viral Infection and Respiratory Illness Universal Study[VIRUS]: COVID-19 Registry and Validation of C2D2 (Critical Care Data Dictionary)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04323787",
+            "timestamp": "2020-03-27"
+        },
+        {
+            "title": "Study on Detection of 2019 Novel Coronavirus in Multiple Organ System and Its Relationship With Clinical Manifestations in Patients",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04279795",
+            "timestamp": "2020-02-21"
+        },
+        {
+            "title": "A Retrospective Study of Evaluating Safety and Efficacy of Tocilizumab Compared to Continuous Renal Replacement Therapy in Controlling CRS Triggered by COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04306705",
+            "timestamp": "2020-03-13"
+        },
+        {
+            "title": "A Clinical Study to Investigate the Effect of T89 on Improving Oxygen Saturation and Clinical Symptoms in Patients With Coronavirus Disease 2019 (COVID-19)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04285190",
+            "timestamp": "2020-02-26"
+        },
+        {
+            "title": "Investigation on Clinical Features of Suspected and Confirmed Patients of 2019 Novel Coronavirus Infection in Isolation Unit",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04279782",
+            "timestamp": "2020-02-21"
+        },
+        {
+            "title": "Single-Arm Observational Study Designed to Clinically Evaluate Cordio Application in Adult Patients Positive to COVID19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04325048",
+            "timestamp": "2020-03-27"
+        },
+        {
+            "title": "A Phase I/II Study to Determine Efficacy, Safety and Immunogenicity of the Candidate Coronavirus Disease (COVID-19) Vaccine ChAdOx1 nCoV-19 in UK Healthy Adult Volunteers",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04324606",
+            "timestamp": "2020-03-27"
+        },
+        {
+            "title": "Convalescent Plasma to Stem Coronavirus: A Randomized, Blinded Phase 2 Study Comparing the Efficacy and Safety Human Coronavirus Immune Plasma (HCIP) vs. Control (SARS-CoV-2 Non-immune Plasma) Among Adults Exposed to COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04323800",
+            "timestamp": "2020-03-27"
+        },
+        {
+            "title": "A Phase IIb Randomized Placebo-Controlled Study to Examine the Efficacy and Safety of DAS181 for the Treatment of Severe Influenza Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04298060",
+            "timestamp": "2020-03-06"
+        },
+        {
+            "title": "A Single-center,Open-label，Dose-escalating Phase I Clinical Trial to Evaluate Recombinant Novel Coronavirus Vaccine (Adenovirus Type 5 Vector) in Healthy Adults Aged 18-60 Years Old",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04313127",
+            "timestamp": "2020-03-18"
+        },
+        {
+            "title": "Clinical Study of Human Umbilical Cord Mesenchymal Stem Cells in the Treatment of Novel Coronavirus Severe Pneumonia",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04273646",
+            "timestamp": "2020-02-18"
+        },
+        {
+            "title": "Convalescent Plasma for Patients With COVID-19: A Pilot Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04332380",
+            "timestamp": "2020-04-02"
+        },
+        {
+            "title": "Uppsala Intensive Care Study of Mechanisms for Organ Dysfunction in Covid-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04316884",
+            "timestamp": "2020-03-20"
+        },
+        {
+            "title": "Sequential Oxygen Therapy Strategy for Patients With COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04312100",
+            "timestamp": "2020-03-18"
+        },
+        {
+            "title": "Randomized Controlled Trial of Losartan for Patients With COVID-19 Requiring Hospitalization",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04312009",
+            "timestamp": "2020-03-17"
+        },
+        {
+            "title": "Multi-centre, Adaptive, Randomized Trial of the Safety and Efficacy of Treatments of COVID-19 in Hospitalized Adults",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04315948",
+            "timestamp": "2020-03-20"
+        },
+        {
+            "title": "Randomized Controlled Trial of Losartan for Patients With COVID-19 Not Requiring Hospitalization",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04311177",
+            "timestamp": "2020-03-17"
+        },
+        {
+            "title": "COVID-19: Healthcare Worker Bioresource: Immune Protection and Pathogenesis in SARS-CoV-2",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04318314",
+            "timestamp": "2020-03-23"
+        },
+        {
+            "title": "Convalescent Plasma for Patients With COVID-19: A Randomized, Open Label, Parallel, Controlled Clinical Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04332835",
+            "timestamp": "2020-04-03"
+        },
+        {
+            "title": "Comprehensive Clinical, Virological, Microbiological, Immunological and Laboratory Monitoring of Patients Hospitalized With Coronavirus Disease 2019 (COVID-19)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04325919",
+            "timestamp": "2020-03-30"
+        },
+        {
+            "title": "Effects of a Mobile Meditation App on Stress During Coronavirus (\"COVID-19\") Pandemic in Outpatient Obstetrics and Gynecology Patients; a Randomized Controlled Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04329533",
+            "timestamp": "2020-04-01"
+        },
+        {
+            "title": "The Benefits of Artificial Intelligence Algorithms (CNNs) for Discriminating Between COVID-19 and Influenza Pneumonitis in an Emergency Department Using Chest X-Ray Examinations",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04313946",
+            "timestamp": "2020-03-18"
+        },
+        {
+            "title": "The Mechanism, Clinical Outcome and Therapeutic Intervention of Corona Virus Disease 2019 Patients Whose Nucleic Acids Changed From Negative to Positive",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04333589",
+            "timestamp": "2020-04-03"
+        },
+        {
+            "title": "Longitudinal Population-based Observational Study of Coronavirus Disease in the UK Population",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04330599",
+            "timestamp": "2020-04-01"
+        },
+        {
+            "title": "The ECLA PHRI COLCOVID Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04328480",
+            "timestamp": "2020-03-31"
+        },
+        {
+            "title": "Development and Verification of a New Coronavirus Multiplex Nucleic Acid Detection System",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04311398",
+            "timestamp": "2020-03-17"
+        },
+        {
+            "title": "Favipiravir Combined With Tocilizumab in the Treatment of Corona Virus Disease 2019-A Multicenter, Randomized and Controlled Clinical Trial Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04310228",
+            "timestamp": "2020-03-17"
+        },
+        {
+            "title": "Clinical Study of Novel Coronavirus Induced Severe Pneumonia Treated by Dental Pulp Mesenchymal Stem Cells",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04302519",
+            "timestamp": "2020-03-10"
+        },
+        {
+            "title": "Multicenter Clinical Study on the Efficacy and Safety of Xiyanping Injection in the Treatment of New Coronavirus Infection Pneumonia (General and Severe)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04295551",
+            "timestamp": "2020-03-04"
+        },
+        {
+            "title": "Biological Samples Collection From Patients and Caregivers Treated at Bordeaux University Hospital for Asymptomatic and Symptomatic Severe Acute Respiratory Syndrome CoronaVirus 2 (SARS-CoV-2) Infection (COVID-19).",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04332016",
+            "timestamp": "2020-04-02"
+        },
+        {
+            "title": "Changes in Organ Specific Biomarkers, Virus Expression and Prognosis for Covid-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04314232",
+            "timestamp": "2020-03-19"
+        },
+        {
+            "title": "A PATIENT-CENTRIC OUTCOMES REGISTRY OF PATIENTS WITH KNOWN OR SUSPECTED NOVEL CORONAVIRUS INFECTION SARS-COV-2 (COVID-19)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04321811",
+            "timestamp": "2020-03-25"
+        },
+        {
+            "title": "Investigating Effect of Convalescent Plasma on COVID-19 Patients Outcome: A Clinical Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04327349",
+            "timestamp": "2020-03-31"
+        },
+        {
+            "title": "A Pilot Study of Bevacizumab in the Treatment of Severe or Critical Patients With COVID-19 Pneumonia (BEST-CP)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04275414",
+            "timestamp": "2020-02-19"
+        },
+        {
+            "title": "Household Transmission Investigation Study for Coronavirus Disease 2019 (COVID-19) in French Guiana",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04328129",
+            "timestamp": "2020-03-31"
+        },
+        {
+            "title": "Prevalence and Incidence of COVID-19 Infection in Patients With Chronic Plaque Psoriasis on Immunosuppressant Therapy",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04324866",
+            "timestamp": "2020-03-27"
+        },
+        {
+            "title": "EC-COVID-PCS - Early CPAP in COVID Patients With Respiratory Failure. A Prospective Cohort Study.",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04323878",
+            "timestamp": "2020-03-27"
+        },
+        {
+            "title": "Clinical Performance of the VivaDiag ™ COVID-19 lgM / IgG Rapid Test in a Cohort of Negative Patients for Coronavirus Infection for the Early Detection of Positive Antibodies for COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04316728",
+            "timestamp": "2020-03-20"
+        },
+        {
+            "title": "Safety and Efficacy of Hyperbaric Oxygen for Improvement of Acute Respiratory Distress Syndrome in Adult Patients With COVID-19; a Randomized, Controlled, Open Label, Multicentre Clinical Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04327505",
+            "timestamp": "2020-03-31"
+        },
+        {
+            "title": "Integrated Distance Management Strategy for Patients With Cardiovascular Disease (Ischaemic Coronary Artery Disease, High Blood Pressure, Heart Failure) in the Context of the COVID-19 Pandemic",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04325867",
+            "timestamp": "2020-03-30"
+        },
+        {
+            "title": "COVID-19-associated ARDS Treated With DEXamethasone: an Open-label, Randomized, Controlled Trial: CODEX (Alliance Covid-19 Brasil III)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04327401",
+            "timestamp": "2020-03-31"
+        },
+        {
+            "title": "Intravenous Aviptadil for COVID-19 Associated Acute Respiratory Distress",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04311697",
+            "timestamp": "2020-03-17"
+        },
+        {
+            "title": "Evaluation of the Safety and Clinical Efficacy of Hydroxychloroquine Associated With Azithromycin in Patients With Pneumonia Caused by Infection by the SARS-CoV2 Virus - Coalition COVID-19 Brasil II - Severely-ill Patients",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04321278",
+            "timestamp": "2020-03-25"
+        },
+        {
+            "title": "Registry Study on the Efficacy of a Self-test and Self-alert Applet in Detecting Susceptible Infection of COVID-19 ——a Population Based Mobile Internet Survey",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04256395",
+            "timestamp": "2020-02-05"
+        },
+        {
+            "title": "Nitric Oxide Gas Inhalation Therapy in Spontaneous Breathing Patients With Mild/Moderate COVID-19: a Randomized Clinical Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04305457",
+            "timestamp": "2020-03-12"
+        },
+        {
+            "title": "Anti-Coronavirus Therapies to Prevent Progression of COVID-19, a Randomized Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04324463",
+            "timestamp": "2020-03-27"
+        },
+        {
+            "title": "Baricitinib Combined With Antiviral Therapy in Symptomatic Patients Infected by COVID-19: an Open-label, Pilot Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04320277",
+            "timestamp": "2020-03-24"
+        },
+        {
+            "title": "A Prospective, Randomized, Open, Parallel Controlled, Multicenter Clinical Study of Xiyanping Injection in Combination With Conventional Treatment for the Evaluation of the Effectiveness and Safety of Novel Coronavirus Infection Pneumonia",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04275388",
+            "timestamp": "2020-02-19"
+        },
+        {
+            "title": "Prolonged Low Doses of Methylprednisolone for Patients With COVID-19 Severe Acute Respiratory Syndrome",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04323592",
+            "timestamp": "2020-03-26"
+        },
+        {
+            "title": "A Multicenter, Adaptive, Randomized Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for the Treatment of COVID-19 in Hospitalized Adults",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04280705",
+            "timestamp": "2020-02-21"
+        },
+        {
+            "title": "Nitric Oxide Gas Inhalation Therapy in Spontaneous Breathing Patients With Mild/Moderate COVID19 Infection: a Randomized Clinical Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04290858",
+            "timestamp": "2020-03-02"
+        },
+        {
+            "title": "An Adaptive Phase 2/3, Randomized, Double-blind, Placebo Controlled Study Assessing Efficacy and Safety of Sarilumab for Hospitalized Patients With COVID19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04327388",
+            "timestamp": "2020-03-31"
+        },
+        {
+            "title": "Proposal for International Standardization of the Use of Lung Ultrasound for COVID-19 Patients; a Simple, Quantitative, Reproducible Method",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04322487",
+            "timestamp": "2020-03-26"
+        },
+        {
+            "title": "Efficacy and Safety of Chloroquine Diphosphate for the Treatment of Hospitalized Patients With Severe Acute Respiratory Syndrome Secondary to SARS-CoV2: a Phase IIb, Double-blind, Randomized Adaptive Clinical Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04323527",
+            "timestamp": "2020-03-26"
+        },
+        {
+            "title": "Cardiac complicAtions in Patients With SARS Corona vIrus 2 regisTrY",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04325412",
+            "timestamp": "2020-03-27"
+        },
+        {
+            "title": "Soliris to Stop Immune Mediated Death In Covid 19 Infected Patients. A Trial of Distal Complement Inhibition.",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04288713",
+            "timestamp": "2020-02-28"
+        },
+        {
+            "title": "COVID-19 Ring-based Prevention Trial With Lopinavir/Ritonavir",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04321174",
+            "timestamp": "2020-03-25"
+        },
+        {
+            "title": "Online-based Survey of the Anxiety Associated With the SARS-CoV-2 Pandemic in the General Population in Germany",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04331106",
+            "timestamp": "2020-04-02"
+        },
+        {
+            "title": "\"Coronavirus SARS-CoV2 and Diabetes Outcomes\"",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04324736",
+            "timestamp": "2020-03-27"
+        },
+        {
+            "title": "Colchicine Coronavirus SARS-CoV2 Trial (COLCORONA)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04322682",
+            "timestamp": "2020-03-26"
+        },
+        {
+            "title": "Non-contact Endoscopy at Covid-19 Outbreak",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04320953",
+            "timestamp": "2020-03-25"
+        },
+        {
+            "title": "COLCHICINE TO COUNTERACT INFLAMMATORY RESPONSE IN COVID-19 PNEUMONIA",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04322565",
+            "timestamp": "2020-03-26"
+        },
+        {
+            "title": "The COVISTRESS Study: Influence of the COvid-19 Epidemic on STRESS",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04308187",
+            "timestamp": "2020-03-13"
+        },
+        {
+            "title": "Tocilizumab (RoActemra) as Early Treatment of Patients Affected by SARS-CoV2 Infection With Severe Multifocal Interstitial Pneumonia",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04315480",
+            "timestamp": "2020-03-19"
+        },
+        {
+            "title": "Efficacy and Safety of Escin as add-on Treatment in Covid-19 Infected Patients",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04322344",
+            "timestamp": "2020-03-26"
+        },
+        {
+            "title": "The Use of a Bidirectional Oxygenation Valve in the Management of Respiratory Failure Due to COVID-19 Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04326452",
+            "timestamp": "2020-03-30"
+        },
+        {
+            "title": "PCR-COVID-19 Predictors of Positivity in Patients Admitted to ICU for Respiratory Infection: A Prospective Observational Cohort Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04327180",
+            "timestamp": "2020-03-30"
+        },
+        {
+            "title": "Nitric Oxide Gas Inhalation for Prevention of COVID-19 in Healthcare Providers",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04312243",
+            "timestamp": "2020-03-18"
+        },
+        {
+            "title": "Biomarkers Identification for Diagnosis and Treatment of SARS-COV-2 Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04322513",
+            "timestamp": "2020-03-26"
+        },
+        {
+            "title": "Time of Recovery and Prognostic Factors of Covid19 Pneumonia",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04324684",
+            "timestamp": "2020-03-27"
+        },
+        {
+            "title": "Blood Donor Recruitment During Epidemic of COVID-19 in Guangzhou, China",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04306055",
+            "timestamp": "2020-03-12"
+        },
+        {
+            "title": "Multicenter Study on Nosocomial Transmission of SARS-CoV-2 Virus",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04290780",
+            "timestamp": "2020-03-02"
+        },
+        {
+            "title": "Study to Characterize Patients With SARS-Cov-2 Infection and to Create a Biobank to Identify Predictors of Disease Severity, Mortality and Treatment Response",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04318366",
+            "timestamp": "2020-03-24"
+        },
+        {
+            "title": "Risk Factors for Community- and Workplace Transmission of COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04320732",
+            "timestamp": "2020-03-25"
+        },
+        {
+            "title": "Identification of a New Screening Strategy for 2019 Novel Coronavirus Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04281693",
+            "timestamp": "2020-02-24"
+        },
+        {
+            "title": "A Phase 1b, Randomized, Double-blinded, Placebo-controlled Study of Hydroxychloroquine in Outpatient Adults With COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04333654",
+            "timestamp": "2020-04-03"
+        },
+        {
+            "title": "The Efficacy and Safety of Anti-SARS-CoV-2 Inactivated Convalescent Plasma in the Treatment of Novel Coronavirus Pneumonia Patient (COVID-19) : An Observational Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04292340",
+            "timestamp": "2020-03-03"
+        },
+        {
+            "title": "Medical Masks Versus N95 Respirators to Prevent 2019 Novel Coronavirus Disease (COVID-19) in Healthcare Workers: A Randomized Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04296643",
+            "timestamp": "2020-03-05"
+        },
+        {
+            "title": "Clinical Characteristics of Coronavirus Disease 2019 (COVID-19) in Pregnancy",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04319016",
+            "timestamp": "2020-03-24"
+        },
+        {
+            "title": "Accurate Classification System for Patients With COVID-19 Based on Prognostic Nomogram",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04302688",
+            "timestamp": "2020-03-10"
+        },
+        {
+            "title": "A Multicenter Observational Study of the Perinatal-neonatal Population With or With Risk of COVID-19 in China",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04279899",
+            "timestamp": "2020-02-21"
+        },
+        {
+            "title": "Nitric Oxide Gas Inhalation Therapy for Severe Acute Respiratory Syndrome Due to COVID-19.",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04290871",
+            "timestamp": "2020-03-02"
+        },
+        {
+            "title": "Clinical Characteristics and Prognostic Factors of Patients With COVID-19 in Chibi Hospital of Hubei Province",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04328454",
+            "timestamp": "2020-03-31"
+        },
+        {
+            "title": "A Longitudinal Study of SARS-CoV-2 Positive Patients Testing Nasal Swabs and Collecting Blood Samples for Research",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04327804",
+            "timestamp": "2020-03-31"
+        },
+        {
+            "title": "Early Prone Positioning Combined With High-Flow Nasal Cannula Versus High-Flow Nasal Cannula in COVID-19 Induced Moderate to Severe ARDS",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04325906",
+            "timestamp": "2020-03-30"
+        },
+        {
+            "title": "Nitric Oxide Gas Inhalation Therapy for Mechanically Ventilated Patients With Severe Acute Respiratory Syndrome Caused by SARS-CoV2: a Randomized Clinical Trial.",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04306393",
+            "timestamp": "2020-03-12"
+        },
+        {
+            "title": "Impact of Swab Site and Sample Collector on Testing Sensitivity for SARS-CoV-2 Virus in Symptomatic Individuals",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04321369",
+            "timestamp": "2020-03-25"
+        },
+        {
+            "title": "Effectiveness and Safety of Respiratory Training Devices in the Prevention and Severity of COVID-19: A Randomized Controlled Clinical Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04326114",
+            "timestamp": "2020-03-30"
+        },
+        {
+            "title": "An Open-label, Randomized Controlled Trial of Hydroxychloroquine and Azytromicyn for COVID-19 Infection on Hospitalized, Noncritical Patients",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04322123",
+            "timestamp": "2020-03-26"
+        },
+        {
+            "title": "Characterization of Cardiovascular Diseases and Risk Factors in Patients With Suspected SARS-CoV2/Covid-19 Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04327479",
+            "timestamp": "2020-03-31"
+        },
+        {
+            "title": "Effectiveness of Interleukin-6 Receptor Inhibitors in the Management of Patients With Severe SARS-CoV-2 Pneumonia: An Open-Label, Multicenter Sequential and Cluster Randomized Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04322773",
+            "timestamp": "2020-03-26"
+        },
+        {
+            "title": "Cohort Multiple Randomized Controlled Trials Open-label of Immune Modulatory Drugs and Other Treatments in COVID-19 Patients",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04324047",
+            "timestamp": "2020-03-27"
+        },
+        {
+            "title": "A Survey of Psychological Status of Medical Workers and Residents in the Context of 2019 Novel Coronavirus Pneumonia in Wuhan, China",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04260308",
+            "timestamp": "2020-02-07"
+        },
+        {
+            "title": "Clinical Characteristics of Coronavirus Disease 2019 (COVID-19) in Pregnancy: The Italian Registry on Coronavirus in Pregnancy",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04315870",
+            "timestamp": "2020-03-20"
+        },
+        {
+            "title": "Acute Respiratory Failure and Continuous Positive Airway Pressure Therapy in Patients With Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Infection: a Real Life Evaluation",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04307459",
+            "timestamp": "2020-03-13"
+        },
+        {
+            "title": "Clinical Application of Stem Cell Educator Therapy for the Treatment of Viral Inflammation Caused by Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04299152",
+            "timestamp": "2020-03-06"
+        },
+        {
+            "title": "Factors Associated With a Positive SARS-CoV-2 Serology in Contact Subjects at High/Moderate Risk of Coronavirus SARS-CoV-2 Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04322279",
+            "timestamp": "2020-03-26"
+        },
+        {
+            "title": "Use of cSVF For Residual Lung Damage (COPD/Fibrotic Lung Disease After Symptomatic COVID-19 Infection For Residual Pulmonary Injury or Post-Adult Respiratory Distress Syndrome Following Viral (SARS-Co-2) Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04326036",
+            "timestamp": "2020-03-30"
+        },
+        {
+            "title": "Pilot, Randomized, Multicenter, Open-label Clinical Trial of Combined Use of Hydroxychloroquine, Azithromycin, and Tocilizumab for the Treatment of SARS-CoV-2 Infection (COVID-19)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04332094",
+            "timestamp": "2020-04-02"
+        },
+        {
+            "title": "Proactive Prophylaxis With Azithromycin and Chloroquine in Hospitalized Patients With COVID: A Randomized, Placebo-controlled Double-blinded Trial Evaluating Treatment With Azithromycin and Hydroxychloroquine to Patients With COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04322396",
+            "timestamp": "2020-03-26"
+        },
+        {
+            "title": "Identifying Critically-ill Patients With COVID-19 Who Will Benefit Most From Nutrition Support Therapy: Validation of the NUTRIC Nutritional Risk Assessment Tool (COV_NUTRIC)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04274322",
+            "timestamp": "2020-02-18"
+        },
+        {
+            "title": "Cohort Multiple Randomized Controlled Trials Open-label of Immune Modulatory Drugs and Other Treatments in COVID-19 Patients - Sarilumab Trial - CORIMUNO-19 - SARI",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04324073",
+            "timestamp": "2020-03-27"
+        },
+        {
+            "title": "Hydroxychloroquine Versus Placebo in Patients Presenting COVID-19 Infection and at Risk of Secondary Complication: a Prospective, Multicentre, Randomised, Double-blind Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04325893",
+            "timestamp": "2020-03-30"
+        },
+        {
+            "title": "Cohort Multiple Randomized Controlled Trials Open-label of Immune Modulatory Drugs and Other Treatments in COVID-19 Patients - Tocilizumab Trial - CORIMUNO-19 - TOCI (CORIMUNO-TOCI)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04331808",
+            "timestamp": "2020-04-02"
+        },
+        {
+            "title": "Clinical Characteristics and Outcomes of Children Potentially Infected by Severe Acute Respiratory Distress Syndrome (SARS)-CoV-2 Presenting to Pediatric Emergency Departments",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04330261",
+            "timestamp": "2020-04-01"
+        },
+        {
+            "title": "The Use of Angiotensin Converting Enzyme Inhibitors and Incident Respiratory Infections, Are They Harmful or Protective? An Analysis Using UK Based Electronic Health Records of 5.6 Million Individuals.",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04322786",
+            "timestamp": "2020-03-26"
+        },
+        {
+            "title": "Telephony Or Videophony for Isolated elDerly in Maine-Et-Loire 49",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04333849",
+            "timestamp": "2020-04-03"
+        },
+        {
+            "title": "CORONAvirus Angiotensin Converting Enzyme Inhibitors/Angiotensin Receptor Blockers InvestigatiON: A Randomized Clinical Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04330300",
+            "timestamp": "2020-04-01"
+        },
+        {
+            "title": "An Observational Study of Patients With Coronavirus Disease 2019",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04331886",
+            "timestamp": "2020-04-02"
+        },
+        {
+            "title": "Randomized, Open, Blank Control Study on the Efficacy and Safety of Recombinant Human Interferon α1β in the Treatment of Patients With New Type of Coronavirus Infection in Wuhan",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04293887",
+            "timestamp": "2020-03-03"
+        },
+        {
+            "title": "COVIDL1: A Randomized, Double-blind, Placebo-controlled Study to Investigate the Efficacy of Tradipitant in Treating Inflammatory Lung Injury and Improving Clinical Outcomes Associated With Severe or Critical COVID-19 Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04326426",
+            "timestamp": "2020-03-30"
+        },
+        {
+            "title": "Getting it Right: Towards Responsible Social Media Use During a Pandemic",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04305574",
+            "timestamp": "2020-03-12"
+        },
+        {
+            "title": "Convalescent Plasma to Limit Coronavirus Associated Complications: An Open Label, Phase 2A Study of High-Titer Anti-SARS-CoV-2 Plasma in Hospitalized Patients With COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04325672",
+            "timestamp": "2020-03-27"
+        },
+        {
+            "title": "Expanded Access Remdesivir (RDV; GS-5734™)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04302766",
+            "timestamp": "2020-03-10"
+        },
+        {
+            "title": "Glucocorticoid Therapy for Critically Ill Patients With Severe Acute Respiratory Infections Caused by Noval Coronovirus 2019-nCoV: a Prospective, Randomized Controlled Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04244591",
+            "timestamp": "2020-01-28"
+        },
+        {
+            "title": "EC-COVID-RCT. Early CPAP in COVID Patients With Respiratory Failure. A Randomized Clinical Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04326075",
+            "timestamp": "2020-03-30"
+        },
+        {
+            "title": "PRIORITY (Pregnancy Coronavirus Outcomes Registry)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04323839",
+            "timestamp": "2020-03-27"
+        },
+        {
+            "title": "Clinical Outcomes of Hospitalized Patients With Coronavirus Disease 2019",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04280913",
+            "timestamp": "2020-02-21"
+        },
+        {
+            "title": "Home Blood Pressure Self-Management in Hypertensive Stroke Survivors: a Pilot Study",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04226157",
+            "timestamp": "2020-01-13"
+        },
+        {
+            "title": "Clinical Investigation of Natural Killer Cells Treatment in Pneumonia Patients Infected With 2019 Novel Coronavirus",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04280224",
+            "timestamp": "2020-02-21"
+        },
+        {
+            "title": "Investigation of Physical Activity, Quality of Life and Stress Levels of Individuals Who Live in Their Homes Isolated Because of Coronavirus (COVID-19) Disease",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04319211",
+            "timestamp": "2020-03-24"
+        },
+        {
+            "title": "Morbidity and Mortality Due to Deferral of Aortic Valve Replacement in Patients With Severe Aortic Stenosis - a Collateral Effect of the SARS-CoV-2 Pandemic (AS DEFER)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04333875",
+            "timestamp": "2020-04-03"
+        },
+        {
+            "title": "Norwegian Coronavirus Disease 2019 Study: An Open Labeled Randomized Controlled Pragmatic Trial to Evaluate the Antiviral Effect of Chloroquine in Adult Patients With SARS-CoV-2 Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04316377",
+            "timestamp": "2020-03-20"
+        },
+        {
+            "title": "An Open-label Randomized Controlled Trial on Lopinavir/ Ritonavir, Ribavirin and Interferon Beta 1b Combination Versus Lopinavir/ Ritonavir Alone, as Treatment for 2019 Novel Coronavirus Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04276688",
+            "timestamp": "2020-02-19"
+        },
+        {
+            "title": "Pre-exposure Prophylaxis for SARS-Coronavirus-2: A Pragmatic Randomized Clinical Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04328467",
+            "timestamp": "2020-03-31"
+        },
+        {
+            "title": "Evaluating Convalescent Plasma to Decrease Coronavirus Associated Complications. A Phase I Study Comparing the Efficacy and Safety of High-titer Anti-Sars-CoV-2 Plasma vs Best Supportive Care in Hospitalized Patients With Interstitial Pneumonia Due to COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04333251",
+            "timestamp": "2020-04-03"
+        },
+        {
+            "title": "Automated Oxygen Titration - Monitoring and Weaning in Patients With Infectious Pneumonia Requiring Oxygen - Impact on the Number of Interventions for Healthcare Workers. An Innovative Device to Manage Patients With COVID-19 Pneumonia COVID Study (Closed-Loop Oxygen to Verify That Healthcare Workers Interventions Decreaseduring Pneumonia)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04320056",
+            "timestamp": "2020-03-24"
+        },
+        {
+            "title": "Clinical Characterisation Protocol for Severe Emerging Infections",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04262921",
+            "timestamp": "2020-02-10"
+        },
+        {
+            "title": "Pandemic Response Network: Duke Community Health Watch",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04320862",
+            "timestamp": "2020-03-25"
+        },
+        {
+            "title": "Multicentric Study of Coronavirus Disease 2019 (COVID-2019) in Solid Organ Transplant Recipients",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04319172",
+            "timestamp": "2020-03-24"
+        },
+        {
+            "title": "Audio Data Collection for Identification and Classification of Coughing",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04326309",
+            "timestamp": "2020-03-30"
+        },
+        {
+            "title": "Post-exposure Prophylaxis and Preemptive Therapy for SARS-Coronavirus-2: A Pragmatic Randomized Clinical Trial",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04308668",
+            "timestamp": "2020-03-16"
+        },
+        {
+            "title": "Acceptance and Commitment Therapy Delivered by Automated Software Messaging",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04329897",
+            "timestamp": "2020-04-01"
+        },
+        {
+            "title": "A Pilot Clinical Study on Aerosol Inhalation of the Exosomes Derived From Allogenic Adipose Mesenchymal Stem Cells in the Treatment of Severe Patients With Novel Coronavirus Pneumonia",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04276987",
+            "timestamp": "2020-02-19"
+        },
+        {
+            "SOURCE": "clinicaltrialsregister.eu",
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-001200-42/DK",
+            "title": "The Impact of Camostat Mesilate on COVID-19 Infection: An investigator-initiated randomized, placebo-controlled, phase IIa trial",
+            "country": "DK",
+            "timestamp": "2020-03-30"
         }
     ]
 }
