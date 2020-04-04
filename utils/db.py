@@ -17,6 +17,7 @@ from mongoengine import (
 from mongoengine_mate import ExtendedDocument
 
 from dotenv import load_dotenv
+
 load_dotenv()
 
 if os.environ.get("MONGODB_URI"):
@@ -40,7 +41,7 @@ class Article(ExtendedDocument):
 
     # additional fields
     recruiting_status = StringField()
-    sex = ListField(StringField(), default=['male', 'female'])
+    sex = ListField(StringField(), default=["male", "female"])
     target_disease = StringField()
     intervention = StringField()
     sponsor = StringField()
