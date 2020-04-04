@@ -64,7 +64,7 @@ h1 {
 	margin: 0;
 }
 #titdiv {
-	width: auto;
+	width: calc(100% - 20px);
 	height: 70px;
 	background-color: #840000;
 	color: white;
@@ -75,12 +75,12 @@ h1 {
 	border-bottom: 1px solid #540000;
 }
 #tittxt {
-	width: 500px;
 	display: inline-block;
 }
 
 #maindiv {
 	width: 970px;
+	max-width: calc(100% - 32px);
 	padding: 15px;
 	margin-left: auto;
 	margin-right: auto;
@@ -105,6 +105,7 @@ h1 {
 .paperdesc {
 	float: left;
 	width: 750px;
+	max-width: 100%;
 }
 
 .dllinks {
@@ -127,8 +128,9 @@ h1 {
 	display: block;
 }
 #qfield {
-  border: 5px solid white; 
+  border: 5px solid white;
   width: 950px;
+	max-width: calc(100% - 53px);
   border: solid 1px #999;
 
   height: 40px;
@@ -211,6 +213,7 @@ h1 {
 
 #flashesdiv {
 	width: 1000px;
+	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 16px;
@@ -258,6 +261,7 @@ ul.flashes li {
 
 #pagebar {
 	width: 970px;
+	max-width: calc(100% - 32px);
 	padding: 10px 15px 0px 15px;
 	margin-left: auto;
 	margin-right: auto;
@@ -275,7 +279,7 @@ ul.flashes li {
 	border-left: 1px solid #AAA;
 	border-right: 1px solid #AAA;
 	border-top: 1px solid #AAA;
-	
+
 	padding: 10px 5px 10px 5px;
 	background-color: #CCE;
 }
@@ -286,20 +290,13 @@ ul.flashes li {
 
 .centerdiv {
 	width: 970px;
+	max-width: 100%;
 	padding: 10px 15px 0px 15px;
 	margin-left: auto;
 	margin-right: auto;
 	border-left: solid 1px #D6D3C5;
 	border-right: solid 1px #D6D3C5;
 }
-#recommend-time-choice {
-	background-color: #FFF;
-	text-align: center;
-}
-#recommend-time-choice a:link{ text-decoration: none; color: #338;}
-#recommend-time-choice a:visited{ text-decoration: none; color: #338;}
-#recommend-time-choice a:hover{ text-decoration: none; color: #338;}
-#recommend-time-choice a:active{ text-decoration: none; color: #338;}
 .timechoice {
 	display: inline-block;
 	background-color: #EEE;
@@ -329,16 +326,6 @@ ul.flashes li {
 	width: 10px;
 	margin-left: 5px;
 	margin-right: 5px;
-}
-#banner {
-	border: 1px solid #9C9;
-	background-color: #DFD;
-	width: 980px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-	padding: 10px;
-	text-align: center;
 }
 .twdiv {
 	margin-top:2px;
@@ -447,7 +434,7 @@ ul.flashes li {
 }
 .caction {
 	display:inline-block;
-	float:right; 
+	float:right;
 	padding:2px;
 }
 .caction img {
@@ -458,4 +445,13 @@ ul.flashes li {
   background-color: #ffc;
   padding: 2px;
   font-size: 14px;
+}
+
+#filter-box {
+	width: 970px;
+	max-width: calc(100% - 30px);
+	padding: 5px;
+	background-color: white;
+	border-radius: 4px;
+	margin: 0 10px 10px 10px;
 }

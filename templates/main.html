@@ -28,10 +28,10 @@
   <!-- Google Analytics JS -->
   <script>
     (function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-      (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date(); a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
     })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-3698471-25', 'auto');
@@ -99,31 +99,31 @@
       var time_range = tf;
 
       // set up time filtering options
-      if (render_format === 'recommend' || render_format === 'top' || render_format === 'recent' || render_format === 'friends') {
-        // insert version filtering options for these views
-        var elt = d3.select('#recommend-time-choice');
-        var vflink = vf === 'all' ? '1' : 'all'; // toggle only showing v1 or not
-        if (render_format === 'recent') {
-          var aelt = elt.append('a').attr('href', '/' + link_endpoint + '?' + '&vfilter=' + vflink); // leave out timefilter from this page
-        } else {
-          var aelt = elt.append('a').attr('href', '/' + link_endpoint + '?' + 'timefilter=' + time_range + '&vfilter=' + vflink);
-        }
-        // var delt = aelt.append('div').classed('vchoice', true).html('Only show v1');
-        if (vf === '1') { delt.classed('vchoice-selected', true); }
-      }
+      // if (render_format === 'recommend' || render_format === 'top' || render_format === 'recent' || render_format === 'friends') {
+      //   // insert version filtering options for these views
+      //   var elt = d3.select('#recommend-time-choice');
+      //   var vflink = vf === 'all' ? '1' : 'all'; // toggle only showing v1 or not
+      //   if (render_format === 'recent') {
+      //     var aelt = elt.append('a').attr('href', '/' + link_endpoint + '?' + '&vfilter=' + vflink); // leave out timefilter from this page
+      //   } else {
+      //     var aelt = elt.append('a').attr('href', '/' + link_endpoint + '?' + 'timefilter=' + time_range + '&vfilter=' + vflink);
+      //   }
+      //   // var delt = aelt.append('div').classed('vchoice', true).html('Only show v1');
+      //   if (vf === '1') { delt.classed('vchoice-selected', true); }
+      // }
 
-      // time choices for recommend/top
-      if (render_format === 'recommend' || render_format === 'top' || render_format === 'friends') {
-        // insert time filtering options for these two views
-        var elt = d3.select('#recommend-time-choice');
-        elt.append('div').classed('fdivider', true).html('|');
-        for (var i = 0; i < time_ranges.length; i++) {
-          var time_range = time_ranges[i];
-          var aelt = elt.append('a').attr('href', '/' + link_endpoint + '?' + 'timefilter=' + time_range + '&vfilter=' + vf);
-          var delt = aelt.append('div').classed('timechoice', true).html(time_txt[time_range]);
-          if (tf == time_range) { delt.classed('timechoice-selected', true); } // also render as chosen
-        }
-      }
+      // // time choices for recommend/top
+      // if (render_format === 'recommend' || render_format === 'top' || render_format === 'friends') {
+      //   // insert time filtering options for these two views
+      //   var elt = d3.select('#recommend-time-choice');
+      //   elt.append('div').classed('fdivider', true).html('|');
+      //   for (var i = 0; i < time_ranges.length; i++) {
+      //     var time_range = time_ranges[i];
+      //     var aelt = elt.append('a').attr('href', '/' + link_endpoint + '?' + 'timefilter=' + time_range + '&vfilter=' + vf);
+      //     var delt = aelt.append('div').classed('timechoice', true).html(time_txt[time_range]);
+      //     if (tf == time_range) { delt.classed('timechoice-selected', true); } // also render as chosen
+      //   }
+      // }
 
       // time choices for top tweets
       // if(render_format === 'toptwtr') {
@@ -193,6 +193,10 @@
     <div id="search_hint"></div>
   </div>
 
+  <div id="filter-box">
+    <span>Advanced Filters</span>
+  </div>
+
   <div id="pagebar">
     <div class="pagelink" id="tabrecent"><a href="/">most recent</a></div>
     <!-- <div class="pagelink" id="tabtop"><a href="/top">top recent</a></div>
@@ -202,9 +206,6 @@
   <div class="pagelink" id="tabrec"><a href="/recommend">recommended</a></div>
   <div class="pagelink" id="tablib"><a href="/library">library</a></div> -->
   </div>
-
-  <!-- this div will be rendered into dynamcially at init with JS -->
-  <div id="recommend-time-choice" class="centerdiv"></div>
 
   <div id="maindiv">
 
