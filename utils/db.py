@@ -1,3 +1,6 @@
+import os
+import datetime
+
 from mongoengine import (
     connect,
     DateTimeField,
@@ -5,17 +8,14 @@ from mongoengine import (
     StringField,
     URLField,
 )
-import os
-import datetime
+
 from dotenv import load_dotenv
 load_dotenv()
-
 
 if os.environ.get("MONGODB_URI"):
     connect(host=os.environ.get("MONGODB_URI"))
 else:
     raise Exception('No MongoDB URI specified.')
-
 
 class Article(Document):
     title = StringField()
@@ -25,11 +25,12 @@ class Article(Document):
     def __str__(self):
         return self.url
 
-
 def create(articles):
     """
-    Pushes a list of article objects (dictionaries) to MongoDB.
-    Automatically checks for duplicates by URL.
+    Input: list of articles (dictionaries).
+    Output: None
+
+    Posts a list of articles to Mongo.
     """
     objects = []
     for a in articles:
