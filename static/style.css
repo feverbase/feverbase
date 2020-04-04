@@ -163,18 +163,6 @@ h1 {
 	border-top: 1px solid #CCD;
 	color: #005;
 }
-#search_hint {
-	text-align: center;
-	margin-bottom: 10px;
-	font-size: 14px;
-}
-#search_hint a {
-	margin-right: 10px;
-}
-#search_hint a:link{ color: #777; }
-#search_hint a:visited{ color: #777; }
-#search_hint a:hover{ color: #777; }
-#search_hint a:active{ color: #777; }
 
 #userinfo {
 	position: absolute;
@@ -448,10 +436,20 @@ ul.flashes li {
 }
 
 #filter-box {
-	width: 970px;
-	max-width: calc(100% - 30px);
+	width: 990px;
+	max-width: calc(100% - 10px);
 	padding: 5px;
-	background-color: white;
-	border-radius: 4px;
-	margin: 0 10px 10px 10px;
+	background-color: rgb(240, 240, 240);
+	margin: 10px auto;
+	border: solid 1px #D6D3C5;
+}
+
+#filter-box > a {
+	margin: 0;
+	color: gray;
+	cursor: pointer;
+}
+
+#filter-box > a:hover {
+	text-decoration: underline;
 }

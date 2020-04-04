@@ -46,12 +46,8 @@
     var render_format = "{{ render_format }}";
     var numresults = "{{ numresults }}";
 
-    var urlq = ''; // global will be read in to QueryString when load is done
-
     // when page loads...
     $(document).ready(function () {
-
-      urlq = QueryString.q;
 
       // display message, if any
       // if(msg !== '') { d3.select("#rtable").append('div').classed('msg', true).html(msg); }
@@ -79,10 +75,6 @@
       });
 
       if (papers.length === 0) { $("#loadmorebtn").hide(); }
-
-      if (!(typeof urlq == 'undefined')) {
-        d3.select("#qfield").attr('value', urlq.replace(/\+/g, " "));
-      }
 
       var vf = QueryString.vfilter; if (typeof vf === 'undefined') { vf = 'all'; }
       var tf = QueryString.timefilter; if (typeof tf === 'undefined') { tf = 'week'; }
@@ -159,6 +151,19 @@
     });
 
   </script>
+  <script>
+    function toggleAdvancedFilters() {
+      var status = document.getElementById('filter-status');
+      var table = document.getElementById('filter-table');
+      if (table.style.display === 'none') {
+        table.style.display = 'block';
+        status.innerHTML = 'hide';
+      } else {
+        table.style.display = 'none';
+        status.innerHTML = 'show';
+      }
+    }
+  </script>
 </head>
 
 <body>
@@ -179,23 +184,107 @@
     {% if flashes %}
     <ul class="flashes">
       {% for message in flashes %}
-      <li>{{ message }}
-        {% endfor %}
+      <li>{{ message }}</li>
+      {% endfor %}
     </ul>
     {% endif %}
     {% endwith %}
   </div>
 
-  <div id="sbox">
-    <form action="/search" method="get">
-      <input name="q" type="text" id="qfield">
-    </form>
-    <div id="search_hint"></div>
-  </div>
+  <form action="/filter" method="get">
+    <div id="sbox">
+      <input name="q" type="text" id="qfield" value="{{ filters.q if filters and 'q' in filters else '' }}">
+    </div>
 
-  <div id="filter-box">
-    <span>Advanced Filters</span>
-  </div>
+    <div id="filter-box">
+      <a onclick="toggleAdvancedFilters()"><span id="filter-status">hide</span> advanced filters</a>
+      <br>
+      <table id="filter-table">
+        <tbody>
+          <tr>
+            <td>Country:</td>
+            <td>
+              <select name="country" type="text" id="filter-country">
+                {% if filters and not 'country' in filters %}
+                <option value="" selected></option>
+                {% else %}
+                <option value=""></option>
+                {% endif %}
+
+                {% if filter_options and 'countries' in filter_options %}
+                {% for country in filter_options.countries %}
+                {% if filters and 'country' in filters and filters.country == country %}
+                <option value="country" selected>{{ country }}</option>
+                {% else %}
+                <option value="country">{{ country }}</option>
+                {% endif %}
+                {% endfor %}
+                {% endif %}
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Drug:</td>
+            <td>
+              <select name="drug" type="text" id="filter-drug">
+                {% if filters and not 'drug' in filters %}
+                <option value="" selected></option>
+                {% else %}
+                <option value=""></option>
+                {% endif %}
+
+                {% if filter_options and 'drugs' in filter_options %}
+                {% for drug in filter_options.drugs %}
+                {% if filters and 'drug' in filters and filters.drug == drug %}
+                <option value="drug" selected>{{ drug }}</option>
+                {% else %}
+                <option value="drug">{{ drug }}</option>
+                {% endif %}
+                {% endfor %}
+                {% endif %}
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Trial Type:</td>
+            <td>
+              <select name="type" type="text" id="filter-type">
+                {% if filters and not 'type' in filters %}
+                <option value="" selected></option>
+                {% else %}
+                <option value=""></option>
+                {% endif %}
+
+                {% if filter_options and 'types' in filter_options %}
+                {% for type in filter_options.types %}
+                {% if filters and 'type' in filters and filters.type == type %}
+                <option value="type" selected>{{ type }}</option>
+                {% else %}
+                <option value="type">{{ type }}</option>
+                {% endif %}
+                {% endfor %}
+                {% endif %}
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td># Subjects:</td>
+            <td>
+              <input name="minsize" type="number" placeholder="min" id="filter-minsize"
+                value="{{ filters.minsize if filters and 'minsize' in filters else '' }}">
+              <input name="maxsize" type="number" placeholder="max" id="filter-maxsize"
+                value="{{ filters.maxsize if filters and 'maxsize' in filters else '' }}">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="submit" value="Update">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </form>
 
   <div id="pagebar">
     <div class="pagelink" id="tabrecent"><a href="/">most recent</a></div>

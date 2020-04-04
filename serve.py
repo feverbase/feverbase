@@ -83,6 +83,10 @@ def papers_search(qraw):
 
 
 def default_context(papers, **kws):
+    countries = ["USA"]  # extract all possible from papers
+    drugs = ["Chloroquine"]  # extract all possible from papers
+    types = ["Type 1"]  # extract all possible from papers
+
     ans = dict(
         # if given a list of Articles, parse as necessary
         # if given a list of dicts, no change necessary
@@ -91,6 +95,8 @@ def default_context(papers, **kws):
             else papers,
         numresults=len(papers),
         totpapers=db.Article.objects.count(),
+        filter_options=dict(countries=countries, drugs=drugs, types=types),
+        filters={},
     )
     ans.update(kws)
     return ans
@@ -103,11 +109,17 @@ def intmain():
     return render_template("main.html", **ctx)
 
 
-@app.route("/search", methods=["GET"])
+@app.route("/filter", methods=["GET"])
 def search():
-    q = request.args.get("q", "")  # get the search request
-    papers = papers_search(q)  # perform the query and get sorted documents
-    ctx = default_context(papers, render_format="search")
+    filters = request.args  # get the filter requests
+    if "q" in filters:
+        papers = papers_search(
+            filters["q"]
+        )  # perform the query and get sorted documents
+    else:
+        papers = list(db.Article.objects())
+
+    ctx = default_context(papers, render_format="search", filters=filters)
     return render_template("main.html", **ctx)
 
 
