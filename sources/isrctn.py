@@ -9,6 +9,13 @@ BASE_URL = "https://www.isrctn.com"
 QUERY_URL = "{BASE_URL}/search?q={query}"
 PAGINATE_QUERY = "&page={page_num}&searchType=basic-search"
 
+def clean_empty(d):
+    if not isinstance(d, (dict, list)):
+        return d
+    if isinstance(d, list):
+        return [v for v in (clean_empty(v) for v in d) if v]
+    return {k: v for k, v in ((k, clean_empty(v)) for k, v in d.items()) if v}
+
 
 def to_iso8601(date):
     comps = date.split("/")
@@ -294,7 +301,7 @@ def find(query):
                                 publication_citations = cleaned_ps[current_index]
                                 current_index += 1
 
-                                data[url] = {
+                                this_entry = {
                                     "id": isrctn_id,
                                     "SOURCE": SOURCE,
                                     "url": url,
@@ -374,8 +381,8 @@ def find(query):
                                         "publication_citations": publication_citations,
                                     },
                                 }
-                                #for k, v in data[url].items():
-                                #    print(k, type(v))
+                                this_entry = clean_empty(this_entry)
+                                data[ur] = this_entry
                                 count += 1
 
     print(f"Fetched {count} results for {query}")
