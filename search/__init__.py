@@ -19,6 +19,7 @@ def parse_documents():
         entry_json["ms-id"] = oid
 
         parsed_documents.append(entry_json)
+    print(f"Retrieved {len(parsed_documents)} documents from MongoDB")
     return parsed_documents
 
 def push_to_meili(documents):
@@ -31,6 +32,7 @@ def push_to_meili(documents):
     while status != "processed":
        update_status = index.get_update_status(update_id)
        status = update_status.get("status")
+    print("Successfully uploaded data to Meilisearch")
 
 def mongo_to_meili():
     docs = parse_documents()
