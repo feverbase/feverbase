@@ -20,3 +20,7 @@ mongoengine
 python-dotenv
 bs4
 black
+mongoengine
+python-dotenv
+dnspython
+meilisearch
