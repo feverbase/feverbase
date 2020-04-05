@@ -1,10 +1,10 @@
 import sys
-from . import chictr  # Chinese Clinical Trial Registry
-from . import clinicaltrialsgov  # US National Library of Medicine Clinial Trials
-from . import eu  # EU Clinical Trials Register
-from . import (
+from faucets import (
+    chictr,
+    clinicaltrialsgov,
+    eu,
     isrctn,
-)  # ISRCTN: primary clinial trial registry recognised by WHO and ICMJE
+) 
 from . import utils
 
 sys.path.append('../')
