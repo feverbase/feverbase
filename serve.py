@@ -25,7 +25,7 @@ from werkzeug.security import check_password_hash, generate_password_hash
 import pymongo
 from mongoengine.queryset.visitor import Q
 
-from utils import db
+from utils import db, ms
 from sources import translate
 
 # -----------------------------------------------------------------------------
@@ -35,6 +35,9 @@ from sources import translate
 app = Flask(__name__)
 app.config.from_object(__name__)
 limiter = Limiter(app, global_limits=["100 per hour", "20 per minute"])
+
+ms_client = ms.get_ms_client()
+ms_index = ms.get_ms_trials_index(ms_client)
 
 # -----------------------------------------------------------------------------
 # connection handlers
@@ -66,19 +69,12 @@ def add_header(r):
 
 
 def papers_search(qraw):
-    qparts = qraw.lower().strip().split()  # split by spaces
-    if not len(qparts):
-        papers = db.Article.objects()
+    # blank query should return every article
+    if qraw == "":
+        return db.Article.objects()
     else:
-        papers = db.Article.objects(
-            reduce(
-                lambda a, b: a | b, map(lambda part: Q(title__icontains=part), qparts),
-            )
-        )
-        # papers = list(
-        #     filter(lambda d: any(part in d["title"].lower() for part in qparts), db)
-        # )
-    return papers
+        # perform meilisearch query
+        return ms_index.search(qraw).get("hits")
 
 
 # -----------------------------------------------------------------------------
@@ -88,7 +84,11 @@ def papers_search(qraw):
 
 def default_context(papers, **kws):
     ans = dict(
-        papers=list(map(lambda p: json.loads(p.to_json()), papers)),
+        # if given a list of Articles, parse as necessary
+        # if given a list of dicts, no change necessary
+        papers=list(map(lambda p: json.loads(p.to_json()), papers))
+            if len(papers) > 0 and type(papers[0]) == db.Article
+            else papers,
         numresults=len(papers),
         totpapers=db.Article.objects.count(),
     )
