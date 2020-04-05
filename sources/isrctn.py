@@ -301,19 +301,51 @@ def find(query):
                                 publication_citations = cleaned_ps[current_index]
                                 current_index += 1
 
+
+                                primary_contact_list = [x.strip() for x in primary_contact["contact_details"].split("\n")]
+
+                                institution = primary_contact_list[0].strip()
+                                phone = primary_contact_list[2].strip()
+                                email = primary_contact_list[3].strip()
+
+                                contact_information = {
+                                        "name": primary_contact["name"],
+                                        "phone": phone,
+                                        "email": email,
+                                        }
+
                                 this_entry = {
-                                    "id": isrctn_id,
-                                    "SOURCE": SOURCE,
+                                    # Meta keys
+                                    #"id": isrctn_id,
+                                    "_source": SOURCE,
+
+                                    # Essential keys
+                                    "title": title.text,
                                     "url": url,
                                     "timestamp": last_edited,
-                                    "title": title.text,
+                                    "sample_size": target_num_participants,
+                                    "recruiting_status": recruitment_status,
+                                    "gender": gender,
+                                    "target_disease": condition,
+                                    "intervention": drug_names,
+                                    "sponsor": organization,
+                                    "summary": plain_english_summary,
+                                    "contact_information": contact_information,
+                                    "institution": institution,
+                                    # There is logic at the bottom to fix this if needed
+                                    "abandoned": True,
+                                    "reason_abandoned": reason_abandoned,
+
+                                    # cut (for now)
+                                    # "age_group": age_group,
+
+                                    # ISRCTN specific keys
                                     "condition_category": condition_category,
                                     "date_applied": date_applied,
                                     "date_assigned": date_assigned,
                                     "last_edited": last_edited,
                                     "prospective_retrospective": prospective_retrospective,
                                     "overall_trial_status": overall_trial_status,
-                                    "recruitment_status": recruitment_status,
                                     "summary": summary_data,
                                     "primary_contact": primary_contact,
                                     #"additional_contacts": additional_contacts,
@@ -358,7 +390,7 @@ def find(query):
                                         "countries_of_recruitment": countries_of_recruitment,
                                         #"trial_participation_centers": trial_participation_centers,
                                     },
-                                    "sponsor": {
+                                    "sponsor_info": {
                                         "organization": organization,
                                         "sponsor_details": sponsor_details,
                                         "sponsor_type": sponsor_type,
@@ -381,6 +413,14 @@ def find(query):
                                         "publication_citations": publication_citations,
                                     },
                                 }
+
+                                if reason_abandoned == None:
+                                    del this_entry["reason_abandoned"]
+                                    this_entry["abandoned"] = False
+
+                                print(this_entry)
+                                print("***")
+
                                 this_entry = clean_empty(this_entry)
                                 data[url] = this_entry
                                 count += 1
