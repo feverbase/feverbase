@@ -84,9 +84,10 @@ def find(query):
                 my_lis = soup.findAll("li", {"class": "ResultsList_item"})
                 for result in my_lis:
                     for link in result.find_all("a", href=True):
-                        isrctn_id = link.text.split(":")[0].strip()
-                        title = link.text.split(":")[1].strip()
+                        split_link_text = link.text.split(":", 1)
+                        final_title = split_link_text[1].strip()
                         link = link.get("href").split("?")[0]
+                        url = f"{BASE_URL}{link}"
                         if link:
                             url = f"{BASE_URL}{link}"
                             page = requests.get(url)
@@ -328,7 +329,7 @@ def find(query):
                                     # "id": isrctn_id,
                                     "_source": SOURCE,
                                     # Essential keys
-                                    "title": title.text,
+                                    "title": final_title,
                                     "url": url,
                                     "timestamp": last_edited,
                                     "sample_size": target_num_participants,
@@ -340,7 +341,7 @@ def find(query):
                                     "summary": plain_english_summary,
                                     "contact": contact_information,
                                     "institution": institution,
-                                    # There is logic at the bottom to fix this if needed
+                                   # # There is logic at the bottom to fix this if needed
                                     "abandoned": True,
                                     "abandoned_reason": reason_abandoned,
                                     # cut (for now)
@@ -423,8 +424,7 @@ def find(query):
                                     del this_entry["abandoned_reason"]
                                     this_entry["abandoned"] = False
 
-                                # print(this_entry)
-                                # print("***")
+                                print(this_entry)
 
                                 this_entry = clean_empty(this_entry)
                                 data[url] = this_entry
