@@ -1,3 +1,5 @@
+wheel
+
 # feedparser is only if you want to scrape arxiv
 feedparser
 numpy
