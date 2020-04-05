@@ -119,12 +119,12 @@ def find(query):
                                         except ValueError:
                                             pass
 
-                            if male and female:
-                                sex = "MALE, FEMALE"
-                            elif male and not female:
-                                sex = "MALE"
-                            else:
-                                sex = "FEMALE"
+                            sex = []
+                            
+                            if male:
+                                sex.append("MALE")
+                            if female:
+                                sex.append("FEMALE")
 
                             contact = {
                                 "email": contact_email,
