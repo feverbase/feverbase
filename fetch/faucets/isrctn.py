@@ -362,7 +362,7 @@ def find(query):
                                     "last_edited": last_edited,
                                     "prospective_retrospective": prospective_retrospective,
                                     "overall_trial_status": overall_trial_status,
-                                    "summary": summary_data,
+                                    #"summary": summary_data,
                                     "primary_contact": primary_contact,
                                     # "additional_contacts": additional_contacts,
                                     "numbers": {
