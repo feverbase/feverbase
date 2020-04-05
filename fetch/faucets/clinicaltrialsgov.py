@@ -60,10 +60,10 @@ def find(term):
 
             soup = BeautifulSoup(scrape_page.content, "html.parser")
             info = {
-                "SOURCE": SOURCE,
-                "ID": identifier,
-                "URL": url,
-                "SCRAPE_URL": scrape_url,
+                "_source": SOURCE,
+                "_id": identifier,
+                "url": url,
+                "scrape_url": scrape_url,
             }
             for th in soup.find_all("th", attrs={"class": "tr-rowHeader"}):
                 label = th.get_text()
@@ -108,7 +108,7 @@ def find(term):
 
 def translate(info):
     title = info.get("Official Title", info.get("Brief Title", ""))
-    url = info.get("URL", "")
+    url = info.get("url", "")
 
     date = parser.parse(
         info.get("First Posted Date", info.get("First Submitted Date", "")),

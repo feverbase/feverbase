@@ -15,16 +15,27 @@
             "summary": "In December 2019, Wuhan, in Hubei province, China, became the center of an outbreak of pneumonia of unknown cause. In a short time, Chinese scientists had shared the genome information of a novel coronavirus (2019-nCoV) from these pneumonia patients and developed a real-time reverse transcription PCR (real time RT-PCR) diagnostic assay.\nWhilst the outbreak is likely to have started from a zoonotic transmission event associated with a large seafood market that also traded in live wild animals, it soon became clear that person-to-person transmission was also occurring. The number of cases of infection with 2019-nCoV identified in Wuhan increased markedly over the later part of January 2020, with cases identified in multiple other Provinces of China and internationally. Mathematical models of the expansion phase of the epidemic suggested that sustained person-to-person transmission is occurring, and the R-zero is substantially above 1, the level required for a self-sustaining epidemic in human populations.\nThe clinical spectrum of 2019-nCoV illness appears to be wide, encompassing asymptomatic infection, a mild upper respiratory tract infection, and severe viral pneumonia with respiratory failure and even death. Although the per infection risk of severe disease remains to be determined, case-fatality risk of 11-14% has been reported in several initial studies of seriously ill patients and case-fatality has been estimated approximately at 2% overall. Also the large number of cases in Wuhan has resulted in a large number of patients hospitalised with pneumonia requiring supplemental oxygen and sometimes more advance ventilator support.\nThis new coronavirus, and previous experiences with SARS and MERS-CoV, highlight the need for therapeutics for human coronavirus infections that can improve clinical outcomes, speed recovery, and reduce the requirements for intensive supportive care and prolonged hospitalisation.\nGiven no specific antiviral therapy for 2019-nCoV infection and the ready availability of remdesvir as a potential antiviral agent, based on pre-clinical studies in SARS-CoV and MERS-CoV infections, this randomized, controlled, double blind trial will evaluate the efficacy and safety of remdesivir in patients hospitalized with severe 2019-nCoV respiratory disease.",
             "location": "China",
             "institution": "Bin Cao, China-Japan Friendship Hospital",
-            "sample_size": 453
+            "contact": {},
+            "sample_size": 453,
+            "abandoned": null,
+            "abandoned_reason": null
         },
         {
             "title": "Expanded Access Remdesivir (RDV; GS-5734™)",
             "url": "https://clinicaltrials.gov/ct2/show/NCT04302766",
             "timestamp": "2020-03-10",
+            "recruiting_status": null,
+            "sex": null,
+            "target_disease": "",
             "intervention": "Drug: Remdesivir",
             "sponsor": "U.S. Army Medical Research and Development Command",
             "summary": "The treatment of communicable Novel Coronavirus (CODIV-19) of 2019 with Remdesivir (RDV; GS-5734™)",
-            "institution": "U.S. Army Medical Research and Development Command"
+            "location": null,
+            "institution": "U.S. Army Medical Research and Development Command",
+            "contact": {},
+            "sample_size": null,
+            "abandoned": null,
+            "abandoned_reason": null
         },
         {
             "title": "A Phase 3 Randomized, Double-blind, Placebo-controlled Multicenter Study to Evaluate the Efficacy and Safety of Remdesivir in Hospitalized Adult Patients With Mild and Moderate 2019-nCoV Respiratory Disease.",
@@ -41,16 +52,27 @@
             "summary": "In December 2019, Wuhan, in Hubei province, China, became the center of an outbreak of pneumonia of unknown cause. In a short time, Chinese scientists had shared the genome information of a novel coronavirus (2019-nCoV) from these pneumonia patients and developed a real-time reverse transcription PCR (real time RT-PCR) diagnostic assay.\nWhilst the outbreak is likely to have started from a zoonotic transmission event associated with a large seafood market that also traded in live wild animals, it soon became clear that person-to-person transmission was also occurring. The number of cases of infection with 2019-nCoV identified in Wuhan increased markedly over the later part of January 2020, with cases identified in multiple other Provinces of China and internationally. Mathematical models of the expansion phase of the epidemic suggested that sustained person-to-person transmission is occurring, and the R-zero is substantially above 1, the level required for a self-sustaining epidemic in human populations.\nThe clinical spectrum of 2019-nCoV infection appears to be wide, encompassing asymptomatic infection, a mild upper respiratory tract illness, and severe viral pneumonia with respiratory failure and even death. Although the per infection risk of severe disease remains to be determined, and may differ from the initial reports of 10-15%, the large number of cases in Wuhan has resulted in a large number of patients hospitalised with pneumonia. Progression from prodromal symptoms (usually fever, fatigue, cough) to severe pneumonia requiring supplementary oxygen support, mechanical ventilation, or in some cases ECMO appears to occur most commonly during the second week of illness in association with persistent viral RNA detection. This provides a window of opportunity to test candidate antiviral therapeutics.\nThis new coronavirus, and previous experiences with SARS and MERS-CoV, highlight the need for therapeutics for human coronavirus infections that can improve clinical outcomes, reduce risk of disease progression, speed recovery, and reduce the requirements for intensive supportive care and prolonged hospitalisation. In addition, treatments for mild cases to reduce the duration of illness and infectivity may also be of value were 2019-nCoV to become pandemic and/or endemic in human populations.\nGiven no specific antiviral therapy for 2019-nCoV infection and the availability of remdesvir as a potential antiviral agent based on pre-clinical studies in SARS-CoV and MERS-CoV infections, this randomized, controlled, double blind trial will evaluate the efficacy and safety of remdesivir in patients hospitalized with mild or moderate 2019-nCoV respiratory disease.",
             "location": "China",
             "institution": "Bin Cao, China-Japan Friendship Hospital",
-            "sample_size": 308
+            "contact": {},
+            "sample_size": 308,
+            "abandoned": null,
+            "abandoned_reason": null
         },
         {
             "title": "Expanded Access Treatment Protocol: Remdesivir (RDV; GS-5734) for the Treatment of SARS-CoV2 (CoV) Infection",
             "url": "https://clinicaltrials.gov/ct2/show/NCT04323761",
             "timestamp": "2020-03-27",
+            "recruiting_status": null,
+            "sex": null,
+            "target_disease": "",
             "intervention": "Drug: Remdesivir",
             "sponsor": "Gilead Sciences",
+            "summary": null,
             "location": "United States",
-            "institution": "Gilead Sciences"
+            "institution": "Gilead Sciences",
+            "contact": {},
+            "sample_size": null,
+            "abandoned": null,
+            "abandoned_reason": null
         },
         {
             "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Severe COVID-19",
@@ -64,9 +86,13 @@
             "target_disease": "COVID-19",
             "intervention": "Drug: Remdesivir",
             "sponsor": "Gilead Sciences",
+            "summary": null,
             "location": "Germany,   Hong Kong,   Italy,   Korea, Republic of,   Singapore,   Spain,   Switzerland,   Taiwan,   United Kingdom,   United States",
             "institution": "Gilead Sciences",
-            "sample_size": 400
+            "contact": {},
+            "sample_size": 400,
+            "abandoned": null,
+            "abandoned_reason": null
         },
         {
             "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Moderate COVID-19 Compared to Standard of Care Treatment",
@@ -80,9 +106,457 @@
             "target_disease": "COVID-19",
             "intervention": "Drug: Remdesivir",
             "sponsor": "Gilead Sciences",
+            "summary": null,
             "location": "China,   Germany,   Hong Kong,   Italy,   Korea, Republic of,   Singapore,   Spain,   Switzerland,   Taiwan,   United Kingdom,   United States",
             "institution": "Gilead Sciences",
+            "contact": {},
+            "sample_size": 600,
+            "abandoned": null,
+            "abandoned_reason": null
+        },
+        {
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000841-15/DE",
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants with Severe COVID-19",
+            "timestamp": "2020-03-18",
+            "recruiting_status": "",
+            "sex": [
+                "MALE",
+                "FEMALE"
+            ],
+            "target_disease": "Coronavirus disease 2019 (COVID-19)",
+            "intervention": "Remdesivir",
+            "sponsor": "Gilead Sciences, Inc.",
+            "summary": "To evaluate the efficacy of 2 remdesivir (RDV) regimens with respect to\rclinical status assessed by a 7-point ordinal scale on Day 14\nTo evaluate the safety and tolerability of RDV",
+            "location": "United Kingdom",
+            "institution": "Gilead Sciences International Ltd.",
+            "contact": {
+                "email": "clinical.trials@gilead.com",
+                "address": "Flowers Building, Granta Park, Great Abington, Cambridge, United Kingdom"
+            },
+            "abandoned": null,
+            "sample_size": 2400
+        },
+        {
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000841-15/ES",
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants with Severe COVID-19",
+            "timestamp": "2020-03-18",
+            "recruiting_status": "",
+            "sex": [
+                "MALE",
+                "FEMALE"
+            ],
+            "target_disease": "Coronavirus disease 2019 (COVID-19)",
+            "intervention": "Remdesivir",
+            "sponsor": "Gilead Sciences, Inc.",
+            "summary": "To evaluate the efficacy of two remdesivir (RDV) regimens with respect to the normalization of temperature and oxygen saturation through Day 14\nTo evaluate the safety and tolerability of RDV",
+            "location": "United Kingdom",
+            "institution": "Gilead Sciences International Ltd.",
+            "contact": {
+                "email": "clinical.trials@gilead.com",
+                "address": "Flowers Building, Granta Park, Great Abington, Cambridge, United Kingdom"
+            },
+            "abandoned": null,
+            "sample_size": 400
+        },
+        {
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000841-15/FR",
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants with Severe COVID-19",
+            "timestamp": "2020-03-18",
+            "recruiting_status": "",
+            "sex": [
+                "MALE",
+                "FEMALE"
+            ],
+            "target_disease": "Coronavirus disease 2019 (COVID-19)",
+            "intervention": "Remdesivir",
+            "sponsor": "Gilead Sciences, Inc.",
+            "summary": "To evaluate the efficacy of two remdesivir (RDV) regimens with respect to the normalization of temperature and oxygen saturation through Day 14\nTo evaluate the safety and tolerability of RDV",
+            "location": "United Kingdom",
+            "institution": "Gilead Sciences International Ltd.",
+            "contact": {
+                "email": "clinical.trials@gilead.com",
+                "address": "Flowers Building, Granta Park, Great Abington, Cambridge, United Kingdom"
+            },
+            "abandoned": null,
+            "sample_size": 400
+        },
+        {
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000841-15/IT",
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants with Severe COVID-19",
+            "timestamp": "2020-03-18",
+            "recruiting_status": "",
+            "sex": [
+                "MALE",
+                "FEMALE"
+            ],
+            "target_disease": "Coronavirus disease 2019 (COVID-19)",
+            "intervention": "Remdesivir",
+            "sponsor": "Gilead Sciences, Inc.",
+            "summary": "To evaluate the efficacy of two remdesivir (RDV) regimens with respect to the normalization of temperature and oxygen saturation through Day 14\nTo evaluate the safety and tolerability of RDV",
+            "location": "United Kingdom",
+            "institution": "Gilead Sciences International Ltd.",
+            "contact": {
+                "email": "clinical.trials@gilead.com",
+                "address": "Flowers Building, Granta Park, Great Abington, Cambridge, United Kingdom"
+            },
+            "abandoned": null,
+            "sample_size": 400
+        },
+        {
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000841-15/NL",
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants with Severe COVID-19",
+            "timestamp": "2020-03-18",
+            "recruiting_status": "",
+            "sex": [
+                "MALE",
+                "FEMALE"
+            ],
+            "target_disease": "Coronavirus disease 2019 (COVID-19)",
+            "intervention": "Remdesivir",
+            "sponsor": "Gilead Sciences, Inc.",
+            "summary": "To evaluate the efficacy of 2 remdesivir (RDV) regimens with respect to clinical status assessed by a 7-point ordinal scale on Day 14\nTo evaluate the safety and tolerability of RDV",
+            "location": "United Kingdom",
+            "institution": "Gilead Sciences International Ltd.",
+            "contact": {
+                "email": "clinical.trials@gilead.com",
+                "address": "Flowers Building, Granta Park, Great Abington, Cambridge, United Kingdom"
+            },
+            "abandoned": null,
+            "sample_size": 2400
+        },
+        {
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000841-15/GB",
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants with Severe COVID-19",
+            "timestamp": "2020-03-18",
+            "recruiting_status": "",
+            "sex": [
+                "MALE",
+                "FEMALE"
+            ],
+            "target_disease": "Coronavirus disease 2019 (COVID-19)",
+            "intervention": "Remdesivir",
+            "sponsor": "Gilead Sciences, Inc.",
+            "summary": "To evaluate the efficacy of 2 remdesivir (RDV) regimens with respect to clinical status assessed by a 7-point ordinal scale on Day 14\nTo evaluate the safety and tolerability of RDV",
+            "location": "United Kingdom",
+            "institution": "Gilead Sciences International Ltd.",
+            "contact": {
+                "email": "clinical.trials@gilead.com",
+                "address": "Flowers Building, Granta Park, Great Abington, Cambridge, United Kingdom"
+            },
+            "abandoned": null,
+            "sample_size": 2400
+        },
+        {
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000841-15/SE",
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants with Severe COVID-19",
+            "timestamp": "2020-03-18",
+            "recruiting_status": "",
+            "sex": [
+                "MALE",
+                "FEMALE"
+            ],
+            "target_disease": "Coronavirus disease 2019 (COVID-19)",
+            "intervention": "Remdesivir",
+            "sponsor": "Gilead Sciences, Inc.",
+            "summary": "To evaluate the efficacy of 2 remdesivir (RDV) regimens with respect to clinical status assessed by a 7-point ordinal scale on Day 14\nTo evaluate the safety and tolerability of RDV",
+            "location": "United Kingdom",
+            "institution": "Gilead Sciences International Ltd.",
+            "contact": {
+                "email": "clinical.trials@gilead.com",
+                "address": "Flowers Building, Granta Park, Great Abington, Cambridge, United Kingdom"
+            },
+            "abandoned": null,
+            "sample_size": 2400
+        },
+        {
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000842-32/DE",
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants with Moderate  COVID-19 Compared to Standard of Care Treatment",
+            "timestamp": "2020-03-18",
+            "recruiting_status": "",
+            "sex": [
+                "MALE",
+                "FEMALE"
+            ],
+            "target_disease": "Coronavirus disease 2019 (COVID-19)",
+            "intervention": "Remdesivir",
+            "sponsor": "Gilead Sciences, Inc.",
+            "summary": "To evaluate the efficacy of 2 remdesivir (RDV) regimens compared to standard of care (SOC), with respect to the time to discharge\nTo evaluate the safety and tolerability of RDV compared to SOC",
+            "location": "United Kingdom",
+            "institution": "Gilead Sciences International Ltd.",
+            "contact": {
+                "email": "clinical.trials@gilead.com",
+                "address": "Flowers Building, Granta Park, Great Abington, Cambridge, United Kingdom"
+            },
+            "abandoned": null,
             "sample_size": 600
+        },
+        {
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000842-32/ES",
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants with Moderate  COVID-19 Compared to Standard of Care Treatment",
+            "timestamp": "2020-03-18",
+            "recruiting_status": "",
+            "sex": [
+                "MALE",
+                "FEMALE"
+            ],
+            "target_disease": "Coronavirus disease 2019 (COVID-19)",
+            "intervention": "Remdesivir",
+            "sponsor": "Gilead Sciences, Inc.",
+            "summary": "To evaluate the efficacy of 2 remdesivir (RDV) regimens compared to standard of care (SOC), with respect to the time to discharge\nTo evaluate the safety and tolerability of RDV compared to SOC",
+            "location": "United Kingdom",
+            "institution": "Gilead Sciences International Ltd.",
+            "contact": {
+                "email": "clinical.trials@gilead.com",
+                "address": "Flowers Building, Granta Park, Great Abington, Cambridge, United Kingdom"
+            },
+            "abandoned": null,
+            "sample_size": 600
+        },
+        {
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000842-32/FR",
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants with Moderate  COVID-19 Compared to Standard of Care Treatment",
+            "timestamp": "2020-03-18",
+            "recruiting_status": "",
+            "sex": [
+                "MALE",
+                "FEMALE"
+            ],
+            "target_disease": "Coronavirus disease 2019 (COVID-19)",
+            "intervention": "Remdesivir",
+            "sponsor": "Gilead Sciences, Inc.",
+            "summary": "To evaluate the efficacy of 2 remdesivir (RDV) regimens compared to standard of care (SOC), with respect to the time to discharge\nTo evaluate the safety and tolerability of RDV compared to SOC",
+            "location": "United Kingdom",
+            "institution": "Gilead Sciences International Ltd.",
+            "contact": {
+                "email": "clinical.trials@gilead.com",
+                "address": "Flowers Building, Granta Park, Great Abington, Cambridge, United Kingdom"
+            },
+            "abandoned": null,
+            "sample_size": 600
+        },
+        {
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000842-32/IT",
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants with Moderate  COVID-19 Compared to Standard of Care Treatment",
+            "timestamp": "2020-03-18",
+            "recruiting_status": "",
+            "sex": [
+                "MALE",
+                "FEMALE"
+            ],
+            "target_disease": "Coronavirus disease 2019 (COVID-19)",
+            "intervention": "Remdesivir",
+            "sponsor": "Gilead Sciences, Inc.",
+            "summary": "To evaluate the efficacy of 2 RDV regimens compared to standard of care (SOC), with respect to the proportion of participants discharged on or before Day 14\nTo evaluate the safety and tolerability of RDV compared to SOC",
+            "location": "United Kingdom",
+            "institution": "Gilead Sciences International Ltd.",
+            "contact": {
+                "email": "clinical.trials@gilead.com",
+                "address": "Flowers Building, Granta Park, Great Abington, Cambridge, United Kingdom"
+            },
+            "abandoned": null,
+            "sample_size": 600
+        },
+        {
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000842-32/NL",
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants with Moderate  COVID-19 Compared to Standard of Care Treatment",
+            "timestamp": "2020-03-18",
+            "recruiting_status": "",
+            "sex": [
+                "MALE",
+                "FEMALE"
+            ],
+            "target_disease": "Coronavirus disease 2019 (COVID-19)",
+            "intervention": "Remdesivir",
+            "sponsor": "Gilead Sciences, Inc.",
+            "summary": "To evaluate the efficacy of 2 remdesivir (RDV) regimens compared to standard of care (SOC), with respect to clinical status assessed by a 7-point ordinal scale on Day 11\nTo evaluate the safety and tolerability of RDV compared to SOC",
+            "location": "United Kingdom",
+            "institution": "Gilead Sciences International Ltd.",
+            "contact": {
+                "email": "clinical.trials@gilead.com",
+                "address": "Flowers Building, Granta Park, Great Abington, Cambridge, United Kingdom"
+            },
+            "abandoned": null,
+            "sample_size": 1600
+        },
+        {
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000842-32/GB",
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants with Moderate  COVID-19 Compared to Standard of Care Treatment",
+            "timestamp": "2020-03-18",
+            "recruiting_status": "",
+            "sex": [
+                "MALE",
+                "FEMALE"
+            ],
+            "target_disease": "Coronavirus disease 2019 (COVID-19)",
+            "intervention": "Remdesivir",
+            "sponsor": "Gilead Sciences, Inc.",
+            "summary": "To evaluate the efficacy of 2 remdesivir (RDV) regimens compared to standard of care (SOC), with respect to clinical status assessed by a 7-point ordinal scale on Day 11\nTo evaluate the safety and tolerability of RDV compared to SOC",
+            "location": "United Kingdom",
+            "institution": "Gilead Sciences International Ltd.",
+            "contact": {
+                "email": "clinical.trials@gilead.com",
+                "address": "Flowers Building, Granta Park, Great Abington, Cambridge, United Kingdom"
+            },
+            "abandoned": null,
+            "sample_size": 1600
+        },
+        {
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000842-32/SE",
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants with Moderate  COVID-19 Compared to Standard of Care Treatment",
+            "timestamp": "2020-03-18",
+            "recruiting_status": "",
+            "sex": [
+                "MALE",
+                "FEMALE"
+            ],
+            "target_disease": "Coronavirus disease 2019 (COVID-19)",
+            "intervention": "Remdesivir",
+            "sponsor": "Gilead Sciences, Inc.",
+            "summary": "To evaluate the efficacy of 2 remdesivir (RDV) regimens compared to standard of care (SOC), with respect to clinical status assessed by a 7-point ordinal scale on Day 11\nTo evaluate the safety and tolerability of RDV compared to SOC",
+            "location": "United Kingdom",
+            "institution": "Gilead Sciences International Ltd.",
+            "contact": {
+                "email": "clinical.trials@gilead.com",
+                "address": "Flowers Building, Granta Park, Great Abington, Cambridge, United Kingdom"
+            },
+            "abandoned": null,
+            "sample_size": 1600
+        },
+        {
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-001052-18/DK",
+            "title": "A Multicenter, Adaptive, Randomised Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for the Treatment of COVID-19 in Hospitalized Adults - Version for European U...",
+            "timestamp": "2020-03-25",
+            "recruiting_status": "",
+            "sex": [
+                "MALE",
+                "FEMALE"
+            ],
+            "target_disease": "Influenza COVID-19",
+            "intervention": "REMDESEVIR",
+            "sponsor": "Regents of the University of Minnesota",
+            "summary": "The overall objective of the study is to evaluate the clinical efficaty of different investigational therapeutics relative to the control arm in adults hospitalised with COVID-19.The primary objective will be determined by a pilot study of the first 100 subjectsSubject clinical status (8-point ordinal scale) at day 15 is the default primary endpoint\n1. Evaluate the clinical efficaty of different investigational therapeutics as compared to the control arm as assessed by:Clinical Severity: Ordinal scale, National Early Warning Scores, Oxygenation; Non-invasive ventilation/high flow oxygen, Invasive Mechanical ventilation/extracoporeal membrane oxygenation (ECMO)Hospitalisation: Duration of hospitalisationMortality: 14-day mortality, 28-day mortality\n2. Evaluate the safety of different investigational therapeutics as compared to the control arm as assessed by:Commulative incidence of SAE thorough Day 29Commulative incidence of Grade 3 and 4 clincial and/or laboratory AEs through Day 29Discontinuation or temporary suspensiion of infusions (for any reason)Changes in WBC with differential, hemoglobin, platelets, creatinine, total bilirubin, ALT, AST, and PT over time (analysis of lab. values in addition to AEs noted above\nExploratory with stored samples (separate consent required) Evaluation of Virology efficacy\n",
+            "location": "United States",
+            "institution": "United States NIAID, Division of Microbiology and Infectious Diseases (DMID) National Institute of Health (NIH)",
+            "contact": {
+                "email": "aregaj@niaid.nih.gov",
+                "address": "5601 Fishers Lane, Bethesda, United States"
+            },
+            "abandoned": null,
+            "sample_size": 440
+        },
+        {
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-001052-18/GB",
+            "title": "A Multicenter, Adaptive, Randomised Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for the Treatment of COVID-19 in Hospitalized Adults - Version for European U...",
+            "timestamp": "2020-03-25",
+            "recruiting_status": "",
+            "sex": [
+                "MALE",
+                "FEMALE"
+            ],
+            "target_disease": "COVID-19 (Coronavirus RNA)",
+            "intervention": "Remdesivir",
+            "sponsor": "Regents of the University of Minnesota",
+            "summary": "The primary objective is to compare the clinical status of patients in the remdesivir and N-saline placebo groups at Day 15 of follow-up using an ordinal outcome with 8 clinical states. Specifically, patients will be categorized into one of the following 8 mutually exclusive categories on Day 15:•\tDeath;•\tHospitalised, on invasive mechanical ventilation or Extracorporeal         membrane oxygenation (ECMO);•\tHospitalised, on non-invasive ventilation or high flow oxygen devices;•\tHospitalised, requiring supplemental oxygen;•\tHospitalised, not requiring supplemental oxygen - requiring ongoing         medical care (COVID-19 related or otherwise);•\tHospitalized, not requiring supplemental oxygen - no longer requires         ongoing medical care;•\tNot hospitalized, limitation on activities and/or requiring home oxygen;•\tNot hospitalized, no limitations on activities.\nThe rationale behind this approach is to estimate in a clinically meaningful way whether the study drug has had a\nTo compare participants in the remdesivir and N-saline placebo groups for the following secondary outcomes:•\tClinical Severityo\tOrdinal scale:-\tTime to an improvement of one category and two categories from Day 1 (baseline) using an ordinal scale.-\tSubject clinical status using ordinal scale at Days 3, 5, 8, 11, 22, and 29. -\tMean change in the ordinal scale from Day 1 to Days 3, 5, 8, 11, 15, 22, and 29•\tNational Early Warning Score (NEWS*):-\tTime to discharge or to a NEWS of ≤2 and maintained for 24 hours, whichever occurs first. -\tChange from Day 1 to Days 3, 5, 8, 11, 15, and 29 in NEWS. \n*The NEW score is a simple severity of illness scoring system that the Royal College of Physicians, UK has developed and validated. It scores physiological parameters that would be routinely collected in hospitalised patients including pulse, respiratory rate, oxygen saturation, blood pressure, pulse and level of consciousness (i.e. alert vs. not).\n•\tOxygenation:-\tOxygenation free days ",
+            "location": "United Kingdom",
+            "institution": "MRC Clinical Trials Unit at UCL",
+            "contact": {
+                "email": "s.pett@ucl.ac.uk",
+                "address": "90 High Holborn, London, United Kingdom"
+            },
+            "abandoned": null,
+            "sample_size": 440
+        },
+        {
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-001052-18/GR",
+            "title": "A Multicenter, Adaptive, Randomised Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for the Treatment of COVID-19 in Hospitalized Adults - Version for European U...",
+            "timestamp": "2020-03-25",
+            "recruiting_status": "",
+            "sex": [
+                "MALE",
+                "FEMALE"
+            ],
+            "target_disease": "COVID-19 (Coronavirus RNA)",
+            "intervention": "Remdesivir",
+            "sponsor": "Regents of the University of Minnesota",
+            "summary": "The primary objective is to compare the clinical status of patients in the remdesivir and N-saline placebo groups at Day 15 of follow-up using an ordinal outcome with 8 clinical states. \nTo compare participants in the remdesivir and N-saline placebo groups for the following secondary outcomes:•\tClinical Severityo\tOrdinal scale:•\tNational Early Warning Score (NEWS*):•\tOxygenation:•\tHospitalization•\tMortality",
+            "location": "United Kingdom",
+            "institution": "MRC Clinical Trials Unit at UCL",
+            "contact": {
+                "email": "s.pett@ucl.ac.uk",
+                "address": "90 High Holborn, London, United Kingdom"
+            },
+            "abandoned": null,
+            "sample_size": 440
+        },
+        {
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000982-18/NO",
+            "title": "The NOR Solidarity multicenter trial on the efficacy of different anti-viral drugs in SARS-CoV-2 infected patients (COVID-19)",
+            "timestamp": "2020-03-26",
+            "recruiting_status": "",
+            "sex": [
+                "MALE",
+                "FEMALE"
+            ],
+            "target_disease": "SARS-COV-2 infection",
+            "intervention": "Plaquenil",
+            "sponsor": "Oslo University Hospital",
+            "summary": "1.\tTo investigate the effect of Remdesivir and Hydroxychloroquine in COVID 19 infection in relation to the defined primary and secondary endpoints.\r2.\tTo compare the effect of early versus late intervention with Remdesivir and Hydroxychloroquine in relation to time from symptom debut and in relation to disease severity when included.\r3.\tTo analyse markers that can give prognostic information and information on pathogenic mechanisms in COVID 19 infection with particular focus on ICU patient characteristics compared with patientstreated at the hospital ward. \r4.\tTo establish the safety of the study drugs.\r\n\nNot applicable",
+            "location": "Norway",
+            "institution": "Oslo university hospital",
+            "contact": {
+                "email": "andreas.barrattdue@gmail.com",
+                "address": "Sognsvannsveien 20, Oslo, Norway"
+            },
+            "abandoned": null,
+            "sample_size": 443
+        },
+        {
+            "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000936-23/FR",
+            "title": "Multi-centre, adaptive, randomized trial of the safety and efficacy of treatments of COVID-19 in hospitalized adults",
+            "timestamp": "2020-03-09",
+            "recruiting_status": "",
+            "sex": [
+                "MALE",
+                "FEMALE"
+            ],
+            "target_disease": "COVID-19 \n- Has laboratory-confirmed SARS-CoV-2 infection as determined by PCR, or other commercial or public health assay in any specimen < 72 hours prior to randomization.- Illness of any duration, and at least one of the following:•Clinical assessment (evidence of rales/crackles on exam) AND SpO2 ≤ 94% on room air, OR•Requiring mechanical ventilation and/or supplemental oxygen.\n",
+            "intervention": "Plaquenil",
+            "sponsor": "INSERM",
+            "summary": "The overall objective of the study is to evaluate the clinical efficacy and safety of different investigational therapeutics relative to the control arm in patients hospitalized with COVID-19.•\tThe primary endpoint is subject clinical status (on a 7-point ordinal scale) at day 15 \n\nEvaluate clinical efficacy of different investigational therapeutics as compared to the control arm as assessed by:\n-Clinical Severity (Ordinal scale, National Early Warning Score (NEWS), Oxygenation, Mechanical Ventilation)-Hospitalization : duration of hospitalization (days). -Mortality-Evaluate the safety of different investigational therapeutics through 28 days of follow-up as compared to the control arm-Evaluate the virologic efficacy of different investigational therapeutics as compared to the control arm as assessed ",
+            "location": "France",
+            "institution": "INSERM",
+            "contact": {
+                "email": "rqrc.siege@inserm.fr",
+                "address": "8 rue de la Croix Jarry, Paris, France"
+            },
+            "abandoned": null,
+            "sample_size": 3100
+        },
+        {
+            "title": "Publication citations",
+            "url": "https://www.isrctn.com/ISRCTN83971151",
+            "timestamp": "2020-04-02",
+            "sample_size": "No specific sample size is specified in this public health emergency core protocol. It is anticipated that at least several thousand patients will be recruited into the trial.",
+            "recruiting_status": "Recruiting",
+            "sex": "Both",
+            "target_disease": "COVID-19 (SARS-CoV-2 infection)",
+            "intervention": "Remdesivir, chloroquine or hydroxychloroquine, lopinavir + ritonavir (Kaletra), interferon-beta",
+            "sponsor": "World Health Organization",
+            "summary": {
+                "background_study_aims": "COVID-19 is a condition caused by the coronavirus (called SARS-CoV-2) that was first identified in late 2019. This virus can infect the respiratory (breathing) system. Some people do not have symptoms but can carry the virus and pass it on to others. People who have developed the condition may develop a fever and/or a continuous cough among other symptoms. This can develop into pneumonia. Pneumonia is a chest infection where the small air pockets of the lungs, called alveoli, fill with liquid and make it more difficult to breathe. In 2020, the virus has spread to many countries around the world and neither a vaccine against the virus or specific treatment for COVID-19 has yet been developed. As of March 2020, it is advised that people minimize travel and social contact, and regularly wash their hands to reduce the spread of the virus. Groups who are at a higher risk from infection with the virus, and therefore of developing COVID-19, include people aged over 70 years, people who have long-term health conditions (such as asthma or diabetes), people who have a weakened immune system and people who are pregnant. People in these groups, and people who might come into contact with them, can reduce this risk by following the up-to-date advice to reduce the spread of the virus.There are currently no available vaccines or treatments for COVID-19. Although there have been some suggestions for untested treatments that could be added to the usual care in hospitals, none is known to help. The World Health Organization (WHO) is, therefore, organizing a study in many countries in which some of these untested treatments are compared with each other, to discover whether any do help. The study treatments are remdesivir, chloroquine or hydroxychloroquine, lopinavir plus ritonavir, and interferon-beta. Some are given as daily pills, and some as daily injections.",
+                "who_can_participate": "Adults (aged over 18 years) hospitalized with definite COVID-19 and not already receiving any of the study drugs. Patients invited to join the study will be those who are admitted to a collaborating hospital. It is not possible for people to volunteer themselves or their relatives to participate.",
+                "study_involves": "Patients diagnosed with COVID-19 and who have consented to be part of the study will be randomly allocated to receive either local standard care alone or local standard care and one of a list of study drugs. During the study, some treatments may get removed from this list, and others may be added to it. Each patient will only receive one of the treatments.The patients will be followed up for the entire length of their hospital stay. Death from any cause will be recorded and this will be the main result used to determine whether a drug is effective. Length of hospital stay and time to first receiving ventilation (or intensive care) will also be recorded and used to determine the drug's effectiveness.",
+                "benefits_risks": "All of the drugs tested in this study have been shown to be reasonably safe. Other than remdesivir the study drugs are used routinely to treat other conditions. All participants will receive the usual care for people with COVID-19 in each location as well as the study drug. There are known side effects to each of the study medications. It is possible that unexpected serious side effects may occur as with any clinical trial of medicines. It is also possible that treatment with one or more of the test drugs worsens COVID-19 and increases the risk of severe illness or death.It is possible that one or more of the drugs may reduce the severity of COVID-19, reduce need for ventilation, and reduce the risk of death.",
+                "where_run_from": "World Health Organization Headquarters (Switzerland)",
+                "when_start_how_long": "March 2020 to March 2021",
+                "who_funding": "Multiple funders including the World Health Organization (Switzerland)"
+            },
+            "contact": {
+                "name": "Dr Ana Maria  Henao Restrepo",
+                "phone": "+41 795130039",
+                "email": "henaorestrepoa@who.int"
+            },
+            "institution": "Medical Officer HQ/RDB R&D Blue Print (HQ/HEO/RDB) World Health Organization HQ Geneva 1211 Switzerland"
         }
     ]
 }

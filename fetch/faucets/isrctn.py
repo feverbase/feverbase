@@ -9,6 +9,7 @@ BASE_URL = "https://www.isrctn.com"
 QUERY_URL = "{BASE_URL}/search?q={query}"
 PAGINATE_QUERY = "&page={page_num}&searchType=basic-search"
 
+
 def clean_empty(d):
     if not isinstance(d, (dict, list)):
         return d
@@ -90,8 +91,10 @@ def find(query):
                             url = f"{BASE_URL}{link}"
                             page = requests.get(url)
                             if page.status_code == 200:
-                                soup = BeautifulSoup(page.content, "html.parser")
-                                dds = soup.findAll("dd", {"class": "Meta_value"})
+                                soup = BeautifulSoup(
+                                    page.content, "html.parser")
+                                dds = soup.findAll(
+                                    "dd", {"class": "Meta_value"})
                                 dd_texts = [dd.text.strip() for dd in dds]
 
                                 condition_category = dd_texts[0]
@@ -108,7 +111,8 @@ def find(query):
                                     plain_english_summary
                                 )
 
-                                cleaned_ps = [p.text.strip().rstrip() for p in ps[1:]]
+                                cleaned_ps = [p.text.strip().rstrip()
+                                              for p in ps[1:]]
 
                                 primary_contact = {
                                     "type": cleaned_ps[1],
@@ -144,7 +148,8 @@ def find(query):
                                         "orcid_id": orcid_id,
                                         "contact_details": contact_details,
                                     }
-                                    additional_contacts.append(additional_contact)
+                                    additional_contacts.append(
+                                        additional_contact)
 
                                 # numbers
                                 eudract_number = cleaned_ps[current_index]
@@ -289,7 +294,7 @@ def find(query):
                                 current_index += 1
                                 intention_to_public_date = cleaned_ps[current_index]
                                 intention_to_public_date = to_iso8601(
-                                        intention_to_public_date
+                                    intention_to_public_date
                                 )
                                 current_index += 1
                                 participant_level_data = cleaned_ps[current_index]
@@ -301,22 +306,55 @@ def find(query):
                                 publication_citations = cleaned_ps[current_index]
                                 current_index += 1
 
+                                primary_contact_list = [
+                                    x.strip()
+                                    for x in primary_contact["contact_details"].split(
+                                        "\n"
+                                    )
+                                ]
+
+                                institution = primary_contact_list[0].strip()
+                                phone = primary_contact_list[2].strip()
+                                email = primary_contact_list[3].strip()
+
+                                contact_information = {
+                                    "name": primary_contact["name"],
+                                    "phone": phone,
+                                    "email": email,
+                                }
+
                                 this_entry = {
-                                    "id": isrctn_id,
-                                    "SOURCE": SOURCE,
+                                    # Meta keys
+                                    # "id": isrctn_id,
+                                    "_source": SOURCE,
+                                    # Essential keys
+                                    "title": title.text,
                                     "url": url,
                                     "timestamp": last_edited,
-                                    "title": title.text,
+                                    "sample_size": target_num_participants,
+                                    "recruiting_status": recruitment_status,
+                                    "sex": gender,
+                                    "target_disease": condition,
+                                    "intervention": drug_names,
+                                    "sponsor": organization,
+                                    "summary": plain_english_summary,
+                                    "contact": contact_information,
+                                    "institution": institution,
+                                    # There is logic at the bottom to fix this if needed
+                                    "abandoned": True,
+                                    "abandoned_reason": reason_abandoned,
+                                    # cut (for now)
+                                    # "age_group": age_group,
+                                    # ISRCTN specific keys
                                     "condition_category": condition_category,
                                     "date_applied": date_applied,
                                     "date_assigned": date_assigned,
                                     "last_edited": last_edited,
                                     "prospective_retrospective": prospective_retrospective,
                                     "overall_trial_status": overall_trial_status,
-                                    "recruitment_status": recruitment_status,
                                     "summary": summary_data,
                                     "primary_contact": primary_contact,
-                                    #"additional_contacts": additional_contacts,
+                                    # "additional_contacts": additional_contacts,
                                     "numbers": {
                                         "eudract_number": eudract_number,
                                         "clinical_trials_gov_number": clinical_trials_gov_number,
@@ -342,13 +380,13 @@ def find(query):
                                         "secondary_outcome_measure": secondary_outcome_measure,
                                         "overall_trial_start_date": overall_trial_start_date,
                                         "overall_trial_end_date": overall_trial_end_date,
-                                        "reason_abandoned": reason_abandoned,
+                                        "abandoned_reason": reason_abandoned,
                                     },
                                     "elibibility": {
                                         "participant_inclusion_criteria": participant_inclusion_criteria,
                                         "participant_type": participant_type,
                                         "age_group": age_group,
-                                        "gender": gender,
+                                        "sex": gender,
                                         "target_num_participants": target_num_participants,
                                         "participant_exclusion_criteria": participant_exclusion_criteria,
                                         "recruitment_start_date": recruitment_start_date,
@@ -356,9 +394,9 @@ def find(query):
                                     },
                                     "locations": {
                                         "countries_of_recruitment": countries_of_recruitment,
-                                        #"trial_participation_centers": trial_participation_centers,
+                                        # "trial_participation_centers": trial_participation_centers,
                                     },
-                                    "sponsor": {
+                                    "sponsor_info": {
                                         "organization": organization,
                                         "sponsor_details": sponsor_details,
                                         "sponsor_type": sponsor_type,
@@ -381,6 +419,14 @@ def find(query):
                                         "publication_citations": publication_citations,
                                     },
                                 }
+
+                                if reason_abandoned == None:
+                                    del this_entry["abandoned_reason"]
+                                    this_entry["abandoned"] = False
+
+                                # print(this_entry)
+                                # print("***")
+
                                 this_entry = clean_empty(this_entry)
                                 data[url] = this_entry
                                 count += 1
@@ -390,4 +436,10 @@ def find(query):
 
 
 def translate(info):
+
+    forbidden = ['overall_trial_status', 'results_and_publications', 'date_assigned', '_source', 'elibibility', 'prospective_retrospective',
+                 'locations', 'numbers', 'funder', 'primary_contact', 'condition_category', 'date_applied', 'sponsor_info', 'study_information', 'last_edited']
+    for key in forbidden:
+        del info[key]
+
     return info

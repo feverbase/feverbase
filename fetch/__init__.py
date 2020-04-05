@@ -1,12 +1,9 @@
 import sys
-# from faucets import (
-#     chictr,
-#     clinicaltrialsgov,
-#     eu,
-#     isrctn
-# ) 
+
 sys.path.append('./fetch')
 from faucets import clinicaltrialsgov
+from faucets import eu
+from faucets import isrctn
 from . import utils
 
 sys.path.append('../')
@@ -20,14 +17,12 @@ TERMS = utils.get_query_terms()
 
 def get_records():
     data = {}
-    for query in TERMS[4:5]:
+    for query in TERMS:
         # try:
         #     print(f"Crawling {chictr.SOURCE}...")
         #     data.update(chictr.find(query))
         # except Exception as e:
         #     print(e)
-        
-        # import pdb; pdb.set_trace()
 
         try:
             print(f"Crawling {clinicaltrialsgov.SOURCE}...")
@@ -35,23 +30,17 @@ def get_records():
         except Exception as e:
             print(e)
 
-        # import pdb; pdb.set_trace()
+        try:
+            print(f"Crawling {eu.SOURCE}...")
+            data.update(eu.find(query))
+        except Exception as e:
+            print(e)
 
-        # try:
-        #     print(f"Crawling {eu.SOURCE}...")
-        #     data.update(eu.find(query))
-        # except Exception as e:
-        #     print(e)
-
-        # import pdb; pdb.set_trace()
-
-        # try:
-        #     print(f"Crawling {isrctn.SOURCE}...")
-        #     data.update(isrctn.find(query))
-        # except Exception as e:
-        #     print(e)
-
-        # import pdb; pdb.set_trace()
+        try:
+            print(f"Crawling {isrctn.SOURCE}...")
+            data.update(isrctn.find(query))
+        except Exception as e:
+            print(e)
 
     articles = [translate(i) for i in data.values()]
     
@@ -61,13 +50,13 @@ def get_records():
 
 
 def translate(info):
-    source = info["SOURCE"]
+    source = info["_source"]
     # if source == chictr.SOURCE:
     #     return chictr.translate(info)
     if source == clinicaltrialsgov.SOURCE:
-        return utils.del_none(clinicaltrialsgov.translate(info))
-    # elif source == eu.SOURCE:
-    #     return eu.translate(info)
-    # elif source == isrctn.SOURCE:
-    #     return isrctn.translate(info)
+        return clinicaltrialsgov.translate(info)
+    elif source == eu.SOURCE:
+        return eu.translate(info)
+    elif source == isrctn.SOURCE:
+        return isrctn.translate(info)
     return info

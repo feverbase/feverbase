@@ -26,10 +26,10 @@ else:
 
 
 class Identity(EmbeddedDocument):
-    name = StringField(null=True)
-    phone = StringField(null=True)
-    email = EmailField(null=True)
-    address = StringField(null=True)
+    name = StringField()
+    phone = StringField()
+    email = EmailField()
+    address = StringField()
 
 
 class Article(ExtendedDocument):
