@@ -324,6 +324,15 @@ def find(query):
                                     "email": email,
                                 }
 
+                                if gender == "Both":
+                                    sex = ["MALE", "FEMALE"]
+                                elif gender == "Male":
+                                    sex = ["MALE"]
+                                elif gender == "Female":
+                                    sex = ["FEMALE"]
+                                else:
+                                    sex = []
+
                                 this_entry = {
                                     # Meta keys
                                     # "id": isrctn_id,
@@ -334,7 +343,7 @@ def find(query):
                                     "timestamp": last_edited,
                                     "sample_size": target_num_participants,
                                     "recruiting_status": recruitment_status,
-                                    "sex": gender,
+                                    "sex": [],
                                     "target_disease": condition,
                                     "intervention": drug_names,
                                     "sponsor": organization,
