@@ -65,6 +65,15 @@ def find(query):
                         if page.status_code == 200:
                             soup = BeautifulSoup(page.content, "html.parser")
 
+                            intervention = None
+                            sponsor = None
+                            main_objective = None
+                            secondary_objectives = None
+                            location = None
+                            institution = None
+                            contact_email = None
+                            contact_street_address = None
+                            contact_country = None
                             sample_size = 0
 
                             td_second = soup.findAll("td", {"class": "second"})
