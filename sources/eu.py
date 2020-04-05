@@ -120,7 +120,7 @@ def find(query):
                                             pass
 
                             sex = []
-                            
+
                             if male:
                                 sex.append("MALE")
                             if female:
@@ -130,6 +130,9 @@ def find(query):
                                 "email": contact_email,
                                 "address": f"{contact_street_address}, {contact_town_city}, {contact_country}",
                             }
+
+                            if sample_size == 0:
+                                sample_size = None
 
                             this_entry = {
                                 "_source": SOURCE,
@@ -150,7 +153,9 @@ def find(query):
                             }
                             data[url] = this_entry
                             count += 1
-                            print(f"Scraped link {i + 1}/{len(links)} for page {page_num + 1}")
+                            print(
+                                f"Scraped link {i + 1}/{len(links)} for page {page_num + 1}"
+                            )
 
                 print(f"Page {page_num + 1} out of {num_pages} fetched for {query}")
 

@@ -9,6 +9,7 @@ BASE_URL = "https://www.isrctn.com"
 QUERY_URL = "{BASE_URL}/search?q={query}"
 PAGINATE_QUERY = "&page={page_num}&searchType=basic-search"
 
+
 def clean_empty(d):
     if not isinstance(d, (dict, list)):
         return d
@@ -289,7 +290,7 @@ def find(query):
                                 current_index += 1
                                 intention_to_public_date = cleaned_ps[current_index]
                                 intention_to_public_date = to_iso8601(
-                                        intention_to_public_date
+                                    intention_to_public_date
                                 )
                                 current_index += 1
                                 participant_level_data = cleaned_ps[current_index]
@@ -301,24 +302,27 @@ def find(query):
                                 publication_citations = cleaned_ps[current_index]
                                 current_index += 1
 
-
-                                primary_contact_list = [x.strip() for x in primary_contact["contact_details"].split("\n")]
+                                primary_contact_list = [
+                                    x.strip()
+                                    for x in primary_contact["contact_details"].split(
+                                        "\n"
+                                    )
+                                ]
 
                                 institution = primary_contact_list[0].strip()
                                 phone = primary_contact_list[2].strip()
                                 email = primary_contact_list[3].strip()
 
                                 contact_information = {
-                                        "name": primary_contact["name"],
-                                        "phone": phone,
-                                        "email": email,
-                                        }
+                                    "name": primary_contact["name"],
+                                    "phone": phone,
+                                    "email": email,
+                                }
 
                                 this_entry = {
                                     # Meta keys
-                                    #"id": isrctn_id,
+                                    # "id": isrctn_id,
                                     "_source": SOURCE,
-
                                     # Essential keys
                                     "title": title.text,
                                     "url": url,
@@ -335,10 +339,8 @@ def find(query):
                                     # There is logic at the bottom to fix this if needed
                                     "abandoned": True,
                                     "reason_abandoned": reason_abandoned,
-
                                     # cut (for now)
                                     # "age_group": age_group,
-
                                     # ISRCTN specific keys
                                     "condition_category": condition_category,
                                     "date_applied": date_applied,
@@ -348,7 +350,7 @@ def find(query):
                                     "overall_trial_status": overall_trial_status,
                                     "summary": summary_data,
                                     "primary_contact": primary_contact,
-                                    #"additional_contacts": additional_contacts,
+                                    # "additional_contacts": additional_contacts,
                                     "numbers": {
                                         "eudract_number": eudract_number,
                                         "clinical_trials_gov_number": clinical_trials_gov_number,
@@ -388,7 +390,7 @@ def find(query):
                                     },
                                     "locations": {
                                         "countries_of_recruitment": countries_of_recruitment,
-                                        #"trial_participation_centers": trial_participation_centers,
+                                        # "trial_participation_centers": trial_participation_centers,
                                     },
                                     "sponsor_info": {
                                         "organization": organization,
