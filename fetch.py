@@ -6,7 +6,7 @@ import random
 import argparse
 import urllib.request
 
-import sources
+import fetch
 
 if __name__ == "__main__":
 
@@ -43,7 +43,7 @@ if __name__ == "__main__":
     # print('database has %d entries at start' % (len(db), ))
     # num_added_total = 0
 
-    db = {"data": sources.get_records()}
+    db = {"data": fetch.get_records()}
 
     dirname = os.path.dirname(os.path.abspath(__file__))
     with open(f"{dirname}/db.json", "w", encoding="utf-8") as f:

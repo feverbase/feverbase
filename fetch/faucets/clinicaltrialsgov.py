@@ -116,8 +116,48 @@ def translate(info):
     )
     timestamp = date.strftime("%Y-%m-%d")
 
-    return {
+    recruiting = info.get('Recruitment Status')
+    sex = (info.get('Sex/Gender', '')).split('\n')[-1]
+
+    if sex == '':
+        sex = None
+    elif sex == 'All':
+        sex = ['male', 'female']
+    else:
+        sex = [sex.lower()]
+
+    target_disease = (info.get('Condition', '')).split('\n')[0]
+    intervention = (info.get('Intervention', '')).split('\n')[0]
+    sponsor = info.get('Study Sponsor', '')
+    summary = info.get('Detailed Description', info.get('Brief Summary', ''))
+    location = info.get('Listed Location Countries', '')
+    institution = info.get('Responsible Party', '')
+    contacts = {}
+
+    sample_size = int(info.get('Estimated Enrollment', 0))
+
+    if sample_size == 0:
+        sample_size = None
+
+    abandoned = None
+    abandoned_reason = None
+
+    d = {
         "title": title,
         "url": url,
         "timestamp": timestamp,
+        "recruiting_status": recruiting,
+        "sex": sex,
+        "target_disease": target_disease,
+        "intervention": intervention,
+        "sponsor": sponsor,
+        "summary": summary,
+        "location": location,
+        "institution": institution,
+        "contact": contacts,
+        "sample_size": sample_size,
+        "abandoned": abandoned,
+        "abandoned_reason": abandoned_reason
     }
+
+    return d

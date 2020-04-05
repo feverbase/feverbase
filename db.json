@@ -1,0 +1,88 @@
+{
+    "data": [
+        {
+            "title": "A Phase 3 Randomized, Double-blind, Placebo-controlled, Multicenter Study to Evaluate the Efficacy and Safety of Remdesivir in Hospitalized Adult Patients With Severe 2019-nCoVRespiratory Disease.",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04257656",
+            "timestamp": "2020-02-06",
+            "recruiting_status": "Recruiting",
+            "sex": [
+                "male",
+                "female"
+            ],
+            "target_disease": "2019-nCov",
+            "intervention": "Drug: Remdesivir",
+            "sponsor": "Capital Medical University",
+            "summary": "In December 2019, Wuhan, in Hubei province, China, became the center of an outbreak of pneumonia of unknown cause. In a short time, Chinese scientists had shared the genome information of a novel coronavirus (2019-nCoV) from these pneumonia patients and developed a real-time reverse transcription PCR (real time RT-PCR) diagnostic assay.\nWhilst the outbreak is likely to have started from a zoonotic transmission event associated with a large seafood market that also traded in live wild animals, it soon became clear that person-to-person transmission was also occurring. The number of cases of infection with 2019-nCoV identified in Wuhan increased markedly over the later part of January 2020, with cases identified in multiple other Provinces of China and internationally. Mathematical models of the expansion phase of the epidemic suggested that sustained person-to-person transmission is occurring, and the R-zero is substantially above 1, the level required for a self-sustaining epidemic in human populations.\nThe clinical spectrum of 2019-nCoV illness appears to be wide, encompassing asymptomatic infection, a mild upper respiratory tract infection, and severe viral pneumonia with respiratory failure and even death. Although the per infection risk of severe disease remains to be determined, case-fatality risk of 11-14% has been reported in several initial studies of seriously ill patients and case-fatality has been estimated approximately at 2% overall. Also the large number of cases in Wuhan has resulted in a large number of patients hospitalised with pneumonia requiring supplemental oxygen and sometimes more advance ventilator support.\nThis new coronavirus, and previous experiences with SARS and MERS-CoV, highlight the need for therapeutics for human coronavirus infections that can improve clinical outcomes, speed recovery, and reduce the requirements for intensive supportive care and prolonged hospitalisation.\nGiven no specific antiviral therapy for 2019-nCoV infection and the ready availability of remdesvir as a potential antiviral agent, based on pre-clinical studies in SARS-CoV and MERS-CoV infections, this randomized, controlled, double blind trial will evaluate the efficacy and safety of remdesivir in patients hospitalized with severe 2019-nCoV respiratory disease.",
+            "location": "China",
+            "institution": "Bin Cao, China-Japan Friendship Hospital",
+            "sample_size": 453
+        },
+        {
+            "title": "Expanded Access Remdesivir (RDV; GS-5734™)",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04302766",
+            "timestamp": "2020-03-10",
+            "intervention": "Drug: Remdesivir",
+            "sponsor": "U.S. Army Medical Research and Development Command",
+            "summary": "The treatment of communicable Novel Coronavirus (CODIV-19) of 2019 with Remdesivir (RDV; GS-5734™)",
+            "institution": "U.S. Army Medical Research and Development Command"
+        },
+        {
+            "title": "A Phase 3 Randomized, Double-blind, Placebo-controlled Multicenter Study to Evaluate the Efficacy and Safety of Remdesivir in Hospitalized Adult Patients With Mild and Moderate 2019-nCoV Respiratory Disease.",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04252664",
+            "timestamp": "2020-02-05",
+            "recruiting_status": "Recruiting",
+            "sex": [
+                "male",
+                "female"
+            ],
+            "target_disease": "2019-nCoV",
+            "intervention": "Drug: Remdesivir",
+            "sponsor": "Capital Medical University",
+            "summary": "In December 2019, Wuhan, in Hubei province, China, became the center of an outbreak of pneumonia of unknown cause. In a short time, Chinese scientists had shared the genome information of a novel coronavirus (2019-nCoV) from these pneumonia patients and developed a real-time reverse transcription PCR (real time RT-PCR) diagnostic assay.\nWhilst the outbreak is likely to have started from a zoonotic transmission event associated with a large seafood market that also traded in live wild animals, it soon became clear that person-to-person transmission was also occurring. The number of cases of infection with 2019-nCoV identified in Wuhan increased markedly over the later part of January 2020, with cases identified in multiple other Provinces of China and internationally. Mathematical models of the expansion phase of the epidemic suggested that sustained person-to-person transmission is occurring, and the R-zero is substantially above 1, the level required for a self-sustaining epidemic in human populations.\nThe clinical spectrum of 2019-nCoV infection appears to be wide, encompassing asymptomatic infection, a mild upper respiratory tract illness, and severe viral pneumonia with respiratory failure and even death. Although the per infection risk of severe disease remains to be determined, and may differ from the initial reports of 10-15%, the large number of cases in Wuhan has resulted in a large number of patients hospitalised with pneumonia. Progression from prodromal symptoms (usually fever, fatigue, cough) to severe pneumonia requiring supplementary oxygen support, mechanical ventilation, or in some cases ECMO appears to occur most commonly during the second week of illness in association with persistent viral RNA detection. This provides a window of opportunity to test candidate antiviral therapeutics.\nThis new coronavirus, and previous experiences with SARS and MERS-CoV, highlight the need for therapeutics for human coronavirus infections that can improve clinical outcomes, reduce risk of disease progression, speed recovery, and reduce the requirements for intensive supportive care and prolonged hospitalisation. In addition, treatments for mild cases to reduce the duration of illness and infectivity may also be of value were 2019-nCoV to become pandemic and/or endemic in human populations.\nGiven no specific antiviral therapy for 2019-nCoV infection and the availability of remdesvir as a potential antiviral agent based on pre-clinical studies in SARS-CoV and MERS-CoV infections, this randomized, controlled, double blind trial will evaluate the efficacy and safety of remdesivir in patients hospitalized with mild or moderate 2019-nCoV respiratory disease.",
+            "location": "China",
+            "institution": "Bin Cao, China-Japan Friendship Hospital",
+            "sample_size": 308
+        },
+        {
+            "title": "Expanded Access Treatment Protocol: Remdesivir (RDV; GS-5734) for the Treatment of SARS-CoV2 (CoV) Infection",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04323761",
+            "timestamp": "2020-03-27",
+            "intervention": "Drug: Remdesivir",
+            "sponsor": "Gilead Sciences",
+            "location": "United States",
+            "institution": "Gilead Sciences"
+        },
+        {
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Severe COVID-19",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04292899",
+            "timestamp": "2020-03-03",
+            "recruiting_status": "Recruiting",
+            "sex": [
+                "male",
+                "female"
+            ],
+            "target_disease": "COVID-19",
+            "intervention": "Drug: Remdesivir",
+            "sponsor": "Gilead Sciences",
+            "location": "Germany,   Hong Kong,   Italy,   Korea, Republic of,   Singapore,   Spain,   Switzerland,   Taiwan,   United Kingdom,   United States",
+            "institution": "Gilead Sciences",
+            "sample_size": 400
+        },
+        {
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Moderate COVID-19 Compared to Standard of Care Treatment",
+            "url": "https://clinicaltrials.gov/ct2/show/NCT04292730",
+            "timestamp": "2020-03-03",
+            "recruiting_status": "Recruiting",
+            "sex": [
+                "male",
+                "female"
+            ],
+            "target_disease": "COVID-19",
+            "intervention": "Drug: Remdesivir",
+            "sponsor": "Gilead Sciences",
+            "location": "China,   Germany,   Hong Kong,   Italy,   Korea, Republic of,   Singapore,   Spain,   Switzerland,   Taiwan,   United Kingdom,   United States",
+            "institution": "Gilead Sciences",
+            "sample_size": 600
+        }
+    ]
+}
