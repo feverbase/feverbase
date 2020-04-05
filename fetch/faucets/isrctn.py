@@ -382,7 +382,7 @@ def find(query):
                                     },
                                 }
                                 this_entry = clean_empty(this_entry)
-                                data[ur] = this_entry
+                                data[url] = this_entry
                                 count += 1
 
     print(f"Fetched {count} results for {query}")
