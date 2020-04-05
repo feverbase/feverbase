@@ -9,7 +9,10 @@ BASE_URL = "https://www.isrctn.com"
 QUERY_URL = "{BASE_URL}/search?q={query}"
 PAGINATE_QUERY = "&page={page_num}&searchType=basic-search"
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c3c309b750285d6066db965d45a7e98c3a1a8732
 def clean_empty(d):
     if not isinstance(d, (dict, list)):
         return d
@@ -290,7 +293,11 @@ def find(query):
                                 current_index += 1
                                 intention_to_public_date = cleaned_ps[current_index]
                                 intention_to_public_date = to_iso8601(
+<<<<<<< HEAD
                                     intention_to_public_date
+=======
+                                        intention_to_public_date
+>>>>>>> c3c309b750285d6066db965d45a7e98c3a1a8732
                                 )
                                 current_index += 1
                                 participant_level_data = cleaned_ps[current_index]
@@ -302,6 +309,7 @@ def find(query):
                                 publication_citations = cleaned_ps[current_index]
                                 current_index += 1
 
+<<<<<<< HEAD
                                 primary_contact_list = [
                                     x.strip()
                                     for x in primary_contact["contact_details"].split(
@@ -342,15 +350,30 @@ def find(query):
                                     # cut (for now)
                                     # "age_group": age_group,
                                     # ISRCTN specific keys
+=======
+                                this_entry = {
+                                    "id": isrctn_id,
+                                    "SOURCE": SOURCE,
+                                    "url": url,
+                                    "timestamp": last_edited,
+                                    "title": title.text,
+>>>>>>> c3c309b750285d6066db965d45a7e98c3a1a8732
                                     "condition_category": condition_category,
                                     "date_applied": date_applied,
                                     "date_assigned": date_assigned,
                                     "last_edited": last_edited,
                                     "prospective_retrospective": prospective_retrospective,
                                     "overall_trial_status": overall_trial_status,
+<<<<<<< HEAD
                                     "summary": summary_data,
                                     "primary_contact": primary_contact,
                                     # "additional_contacts": additional_contacts,
+=======
+                                    "recruitment_status": recruitment_status,
+                                    "summary": summary_data,
+                                    "primary_contact": primary_contact,
+                                    #"additional_contacts": additional_contacts,
+>>>>>>> c3c309b750285d6066db965d45a7e98c3a1a8732
                                     "numbers": {
                                         "eudract_number": eudract_number,
                                         "clinical_trials_gov_number": clinical_trials_gov_number,
@@ -390,9 +413,15 @@ def find(query):
                                     },
                                     "locations": {
                                         "countries_of_recruitment": countries_of_recruitment,
+<<<<<<< HEAD
                                         # "trial_participation_centers": trial_participation_centers,
                                     },
                                     "sponsor_info": {
+=======
+                                        #"trial_participation_centers": trial_participation_centers,
+                                    },
+                                    "sponsor": {
+>>>>>>> c3c309b750285d6066db965d45a7e98c3a1a8732
                                         "organization": organization,
                                         "sponsor_details": sponsor_details,
                                         "sponsor_type": sponsor_type,
@@ -415,6 +444,7 @@ def find(query):
                                         "publication_citations": publication_citations,
                                     },
                                 }
+<<<<<<< HEAD
 
                                 if reason_abandoned == None:
                                     del this_entry["reason_abandoned"]
@@ -423,6 +453,8 @@ def find(query):
                                 print(this_entry)
                                 print("***")
 
+=======
+>>>>>>> c3c309b750285d6066db965d45a7e98c3a1a8732
                                 this_entry = clean_empty(this_entry)
                                 data[url] = this_entry
                                 count += 1

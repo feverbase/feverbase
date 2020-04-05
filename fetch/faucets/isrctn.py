@@ -384,7 +384,6 @@ def find(query):
                                     },
                                     "elibibility": {
                                         "participant_inclusion_criteria": participant_inclusion_criteria,
-                                        "participant_type": participant_type,
                                         "age_group": age_group,
                                         "sex": gender,
                                         "target_num_participants": target_num_participants,
