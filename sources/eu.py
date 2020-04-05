@@ -81,6 +81,8 @@ def find(query):
                                     male = a.next_sibling.text.strip() == "Yes"
                                 if a.text.strip() == "Trade name":
                                     intervention = a.next_sibling.text
+                                if a.text.strip() == "Product name":
+                                    intervention = a.next_sibling.text
                                 if a.text.strip() == "Name of Sponsor":
                                     sponsor = a.next_sibling.text
                                 if a.text.strip() == "Main objective of the trial":
