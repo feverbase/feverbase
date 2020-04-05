@@ -17,7 +17,7 @@ TERMS = utils.get_query_terms()
 
 def get_records():
     data = {}
-    for query in TERMS:
+    for query in TERMS[4:5]:
         # try:
         #     print(f"Crawling {chictr.SOURCE}...")
         #     data.update(chictr.find(query))
