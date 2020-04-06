@@ -164,9 +164,9 @@ def find(query):
                             }
                             data[url] = this_entry
                             count += 1
-                            print(
-                                f"Scraped link {i + 1}/{len(links)} for page {page_num + 1}"
-                            )
+                            #print(
+                            #    f"Scraped link {i + 1}/{len(links)} for page {page_num + 1}"
+                            #)
 
                 print(f"Page {page_num + 1} out of {num_pages} fetched for {query}")
 
