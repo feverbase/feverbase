@@ -3,12 +3,14 @@ import requests
 import utils
 from pprint import pprint
 import logging
+import os
 
 SOURCE = "isrctn.com"
 FILENAME = "isrctn.json"
 BASE_URL = "https://www.isrctn.com"
 QUERY_URL = "{BASE_URL}/search?q={query}"
 PAGINATE_QUERY = "&page={page_num}&searchType=basic-search"
+LOG_FILENAME = "logs/isrctn.log"
 
 
 def clean_empty(d):
@@ -61,8 +63,13 @@ def parse_plain_english_summary(summary):
     return summary_data
 
 
+def setup_logging():
+    os.makedirs(os.path.dirname(LOG_FILENAME), exist_ok=True)
+    logging.basicConfig(filename=LOG_FILENAME, level=logging.DEBUG)
+
+
 def find(query):
-    logging.basicConfig(filename="isrctn.log", level=logging.DEBUG)
+    setup_logging()
     data = {}
     count = 0
     url = QUERY_URL.format(BASE_URL=BASE_URL, query=query)
