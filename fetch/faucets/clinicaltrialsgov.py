@@ -84,9 +84,9 @@ def find(term):
                 td = th.find_next_sibling()
 
                 value = td.get_text().strip()
-                # if "Not Provided", set None
+                # if "Not Provided", set empty string (None causes errors, empty string is fine)
                 if value == "Not Provided":
-                    value = None
+                    value = ""
 
                 info[key] = value
 
@@ -116,25 +116,25 @@ def translate(info):
     )
     timestamp = date.strftime("%Y-%m-%d")
 
-    recruiting = info.get('Recruitment Status')
-    sex = (info.get('Sex/Gender', '')).split('\n')[-1]
+    recruiting = info.get("Recruitment Status")
+    sex = (info.get("Sex/Gender", "")).split("\n")[-1]
 
-    if sex == '':
+    if sex == "":
         sex = None
-    elif sex == 'All':
-        sex = ['male', 'female']
+    elif sex == "All":
+        sex = ["male", "female"]
     else:
         sex = [sex.lower()]
 
-    target_disease = (info.get('Condition', '')).split('\n')[0]
-    intervention = (info.get('Intervention', '')).split('\n')[0]
-    sponsor = info.get('Study Sponsor', '')
-    summary = info.get('Detailed Description', info.get('Brief Summary', ''))
-    location = info.get('Listed Location Countries', '')
-    institution = info.get('Responsible Party', '')
+    target_disease = (info.get("Condition", "")).split("\n")[0]
+    intervention = (info.get("Intervention", "")).split("\n")[0]
+    sponsor = info.get("Study Sponsor", "")
+    summary = info.get("Detailed Description", info.get("Brief Summary", ""))
+    location = info.get("Listed Location Countries", "")
+    institution = info.get("Responsible Party", "")
     contacts = {}
 
-    sample_size = int(info.get('Estimated Enrollment', 0))
+    sample_size = int(info.get("Estimated Enrollment", 0))
 
     if sample_size == 0:
         sample_size = None
@@ -157,7 +157,7 @@ def translate(info):
         "contact": contacts,
         "sample_size": sample_size,
         "abandoned": abandoned,
-        "abandoned_reason": abandoned_reason
+        "abandoned_reason": abandoned_reason,
     }
 
     return d
