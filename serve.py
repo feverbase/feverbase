@@ -26,7 +26,6 @@ import pymongo
 from mongoengine.queryset.visitor import Q
 
 from utils import db, ms
-from sources import translate
 
 # -----------------------------------------------------------------------------
 # various globals
@@ -91,8 +90,8 @@ def default_context(papers, **kws):
         # if given a list of Articles, parse as necessary
         # if given a list of dicts, no change necessary
         papers=list(map(lambda p: json.loads(p.to_json()), papers))
-            if len(papers) > 0 and type(papers[0]) == db.Article
-            else papers,
+        if len(papers) > 0 and type(papers[0]) == db.Article
+        else papers,
         numresults=len(papers),
         totpapers=db.Article.objects.count(),
         filter_options=dict(countries=countries, drugs=drugs, types=types),
