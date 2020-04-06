@@ -70,7 +70,7 @@ def add_header(r):
 def papers_search(qraw):
     # blank query should return every article
     if qraw == "":
-        return db.Article.objects()
+        return list(db.Article.objects())
     else:
         # perform meilisearch query
         return ms_index.search(qraw).get("hits")
@@ -82,19 +82,21 @@ def papers_search(qraw):
 
 
 def default_context(papers, **kws):
-    countries = ["USA"]  # extract all possible from papers
-    drugs = ["Chloroquine"]  # extract all possible from papers
+    papers = list(papers)  # make sure is not QuerySet
+
+    countries = ["China", "USA"]  # extract all possible from papers
     types = ["Type 1"]  # extract all possible from papers
+
+    if len(papers) > 0 and type(papers[0]) == db.Article:
+        papers = list(map(lambda p: json.loads(p.to_json()), papers))
 
     ans = dict(
         # if given a list of Articles, parse as necessary
         # if given a list of dicts, no change necessary
-        papers=list(map(lambda p: json.loads(p.to_json()), papers))
-        if len(papers) > 0 and type(papers[0]) == db.Article
-        else papers,
+        papers=papers,
         numresults=len(papers),
         totpapers=db.Article.objects.count(),
-        filter_options=dict(countries=countries, drugs=drugs, types=types),
+        filter_options=dict(countries=countries, types=types),
         filters={},
     )
     ans.update(kws)
@@ -103,7 +105,7 @@ def default_context(papers, **kws):
 
 @app.route("/")
 def intmain():
-    papers = list(db.Article.objects())
+    papers = db.Article.objects()
     ctx = default_context(papers, render_format="recent")
     return render_template("main.html", **ctx)
 
@@ -116,7 +118,7 @@ def search():
             filters["q"]
         )  # perform the query and get sorted documents
     else:
-        papers = list(db.Article.objects())
+        papers = db.Article.objects()
 
     ctx = default_context(papers, render_format="search", filters=filters)
     return render_template("main.html", **ctx)

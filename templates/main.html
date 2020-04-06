@@ -226,23 +226,8 @@
           <tr>
             <td>Drug:</td>
             <td>
-              <select name="drug" type="text" id="filter-drug">
-                {% if filters and not 'drug' in filters %}
-                <option value="" selected></option>
-                {% else %}
-                <option value=""></option>
-                {% endif %}
-
-                {% if filter_options and 'drugs' in filter_options %}
-                {% for drug in filter_options.drugs %}
-                {% if filters and 'drug' in filters and filters.drug == drug %}
-                <option value="drug" selected>{{ drug }}</option>
-                {% else %}
-                <option value="drug">{{ drug }}</option>
-                {% endif %}
-                {% endfor %}
-                {% endif %}
-              </select>
+              <input name="drug" type="text" id="filter-drug"
+                value="{{ filters.drug if filters and 'drug' in filters else '' }}">
             </td>
           </tr>
           <tr>
@@ -268,12 +253,10 @@
             </td>
           </tr>
           <tr>
-            <td># Subjects:</td>
+            <td>Subjects:</td>
             <td>
-              <input name="minsize" type="number" placeholder="min" id="filter-minsize"
-                value="{{ filters.minsize if filters and 'minsize' in filters else '' }}">
-              <input name="maxsize" type="number" placeholder="max" id="filter-maxsize"
-                value="{{ filters.maxsize if filters and 'maxsize' in filters else '' }}">
+              <input name="subjects" type="text" id="filter-subjects"
+                value="{{ filters.subjects if filters and 'subjects' in filters else '' }}">
             </td>
           </tr>
           <tr>
