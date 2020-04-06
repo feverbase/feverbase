@@ -4,6 +4,8 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 import utils
 import re
 import time
+import logging
+import os
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
@@ -12,9 +14,15 @@ FILENAME = "eu.json"
 BASE_URL = "https://www.clinicaltrialsregister.eu"
 QUERY_URL = "{BASE_URL}/ctr-search/search?query={query}"
 PAGINATE_QUERY = "&page={page_num}"
+LOG_FILENAME = "logs/eu.log"
+
+def setup_logging():
+    os.makedirs(os.path.dirname(LOG_FILENAME), exist_ok=True)
+    logging.basicConfig(filename=LOG_FILENAME, level=logging.DEBUG)
 
 
 def find(query):
+    setup_logging()
     data = {}
     count = 0
     url = QUERY_URL.format(BASE_URL=BASE_URL, query=query)
@@ -65,108 +73,109 @@ def find(query):
                         if page.status_code == 200:
                             soup = BeautifulSoup(page.content, "html.parser")
 
-                            intervention = None
-                            sponsor = None
-                            main_objective = None
-                            secondary_objectives = None
-                            location = None
-                            institution = None
-                            contact_email = None
-                            contact_street_address = None
-                            contact_country = None
-                            sample_size = 0
+                            try:
+                                intervention = None
+                                sponsor = None
+                                main_objective = None
+                                secondary_objectives = None
+                                location = None
+                                institution = None
+                                contact_email = None
+                                contact_street_address = None
+                                contact_country = None
+                                sample_size = 0
 
-                            td_second = soup.findAll("td", {"class": "second"})
-                            elems = [a.text.strip() for a in td_second]
-                            for a in td_second:
-                                if (
-                                    a.text.strip()
-                                    == "Medical condition(s) being investigated"
-                                ):
-                                    target_disease = a.next_sibling.find("td").text
-                                if a.text.strip() == "Female":
-                                    female = a.next_sibling.text.strip() == "Yes"
-                                if a.text.strip() == "Male":
-                                    male = a.next_sibling.text.strip() == "Yes"
-                                if a.text.strip() == "Trade name":
-                                    intervention = a.next_sibling.text
-                                if a.text.strip() == "Product name":
-                                    intervention = a.next_sibling.text
-                                if a.text.strip() == "Name of Sponsor":
-                                    sponsor = a.next_sibling.text
-                                if a.text.strip() == "Main objective of the trial":
-                                    main_objective = a.next_sibling.find("td").text
-                                if (
-                                    a.text.strip()
-                                    == "Secondary objectives of the trial"
-                                ):
-                                    secondary_objectives = a.next_sibling.find(
-                                        "td"
-                                    ).text
-                                if a.text.strip() == "Country":
-                                    location = a.next_sibling.text
-                                if a.text.strip() == "Name of organisation":
-                                    institution = a.next_sibling.text
-                                if a.text.strip() == "E-mail":
-                                    contact_email = a.next_sibling.text
-                                if a.text.strip() == "Street Address":
-                                    contact_street_address = a.next_sibling.text
-                                if a.text.strip() == "Town/ city":
-                                    contact_town_city = a.next_sibling.text
-                                if a.text.strip() == "Country":
-                                    contact_country = a.next_sibling.text
-                                if a.text.strip() == "In the member state":
-                                    sample_size = int(a.next_sibling.text)
-                                if a.text.strip() == "In the EEA":
-                                    if sample_size != 0:
-                                        try:
-                                            sample_size = int(a.next_sibling.text)
-                                        except ValueError:
-                                            pass
-                                if a.text.strip() == "In the whole clinical trial":
-                                    if sample_size != 0:
-                                        try:
-                                            sample_size = int(a.next_sibling.text)
-                                        except ValueError:
-                                            pass
+                                td_second = soup.findAll("td", {"class": "second"})
+                                elems = [a.text.strip() for a in td_second]
+                                for a in td_second:
+                                    if (
+                                        a.text.strip()
+                                        == "Medical condition(s) being investigated"
+                                    ):
+                                        target_disease = a.next_sibling.find("td").text
+                                    if a.text.strip() == "Female":
+                                        female = a.next_sibling.text.strip() == "Yes"
+                                    if a.text.strip() == "Male":
+                                        male = a.next_sibling.text.strip() == "Yes"
+                                    if a.text.strip() == "Trade name":
+                                        intervention = a.next_sibling.text
+                                    if a.text.strip() == "Product name":
+                                        intervention = a.next_sibling.text
+                                    if a.text.strip() == "Name of Sponsor":
+                                        sponsor = a.next_sibling.text
+                                    if a.text.strip() == "Main objective of the trial":
+                                        main_objective = a.next_sibling.find("td").text
+                                    if (
+                                        a.text.strip()
+                                        == "Secondary objectives of the trial"
+                                    ):
+                                        secondary_objectives = a.next_sibling.find(
+                                            "td"
+                                        ).text
+                                    if a.text.strip() == "Country":
+                                        location = a.next_sibling.text
+                                    if a.text.strip() == "Name of organisation":
+                                        institution = a.next_sibling.text
+                                    if a.text.strip() == "E-mail":
+                                        contact_email = a.next_sibling.text
+                                    if a.text.strip() == "Street Address":
+                                        contact_street_address = a.next_sibling.text
+                                    if a.text.strip() == "Town/ city":
+                                        contact_town_city = a.next_sibling.text
+                                    if a.text.strip() == "Country":
+                                        contact_country = a.next_sibling.text
+                                    if a.text.strip() == "In the member state":
+                                        sample_size = int(a.next_sibling.text)
+                                    if a.text.strip() == "In the EEA":
+                                        if sample_size != 0:
+                                            try:
+                                                sample_size = int(a.next_sibling.text)
+                                            except ValueError:
+                                                pass
+                                    if a.text.strip() == "In the whole clinical trial":
+                                        if sample_size != 0:
+                                            try:
+                                                sample_size = int(a.next_sibling.text)
+                                            except ValueError:
+                                                pass
 
-                            sex = []
+                                sex = []
 
-                            if male:
-                                sex.append("MALE")
-                            if female:
-                                sex.append("FEMALE")
+                                if male:
+                                    sex.append("MALE")
+                                if female:
+                                    sex.append("FEMALE")
 
-                            contact = {
-                                "email": contact_email,
-                                "address": f"{contact_street_address}, {contact_town_city}, {contact_country}",
-                            }
+                                contact = {
+                                    "email": contact_email,
+                                    "address": f"{contact_street_address}, {contact_town_city}, {contact_country}",
+                                }
 
-                            if sample_size == 0:
-                                sample_size = None
+                                if sample_size == 0:
+                                    sample_size = None
 
-                            this_entry = {
-                                "_source": SOURCE,
-                                "url": url,
-                                "title": title,
-                                "timestamp": date,
-                                "recruiting_status": "",
-                                "sex": sex,
-                                "target_disease": target_disease,
-                                "intervention": intervention,
-                                "sponsor": sponsor,
-                                "summary": main_objective + "\n" + secondary_objectives,
-                                "location": location,
-                                "institution": institution,
-                                "contact": contact,
-                                "abandoned": None,
-                                "sample_size": int(sample_size),
-                            }
-                            data[url] = this_entry
-                            count += 1
-                            #print(
-                            #    f"Scraped link {i + 1}/{len(links)} for page {page_num + 1}"
-                            #)
+                                this_entry = {
+                                    "_source": SOURCE,
+                                    "url": url,
+                                    "title": title,
+                                    "timestamp": date,
+                                    "recruiting_status": "",
+                                    "sex": sex,
+                                    "target_disease": target_disease,
+                                    "intervention": intervention,
+                                    "sponsor": sponsor,
+                                    "summary": main_objective + "\n" + secondary_objectives,
+                                    "location": location,
+                                    "institution": institution,
+                                    "contact": contact,
+                                    "abandoned": None,
+                                    "sample_size": int(sample_size),
+                                }
+                                data[url] = this_entry
+                                count += 1
+                                logging.info(f"Parsed {url}")
+                            except Exception as e:
+                                logging.error(f"Could not parse {url}, {e}")
 
                 print(f"Page {page_num + 1} out of {num_pages} fetched for {query}")
 
