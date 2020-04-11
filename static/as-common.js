@@ -112,7 +112,7 @@ function addPapers(num, dynamic) {
     // var ocoins_span = div.append('span').classed('Z3988', true).attr('title', build_ocoins_str(p));
 
     var tdiv = div.append('div').classed('paperdesc', true);
-    const timestamp = moment(p.timestamp);
+    const timestamp = moment(p.timestamp.$date);
     tdiv.append('div').classed('ds', true).html(`${timestamp.format('LL')} &middot; ${p.sponsor}`);
 
     tdiv.append('div').classed('ts', true).append('a').attr('href', p.url).attr('target', '_blank').html(p.title);
