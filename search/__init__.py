@@ -25,6 +25,15 @@ def parse_documents():
 def push_to_meili(documents):
     client = ms.get_ms_client()
     index = ms.get_ms_trials_index(client)
+
+    # we want to delete all current documents in the index
+    delete_id = index.delete_all_documents().get("updateId")
+    status = None
+    while status != "processed":
+        update_status = index.get_update_status(delete_id)
+        status = update_status.get("status")
+    print("Successfully cleared previous documents")
+
     update_id = index.add_documents(documents).get("updateId")
 
     # don't return until all documents have been pushed
@@ -42,4 +51,4 @@ def perform_meili_search(query):
     client = ms.get_ms_client()
     index = ms.get_ms_trials_index(client)
     result = index.search(query)
-    print(result)
+    return result
