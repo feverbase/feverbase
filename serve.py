@@ -105,10 +105,9 @@ def default_context(papers, **kws):
 
 @app.route("/")
 def intmain():
-    papers = db.Article.objects()
+    papers = db.Article.objects
     ctx = default_context(papers, render_format="recent")
     return render_template("main.html", **ctx)
-
 
 @app.route("/filter", methods=["GET"])
 def search():

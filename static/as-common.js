@@ -112,12 +112,25 @@ function addPapers(num, dynamic) {
     // var ocoins_span = div.append('span').classed('Z3988', true).attr('title', build_ocoins_str(p));
 
     var tdiv = div.append('div').classed('paperdesc', true);
-    tdiv.append('span').classed('ts', true).append('a').attr('href', p.url).attr('target', '_blank').html(p.title);
-    tdiv.append('br');
-    // tdiv.append('span').classed('as', true).html(build_authors_html(p.authors));
-    // tdiv.append('br');
     const timestamp = moment(p.timestamp);
-    tdiv.append('span').classed('ds', true).html(timestamp.format('dddd, LL'));
+    tdiv.append('div').classed('ds', true).html(`${timestamp.format('LL')} &middot; ${p.sponsor}`);
+
+    tdiv.append('div').classed('ts', true).append('a').attr('href', p.url).attr('target', '_blank').html(p.title);
+    // tdiv.append('br');
+
+    const keys = ['title', 'url', 'timestamp', 'recruiting_status', 'sex', 'target_disease', 'intervention', 'sponsor', 'summary', 'location', 'institution', 'contact', 'sample_size', 'abandoned', 'abandoned_reason']
+    for (var key of keys) {
+      if (p[key] == undefined || p[key].length == 0) p[key] = 'Unspecified'
+    }
+
+    tdiv.append('blockquote').classed('as', true).html(`
+    <b>Condition</b>: ${p.target_disease}<br />
+    <b>Intevention</b>: ${p.intervention}<br />
+    <b>Sample Size</b>: ${p.sample_size}<br />
+    <b>Location</b>: ${p.location}<br />
+    <b>Status</b>: ${p.recruiting_status}`);
+    tdiv.append('br');
+
     // if(p.originally_published_time !== p.published_time) {
     //   tdiv.append('span').classed('ds2', true).html('(v1: ' + p.originally_published_time + ')');
     // }
