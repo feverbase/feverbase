@@ -53,6 +53,11 @@ def find(query):
 
             if main.find("i_freetext") != None:
                 summary = main.find("i_freetext").text
+                splits = summary.split("\n")
+                if len(splits) >= 1:
+                    summary = splits[0]
+                else:
+                    summary = None
             else:
                 summary = None
 
