@@ -5,7 +5,6 @@ load_dotenv()
 
 
 def get_ms_client():
-
     master_key = os.environ.get("MEILI_KEY")
     url = os.environ.get("MEILI_URL")
 
