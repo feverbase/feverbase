@@ -125,7 +125,7 @@ function addPapers(num, dynamic) {
 
     tdiv.append('blockquote').classed('as', true).html(`
     <b>Condition</b>: ${p.target_disease}<br />
-    <b>Intevention</b>: ${p.intervention}<br />
+    <b>Intervention</b>: ${p.intervention}<br />
     <b>Sample Size</b>: ${p.sample_size}<br />
     <b>Location</b>: ${p.location}<br />
     <b>Status</b>: ${p.recruiting_status}`);
