@@ -73,13 +73,28 @@ def add_header(r):
 # -----------------------------------------------------------------------------
 
 
+def is_article(a):
+    return type(a) == db.Article
+
+
 def filter_sample_size(data, min_subjects, max_subjects):
     # easy case, user did not specify bounds
     if min_subjects == 0 and max_subjects == 0:
         return
     idxs_to_remove = []
     for i in range(len(data)):
-        nums = re.findall(r"^\D*(\d+)", str(data[i].sample_size or ""))
+        entry = data[i]
+        nums = re.findall(
+            r"^\D*(\d+)",
+            str(
+                (
+                    entry.sample_size
+                    if is_article(entry)
+                    else entry.get("sample_size", "")
+                )
+                or ""
+            ),
+        )
         if len(nums) >= 1:
             true_num = int(nums[0])
             if not (
@@ -100,7 +115,19 @@ def filter_intervention(data, intervention):
     intervention = intervention.lower().strip()
     idxs_to_remove = []
     for i in range(len(data)):
-        this_intervention = (data[i].intervention or "").lower().strip()
+        entry = data[i]
+        this_intervention = (
+            (
+                (
+                    entry.intervention
+                    if is_article(entry)
+                    else entry.get("intervention", "")
+                )
+                or ""
+            )
+            .lower()
+            .strip()
+        )
         if intervention not in this_intervention:
             idxs_to_remove.append(i)
     idxs_to_remove.sort(reverse=True)
@@ -228,7 +255,7 @@ def filter():
             filters.get("max-subjects", None),
         )
         papers = results
-        if len(papers) and type(papers[0]) == db.Article:
+        if len(papers) and is_article(papers[0]):
             papers = list(map(lambda p: json.loads(p.to_json()), papers))
         return jsonify(dict(page=page, papers=papers))
     else:
