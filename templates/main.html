@@ -18,7 +18,7 @@
   <script src="{{ url_for('static', filename='d3.min.js') }}"></script>
   <script src="{{ url_for('static', filename='moment.min.js') }}"></script>
   <script src="{{ url_for('static', filename='as-common.js') }}"></script>
-  
+
   <script>
 
     // passed in from flask as json
@@ -152,12 +152,13 @@
   <div class="center">
     <h1>Feverbase</h1>
     <span>Finding the best, and fastest, way to beat COVID-19.</span>
-    </div>
-    <hr />
+  </div>
+  <hr />
 
   <form action="/filter" method="get">
     <div id="sbox">
-      <input name="q" type="text" id="qfield" value="{{ filters.q if filters and 'q' in filters else '' }}" autocomplete="off" autocapitalize="off" spellcheck="false">
+      <input name="q" type="text" id="qfield" value="{{ filters.q if filters and 'q' in filters else '' }}"
+        autocomplete="off" autocapitalize="off" spellcheck="false">
     </div>
 
     <div id="filter-box">
@@ -178,9 +179,9 @@
                 {% if filter_options and 'countries' in filter_options %}
                 {% for country in filter_options.countries %}
                 {% if filters and 'country' in filters and filters.country == country %}
-                <option value="country" selected>{{ country }}</option>
+                <option value="{{ country }}" selected>{{ country }}</option>
                 {% else %}
-                <option value="country">{{ country }}</option>
+                <option value="{{ country }}">{{ country }}</option>
                 {% endif %}
                 {% endfor %}
                 {% endif %}
@@ -207,9 +208,9 @@
                 {% if filter_options and 'types' in filter_options %}
                 {% for type in filter_options.types %}
                 {% if filters and 'type' in filters and filters.type == type %}
-                <option value="type" selected>{{ type }}</option>
+                <option value="{{ type }}" selected>{{ type }}</option>
                 {% else %}
-                <option value="type">{{ type }}</option>
+                <option value="{{ type }}">{{ type }}</option>
                 {% endif %}
                 {% endfor %}
                 {% endif %}
