@@ -204,7 +204,7 @@ def intmain():
 
         papers = db.Article.objects.skip((page - 1) * PAGE_SIZE).limit(page * PAGE_SIZE)
         return jsonify(
-            dict(page=page, papers=map(lambda p: json.loads(p.to_json()), papers))
+            dict(page=page, papers=list(map(lambda p: json.loads(p.to_json()), papers)))
         )
     else:
         ctx = default_context(render_format="recent")
@@ -228,7 +228,9 @@ def filter():
             filters.get("max-subjects", None),
         )
         return jsonify(
-            dict(page=page, papers=map(lambda p: json.loads(p.to_json()), results))
+            dict(
+                page=page, papers=list(map(lambda p: json.loads(p.to_json()), results))
+            )
         )
     else:
         ctx = default_context(render_format="search", filters=filters)
