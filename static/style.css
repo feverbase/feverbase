@@ -1,3 +1,28 @@
+/* Proxima Nova */
+@font-face {
+	src: url("//feverbase.org/assets/fonts/Proxima Nova/proximanova-bold-webfont.ttf");
+	font-family: "Proxima Nova";
+	font-weight: 700;
+}
+
+@font-face {
+	src: url("//feverbase.org/assets/fonts/Proxima Nova/proximanova-semibold-webfont.ttf");
+	font-family: "Proxima Nova";
+	font-weight: 500;
+}
+
+@font-face {
+	src: url("//feverbase.org/assets/fonts/Proxima Nova/proximanova-light-webfont.ttf");
+	font-family: "Proxima Nova";
+	font-weight: 300;
+}
+
+@font-face {
+	src: url("//feverbase.org/assets/fonts/Proxima Nova/proximanova-regular-webfont.ttf");
+	font-family: "Proxima Nova";
+	font-weight: 400;
+}
+
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -15,7 +40,7 @@ body {
 	line-height: 20px;
 	font-weight: normal;
 	font-style: normal;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: -apple-system, BlinkMacSystemFont, "Proxima Nova", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	color: #333333;
 	padding: 20px;
 	margin: 0;
@@ -513,4 +538,26 @@ ul.flashes li {
 #noresults > * {
 	font-family: 'Menlo';
 	color: #666;
+}
+
+.center .nav {
+	margin-top: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Proxima Nova', -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+	font-weight: bold;
+}
+
+.nav a {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 12pt;
+	text-decoration: none;
+	border: 0;
+	color: #999;
+}
+
+.nav a:hover {
+	color: #000;
 }
