@@ -8,7 +8,7 @@ from pprint import pprint
 
 SOURCE = "isrctn.com"
 FILENAME = "isrctn.json"
-API_URL = "http://www.isrctn.com/api/query/format/who?q={query}"
+API_URL = "http://www.isrctn.com/api/query/format/who?q={query}&dateAssigned%20GT%202019-11-15"
 LOG_FILENAME = "logs/isrctn.log"
 
 
@@ -53,6 +53,11 @@ def find(query):
 
             if main.find("i_freetext") != None:
                 summary = main.find("i_freetext").text
+                splits = summary.split("\n")
+                if len(splits) >= 1:
+                    summary = splits[0]
+                else:
+                    summary = None
             else:
                 summary = None
 
@@ -89,6 +94,8 @@ def find(query):
             #TODO: Fix this
             this_entry["institution"] = None
 
+            print(this_entry, "\n")
+
             data[url] = this_entry
             count += 1
             #pprint(this_entry)
@@ -100,3 +107,5 @@ def find(query):
     return data
 
 
+def translate(info):
+    return info
