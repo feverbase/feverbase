@@ -2,4 +2,7 @@
 
 cd /root/app
 source venv/bin/activate
-python3 serve.py --prod --port 80
+until python3 serve.py --prod --port 80; do
+  echo "Server crashed with exit code $?, respawning..." >&2
+  sleep 1
+done

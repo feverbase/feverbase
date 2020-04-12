@@ -274,11 +274,17 @@ if __name__ == "__main__":
         from tornado.ioloop import IOLoop
         from tornado.log import enable_pretty_logging
 
-        enable_pretty_logging()
-        http_server = HTTPServer(WSGIContainer(app))
-        http_server.listen(args.port)
-        IOLoop.instance().start()
+        try:
+            enable_pretty_logging()
+            http_server = HTTPServer(WSGIContainer(app))
+            http_server.listen(args.port)
+            IOLoop.instance().start()
+        except KeyboardInterrupt:
+            print("Stopping!")
     else:
         print("starting flask!")
         app.debug = False
-        app.run(port=args.port, host="0.0.0.0", debug=True)
+        try:
+            app.run(port=args.port, host="0.0.0.0", debug=True)
+        except KeyboardInterrupt:
+            print("Stopping!")

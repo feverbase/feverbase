@@ -211,9 +211,11 @@
           {% endif %}
         </select>
         {% endif %}
+        
         <label for="intervention">Intervention:</label>
         <input name="intervention" type="text" id="filter-intervention"
           value="{{ filters.intervention if filters and 'intervention' in filters else '' }}">
+
         <!--
           <div class="filter">
             <label for="type">Trial Type:</label>
@@ -236,6 +238,7 @@
             </select>
           </div>
           -->
+
         <label for="subjects">Sample Size:</label>
         <div class="inputs">
           <input name="min-subjects" type="text" id="filter-min-subjects" value="{{ filters.get("min-subjects", "") }}"
@@ -243,6 +246,7 @@
           <input name="max-subjects" type="text" id="filter-max-subjects" value="{{ filters.get("max-subjects", "") }}"
             placeholder="max">
         </div>
+
         <input type="submit" value="Update">
       </div>
     </div>
