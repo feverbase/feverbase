@@ -175,6 +175,8 @@
       <br>
       <table id="filter-table" style="display: none;">
         <tbody>
+          {% if false %}
+          <!-- if false ensures this doesn't get send to device, don't show for now -->
           <tr>
             <td>Country:</td>
             <td>
@@ -197,6 +199,7 @@
               </select>
             </td>
           </tr>
+          {% endif %}
           <tr>
             <td>Drug:</td>
             <td>

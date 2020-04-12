@@ -103,10 +103,6 @@ function addPapers() {
       loadingTimeout = null;
       page = data.page;
 
-      if (page === -1) {
-        alert('There are no more results!');
-      }
-
       Array.from(data.papers).forEach(function (p) {
         // var div = root.append('div').classed('apaper', true).attr('id', p.pid);
         var div = root.append('div').classed('apaper', true);//.attr('id', ix);
@@ -137,6 +133,10 @@ function addPapers() {
 
         // div.append('div').attr('style', 'clear:both');
       });
+
+      if (page === -1) {
+        alert('There are no more results!');
+      }
     }
   });
 
