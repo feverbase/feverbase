@@ -173,7 +173,7 @@
     <div id="filter-box">
       <a onclick="toggleAdvancedFilters()"><span id="filter-status"></span> Advanced Filters</a>
       <br>
-      <table id="filter-table" style="display: none;">
+      <table id="filter-table" style="display: {{ 'block' if adv_filters_in_use else 'none' }};">
         <tbody>
           {% if false %}
           <!-- if false ensures this doesn't get send to device, don't show for now -->

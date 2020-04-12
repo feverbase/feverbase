@@ -164,7 +164,7 @@ def papers_search(
 def default_context(papers, **kws):
     papers = list(papers)  # make sure is not QuerySet
 
-    countries = ["United States", "China"]
+    # countries = ["United States", "China"]
     # types = ["Type 1"]  # extract all possible from papers
 
     if len(papers) > 0 and type(papers[0]) == db.Article:
@@ -176,10 +176,14 @@ def default_context(papers, **kws):
         papers=papers,
         numresults=len(papers),
         totpapers=db.Article.objects.count(),
-        filter_options=dict(countries=countries),  # types=types),
+        filter_options={},  # dict(countries=countries),  # types=types),
         filters={},
     )
     ans.update(kws)
+    ans["adv_filters_in_use"] = any(
+        v for k, v in ans.get("filters", {}).items() if k != "q"
+    )
+
     return ans
 
 
