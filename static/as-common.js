@@ -154,7 +154,7 @@ function addPapers() {
   loadingTimeout = setTimeout(function () {
     toastr.error('Sorry! Request timed out.');
     xhr.abort();
-  }, 1000);
+  }, 60000);
 
   return;
 
