@@ -90,6 +90,8 @@ def filter_sample_size(data, min_subjects, max_subjects):
 
 
 def filter_drug(data, drug):
+    if not drug or not drug.strip():
+        return data
     drug = drug.lower().strip()
     return_data = []
     for entry in data:
@@ -100,7 +102,7 @@ def filter_drug(data, drug):
 
 
 def papers_search(
-    page, num_left, qraw, country=None, drug=None, min_subjects=0, max_subjects=0
+    page, num_left, qraw, country=None, drug="", min_subjects=0, max_subjects=0
 ):
     # prevent infinite loops when looking for more data
     if (page - 1) * PAGE_SIZE > db.Article.objects.count():
@@ -223,7 +225,7 @@ def filter():
             PAGE_SIZE,
             filters.get("q", ""),
             filters.get("country", None),
-            filters.get("drug", None),
+            filters.get("drug", ""),
             filters.get("min_subjects", None),
             filters.get("max_subjects", None),
         )
