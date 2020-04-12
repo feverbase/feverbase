@@ -171,9 +171,11 @@ def find(query):
                                     "abandoned": None,
                                     "sample_size": int(sample_size),
                                 }
-                                data[url] = this_entry
-                                count += 1
-                                logging.info(f"Parsed {url}")
+
+                                if this_entry["timestamp"][0:4] == "2020":
+                                    data[url] = this_entry
+                                    count += 1
+                                    logging.info(f"Parsed {url}")
                             except Exception as e:
                                 logging.error(f"Could not parse {url}, {e}")
 
