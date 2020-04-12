@@ -475,7 +475,7 @@ ul.flashes li {
 }
 
 .ds {
-	font-family: 'Menlo';
+	font-family: 'Menlo', Monaco, monospace;
 	padding: 0;
 	margin-bottom: -20px;
 	color: #666;
@@ -536,7 +536,7 @@ ul.flashes li {
 }
 
 #noresults > * {
-	font-family: 'Menlo';
+	font-family: 'Menlo', Monaco, monospace;
 	color: #666;
 }
 
