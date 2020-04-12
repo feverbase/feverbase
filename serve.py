@@ -6,6 +6,7 @@ import argparse
 import dateutil.parser
 from random import shuffle, randrange, uniform
 from functools import reduce
+import re
 
 from hashlib import md5
 from flask import (
@@ -66,14 +67,62 @@ def add_header(r):
 # search/sort functionality
 # -----------------------------------------------------------------------------
 
+def filter_sample_size(data, min_subjects, max_subjects):
+    # easy case, user did not specify bounds
+    if min_subjects == 0 and max_subjects == 0:
+        return data
+    return_data = []
+    print(min_subjects, max_subjects)
+    for entry in data:
+        sample_size = str(entry.get("sample_size"))
+        nums = re.findall(r'^\D*(\d+)', sample_size)
+        if len(nums) >= 1:
+            true_num = int(nums[0])
+            if true_num >= min_subjects and (true_num <= max_subjects or max_subjects == 0):
+                return_data.append(entry)
+    return return_data
 
-def papers_search(qraw):
-    # blank query should return every article
+def filter_drug(data, drug):
+    drug = drug.lower().strip()
+    return_data = [] 
+    for entry in data:
+        this_drug = entry.get("intervention", "").lower().strip()
+        if drug in this_drug:
+            return_data.append(entry)
+    return return_data
+
+
+def papers_search(qraw, country=None, drug=None, min_subjects=0,
+        max_subjects=0):
+    filterstring = ""
+    # right now country is really the only thing we
+    # can filter on at the meili level
+    if country:
+        if " " in country:
+            country = f"'{country}'"
+        print(country)
+        filterstring += f"location={country}"
+    options = {"filters": filterstring}
+
     if qraw == "":
-        return list(db.Article.objects())
+        papers = db.Article.objects
+        results = list(map(lambda p: json.loads(p.to_json()), papers))
     else:
         # perform meilisearch query
-        return ms_index.search(qraw).get("hits")
+        results = ms_index.search(qraw, options).get("hits")
+
+    if min_subjects == "" or min_subjects == None:
+        min_subjects = 0
+    if max_subjects == "" or max_subjects == None:
+        max_subjects = 0
+
+    # filter on sample size
+    results = filter_sample_size(results, int(min_subjects), int(max_subjects))
+
+    # filter on drug type
+    results = filter_drug(results, drug)
+
+    return results
 
 
 # -----------------------------------------------------------------------------
@@ -84,8 +133,8 @@ def papers_search(qraw):
 def default_context(papers, **kws):
     papers = list(papers)  # make sure is not QuerySet
 
-    countries = ["China", "USA"]  # extract all possible from papers
-    types = ["Type 1"]  # extract all possible from papers
+    countries = ["United States", "China"]
+    #types = ["Type 1"]  # extract all possible from papers
 
     if len(papers) > 0 and type(papers[0]) == db.Article:
         papers = list(map(lambda p: json.loads(p.to_json()), papers))
@@ -96,7 +145,7 @@ def default_context(papers, **kws):
         papers=papers,
         numresults=len(papers),
         totpapers=db.Article.objects.count(),
-        filter_options=dict(countries=countries, types=types),
+        filter_options=dict(countries=countries), #types=types),
         filters={},
     )
     ans.update(kws)
@@ -112,12 +161,13 @@ def intmain():
 @app.route("/filter", methods=["GET"])
 def search():
     filters = request.args  # get the filter requests
-    if "q" in filters:
-        papers = papers_search(
-            filters["q"]
-        )  # perform the query and get sorted documents
-    else:
-        papers = db.Article.objects()
+    papers = papers_search(
+            filters.get("q", ""),
+            filters.get("country", None),
+            filters.get("drug", None),
+            filters.get("min_subjects", None),
+            filters.get("max_subjects", None)
+    )
 
     ctx = default_context(papers, render_format="search", filters=filters)
     return render_template("main.html", **ctx)
@@ -162,4 +212,4 @@ if __name__ == "__main__":
     else:
         print("starting flask!")
         app.debug = False
-        app.run(port=args.port, host="0.0.0.0")
+        app.run(port=args.port, host="0.0.0.0", debug=True)

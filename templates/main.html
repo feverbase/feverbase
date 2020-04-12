@@ -195,6 +195,7 @@
                 value="{{ filters.drug if filters and 'drug' in filters else '' }}">
             </td>
           </tr>
+          <!--
           <tr>
             <td>Trial Type:</td>
             <td>
@@ -217,11 +218,17 @@
               </select>
             </td>
           </tr>
+          -->
           <tr>
-            <td>Subjects:</td>
+            <td>Minimum trial size:</td>
             <td>
-              <input name="subjects" type="text" id="filter-subjects"
-                value="{{ filters.subjects if filters and 'subjects' in filters else '' }}">
+              <input name="min-subjects" type="text" id="filter-min-subjects"
+                value="{{ filters.get("min-subjects", "") }}">
+            </td>
+            <td>Maxiumum trial size:</td>
+            <td>
+              <input name="max-subjects" type="text" id="filter-max-subjects"
+                value="{{ filters.get("max-subjects", "") }}">
             </td>
           </tr>
           <tr>
