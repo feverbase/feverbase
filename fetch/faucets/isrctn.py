@@ -108,4 +108,5 @@ def find(query):
 
 
 def translate(info):
+    del info["_source"]
     return info
