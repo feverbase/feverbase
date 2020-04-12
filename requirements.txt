@@ -25,3 +25,4 @@ bs4
 black
 dnspython
 meilisearch
+sentry-sdk[flask]
