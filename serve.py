@@ -90,20 +90,20 @@ def filter_sample_size(data, min_subjects, max_subjects):
     return return_data
 
 
-def filter_drug(data, drug):
-    if not drug or not drug.strip():
+def filter_intervention(data, intervention):
+    if not intervention or not intervention.strip():
         return data
-    drug = drug.lower().strip()
+    intervention = intervention.lower().strip()
     return_data = []
     for entry in data:
-        this_drug = entry.get("intervention", "").lower().strip()
-        if drug in this_drug:
+        this_intervention = entry.get("intervention", "").lower().strip()
+        if intervention in this_intervention:
             return_data.append(entry)
     return return_data
 
 
 def papers_search(
-    page, num_left, qraw, country=None, drug="", min_subjects=0, max_subjects=0
+    page, num_left, qraw, country=None, intervention="", min_subjects=0, max_subjects=0
 ):
     # prevent infinite loops when looking for more data
     if (page - 1) * PAGE_SIZE > db.Article.objects.count():
@@ -138,8 +138,8 @@ def papers_search(
     # filter on sample size
     results = filter_sample_size(results, int(min_subjects), int(max_subjects))
 
-    # filter on drug type
-    results = filter_drug(results, drug)
+    # filter on intervention type
+    results = filter_intervention(results, intervention)
 
     if len(results) < num_left:
         new_results, page = papers_search(
@@ -147,7 +147,7 @@ def papers_search(
             num_left - len(results),
             qraw,
             country,
-            drug,
+            intervention,
             min_subjects,
             max_subjects,
         )
@@ -226,7 +226,7 @@ def filter():
             PAGE_SIZE,
             filters.get("q", ""),
             filters.get("country", None),
-            filters.get("drug", ""),
+            filters.get("intervention", ""),
             filters.get("min-subjects", None),
             filters.get("max-subjects", None),
         )
