@@ -227,11 +227,10 @@ def filter():
             filters.get("min-subjects", None),
             filters.get("max-subjects", None),
         )
-        return jsonify(
-            dict(
-                page=page, papers=list(map(lambda p: json.loads(p.to_json()), results))
-            )
-        )
+        papers = results
+        if len(papers) and type(papers[0]) == db.Article:
+            papers = list(map(lambda p: json.loads(p.to_json()), papers))
+        return jsonify(dict(page=page, papers=papers))
     else:
         ctx = default_context(render_format="search", filters=filters)
         return render_template("main.html", **ctx)
