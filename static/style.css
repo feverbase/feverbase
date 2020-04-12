@@ -487,6 +487,7 @@ ul.flashes li {
 	background-color: rgb(240, 240, 240);
 	margin: 10px auto 20px auto;
 	border: solid 1px #D6D3C5;
+	width: 100%;
 }
 
 #filters-box > a {
@@ -503,6 +504,7 @@ ul.flashes li {
 	display: grid;
 	grid-template-columns: max-content max-content;
 	grid-gap: 5px;
+	width: 100%;
 }
 
 .lds-ring {
