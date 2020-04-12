@@ -67,13 +67,21 @@ def add_header(r):
 # -----------------------------------------------------------------------------
 
 
-def papers_search(qraw):
+def papers_search(qraw, country=None, sample_size=None):
     # blank query should return every article
     if qraw == "":
         return list(db.Article.objects())
     else:
+        filterstring = ""
+        if country:
+            if " " in country:
+                country = f"'{country}'"
+            print(country)
+            filterstring += f"location={country}"
+        options = {"filters": filterstring}
         # perform meilisearch query
-        return ms_index.search(qraw).get("hits")
+        results = ms_index.search(qraw, options).get("hits")
+        return results
 
 
 # -----------------------------------------------------------------------------
@@ -84,7 +92,9 @@ def papers_search(qraw):
 def default_context(papers, **kws):
     papers = list(papers)  # make sure is not QuerySet
 
-    countries = ["China", "USA"]  # extract all possible from papers
+    countries = ["United States", "China",
+            "United Kingdom", "Italy", "Spain", "Germany",
+            "Norway"]  # extract all possible from papers
     types = ["Type 1"]  # extract all possible from papers
 
     if len(papers) > 0 and type(papers[0]) == db.Article:
@@ -112,9 +122,12 @@ def intmain():
 @app.route("/filter", methods=["GET"])
 def search():
     filters = request.args  # get the filter requests
+    print(filters)
     if "q" in filters:
         papers = papers_search(
-            filters["q"]
+                filters.get("q", ""),
+                filters.get("country", None),
+                filters.get("subjects", None)
         )  # perform the query and get sorted documents
     else:
         papers = db.Article.objects()
