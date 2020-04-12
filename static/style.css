@@ -510,3 +510,7 @@ ul.flashes li {
   }
 }
 
+#noresults > * {
+	font-family: 'Menlo';
+	color: #666;
+}

@@ -9,6 +9,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='toastr.min.css') }}">
 
   <!-- Favicon -->
   <!-- <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}" /> -->
@@ -17,6 +18,7 @@
   <script src="{{ url_for('static', filename='jquery-1.8.3.min.js') }}"></script>
   <script src="{{ url_for('static', filename='d3.min.js') }}"></script>
   <script src="{{ url_for('static', filename='moment.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='toastr.min.js') }}"></script>
   <script src="{{ url_for('static', filename='as-common.js') }}"></script>
 
   <script>
@@ -34,6 +36,8 @@
         $("#loader").hide();
       }
     });
+
+    // toastr.options.positionClass = 'toast-bottom-right';
 
     // when page loads...
     $(document).ready(function () {
@@ -268,6 +272,10 @@
         <div></div>
         <div></div>
       </div>
+    </div>
+
+    <div id="noresults" style="display: none">
+      <h4>End of results.</h4>
     </div>
 
   </div>

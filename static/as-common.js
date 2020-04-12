@@ -103,6 +103,10 @@ function addPapers() {
       loadingTimeout = null;
       page = data.page;
 
+      if (page === -1) {
+        $('#noresults').show();
+      }
+
       Array.from(data.papers).forEach(function (p) {
         // var div = root.append('div').classed('apaper', true).attr('id', p.pid);
         var div = root.append('div').classed('apaper', true);//.attr('id', ix);
@@ -133,24 +137,24 @@ function addPapers() {
 
         // div.append('div').attr('style', 'clear:both');
       });
-
-      if (page === -1) {
-        alert('There are no more results!');
-      }
     },
     error: function (jqXHR, textStatus, errorThrown) {
       console.log(jqXHR, textStatus, errorThrown);
       clearTimeout(loadingTimeout);
       loadingTimeout = null;
       page = -1;
-      alert(errorThrown);
+      $('#noresults > :first-child').html('Refresh the page to try again.');
+      $('#noresults').show();
+      if (errorThrown !== 'abort') {
+        toastr.error(errorThrown);
+      }
     }
   });
 
   loadingTimeout = setTimeout(function () {
-    alert('Sorry! Request timed out.');
+    toastr.error('Sorry! Request timed out.');
     xhr.abort();
-  }, 30000);
+  }, 1000);
 
   return;
 
