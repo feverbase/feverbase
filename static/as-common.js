@@ -137,6 +137,13 @@ function addPapers() {
       if (page === -1) {
         alert('There are no more results!');
       }
+    },
+    error: function (jqXHR, textStatus, errorThrown) {
+      console.log(jqXHR, textStatus, errorThrown);
+      clearTimeout(loadingTimeout);
+      loadingTimeout = null;
+      page = -1;
+      alert(errorThrown);
     }
   });
 
