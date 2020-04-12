@@ -482,21 +482,27 @@ ul.flashes li {
 	line-height: 1.25
 }
 
-#filter-box {
+#filters-box {
 	padding: 5px;
 	background-color: rgb(240, 240, 240);
 	margin: 10px auto 20px auto;
 	border: solid 1px #D6D3C5;
 }
 
-#filter-box > a {
-	margin: 0;
+#filters-box > a {
 	color: gray;
 	cursor: pointer;
 }
 
-#filter-box > a:hover {
+#filters-box > a:hover {
 	text-decoration: underline;
+}
+
+#filters-container {
+	margin-top: 0.6rem;
+	display: grid;
+	grid-template-columns: max-content max-content;
+	grid-gap: 5px;
 }
 
 .lds-ring {

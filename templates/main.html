@@ -153,14 +153,14 @@
   </script>
   <script>
     function toggleAdvancedFilters() {
-      var status = document.getElementById('filter-status');
-      var table = document.getElementById('filter-table');
+      var status = document.getElementById('filters-status');
+      var container = document.getElementById('filters-container');
 
-      if (table.style.display === 'none') {
-        table.style.display = 'block';
+      if (container.style.display === 'none') {
+        container.style.display = 'grid';
         status.innerHTML = 'Hide';
       } else {
-        table.style.display = 'none';
+        container.style.display = 'none';
         status.innerHTML = '';
       }
     }
@@ -175,7 +175,7 @@
     <div class="nav">
       <a href="https://feverbase.org">About</a>
       <a href="/">Trial Search</a>
-  </div>
+    </div>
   </div>
   <hr />
 
@@ -185,86 +185,66 @@
         autocomplete="off" autocapitalize="off" spellcheck="false">
     </div>
 
-    <div id="filter-box">
-      <a onclick="toggleAdvancedFilters()"><span id="filter-status"></span> Advanced Filters</a>
+    <div id="filters-box">
+      <a onclick="toggleAdvancedFilters()"><span id="filters-status">{{ 'Hide' if adv_filters_in_use else '' }}</span>
+        Advanced Filters</a>
       <br>
-      <table id="filter-table" style="display: {{ 'block' if adv_filters_in_use else 'none' }};">
-        <tbody>
-          {% if false %}
-          <!-- if false ensures this doesn't get send to device, don't show for now -->
-          <tr>
-            <td>Country:</td>
-            <td>
-              <select name="country" type="text" id="filter-country">
-                {% if filters and not 'country' in filters %}
-                <option value="" selected></option>
-                {% else %}
-                <option value=""></option>
-                {% endif %}
-
-                {% if filter_options and 'countries' in filter_options %}
-                {% for country in filter_options.countries %}
-                {% if filters and 'country' in filters and filters.country == country %}
-                <option value="{{ country }}" selected>{{ country }}</option>
-                {% else %}
-                <option value="{{ country }}">{{ country }}</option>
-                {% endif %}
-                {% endfor %}
-                {% endif %}
-              </select>
-            </td>
-          </tr>
+      <div id="filters-container" style="display: {{ 'grid' if adv_filters_in_use else 'none' }};">
+        {% if false %}
+        <!-- if false ensures this doesn't get send to device, don't show for now -->
+        <label for="country">Country:</label>
+        <select name="country" type="text" id="filter-country">
+          {% if filters and not 'country' in filters %}
+          <option value="" selected></option>
+          {% else %}
+          <option value=""></option>
           {% endif %}
-          <tr>
-            <td>Drug:</td>
-            <td>
-              <input name="drug" type="text" id="filter-drug"
-                value="{{ filters.drug if filters and 'drug' in filters else '' }}">
-            </td>
-          </tr>
-          <!--
-          <tr>
-            <td>Trial Type:</td>
-            <td>
-              <select name="type" type="text" id="filter-type">
-                {% if filters and not 'type' in filters %}
-                <option value="" selected></option>
-                {% else %}
-                <option value=""></option>
-                {% endif %}
 
-                {% if filter_options and 'types' in filter_options %}
-                {% for type in filter_options.types %}
-                {% if filters and 'type' in filters and filters.type == type %}
-                <option value="{{ type }}" selected>{{ type }}</option>
-                {% else %}
-                <option value="{{ type }}">{{ type }}</option>
-                {% endif %}
-                {% endfor %}
-                {% endif %}
-              </select>
-            </td>
-          </tr>
+          {% if filter_options and 'countries' in filter_options %}
+          {% for country in filter_options.countries %}
+          {% if filters and 'country' in filters and filters.country == country %}
+          <option value="{{ country }}" selected>{{ country }}</option>
+          {% else %}
+          <option value="{{ country }}">{{ country }}</option>
+          {% endif %}
+          {% endfor %}
+          {% endif %}
+        </select>
+        {% endif %}
+        <label for="drug">Drug:</label>
+        <input name="drug" type="text" id="filter-drug"
+          value="{{ filters.drug if filters and 'drug' in filters else '' }}">
+        <!--
+          <div class="filter">
+            <label for="type">Trial Type:</label>
+            <select name="type" type="text" id="filter-type">
+              {% if filters and not 'type' in filters %}
+              <option value="" selected></option>
+              {% else %}
+              <option value=""></option>
+              {% endif %}
+
+              {% if filter_options and 'types' in filter_options %}
+              {% for type in filter_options.types %}
+              {% if filters and 'type' in filters and filters.type == type %}
+              <option value="{{ type }}" selected>{{ type }}</option>
+              {% else %}
+              <option value="{{ type }}">{{ type }}</option>
+              {% endif %}
+              {% endfor %}
+              {% endif %}
+            </select>
+          </div>
           -->
-          <tr>
-            <td>Minimum trial size:</td>
-            <td>
-              <input name="min-subjects" type="text" id="filter-min-subjects"
-                value="{{ filters.get("min-subjects", "") }}">
-            </td>
-            <td>Maxiumum trial size:</td>
-            <td>
-              <input name="max-subjects" type="text" id="filter-max-subjects"
-                value="{{ filters.get("max-subjects", "") }}">
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <input type="submit" value="Update">
-            </td>
-          </tr>
-        </tbody>
-      </table>
+        <label for="subjects">Trial size:</label>
+        <div class="inputs">
+          <input name="min-subjects" type="text" id="filter-min-subjects" value="{{ filters.get("min-subjects", "") }}"
+            placeholder="min">
+          <input name="max-subjects" type="text" id="filter-max-subjects" value="{{ filters.get("max-subjects", "") }}"
+            placeholder="max">
+        </div>
+        <input type="submit" value="Update">
+      </div>
     </div>
   </form>
 
@@ -293,14 +273,15 @@
 
   <br><br><br><br><br><br>
 
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-41516705-6']);
     _gaq.push(['_trackPageview']);
     (function () {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
   </script>
 
