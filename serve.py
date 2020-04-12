@@ -76,35 +76,42 @@ def add_header(r):
 def filter_sample_size(data, min_subjects, max_subjects):
     # easy case, user did not specify bounds
     if min_subjects == 0 and max_subjects == 0:
-        return data
-    return_data = []
-    for entry in data:
-        sample_size = str(entry.get("sample_size"))
-        nums = re.findall(r"^\D*(\d+)", sample_size)
+        return
+    idxs_to_remove = []
+    for i in range(len(data)):
+        nums = re.findall(r"^\D*(\d+)", str(data[i].sample_size or ""))
         if len(nums) >= 1:
             true_num = int(nums[0])
-            if true_num >= min_subjects and (
-                true_num <= max_subjects or max_subjects == 0
+            if not (
+                true_num >= min_subjects
+                and (true_num <= max_subjects or max_subjects == 0)
             ):
-                return_data.append(entry)
-    return return_data
+                idxs_to_remove.append(i)
+        else:
+            idxs_to_remove.append(i)
+    idxs_to_remove.sort(reverse=True)
+    for i in idxs_to_remove:
+        data.pop(i)
 
 
 def filter_intervention(data, intervention):
     if not intervention or not intervention.strip():
-        return data
+        return
     intervention = intervention.lower().strip()
-    return_data = []
-    for entry in data:
-        this_intervention = entry.get("intervention", "").lower().strip()
-        if intervention in this_intervention:
-            return_data.append(entry)
-    return return_data
+    idxs_to_remove = []
+    for i in range(len(data)):
+        this_intervention = (data[i].intervention or "").lower().strip()
+        if intervention not in this_intervention:
+            idxs_to_remove.append(i)
+    idxs_to_remove.sort(reverse=True)
+    for i in idxs_to_remove:
+        data.pop(i)
 
 
 def papers_search(
     page, num_left, qraw, country=None, intervention="", min_subjects=0, max_subjects=0
 ):
+    print(f"papers_search with page={page} num_left={num_left}")
     # prevent infinite loops when looking for more data
     if (page - 1) * PAGE_SIZE > db.Article.objects.count():
         return [], page
@@ -124,8 +131,9 @@ def papers_search(
     }
 
     if qraw == "":
-        papers = db.Article.objects.skip((page - 1) * PAGE_SIZE).limit(page * PAGE_SIZE)
-        results = list(map(lambda p: json.loads(p.to_json()), papers))
+        results = list(
+            db.Article.objects.skip((page - 1) * PAGE_SIZE).limit(page * PAGE_SIZE)
+        )
     else:
         # perform meilisearch query
         results = ms_index.search(qraw, options).get("hits")
@@ -136,10 +144,10 @@ def papers_search(
         max_subjects = 0
 
     # filter on sample size
-    results = filter_sample_size(results, int(min_subjects), int(max_subjects))
+    filter_sample_size(results, int(min_subjects), int(max_subjects))
 
     # filter on intervention type
-    results = filter_intervention(results, intervention)
+    filter_intervention(results, intervention)
 
     if len(results) < num_left:
         new_results, page = papers_search(
@@ -164,23 +172,12 @@ def papers_search(
 # -----------------------------------------------------------------------------
 
 
-def default_context(papers, **kws):
-    papers = list(papers)  # make sure is not QuerySet
-
+def default_context(**kws):
     # countries = ["United States", "China"]
     # types = ["Type 1"]  # extract all possible from papers
 
-    if len(papers) > 0 and type(papers[0]) == db.Article:
-        papers = list(map(lambda p: json.loads(p.to_json()), papers))
-
     ans = dict(
-        # if given a list of Articles, parse as necessary
-        # if given a list of dicts, no change necessary
-        papers=papers,
-        numresults=len(papers),
-        totpapers=db.Article.objects.count(),
-        filter_options={},  # dict(countries=countries),  # types=types),
-        filters={},
+        filter_options={}, filters={},  # dict(countries=countries),  # types=types),
     )
     ans.update(kws)
     ans["adv_filters_in_use"] = any(
@@ -207,10 +204,10 @@ def intmain():
 
         papers = db.Article.objects.skip((page - 1) * PAGE_SIZE).limit(page * PAGE_SIZE)
         return jsonify(
-            dict(page=page, papers=list(map(lambda p: json.loads(p.to_json()), papers)))
+            dict(page=page, papers=map(lambda p: json.loads(p.to_json()), papers))
         )
     else:
-        ctx = default_context([], render_format="recent")
+        ctx = default_context(render_format="recent")
         return render_template("main.html", **ctx)
 
 
@@ -221,7 +218,7 @@ def filter():
     if request.headers.get("Content-Type", "") == "application/json":
         page = get_page()
 
-        papers, page = papers_search(
+        results, page = papers_search(
             page,
             PAGE_SIZE,
             filters.get("q", ""),
@@ -230,9 +227,11 @@ def filter():
             filters.get("min-subjects", None),
             filters.get("max-subjects", None),
         )
-        return jsonify(dict(page=page, papers=papers))
+        return jsonify(
+            dict(page=page, papers=map(lambda p: json.loads(p.to_json()), results))
+        )
     else:
-        ctx = default_context([], render_format="search", filters=filters)
+        ctx = default_context(render_format="search", filters=filters)
         return render_template("main.html", **ctx)
 
 

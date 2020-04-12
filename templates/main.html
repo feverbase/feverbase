@@ -31,9 +31,7 @@
   <script>
 
     // passed in from flask as json
-    var papers = {{ papers | tojson }};
     var render_format = "{{ render_format }}";
-    var numresults = "{{ numresults }}";
 
     $.ajaxSetup({
       beforeSend: function () {
@@ -211,7 +209,7 @@
           {% endif %}
         </select>
         {% endif %}
-        
+
         <label for="intervention">Intervention:</label>
         <input name="intervention" type="text" id="filter-intervention"
           value="{{ filters.intervention if filters and 'intervention' in filters else '' }}">
