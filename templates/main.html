@@ -179,6 +179,7 @@
 
   <form action="/filter" method="get">
     <div id="sbox">
+      <input type="submit" alt="Search" id="search-icon" value="">
       <input name="q" type="text" id="qfield" value="{{ filters.q if filters and 'q' in filters else '' }}"
         autocomplete="off" autocapitalize="off" spellcheck="false">
     </div>

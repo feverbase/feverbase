@@ -174,15 +174,24 @@ li {
   font-size: 22px;
   color: "#333";
 
-  padding-left: 35px;
+  padding-left: 40px;
   margin-bottom: 10px;
 
-  background-image:url('/static/search.png');
-	background-repeat:no-repeat;
-	background-position:left center;
 	outline:0;
-	background-size: 25px;
-	background-position-x: 5px;
+}
+
+#search-icon {
+	position: absolute;
+
+	width: 40px;
+	height: 40px;
+
+	border: none;
+	background-color: transparent;
+	background-image: url('/static/search.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30px;
 }
 
 #sbox {
