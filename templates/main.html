@@ -21,6 +21,13 @@
   <script src="{{ url_for('static', filename='toastr.min.js') }}"></script>
   <script src="{{ url_for('static', filename='as-common.js') }}"></script>
 
+  <script src="https://browser.sentry-cdn.com/5.15.4/bundle.min.js"
+    integrity="sha384-Nrg+xiw+qRl3grVrxJtWazjeZmUwoSt0FAVsbthlJ5OMpx0G08bqIq3b/v0hPjhB" crossorigin="anonymous">
+    </script>
+  <script>
+    Sentry.init({ dsn: 'https://0d610ab75a934c93922251b180896c2c@o376768.ingest.sentry.io/5197934' });
+  </script>
+
   <script>
 
     // passed in from flask as json

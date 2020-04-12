@@ -26,6 +26,8 @@ from flask_limiter import Limiter
 from werkzeug.security import check_password_hash, generate_password_hash
 import pymongo
 from mongoengine.queryset.visitor import Q
+import sentry_sdk
+from sentry_sdk.integrations.flask import FlaskIntegration
 
 from utils import db, ms
 
@@ -260,6 +262,12 @@ if __name__ == "__main__":
 
     # start
     if args.prod:
+        # init sentry
+        sentry_sdk.init(
+            dsn="https://22e9a060f25d4a6db5e461e074659a80@o376768.ingest.sentry.io/5197936",
+            integrations=[FlaskIntegration()],
+        )
+
         # run on Tornado instead, since running raw Flask in prod is not recommended
         print("starting tornado!")
         from tornado.wsgi import WSGIContainer
