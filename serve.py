@@ -78,7 +78,6 @@ def filter_sample_size(data, min_subjects, max_subjects):
     if min_subjects == 0 and max_subjects == 0:
         return data
     return_data = []
-    print(min_subjects, max_subjects)
     for entry in data:
         sample_size = str(entry.get("sample_size"))
         nums = re.findall(r"^\D*(\d+)", sample_size)
@@ -228,8 +227,8 @@ def filter():
             filters.get("q", ""),
             filters.get("country", None),
             filters.get("drug", ""),
-            filters.get("min_subjects", None),
-            filters.get("max_subjects", None),
+            filters.get("min-subjects", None),
+            filters.get("max-subjects", None),
         )
         return jsonify(dict(page=page, papers=papers))
     else:
