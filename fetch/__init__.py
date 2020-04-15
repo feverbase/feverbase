@@ -7,7 +7,9 @@ from faucets import isrctn
 from . import utils
 
 sys.path.append('../')
-from utils import db
+from utils import db, ms
+
+from search import mongo_to_meili
 
 TERMS = utils.get_query_terms()
 
@@ -45,6 +47,9 @@ def get_records():
     articles = [translate(i) for i in data.values()]
     
     db.create(articles)
+
+    # re-index the meilisearch index
+    mongo_to_meili()
 
     return articles
 
