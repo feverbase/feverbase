@@ -1,3 +1,5 @@
+'use strict';
+
 var page = 0;
 var loadingTimeout = null;
 
@@ -19,11 +21,17 @@ function addPapers() {
       loadingTimeout = null;
       page = data.page;
 
+      if (!data.papers || !data.papers.length) {
+        $('#noresults').show();
+        page = -1;
+        return;
+      }
+
       if (page === -1) {
         $('#noresults').show();
       }
 
-      Array.from(data.papers).forEach(function (p) {
+      for (const p of data.papers) {
         var div = root.append('<div class="apaper"></div>');
 
         var tdiv = div.append('<div class="paperdesc"></div>');
@@ -51,7 +59,7 @@ function addPapers() {
           </blockquote>
         `);
         tdiv.append('<br/>');
-      });
+      }
     },
     error: function (jqXHR, textStatus, errorThrown) {
       console.log(jqXHR, textStatus, errorThrown);
