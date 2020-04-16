@@ -108,95 +108,94 @@ def filter_sample_size(data, min_subjects, max_subjects):
         data.pop(i)
 
 
-def filter_by_key(data, key, value):
-    if not value or not value.strip():
-        return
-    value = value.lower().strip()
-    idxs_to_remove = []
-    for i in range(len(data)):
-        entry = data[i]
-        this_value = (
-            ((eval(f"entry.{key}") if is_article(entry) else entry.get(key, "")) or "")
-            .lower()
-            .strip()
-        )
-        if value not in this_value:
-            idxs_to_remove.append(i)
-    idxs_to_remove.sort(reverse=True)
-    for i in idxs_to_remove:
-        data.pop(i)
+# def filter_by_key(data, key, value):
+#     if not value or not value.strip():
+#         return
+#     value = value.lower().strip()
+#     idxs_to_remove = []
+#     for i in range(len(data)):
+#         entry = data[i]
+#         this_value = (
+#             ((eval(f"entry.{key}") if is_article(entry) else entry.get(key, "")) or "")
+#             .lower()
+#             .strip()
+#         )
+#         if value not in this_value:
+#             idxs_to_remove.append(i)
+#     idxs_to_remove.sort(reverse=True)
+#     for i in idxs_to_remove:
+#         data.pop(i)
 
 
 def filter_papers(
-    page,
-    num_left,
-    qraw,
-    dynamic_filters={},
-    min_subjects=0,
-    max_subjects=0,
-    prebuilt_q=None,
+    page, qraw, dynamic_filters={}, min_subjects=0, max_subjects=0,
 ):
-    print(f"papers_search with page={page} num_left={num_left}")
-    # prevent infinite loops when looking for more data
-    if (page - 1) * PAGE_SIZE > db.Article.objects.count():
-        return [], page
-
     if min_subjects < 0:
         min_subjects = 0
     if max_subjects < 0:
         max_subjects = 0
 
     if not qraw:
-        if not prebuilt_q:
-            for key, value in dynamic_filters.items():
-                this_q = eval(f"Q({key}__icontains=value)")
-                if not prebuilt_q:
-                    prebuilt_q = this_q
-                else:
-                    prebuilt_q &= this_q
+        prebuilt_filters = None
+        for key, value in dynamic_filters.items():
+            this_q = eval(f"Q({key}__icontains=value)")
+            if not prebuilt_filters:
+                prebuilt_filters = this_q
+            else:
+                prebuilt_filters &= this_q
 
-        results = (
-            db.Article.objects(prebuilt_q).skip((page - 1) * PAGE_SIZE).limit(page * PAGE_SIZE)
+        results = list(
+            db.Article.objects(prebuilt_filters)
+            .skip((page - 1) * PAGE_SIZE)
+            .limit(PAGE_SIZE)
         )
 
-        results = list(results)
+        filter_sample_size(results, int(min_subjects), int(max_subjects))
     else:
-        # filterstring = ""
-        # right now location is really the only thing we
-        # can filter on at the meili level
-        # if location:
-        #     if " " in location:
-        #         location = f"'{location}'"
-        #     print(location)
-        #     filterstring += f"location={location}"
+        escape = lambda x: x.replace('"', '\\"')
+        prebuilt_filters = [
+            f'{key} *= "{escape(value)}"'
+            for key, value in dynamic_filters.items()
+            if value
+        ]
+        # parsed_sample_size is -1 if couldn't parse sample_size, so if filtering
+        # on sample_size at all, make sure to exclude the invalid entries by adding >= 0
+        if min_subjects or max_subjects:
+            prebuilt_filters.push(f"parsed_sample_size >= {min_subjects}")
+        if max_subjects:
+            prebuilt_filters.push(f"parsed_sample_size <= {max_subjects}")
+
+        prebuilt_filters = "AND".join(prebuilt_filters)
+
         options = {
-            # "filters": filterstring,
+            "filters": prebuilt_filters,
             "offset": (page - 1) * PAGE_SIZE,
-            "limit": page * PAGE_SIZE,
+            "limit": PAGE_SIZE,
+            "attributesToHighlight": [
+                "title",
+                "recruiting_status",
+                "sex",
+                "target_disease",
+                "intervention",
+                "sponsor",
+                "summary",
+                "location",
+                "institution",
+                "contact",
+                "abandoned_reason",
+            ],
         }
 
         # perform meilisearch query
         results = ms_index.search(qraw, options).get("hits")
 
-        for key, value in dynamic_filters.items():
-            filter_by_key(results, key, value)
-
-    filter_sample_size(results, int(min_subjects), int(max_subjects))
-
-    if len(results) < num_left:
-        new_results, page = filter_papers(
-            page + 1,
-            num_left - len(results),
-            qraw,
-            dynamic_filters,
-            min_subjects,
-            max_subjects,
-            prebuilt_q,
+        # sort by timestamp descending
+        results = sorted(
+            results, key=lambda r: r.get("timestamp", {}).get("$date", -1), reverse=True
         )
-        results.extend(new_results)
-        # let frontend no there are no more
-        if not len(new_results):
-            page = -1
+
+    if len(results) < PAGE_SIZE:
+        page = -1
 
     return results, page
 
@@ -231,7 +230,7 @@ def intmain():
     if request.headers.get("Content-Type", "") == "application/json":
         page = get_page()
 
-        papers = db.Article.objects.skip((page - 1) * PAGE_SIZE).limit(page * PAGE_SIZE)
+        papers = db.Article.objects.skip((page - 1) * PAGE_SIZE).limit(PAGE_SIZE)
         return jsonify(
             dict(page=page, papers=list(map(lambda p: json.loads(p.to_json()), papers)))
         )
@@ -285,12 +284,7 @@ def filter():
             max_subjects = 0
 
         papers, page = filter_papers(
-            page,
-            PAGE_SIZE,
-            filters.get("q", ""),
-            dynamic_filters,
-            min_subjects,
-            max_subjects,
+            page, filters.get("q", ""), dynamic_filters, min_subjects, max_subjects,
         )
 
         if len(papers) and is_article(papers[0]):
