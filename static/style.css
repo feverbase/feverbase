@@ -7,49 +7,49 @@
 
 /* SF Pro */
 @font-face {
-	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Ultralight.otf");
+	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Ultralight.ttf");
 	font-family: "SF Pro";
 	font-weight: 100;
 }
 
 @font-face {
-	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Thin.otf");
+	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Thin.ttf");
 	font-family: "SF Pro";
 	font-weight: 200;
 }
 
 @font-face {
-	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Light.otf");
+	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Light.ttf");
 	font-family: "SF Pro";
 	font-weight: 300;
 }
 
 @font-face {
-	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Regular.otf");
+	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Regular.ttf");
 	font-family: "SF Pro";
 	font-weight: 400;
 }
 
 @font-face {
-	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Semibold.otf");
+	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Semibold.ttf");
 	font-family: "SF Pro";
 	font-weight: 600;
 }
 
 @font-face {
-	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Bold.otf");
+	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Bold.ttf");
 	font-family: "SF Pro";
 	font-weight: 700;
 }
 
 @font-face {
-	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Heavy.otf");
+	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Heavy.ttf");
 	font-family: "SF Pro";
 	font-weight: 800;
 }
 
 @font-face {
-	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Black.otf");
+	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Black.ttf");
 	font-family: "SF Pro";
 	font-weight: 900;
 }
