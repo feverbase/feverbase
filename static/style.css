@@ -2,25 +2,56 @@
 @font-face {
 	src: url("/assets/fonts/Proxima Nova/proximanova-bold-webfont.ttf");
 	font-family: "Proxima Nova";
-	font-weight: 700;
+	font-weight: 700
+}
+
+/* SF Pro */
+@font-face {
+	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Ultralight.otf");
+	font-family: "SF Pro";
+	font-weight: 100;
 }
 
 @font-face {
-	src: url("/assets/fonts/Proxima Nova/proximanova-semibold-webfont.ttf");
-	font-family: "Proxima Nova";
-	font-weight: 500;
+	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Thin.otf");
+	font-family: "SF Pro";
+	font-weight: 200;
 }
 
 @font-face {
-	src: url("/assets/fonts/Proxima Nova/proximanova-light-webfont.ttf");
-	font-family: "Proxima Nova";
+	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Light.otf");
+	font-family: "SF Pro";
 	font-weight: 300;
 }
 
 @font-face {
-	src: url("/assets/fonts/Proxima Nova/proximanova-regular-webfont.ttf");
-	font-family: "Proxima Nova";
+	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Regular.otf");
+	font-family: "SF Pro";
 	font-weight: 400;
+}
+
+@font-face {
+	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Semibold.otf");
+	font-family: "SF Pro";
+	font-weight: 600;
+}
+
+@font-face {
+	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Bold.otf");
+	font-family: "SF Pro";
+	font-weight: 700;
+}
+
+@font-face {
+	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Heavy.otf");
+	font-family: "SF Pro";
+	font-weight: 800;
+}
+
+@font-face {
+	src: url("/assets/fonts/SF Pro/SF-Pro-Display-Black.otf");
+	font-family: "SF Pro";
+	font-weight: 900;
 }
 
 * {
@@ -36,11 +67,11 @@ html {
 }
 
 body {
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 20px;
 	font-weight: normal;
 	font-style: normal;
-	font-family: -apple-system, BlinkMacSystemFont, "Proxima Nova", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: "SF Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	color: #333333;
 	padding: 20px;
 	margin: 0;
@@ -122,7 +153,7 @@ hr {
 }
 
 p {
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 1.65em;
 	word-wrap: break-word
 }
@@ -154,6 +185,22 @@ li {
 	word-wrap: break-word
 }
 
+#logo {
+	font-size: 2.2rem;
+	font-weight: 800;
+	background: rgb(238,186,59);
+	background: linear-gradient(0deg, #C04848, #780078);
+	background: -webkit-linear-gradient(0deg, #C04848, #780078);
+	background-size: 175px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-clip: text;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
 #maindiv {
 	margin-left: auto;
 	margin-right: auto;
@@ -168,11 +215,11 @@ li {
   height: 40px;
   font-size: 22px;
   color: "#333";
-
+  font-family: 'SF Pro';
+  font-weight: 300;
   padding-left: 40px;
   margin-bottom: 10px;
-
-	outline:0;
+  outline:0;
 }
 
 #search-icon {
@@ -240,6 +287,47 @@ li {
 	width: 100%;
 }
 
+#filters-container > label {
+	font-weight: 600;
+	font-size: 16px;
+	margin-top: 4px;
+
+}
+
+input {
+	font-family: 'SF Pro', Arial, sans-serif;
+	font-size: 14px;
+	border: 1px solid #ddd;
+	border-radius: 12px;
+	padding: 5px 7px;
+}
+
+input:focus {
+	outline: none;
+}
+
+button, input[type=submit] {
+	font-family: 'Proxima Nova', 'SF Pro', Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	border: 0;
+	padding: 6px 0;
+	border-radius: 14px;
+	background: rgb(238,186,59);
+	background: linear-gradient(90deg, #C04848, #780078);
+	color: white
+}
+
+button, input[type=submit]:hover {
+	filter: brightness(80%);
+	-webkit-filter: brightness(80%);
+}
+
+button, input[type=submit]:active {
+	filter: brightness(50%);
+	-webkit-filter: brightness(50%);
+}
+
 .inputs > * {
 	width: calc(50% - 5px);
 	margin-right: 5px;
@@ -294,7 +382,7 @@ li {
 	margin-top: 25px;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Proxima Nova', -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+	font-family: 'Proxima Nova', 'SF Pro', -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
 	font-weight: bold;
 }
 
