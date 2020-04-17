@@ -186,12 +186,16 @@ li {
 }
 
 #logo {
-	font-size: 2.2rem;
+	font-size: 2.3rem;
 	font-weight: 800;
 	background: rgb(238,186,59);
 	background: linear-gradient(0deg, #C04848, #780078);
 	background: -webkit-linear-gradient(0deg, #C04848, #780078);
-	background-size: 175px;
+	background-size: 180px;
+	padding-top: 0.5em;
+	margin-top: 0.1em;
+	padding-bottom: 0.5em;
+	margin-bottom: -0.1em;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-clip: text;
