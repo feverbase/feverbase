@@ -161,9 +161,9 @@ def filter_papers(
         # parsed_sample_size is -1 if couldn't parse sample_size, so if filtering
         # on sample_size at all, make sure to exclude the invalid entries by adding >= 0
         if min_subjects or max_subjects:
-            prebuilt_filters.push(f"parsed_sample_size >= {min_subjects}")
+            prebuilt_filters.append(f"parsed_sample_size >= {min_subjects}")
         if max_subjects:
-            prebuilt_filters.push(f"parsed_sample_size <= {max_subjects}")
+            prebuilt_filters.append(f"parsed_sample_size <= {max_subjects}")
 
         prebuilt_filters = "AND".join(prebuilt_filters)
 
