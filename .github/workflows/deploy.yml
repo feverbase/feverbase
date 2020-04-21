@@ -3,16 +3,35 @@ on:
   push:
     branches:
       - master
+
 jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: deploying to VPS
-      uses: appleboy/ssh-action@master
+    - name: Install doctl
+      uses: digitalocean/action-doctl@v2-experiment
       with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.KEY }}
-        port: ${{ secrets.PORT }}
-        script: /root/app/scripts/deploy.sh
+        token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
+    - name: Deploy to machines on Digital Ocean LB
+      env:
+        SSH_KEY: ${{ secrets.KEY }}
+      run: |
+        droplet_ids=$(doctl compute load-balancer get --no-header --format DropletIDs ${{ secrets.DIGITALOCEAN_LB_ID }})
+        droplets=$(doctl compute droplet list --no-header --format "ID,PublicIPv4")
+
+        ips=()
+        while IFS=\n read -r line; do
+          id=$(echo $line | awk '{print $1}')
+          if [[ "$droplet_ids" == *"$id"* ]]; then
+            ip=$(echo $line | awk '{print $2}')
+            ips+=( $ip )
+          fi
+        done <<< "$droplets"
+
+        echo "$SSH_KEY" > ./key_file
+        chmod 600 ./key_file
+
+        for ip in $ips; do
+          ssh -oStrictHostKeyChecking=no -i ./key_file -p ${{ secrets.PORT }} "${{ secrets.USERNAME }}@$ip" '/root/app/scripts/deploy.sh'
+        done
