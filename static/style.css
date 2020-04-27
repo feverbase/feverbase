@@ -277,6 +277,7 @@ li {
 #filters-box > a {
 	color: gray;
 	cursor: pointer;
+	user-select: none;
 }
 
 #filters-box > a:hover {
