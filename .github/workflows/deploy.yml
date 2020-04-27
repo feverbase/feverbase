@@ -20,18 +20,14 @@ jobs:
         droplet_ids=$(doctl compute load-balancer get --no-header --format DropletIDs ${{ secrets.DIGITALOCEAN_LB_ID }})
         droplets=$(doctl compute droplet list --no-header --format "ID,PublicIPv4")
 
-        ips=()
+        ips=""
         while IFS=\n read -r line; do
           id=$(echo $line | awk '{print $1}')
           if [[ "$droplet_ids" == *"$id"* ]]; then
             ip=$(echo $line | awk '{print $2}')
-            ips+=( $ip )
+            ips="$ips $ip"
           fi
         done <<< "$droplets"
-
-        echo $droplet_ids
-        echo $droplets
-        echo $ips
 
         echo "$SSH_KEY" > ./key_file
         chmod 600 ./key_file
