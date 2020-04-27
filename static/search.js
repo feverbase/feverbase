@@ -143,6 +143,11 @@ function submitFeedback() {
     data: { subject, body },
     success: function (data) {
       toastr.success(data);
+      
+      $('#feedback-subject').val('');
+      $('#feedback-body').val('');
+      $('#feedback-container').css('display', 'none');
+      $('#feedback-status').innerHTML = '';
     },
     error: function (jqXHR, textStatus, errorThrown) {
       console.log(jqXHR, textStatus, errorThrown);
