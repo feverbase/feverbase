@@ -29,9 +29,14 @@ jobs:
           fi
         done <<< "$droplets"
 
+        echo $droplet_ids
+        echo $droplets
+        echo $ips
+
         echo "$SSH_KEY" > ./key_file
         chmod 600 ./key_file
 
         for ip in $ips; do
+          echo "Deploying to $ip..."
           ssh -oStrictHostKeyChecking=no -i ./key_file -p ${{ secrets.PORT }} "${{ secrets.USERNAME }}@$ip" '/root/app/scripts/deploy.sh'
         done
