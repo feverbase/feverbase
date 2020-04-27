@@ -135,7 +135,10 @@ function toggleFeedback() {
   }
 }
 
+var submittingFeedback = false;
 function submitFeedback() {
+  if (submittingFeedback) { return; }
+  submittingFeedback = true;
   var subject = $('#feedback-subject').val().trim();
   var body = $('#feedback-body').val().trim();
   var xhr = $.ajax('/feedback', {
@@ -143,7 +146,7 @@ function submitFeedback() {
     data: { subject, body },
     success: function (data) {
       toastr.success(data);
-      
+
       $('#feedback-subject').val('');
       $('#feedback-body').val('');
       $('#feedback-container').css('display', 'none');
@@ -153,5 +156,5 @@ function submitFeedback() {
       console.log(jqXHR, textStatus, errorThrown);
       toastr.error(jqXHR.responseText);
     }
-  });
+  }).always(function () { submittingFeedback = false; });
 }
