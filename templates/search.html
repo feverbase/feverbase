@@ -42,7 +42,7 @@
   <form action="/search" method="get" {{ 'class=horizontal' if url_for(request.endpoint) != '/' else '' }}>
     <header class="center">
       <h1 id="logo"><a href="/">feverbase</a></h1>
-      <span id="blurb" {{ 'style=display:none' if url_for(request.endpoint) != '/' else '' }}>Search {{ total_count }} clinical trials from all over the world.</span>
+      <span id="blurb" {{ 'style=display:none' if url_for(request.endpoint) != '/' else '' }}>Search {{ total_count }} clinical trials from around the world.</span>
 
       <div id="sbox">
         <input type="submit" alt="Search" id="search-icon" value="">
