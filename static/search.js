@@ -33,6 +33,12 @@ function addPapers() {
         $('#noresults').show();
       }
 
+      if (data.stats) {
+        $('#stats').html(data.stats).show();
+      } else {
+        $('#stats').html('').hide();
+      }
+
       for (const p of data.papers) {
         var div = root.append('<div class="apaper"></div>');
 
@@ -95,6 +101,8 @@ $.ajaxSetup({
 
 // when page loads...
 $(document).ready(function () {
+  $('#feedback-box')
+    .click(function (e) { e.stopPropagation(); });
 
   // add papers to #rtable
   addPapers();
@@ -125,15 +133,12 @@ function toggleAdvancedFilters() {
 }
 
 function toggleFeedback() {
-  var status = $('#feedback-status');
-  var container = $('#feedback-container');
+  var container = $('#feedback');
 
   if (container.css('display') === 'none') {
     container.css('display', 'grid');
-    status.innerHTML = 'Hide';
   } else {
     container.css('display', 'none');
-    status.innerHTML = '';
   }
 }
 
@@ -146,6 +151,7 @@ function submitFeedback() {
   var xhr = $.ajax('/feedback', {
     type: 'GET',
     data: { subject, body },
+    beforeSend: null, // dont show loader
     success: function (data) {
       toastr.success(data);
 
