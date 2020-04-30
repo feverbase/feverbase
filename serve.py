@@ -233,16 +233,16 @@ def get_page():
 
 @app.route("/")
 def intmain():
-    if request.headers.get("Content-Type", "") == "application/json":
-        page = get_page()
+    # if request.headers.get("Content-Type", "") == "application/json":
+    #     page = get_page()
 
-        papers = db.Article.objects.skip((page - 1) * PAGE_SIZE).limit(PAGE_SIZE)
-        return jsonify(
-            dict(page=page, papers=list(map(lambda p: json.loads(p.to_json()), papers)))
-        )
-    else:
-        ctx = default_context(render_format="recent")
-        return render_template("search.html", **ctx)
+    #     papers = db.Article.objects.skip((page - 1) * PAGE_SIZE).limit(PAGE_SIZE)
+    #     return jsonify(
+    #         dict(page=page, papers=list(map(lambda p: json.loads(p.to_json()), papers)))
+    #     )
+    # else:
+    ctx = default_context(render_format="recent")
+    return render_template("search.html", **ctx)
 
 
 @app.route("/about")
@@ -279,8 +279,8 @@ ACCEPTED_DYNAMIC_FILTERS = [
 ]
 
 
-@app.route("/filter", methods=["GET"])
-def filter():
+@app.route("/search", methods=["GET"])
+def search():
     filters = request.args  # get the filter requests
 
     if request.headers.get("Content-Type", "") == "application/json":

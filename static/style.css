@@ -189,6 +189,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-bottom: 2rem !important;
 }
 
 #logo {
@@ -209,6 +210,10 @@ header {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+#logo > a {
+	border-bottom: none;
 }
 
 #maindiv {

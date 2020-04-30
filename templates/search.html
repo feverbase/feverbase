@@ -40,23 +40,22 @@
 <body>
 
   <header class="center">
-    <h1 id="logo">feverbase</h1>
+    <h1 id="logo"><a href="/">feverbase</a></h1>
     <span>Finding the best, and fastest, way to beat COVID-19.</span>
     <div class="nav">
       <a href="/about">About</a>
       <a href="/">Trial Search</a>
     </div>
   </header>
-  <hr />
 
-  <form action="/filter" method="get">
+  <form action="/search" method="get">
     <div id="sbox">
       <input type="submit" alt="Search" id="search-icon" value="">
       <input name="q" type="text" id="qfield" value="{{ filters.q if filters and 'q' in filters else '' }}"
         autocomplete="off" autocapitalize="off" spellcheck="false">
     </div>
 
-    <div id="filters-box">
+    <div id="filters-box" {{ 'style=display:none' if url_for(request.endpoint) == '/' else '' }}>
       <a onclick="toggleAdvancedFilters()">
         <span id="filters-status">{{ 'Hide' if adv_filters_in_use else '' }}</span>
         Advanced Filters
@@ -163,7 +162,7 @@
     <div id="rtable"></div>
 
     <div class="center">
-      <div class="lds-ring" id="loader">
+      <div class="lds-ring" id="loader" style="display:none">
         <div></div>
         <div></div>
         <div></div>

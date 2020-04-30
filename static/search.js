@@ -1,12 +1,14 @@
 'use strict';
 
-var page = 0;
+// if not on search, dont add
+var page =
+  window.location.pathname === '/'
+    ? -1
+    : 0;
 var loadingTimeout = null;
 
 function addPapers() {
-  if (loadingTimeout || page === -1) {
-    return;
-  }
+  if (loadingTimeout || page === -1) { return; }
 
   var root = $("#rtable");
 
