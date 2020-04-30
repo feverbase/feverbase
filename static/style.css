@@ -205,9 +205,10 @@ header {
 form.horizontal > header {
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: flex-start;
 }
 
-form.horizontal > header > #logo {
+form.horizontal > header .logo-container {
 	margin-right: 1rem;
 }
 
@@ -219,9 +220,10 @@ form.horizontal > header > #sbox {
 	form.horizontal > header {
 		flex-direction: column;
 		justify-content: flex-start;
+		align-items: center;
 	}
 
-	form.horizontal > header > #logo {
+	form.horizontal > header > .logo-container {
 		margin-right: 0;
 	}
 
@@ -246,6 +248,8 @@ form.horizontal > header > #sbox {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-webkit-font-smoothing: subpixel-antialiased;
+
+	border-bottom: solid 1px rgba(0, 0, 0, 0.3);
 }
 
 #logo > a {
@@ -444,7 +448,7 @@ button, input[type=submit] {
 	border-radius: 14px;
 	background: rgb(238,186,59);
 	background: linear-gradient(90deg, #C04848, #780078);
-	color: white
+	color: white;
 }
 
 button, input[type=submit]:hover {
@@ -520,24 +524,37 @@ button.textbn {
 	font-size: 14px;
 }
 
-.center .nav {
-	margin-top: 25px;
-	text-align: center;
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+nav * {
+	display: inline;
 	text-transform: uppercase;
+	color: #aaa;
+	text-decoration: none;
+	border: none;
+	margin: 0 20px;
 	font-family: 'Proxima Nova', 'SF Pro', -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
 	font-weight: bold;
-}
-
-.nav a {
-	display: inline;
-	padding-left: 10px;
-	padding-right: 10px;
+	filter: none !important;
+	-webkit-filter: none !important;
+	background: none;
 	font-size: 12pt;
-	text-decoration: none;
-	border: 0;
-	color: #999;
+	line-height: 12pt;
 }
 
-.nav a:hover {
-	color: #000;
+nav *:first-child {
+	margin-left: 0;
+}
+nav *:last-child {
+	margin-right: 0;
+}
+
+nav *:hover {
+	color: #555;
 }
