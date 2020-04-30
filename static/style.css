@@ -410,6 +410,11 @@ footer {
 	border-top: solid 1px #D6D3C5;
 }
 
+footer.top {
+	bottom: unset;
+	top: 0;
+}
+
 footer * {
 	text-transform: uppercase;
 	color: #999;

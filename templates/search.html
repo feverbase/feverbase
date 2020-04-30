@@ -159,7 +159,7 @@
 
   <br><br><br><br><br><br>
 
-  <footer>
+  <footer {{ 'class=top' if url_for(request.endpoint) == '/' else '' }}>
     <a href="/about">About</a>
     <button class="textbn" onclick="toggleFeedback()">Give Feedback</button>
   </footer>
