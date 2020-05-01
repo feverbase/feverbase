@@ -136,7 +136,7 @@ function toggleFeedback() {
   var container = $('#feedback');
 
   if (container.css('display') === 'none') {
-    container.css('display', 'grid');
+    container.css('display', 'flex');
   } else {
     container.css('display', 'none');
   }
