@@ -125,10 +125,10 @@ function toggleAdvancedFilters() {
 
   if (container.css('display') === 'none') {
     container.css('display', 'grid');
-    status.innerHTML = 'Hide';
+    status.html('Hide');
   } else {
     container.css('display', 'none');
-    status.innerHTML = '';
+    status.html('');
   }
 }
 
@@ -158,7 +158,7 @@ function submitFeedback() {
       $('#feedback-subject').val('');
       $('#feedback-body').val('');
       $('#feedback-container').css('display', 'none');
-      $('#feedback-status').innerHTML = '';
+      $('#feedback-status').html('');
     },
     error: function (jqXHR, textStatus, errorThrown) {
       console.log(jqXHR, textStatus, errorThrown);
