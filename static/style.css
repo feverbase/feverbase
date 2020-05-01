@@ -79,7 +79,6 @@ body {
 	-webkit-text-size-adjust: 100%;
 	max-width: 1024px;
 	margin: 0 auto;
-	padding-top: 60px; /* account for nav of height 40px */
 }
 
 @media (min-width: 992px) {
@@ -188,6 +187,8 @@ li {
 }
 
 form {
+	position: relative;
+	top: 40px; /* account for nav of height 40px */
 	margin-top: 20%;
 }
 
