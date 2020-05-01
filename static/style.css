@@ -187,13 +187,12 @@ li {
 }
 
 form {
-	position: relative;
-	top: 40px; /* account for nav of height 40px */
-	margin-top: 20%;
+	margin-top: 40px; /* account for nav of height 40px */
+	padding-top: 20vh;
 }
 
 form.horizontal {
-	margin-top: 0;
+	padding-top: 0;
 }
 
 header {
@@ -215,24 +214,6 @@ form.horizontal > header > #logo {
 
 form.horizontal > header > #sbox {
 	margin-top: 0;
-}
-
-@media only screen and (max-width: 600px) {
-	form.horizontal > header {
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
-	}
-
-	form.horizontal > header > #logo {
-		margin-top: -0.8rem;
-		margin-bottom: 0.5rem;
-		margin-right: 0;
-	}
-
-	form.horizontal > header > #sbox {
-		width: 100%;
-	}
 }
 
 #logo {
@@ -265,6 +246,24 @@ form.horizontal > header > #sbox {
 	width: 70%;
 	text-align: left;
 	margin-top: 1rem;
+}
+
+@media only screen and (max-width: 660px) {
+	form.horizontal > header {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	form.horizontal > header > #logo {
+		margin-top: -0.8rem;
+		margin-bottom: 0.5rem;
+		margin-right: 0;
+	}
+
+	#sbox {
+		width: 100%;
+	}
 }
 
 #qfield {

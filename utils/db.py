@@ -58,6 +58,7 @@ class Article(ExtendedDocument):
     # default sort timestamp descending
     meta = {
         "ordering": ["-timestamp"],
+        "strict": False,
     }
 
     def __str__(self):
