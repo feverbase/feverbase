@@ -127,7 +127,7 @@ img {
 a {
 	color: inherit;
 	text-decoration: none;
-	border-bottom: 1px solid #b1b1b1
+	border-bottom: 1px solid #b1b1b1;
 }
 
 a:hover {
@@ -208,7 +208,7 @@ form.horizontal > header {
 	align-items: flex-start;
 }
 
-form.horizontal > header .logo-container {
+form.horizontal > header > #logo {
 	margin-right: 1rem;
 }
 
@@ -223,7 +223,9 @@ form.horizontal > header > #sbox {
 		align-items: center;
 	}
 
-	form.horizontal > header > .logo-container {
+	form.horizontal > header > #logo {
+		margin-top: -0.8rem;
+		margin-bottom: 0.5rem;
 		margin-right: 0;
 	}
 
@@ -248,8 +250,6 @@ form.horizontal > header > #sbox {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-webkit-font-smoothing: subpixel-antialiased;
-
-	border-bottom: solid 1px rgba(0, 0, 0, 0.3);
 }
 
 #logo > a {
@@ -400,33 +400,6 @@ form.horizontal > header > #sbox {
 	margin-top: 0.3rem;
 }
 
-nav {
-	position: fixed;
-	left: 0;
-	right: 0;
-	top: 0;
-	height: 40px;
-	padding: 0 10px;
-	background: rgb(230, 230, 230);
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	z-index: 10;
-	border-bottom: solid 1px #D6D3C5;
-}
-
-nav * {
-	text-transform: uppercase;
-	color: #999;
-	font-weight: bold;
-	text-decoration: none;
-	border: none;
-}
-
-nav *:hover {
-	color: #000;
-}
-
 input, textarea {
 	font-family: 'SF Pro', Arial, sans-serif;
 	font-size: 14px;
@@ -525,11 +498,19 @@ button.textbn {
 }
 
 nav {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+
 	display: flex;
-	justify-content: center;
-	align-items: stretch;
-	margin-top: 0.5rem;
-	margin-bottom: 1rem;
+	justify-content: space-between;
+	align-items: center;
+
+	height: 40px;
+	padding: 0 10px;
+	background: rgb(230, 230, 230);
+	border-bottom: solid 1px #D6D3C5;
 }
 
 nav * {
