@@ -155,6 +155,8 @@ def filter_papers(
             .skip((page - 1) * PAGE_SIZE)
             .limit(PAGE_SIZE)
         )
+        total_hits = len(db.Article.objects(prebuilt_filters))
+        query_time = None  # cant find rn
 
         filter_sample_size(results, int(min_subjects), int(max_subjects))
     else:
@@ -193,17 +195,27 @@ def filter_papers(
         }
 
         # perform meilisearch query
-        results = ms_index.search(qraw, options).get("hits")
+
+        results = ms_index.search(qraw, options)
+        # was going to use results.get('exhaustiveNbHits')
+        # and prepend 'about' if it is False, but source
+        # code of MeiliSearch seems to indicate that it
+        # always returns false, so let's just trust this
+        # number :)
+        total_hits = results.get("nbHits")
+        query_time = results.get("processingTimeMs")
 
         # sort by timestamp descending
         results = sorted(
-            results, key=lambda r: r.get("timestamp", {}).get("$date", -1), reverse=True
+            results.get("hits"),
+            key=lambda r: r.get("timestamp", {}).get("$date", -1),
+            reverse=True,
         )
 
     if len(results) < PAGE_SIZE:
         page = -1
 
-    return results, page
+    return results, page, total_hits, query_time
 
 
 # -----------------------------------------------------------------------------
@@ -212,7 +224,7 @@ def filter_papers(
 
 
 def default_context(**kws):
-    ans = dict(filter_options={}, filters={})
+    ans = dict(filter_options={}, filters={}, total_count=db.Article.objects.count())
     ans.update(kws)
     ans["adv_filters_in_use"] = any(
         v for k, v in ans.get("filters", {}).items() if k != "q"
@@ -233,16 +245,16 @@ def get_page():
 
 @app.route("/")
 def intmain():
-    if request.headers.get("Content-Type", "") == "application/json":
-        page = get_page()
+    # if request.headers.get("Content-Type", "") == "application/json":
+    #     page = get_page()
 
-        papers = db.Article.objects.skip((page - 1) * PAGE_SIZE).limit(PAGE_SIZE)
-        return jsonify(
-            dict(page=page, papers=list(map(lambda p: json.loads(p.to_json()), papers)))
-        )
-    else:
-        ctx = default_context(render_format="recent")
-        return render_template("search.html", **ctx)
+    #     papers = db.Article.objects.skip((page - 1) * PAGE_SIZE).limit(PAGE_SIZE)
+    #     return jsonify(
+    #         dict(page=page, papers=list(map(lambda p: json.loads(p.to_json()), papers)))
+    #     )
+    # else:
+    ctx = default_context(render_format="recent")
+    return render_template("search.html", **ctx)
 
 
 @app.route("/about")
@@ -279,8 +291,8 @@ ACCEPTED_DYNAMIC_FILTERS = [
 ]
 
 
-@app.route("/filter", methods=["GET"])
-def filter():
+@app.route("/search", methods=["GET"])
+def search():
     filters = request.args  # get the filter requests
 
     if request.headers.get("Content-Type", "") == "application/json":
@@ -302,13 +314,17 @@ def filter():
         except:
             max_subjects = 0
 
-        papers, page = filter_papers(
+        papers, page, total_hits, query_time = filter_papers(
             page, filters.get("q", ""), dynamic_filters, min_subjects, max_subjects,
         )
 
+        stats = f"returned {total_hits} result{'' if total_hits == 1 else 's'}"
+        if query_time:
+            stats += f" in {query_time}ms"
+
         if len(papers) and is_article(papers[0]):
             papers = list(map(lambda p: json.loads(p.to_json()), papers))
-        return jsonify(dict(page=page, papers=papers))
+        return jsonify(dict(page=page, papers=papers, stats=stats))
     else:
         ctx = default_context(render_format="search", filters=filters)
         return render_template("search.html", **ctx)
