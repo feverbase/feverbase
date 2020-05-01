@@ -513,7 +513,7 @@ nav {
 	border-bottom: solid 1px #D6D3C5;
 }
 
-nav * {
+nav *, #goto-search {
 	display: inline;
 	text-transform: uppercase;
 	color: #aaa;
@@ -536,6 +536,10 @@ nav *:last-child {
 	margin-right: 0;
 }
 
-nav *:hover {
+nav *:hover, #goto-search:hover {
 	color: #555;
+}
+
+#goto-search {
+	margin-top: 1rem;
 }
