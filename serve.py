@@ -95,6 +95,8 @@ def filter_papers(
             eval(f"Q({key}__icontains=value)") for key, value in dynamic_filters.items()
         ]
 
+        # parsed_sample_size is -1 if couldn't parse sample_size, so if filtering
+        # on sample_size at all, make sure to exclude the invalid entries by adding >= 0
         if min_subjects or max_subjects:
             qs.append(Q(parsed_sample_size__gte=min_subjects))
         if max_subjects:
