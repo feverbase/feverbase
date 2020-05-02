@@ -426,6 +426,7 @@ button, input[type=submit] {
 	background: rgb(238,186,59);
 	background: linear-gradient(90deg, #C04848, #780078);
 	color: white;
+	cursor: pointer;
 }
 
 button, input[type=submit]:hover {
@@ -442,7 +443,6 @@ button.textbn {
 	margin: 0;
 	padding: 0;
 	background: transparent;
-	cursor: pointer;
 }
 
 .inputs > * {
