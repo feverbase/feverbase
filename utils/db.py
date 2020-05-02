@@ -51,7 +51,8 @@ class Article(ExtendedDocument):
     contact = EmbeddedDocumentField(Identity)
 
     # optional fields
-    sample_size = IntField()
+    sample_size = IntField(default=0)
+    parsed_sample_size = IntField(default=0)
     abandoned = BooleanField()
     abandoned_reason = StringField()
 
