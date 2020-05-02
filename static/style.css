@@ -378,7 +378,7 @@ form.horizontal > header > #sbox {
 	max-height: 95%;
 	padding: 10px;
 	border-radius: 6px;
-	overflow: scroll;
+	overflow: auto;
 }
 
 #feedback-title {
