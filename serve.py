@@ -128,19 +128,7 @@ def filter_papers(
             "filters": advanced_filters,
             "offset": (page - 1) * PAGE_SIZE,
             "limit": PAGE_SIZE,
-            "attributesToHighlight": [
-                "title",
-                "recruiting_status",
-                "sex",
-                "target_disease",
-                "intervention",
-                "sponsor",
-                "summary",
-                "location",
-                "institution",
-                "contact",
-                "abandoned_reason",
-            ],
+            "attributesToHighlight": "*",
         }
 
         # perform meilisearch query
@@ -164,6 +152,8 @@ def filter_papers(
             key=lambda r: r.get("timestamp", {}).get("$date", -1),
             reverse=True,
         )
+        # get formatted results for highlighting terms
+        results = list(map(lambda r: r.get("_formatted", r), results))
 
     if len(results) < PAGE_SIZE:
         page = -1

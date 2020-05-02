@@ -547,3 +547,8 @@ nav *:hover, #goto-search:hover {
 #goto-search {
 	margin-top: 1rem;
 }
+
+em {
+	font-style: normal;
+	background-color: #F0E68C;
+}

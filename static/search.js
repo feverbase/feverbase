@@ -63,7 +63,8 @@ function addPapers() {
             <b>Intervention</b>: ${p.intervention}<br />
             <b>Sample Size</b>: ${p.sample_size}<br />
             <b>Location</b>: ${p.location}<br />
-            <b>Status</b>: ${p.recruiting_status}
+            <b>Status</b>: ${p.recruiting_status}<br />
+            <b>Summary</b>: ${p.summary.substring(0, 500)}${p.summary.length > 500 ? '...' : ''}
           </blockquote>
         `);
         tdiv.append('<br/>');
