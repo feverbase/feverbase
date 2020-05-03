@@ -7,8 +7,8 @@ from faucets import eu
 from faucets import isrctn
 from . import utils
 
-sys.path.append("../")
-from utils import db, ms
+sys.path.append('../')
+from utils import db, ms, location
 
 from search import mongo_to_meili
 
@@ -32,11 +32,12 @@ def run():
                 print(e)
 
     articles = map(translate, data.values())
-    db.create(articles)
+    articles_with_location = location.add_location_data(articles)
 
-    # re-index the meilisearch index
-    mongo_to_meili()
-
+    # delete location_data key for every article,
+    # because it isn't JSON-serializable
+    for article in articles:
+        article.pop("location_data", None)
 
 def translate(info):
     source = info["_source"]

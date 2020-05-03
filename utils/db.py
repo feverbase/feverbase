@@ -5,6 +5,7 @@ from mongoengine import (
     connect,
     BooleanField,
     DateTimeField,
+    DecimalField,
     Document,
     EmailField,
     EmbeddedDocument,
@@ -13,6 +14,7 @@ from mongoengine import (
     StringField,
     URLField,
     IntField,
+    ObjectIdField
 )
 from mongoengine_mate import ExtendedDocument
 
@@ -24,6 +26,13 @@ if os.environ.get("MONGODB_URI"):
     connect(host=os.environ.get("MONGODB_URI"))
 else:
     raise Exception("No MongoDB URI specified.")
+
+
+class Location(ExtendedDocument):
+    institution = StringField()
+    address = StringField()
+    latitude = DecimalField()
+    longitude = DecimalField()
 
 
 class Identity(EmbeddedDocument):
@@ -50,6 +59,8 @@ class Article(ExtendedDocument):
     institution = StringField()
     contact = EmbeddedDocumentField(Identity)
 
+    location_data = ObjectIdField()
+
     # optional fields
     sample_size = IntField(default=0)
     parsed_sample_size = IntField(default=0)
@@ -75,3 +86,17 @@ def create(articles):
     """
     objects = list(map(lambda a: Article(**a), articles))
     Article.smart_insert(objects)
+
+
+def insert_locations(locations):
+    """
+    Input: list of locations (dictionaries).
+    Output: None
+
+    Posts a list of locations to Mongo.
+    """
+    objects = []
+    for l in locations:
+        obj = Location(**l)
+        objects.append(obj)
+    Location.smart_insert(objects)

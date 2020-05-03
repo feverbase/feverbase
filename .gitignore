@@ -6,4 +6,7 @@
 env/
 venv/
 .env
+
+*.swp
+*.swo
 logs/*
