@@ -29,6 +29,12 @@ function addPapers() {
         return;
       }
 
+      if (data.errors && data.errors.length) {
+        for (const m of data.errors) {
+          toastr.error(m);
+        }
+      }
+
       if (page === -1) {
         $('#noresults').show();
       }
@@ -44,7 +50,7 @@ function addPapers() {
 
         var tdiv = div.append('<div class="paperdesc"></div>');
         if (p.timestamp) {
-          const timestamp = moment(p.timestamp.$date);
+          const timestamp = moment.utc(p.timestamp);
           tdiv.append(`<div class="ds">${timestamp.format('LL')} &middot; ${p.sponsor}</div>`);
         } else {
           tdiv.append(`<div class="ds">${p.sponsor}</div>`);

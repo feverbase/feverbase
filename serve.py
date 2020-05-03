@@ -7,6 +7,7 @@ import dateutil.parser
 from random import shuffle, randrange, uniform
 from functools import reduce
 import re
+from datetime import datetime
 
 from hashlib import md5
 from flask import (
@@ -82,25 +83,40 @@ def is_article(a):
     return type(a) == db.Article
 
 
-def filter_papers(
-    page, qraw, dynamic_filters={}, min_subjects=0, max_subjects=0,
-):
-    if min_subjects < 0:
-        min_subjects = 0
-    if max_subjects < 0:
-        max_subjects = 0
+# `"April 1, 2020"` or `April1,2020`
+quoted_or_single_word = '\\s*(?:(?:"(.*)")|(?:([^\\s]*)))'
+# { regex: filter_key }
+CMDS = {
+    f"mindate:{quoted_or_single_word}": "min-timestamp",
+    f"maxdate:{quoted_or_single_word}": "max-timestamp",
+}
 
+
+def get_cmd_matches(qraw):
+    cmd_matches = {}
+    if qraw:
+        # detect commands
+        for cmd, key in CMDS.items():
+            match = re.search(cmd, qraw)
+            if match:
+                # remove from qraw
+                whole_thing = match.group(0)
+                qraw = qraw.replace(whole_thing, "")
+
+                match = next(m for m in match.groups() if m)
+                cmd_matches[key] = match
+
+    return qraw.strip(), cmd_matches
+
+
+def filter_papers(page, qraw, dynamic_filters=[]):
     if not qraw:
-        qs = [
-            eval(f"Q({key}__icontains=value)") for key, value in dynamic_filters.items()
-        ]
-
-        # parsed_sample_size is -1 if couldn't parse sample_size, so if filtering
-        # on sample_size at all, make sure to exclude the invalid entries by adding >= 0
-        if min_subjects or max_subjects:
-            qs.append(Q(parsed_sample_size__gte=min_subjects))
-        if max_subjects:
-            qs.append(Q(parsed_sample_size__lte=max_subjects))
+        qs = []
+        for f in dynamic_filters:
+            key = f["key"][0]
+            op = f["op"][0]
+            value = f["value"][0]
+            qs.append(eval(f"Q({key}__{op}={value})"))
 
         advanced_filters = reduce(lambda x, y: x & y, qs) if len(qs) else None
 
@@ -110,17 +126,12 @@ def filter_papers(
         query_time = None  # cant find rn
     else:
         escape = lambda x: x.replace('"', '\\"')
-        advanced_filters = [
-            f'{key} *= "{escape(value)}"'
-            for key, value in dynamic_filters.items()
-            if value
-        ]
-        # parsed_sample_size is -1 if couldn't parse sample_size, so if filtering
-        # on sample_size at all, make sure to exclude the invalid entries by adding >= 0
-        if min_subjects or max_subjects:
-            advanced_filters.append(f"parsed_sample_size >= {min_subjects}")
-        if max_subjects:
-            advanced_filters.append(f"parsed_sample_size <= {max_subjects}")
+        advanced_filters = []
+        for f in dynamic_filters:
+            key = f["key"][1]
+            op = f["op"][1]
+            value = escape(f["value"][1])
+            advanced_filters.append(f'{key} {op} "{value}"')
 
         advanced_filters = "AND".join(advanced_filters)
 
@@ -128,19 +139,21 @@ def filter_papers(
             "filters": advanced_filters,
             "offset": (page - 1) * PAGE_SIZE,
             "limit": PAGE_SIZE,
-            "attributesToHighlight": ",".join([
-                "title",
-                "recruiting_status",
-                "sex",
-                "target_disease",
-                "intervention",
-                "sponsor",
-                "summary",
-                "location",
-                "institution",
-                "contact",
-                "abandoned_reason",
-            ]),
+            "attributesToHighlight": ",".join(
+                [
+                    "title",
+                    "recruiting_status",
+                    "sex",
+                    "target_disease",
+                    "intervention",
+                    "sponsor",
+                    "summary",
+                    "location",
+                    "institution",
+                    "contact",
+                    "abandoned_reason",
+                ]
+            ),
         }
 
         # perform meilisearch query
@@ -159,11 +172,11 @@ def filter_papers(
         query_time = results.get("processingTimeMs")
 
         # sort by timestamp descending
-        results = sorted(
-            results.get("hits"),
-            key=lambda r: r.get("timestamp", {}).get("$date", -1),
-            reverse=True,
-        )
+        # EDIT: commented out because default sort by relevancy
+        # results = sorted(
+        #     results.get("hits"), key=lambda r: r.get("timestamp", -1), reverse=True,
+        # )
+        results = results.get("hits")
         # get formatted results for highlighting terms
         results = list(map(lambda r: r.get("_formatted", r), results))
 
@@ -181,6 +194,16 @@ def filter_papers(
 def default_context(**kws):
     ans = dict(filter_options={}, filters={}, total_count=db.Article.objects.count())
     ans.update(kws)
+
+    # add cmd filters to advanced filters inputs
+    filters = dict(ans.get("filters", {}))
+    if filters.get("q"):
+        # change filter q string
+        filters["q"], cmd_matches = get_cmd_matches(ans["filters"]["q"])
+        # copy matches into filters
+        filters.update(cmd_matches)
+        ans.update({"filters": filters})
+
     ans["adv_filters_in_use"] = any(
         v for k, v in ans.get("filters", {}).items() if k != "q"
     )
@@ -243,47 +266,89 @@ ACCEPTED_DYNAMIC_FILTERS = [
     "intervention",
     "location",
     "recruiting_status",
+    "min-timestamp",
+    "max-timestamp",
+    "min-sample_size",
+    "max-sample_size",
 ]
 
 
 @app.route("/search", methods=["GET"])
 def search():
-    filters = request.args  # get the filter requests
+    ctx = default_context(render_format="search", filters=request.args)
+    filters = ctx.get("filters", {})
 
     if request.headers.get("Content-Type", "") == "application/json":
         page = get_page()
 
-        dynamic_filters = {
-            key: value
-            for key, value in filters.items()
-            if key in ACCEPTED_DYNAMIC_FILTERS and type(value) == str and len(value)
-        }
+        errors = []
 
-        try:
-            min_subjects = int(filters.get("min-subjects", 0))
-        except:
-            min_subjects = 0
+        # { key, op, value }
+        # all 2-tuples, first mongo, second meili
+        dynamic_filters = []
+        # o = original
+        for okey, ovalue in filters.items():
+            if okey not in ACCEPTED_DYNAMIC_FILTERS or not ovalue:
+                continue
 
-        try:
-            max_subjects = int(filters.get("max-subjects", 0))
-        except:
-            max_subjects = 0
+            if okey.startswith("min-"):
+                op = ("gte", ">=")
+                okey = okey[4:]
+            elif okey.startswith("max-"):
+                op = ("lte", "<=")
+                okey = okey[4:]
+            else:
+                op = ("icontains", "*=")
+
+            key = (okey, okey)
+            value = (ovalue, ovalue)
+
+            if okey == "timestamp":
+                try:
+                    d = dateutil.parser.parse(ovalue)
+                    ts = int(d.timestamp())
+                    value = (
+                        f"datetime.fromtimestamp({ts})",
+                        str(ts),
+                    )
+                    key = ("timestamp", "parsed_timestamp")
+                except:
+                    errors.append(
+                        f"Could not parse date filter '{ovalue}'. Please try another date format (e.g. YYYY-MM-DD)"
+                    )
+                    continue
+            elif okey == "sample_size":
+                try:
+                    v = int(ovalue)
+                    if v < 0:
+                        v = 0
+                    v = str(v)
+                    value = (v, v)
+                except:
+                    value = ("0", "0")
+
+            dynamic_filters.append({"key": key, "op": op, "value": value})
 
         papers, page, total_hits, query_time = filter_papers(
-            page, filters.get("q", ""), dynamic_filters, min_subjects, max_subjects,
+            page, filters.get("q", ""), dynamic_filters
         )
 
         stats = f"returned"
         if total_hits:
             stats += f" {total_hits} result{'' if total_hits == 1 else 's'}"
-        if query_time:
-            stats += f" in {query_time}ms"
+        if query_time or query_time == 0:
+            stats += f" in {query_time if query_time else '<1'}ms"
 
         if len(papers) and is_article(papers[0]):
             papers = list(map(lambda p: json.loads(p.to_json()), papers))
-        return jsonify(dict(page=page, papers=papers, stats=stats))
+
+        # convert dict timestamp to int
+        for p in papers:
+            if type(p.get("timestamp")) != int:
+                p["timestamp"] = p.get("timestamp", {}).get("$date", -1)
+
+        return jsonify(dict(page=page, papers=papers, stats=stats, errors=errors))
     else:
-        ctx = default_context(render_format="search", filters=filters)
         return render_template("search.html", **ctx)
 
 
