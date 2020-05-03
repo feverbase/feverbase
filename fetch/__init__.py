@@ -34,10 +34,9 @@ def run():
     articles = map(translate, data.values())
     articles_with_location = location.add_location_data(articles)
 
-    # delete location_data key for every article,
-    # because it isn't JSON-serializable
-    for article in articles:
-        article.pop("location_data", None)
+    db.create(articles_with_location)
+
+    mongo_to_meili()
 
 def translate(info):
     source = info["_source"]

@@ -56,6 +56,7 @@ class Article(ExtendedDocument):
     sponsor = StringField()
     summary = StringField()
     location = StringField()
+    location_data = EmbeddedDocumentField(Location)
     institution = StringField()
     contact = EmbeddedDocumentField(Identity)
 
