@@ -14,7 +14,7 @@ from mongoengine import (
     StringField,
     URLField,
     IntField,
-    ObjectIdField
+    ObjectIdField,
 )
 from mongoengine_mate import ExtendedDocument
 
@@ -28,7 +28,7 @@ else:
     raise Exception("No MongoDB URI specified.")
 
 
-class Location(ExtendedDocument):
+class Location(EmbeddedDocument):
     institution = StringField()
     address = StringField()
     latitude = DecimalField()
