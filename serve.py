@@ -128,7 +128,19 @@ def filter_papers(
             "filters": advanced_filters,
             "offset": (page - 1) * PAGE_SIZE,
             "limit": PAGE_SIZE,
-            "attributesToHighlight": "*",
+            "attributesToHighlight": ",".join([
+                "title",
+                "recruiting_status",
+                "sex",
+                "target_disease",
+                "intervention",
+                "sponsor",
+                "summary",
+                "location",
+                "institution",
+                "contact",
+                "abandoned_reason",
+            ]),
         }
 
         # perform meilisearch query
