@@ -84,7 +84,7 @@ def is_article(a):
 
 
 # `"April 1, 2020"` or `April1,2020`
-quoted_or_single_word = '\\s*(?:(?:"(.*)")|(?:([^\\s]*)))'
+quoted_or_single_word = '\\s*(?:(?:(?:"|\')(.*)(?:"|\'))|(?:([^\\s]*)))'
 # { regex: filter_key }
 CMDS = {
     f"mindate:{quoted_or_single_word}": "min-timestamp",
