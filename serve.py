@@ -86,6 +86,8 @@ def add_header(r):
 # search/sort functionality
 # -----------------------------------------------------------------------------
 
+escape_quote = lambda x: x.replace('"', '\\"')
+
 
 def html_escape(x):
     if type(x) == str:
@@ -148,6 +150,8 @@ def filter_papers(page, qraw, dynamic_filters=[]):
             key = f["key"][0]
             op = f["op"][0]
             value = f["value"][0]
+            if type(value) == str:
+                value = f'"{escape_quote(value)}"'
             qs.append(eval(f"Q({key}__{op}={value})"))
 
         advanced_filters = reduce(lambda x, y: x & y, qs) if len(qs) else None
@@ -157,12 +161,11 @@ def filter_papers(page, qraw, dynamic_filters=[]):
         total_hits = len(query_set)
         query_time = None  # cant find rn
     else:
-        escape = lambda x: x.replace('"', '\\"')
         advanced_filters = []
         for f in dynamic_filters:
             key = f["key"][1]
             op = f["op"][1]
-            value = escape(f["value"][1])
+            value = escape_quote(f["value"][1])
             advanced_filters.append(f'{key} {op} "{value}"')
 
         advanced_filters = "AND".join(advanced_filters)
