@@ -8,7 +8,6 @@ from random import shuffle, randrange, uniform
 from functools import reduce
 import re
 from datetime import datetime
-
 from hashlib import md5
 from flask import (
     Flask,
@@ -30,6 +29,7 @@ import sentry_sdk
 from sentry_sdk.integrations.flask import FlaskIntegration
 from dotenv import load_dotenv
 import requests
+import html
 
 from utils import db, ms
 
@@ -49,6 +49,14 @@ ms_index = ms.get_ms_trials_index(ms_client)
 slack_api_url = os.environ.get("SLACK_WEBHOOK_URL", "")
 
 PAGE_SIZE = 25
+
+# `"April 1, 2020"` or `April1,2020`
+quoted_or_single_word = "\\s*(?:(?:(?:\"|')(.*)(?:\"|'))|(?:([^\\s]*)))"
+# { regex: filter_key }
+CMDS = {
+    f"mindate:{quoted_or_single_word}": "min-timestamp",
+    f"maxdate:{quoted_or_single_word}": "max-timestamp",
+}
 
 # -----------------------------------------------------------------------------
 # connection handlers
@@ -79,17 +87,41 @@ def add_header(r):
 # -----------------------------------------------------------------------------
 
 
+def html_escape(x):
+    if type(x) == str:
+        return html.escape(x)
+    if type(x) == list:
+        return [html_escape(y) for y in x]
+    if type(x) == dict:
+        return {html_escape(k): html_escape(v) for k, v in x.items()}
+    return x
+
+
+def postprocess(papers):
+    for p in papers:
+        # convert dict timestamp to int
+        if type(p.get("timestamp")) != int:
+            p["timestamp"] = p.get("timestamp", {}).get("$date", -1)
+
+        for k, v in p.items():
+            # html escape data
+            v = html_escape(v)
+            # but keep highlighting
+            if type(v) == str:
+                v = v.replace("&lt;em&gt;", "<em>").replace("&lt;/em&gt;", "</em>")
+
+            # trim summary
+            if k == "summary" and v:
+                orig = v
+                v = v[0:500]
+                if len(orig) > 500:
+                    v += "..."
+
+            p[k] = v
+
+
 def is_article(a):
     return type(a) == db.Article
-
-
-# `"April 1, 2020"` or `April1,2020`
-quoted_or_single_word = '\\s*(?:(?:(?:"|\')(.*)(?:"|\'))|(?:([^\\s]*)))'
-# { regex: filter_key }
-CMDS = {
-    f"mindate:{quoted_or_single_word}": "min-timestamp",
-    f"maxdate:{quoted_or_single_word}": "max-timestamp",
-}
 
 
 def get_cmd_matches(qraw):
@@ -281,7 +313,7 @@ def search():
     if request.headers.get("Content-Type", "") == "application/json":
         page = get_page()
 
-        errors = []
+        alerts = []
 
         # { key, op, value }
         # all 2-tuples, first mongo, second meili
@@ -313,8 +345,11 @@ def search():
                     )
                     key = ("timestamp", "parsed_timestamp")
                 except:
-                    errors.append(
-                        f"Could not parse date filter '{ovalue}'. Please try another date format (e.g. YYYY-MM-DD)"
+                    alerts.append(
+                        {
+                            "type": "error",
+                            "message": f"Could not parse date filter '{ovalue}'. Please try another date format (e.g. YYYY-MM-DD)",
+                        }
                     )
                     continue
             elif okey == "sample_size":
@@ -329,9 +364,19 @@ def search():
 
             dynamic_filters.append({"key": key, "op": op, "value": value})
 
+        old_page = page
         papers, page, total_hits, query_time = filter_papers(
             page, filters.get("q", ""), dynamic_filters
         )
+
+        # if returned 0 results on first page, give warning
+        if old_page == 1 and not len(papers):
+            alerts.append(
+                {
+                    "type": "warning",
+                    "message": "Sorry, your search did not return any results. Please try rephrasing your query.",
+                }
+            )
 
         stats = f"returned"
         if total_hits:
@@ -342,12 +387,9 @@ def search():
         if len(papers) and is_article(papers[0]):
             papers = list(map(lambda p: json.loads(p.to_json()), papers))
 
-        # convert dict timestamp to int
-        for p in papers:
-            if type(p.get("timestamp")) != int:
-                p["timestamp"] = p.get("timestamp", {}).get("$date", -1)
+        postprocess(papers)
 
-        return jsonify(dict(page=page, papers=papers, stats=stats, errors=errors))
+        return jsonify(dict(page=page, papers=papers, stats=stats, alerts=alerts))
     else:
         return render_template("search.html", **ctx)
 
