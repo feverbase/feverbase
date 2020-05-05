@@ -31,10 +31,10 @@ def run():
             except Exception as e:
                 print(e)
 
-    articles = map(translate, data.values())
+    articles = list(map(translate, data.values()))
     articles_with_location = location.add_location_data(articles)
 
-    db.create(articles_with_location)
+    db.create(db.Article, articles_with_location)
 
     mongo_to_meili()
 

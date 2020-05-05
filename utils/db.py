@@ -76,26 +76,12 @@ class Article(ExtendedDocument):
         return self.url
 
 
-def create(articles):
+def create(Model, objects):
     """
-    Input: list of articles (dictionaries).
+    Input: list of objects (dictionaries).
     Output: None
 
-    Posts a list of articles to Mongo.
+    Posts a list of objects to Mongo collection Model.
     """
-    objects = list(map(lambda a: Article(**a), articles))
-    Article.smart_insert(objects)
-
-
-def insert_locations(locations):
-    """
-    Input: list of locations (dictionaries).
-    Output: None
-
-    Posts a list of locations to Mongo.
-    """
-    objects = []
-    for l in locations:
-        obj = Location(**l)
-        objects.append(obj)
-    Location.smart_insert(objects)
+    docs = list(map(lambda o: Model(**o), objects))
+    Model.smart_insert(docs)

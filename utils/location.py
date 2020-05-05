@@ -37,7 +37,7 @@ def add_location_data(articles):
 
     print("Inserting new locations into database...")
     if len(new_locations) > 0:
-        db.insert_locations(new_locations)
+        db.create(db.Location, new_locations)
 
     # get institution name and location_data $id pairs from mongo
     location_mappings = get_mongo_ids()
