@@ -63,7 +63,6 @@ class Article(ExtendedDocument):
 
     # optional fields
     sample_size = IntField(default=0)
-    parsed_sample_size = IntField(default=0)
     abandoned = BooleanField()
     abandoned_reason = StringField()
 
