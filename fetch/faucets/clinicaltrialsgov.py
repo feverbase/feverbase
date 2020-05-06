@@ -16,12 +16,10 @@ POSTED_WITHIN_DAYS = (
 STATUS_INDICATORS = ["|", "/", "-", "\\"]
 
 
-def find(term):
+def find(term, existing):
     data = {}
 
     print(f"Fetching data for last {POSTED_WITHIN_DAYS} days...")
-
-    added_ids = set()
 
     url = f"https://clinicaltrials.gov/ct2/results/rss.xml?rcv_d={POSTED_WITHIN_DAYS}&cond={term}&count=10000"
     get_scrape_url = (
@@ -44,13 +42,14 @@ def find(term):
 
     for idx, entry in enumerate(feed["entries"]):
         identifier = entry["id"]
-        # skip duplicates
-        if identifier in added_ids:
-            continue
-        added_ids.add(identifier)
 
         url = entry["link"]
         url = url[: url.find("?")]
+
+        # skip duplicates
+        if url in existing:
+            continue
+        existing.add(url)
 
         scrape_url = get_scrape_url(identifier)
         try:

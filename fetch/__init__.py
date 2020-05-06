@@ -23,11 +23,12 @@ DRIPPING_FAUCETS = {
 
 def run():
     data = {}
+    existing = set()
     for query in TERMS:
         for source, faucet in DRIPPING_FAUCETS.items():
             try:
                 print(f"Crawling {source}...")
-                data.update(faucet.find(query))
+                data.update(faucet.find(query, existing))
             except Exception as e:
                 print(e)
 

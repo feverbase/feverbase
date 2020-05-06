@@ -9,7 +9,7 @@ BASE_URL = "http://www.chictr.org.cn/"
 QUERY_URL = "{BASE_URL}/searchprojen.aspx?officialname=&subjectid=&secondaryid=&applier=&studyleader=&ethicalcommitteesanction=&sponsor=&studyailment=&studyailmentcode=&studytype=0&studystage=0&studydesign=0&minstudyexecutetime=&maxstudyexecutetime=&recruitmentstatus=0&gender=0&agreetosign=&secsponsor=&regno=&regstatus=0&country=&province=&city=&institution=&institutionlevel=&measure=&intercode=&sourceofspends=&createyear=0&isuploadrf=&whetherpublic=&btngo=btn&verifycode=&title={query}"
 PAGINATE_QUERY = "&page={page_num}"
 
-def find(query):
+def find(query, existing):
     data = {}
     count = 0
     url = QUERY_URL.format(BASE_URL=BASE_URL, query=query)
@@ -34,11 +34,17 @@ def find(query):
                     for trial in trials:
                         html_info = trial.find_all('td')
 
-                        title = html_info[2].find_all('p')[0].find_all('a')[0].find(text=True)
                         url_path = html_info[2].find_all('p')[0].find_all('a')[0].get('href')
+                        url = '{base}{path}'.format(base=BASE_URL, path=url_path)
+
+                        # skip duplicates
+                        if url in existing:
+                            continue
+                        existing.add(url)
+
+                        title = html_info[2].find_all('p')[0].find_all('a')[0].find(text=True)
                         affiliation = html_info[2].find_all('p')[1].find(text=True).strip()
                         date = '-'.join(html_info[4].find(text=True).strip().split('/'))
-                        url = '{base}{path}'.format(base=BASE_URL, path=url_path)
 
                         info = {
                             'SOURCE': SOURCE,

@@ -22,7 +22,7 @@ def setup_logging():
     logging.basicConfig(filename=LOG_FILENAME, level=logging.DEBUG)
 
 
-def find(query):
+def find(query, existing):
     setup_logging()
     data = {}
     count = 0
@@ -70,6 +70,12 @@ def find(query):
                         link = link.get("href")
 
                         url = f"{BASE_URL}{link}"
+
+                        # skip duplicates
+                        if url in existing:
+                            continue
+                        existing.add(url)
+
                         page = requests.get(url, verify=False)
                         if page.status_code == 200:
                             soup = BeautifulSoup(page.content, "html.parser")

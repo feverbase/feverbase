@@ -28,7 +28,7 @@ def to_iso8601(date):
         return None
 
 
-def find(query):
+def find(query, existing):
     data = {}
     count = 0
     url = API_URL.format(query=query)
@@ -41,13 +41,20 @@ def find(query):
         main = trial.find("main")
         trial_id = main.find("trial_id").text
         try:
+            url = main.find("url").text
+
+            # skip duplicates
+            if url in existing:
+                continue
+            existing.add(url)
+
             date_registration = main.find("date_registration").text
             title = main.find("public_title").text
             sponsor = main.find("primary_sponsor").text
             sample_size = int(main.find("target_size").text)
             if sample_size == 0:
                 sample_size = None
-            url = main.find("url").text
+
             sex = trial.find("criteria").find("gender").text
 
             if main.find("hc_freetext") != None:
