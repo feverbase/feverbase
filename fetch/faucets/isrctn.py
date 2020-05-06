@@ -152,7 +152,7 @@ def find(query, existing):
 
                         ### GET INFO
                         intervention = get_info_for_section_title("Intervention")
-                        institution = get_info_for_section_title("Intervention")
+                        institution = get_info_for_section_title("Trial participating centre")
                         overall_status = get_info_for_section_title(
                             "Overall trial status",
                             title_tag="dt",
