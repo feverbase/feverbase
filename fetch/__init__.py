@@ -40,9 +40,7 @@ def run():
     for query in TERMS:
         for source, faucet in DRIPPING_FAUCETS.items():
             try:
-                msg = f"Crawling {source}..."
-                print(msg)
-                logger.warn(msg)
+                logger.warn(f"Crawling {source}...")
                 start = time.time()
 
                 docs = faucet.find(query, existing)
@@ -53,12 +51,9 @@ def run():
                 if len(docs):
                     average = delta / len(docs)
 
-                msg = f"Got {len(docs)} in {round(delta, 2)} seconds ({round(average, 2)}s average)"
-                print(msg)
-                logger.warn(msg)
+                logger.warn(f"Got {len(docs)} in {round(delta, 2)} seconds ({round(average, 2)}s average)")
             except Exception as e:
                 logger.error(e)
-                print(f"Failed: {e}")
 
     articles = list(map(translate, data.values()))
     articles_with_location = location.add_location_data(articles)

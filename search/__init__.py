@@ -4,7 +4,7 @@ import re
 import logging
 
 sys.path.append("../")
-from utils import db, ms
+from utils import db, ms, config
 
 logger = logging.getLogger(__name__)
 
@@ -36,9 +36,7 @@ def parse_documents():
             entry_json["parsed_timestamp"] = -1
 
         parsed_documents.append(entry_json)
-    msg = f"[Meili] Retrieved {len(parsed_documents)} documents from MongoDB"
-    print(msg)
-    logger.warn(msg)
+    logger.warn(f"[Meili] Retrieved {len(parsed_documents)} documents from MongoDB")
     return parsed_documents
 
 
@@ -52,9 +50,7 @@ def push_to_meili(documents):
     while status != "processed":
         update_status = index.get_update_status(delete_id)
         status = update_status.get("status")
-    msg = "[Meili] Successfully cleared previous documents"
-    print(msg)
-    logger.warn(msg)
+    logger.warn("[Meili] Successfully cleared previous documents")
 
     update_id = index.add_documents(documents).get("updateId")
 
@@ -63,12 +59,14 @@ def push_to_meili(documents):
     while status != "processed":
         update_status = index.get_update_status(update_id)
         status = update_status.get("status")
-    msg = "[Meili] Successfully uploaded data to Meilisearch"
-    print(msg)
-    logger.warn(msg)
+    logger.warn("[Meili] Successfully uploaded data to Meilisearch")
 
 
 def mongo_to_meili():
+    # if not on prod, dont push to meili (to prevent accidents)
+    if not (config.mongodb_uri or "").startswith("mongodb+srv://prod:"):
+        return
+
     docs = parse_documents()
     push_to_meili(docs)
 
