@@ -152,18 +152,20 @@ def find(query, existing):
 
                         ### GET INFO
                         intervention = get_info_for_section_title("Intervention")
-                        institution = get_info_for_section_title("Trial participating centre")
-                        overall_status = get_info_for_section_title(
-                            "Overall trial status",
+                        institution = get_info_for_section_title(
+                            "Trial participating centre"
+                        )
+
+                        status_context = dict(
                             title_tag="dt",
                             title_class="Meta_name u-eta",
                             next_tag="dd",
                         )
+                        overall_status = get_info_for_section_title(
+                            "Overall trial status", **status_context
+                        )
                         recruiting_status = get_info_for_section_title(
-                            "Recruitment status",
-                            title_tag="dt",
-                            title_class="Meta_name u-eta",
-                            next_tag="dd",
+                            "Recruitment status", **status_context
                         )
             except Exception as e:
                 print(e)
