@@ -1,9 +1,12 @@
 import sys
 import json
 import re
+import logging
 
 sys.path.append("../")
 from utils import db, ms
+
+logger = logging.getLogger(__name__)
 
 
 def parse_documents():
@@ -33,7 +36,9 @@ def parse_documents():
             entry_json["parsed_timestamp"] = -1
 
         parsed_documents.append(entry_json)
-    print(f"Retrieved {len(parsed_documents)} documents from MongoDB")
+    msg = f"[Meili] Retrieved {len(parsed_documents)} documents from MongoDB"
+    print(msg)
+    logger.warn(msg)
     return parsed_documents
 
 
@@ -47,7 +52,9 @@ def push_to_meili(documents):
     while status != "processed":
         update_status = index.get_update_status(delete_id)
         status = update_status.get("status")
-    print("[Meili] Successfully cleared previous documents")
+    msg = "[Meili] Successfully cleared previous documents"
+    print(msg)
+    logger.warn(msg)
 
     update_id = index.add_documents(documents).get("updateId")
 
@@ -56,7 +63,9 @@ def push_to_meili(documents):
     while status != "processed":
         update_status = index.get_update_status(update_id)
         status = update_status.get("status")
-    print("[Meili] Successfully uploaded data to Meilisearch")
+    msg = "[Meili] Successfully uploaded data to Meilisearch"
+    print(msg)
+    logger.warn(msg)
 
 
 def mongo_to_meili():
