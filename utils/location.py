@@ -79,7 +79,9 @@ def get_location_ids(queries):
             this_location_data = geocode_query(inst)
             if this_location_data:
                 new_location_data.append(this_location_data)
-                print(f"[{i + 1}/{len(new_location_names)}] Geocoded institution {inst}")
+                print(
+                    f"[{i + 1}/{len(new_location_names)}] Geocoded institution {inst}"
+                )
             else:
                 # geocoding didn't return any results, still add to database
                 # EDIT: for now, dont append
@@ -99,12 +101,13 @@ def get_location_ids(queries):
             print(f"[{i + 1}/{len(new_location_names)}] {err}")
             logger.error(err)
 
-    # get existing locations
-    locations = db.Location.objects(institution__in=queries).only("id", "institution")
     # add new locations
     if len(new_location_data):
         print("Inserting new locations into database...")
-        locations += db.create(db.Location, new_location_data)
+        db.create(db.Location, new_location_data)
+
+    # get all locations after inserting the new ones
+    locations = db.Location.objects(institution__in=queries).only("id", "institution")
 
     return {l.institution: l.id for l in locations}
 
