@@ -17,7 +17,12 @@ from search import mongo_to_meili
 
 LOG_FILENAME = "logs/fetch.log"
 os.makedirs(os.path.dirname(LOG_FILENAME), exist_ok=True)
-logging.basicConfig(filename=LOG_FILENAME, level=logging.WARNING)
+logging.basicConfig(
+    filename=LOG_FILENAME,
+    level=logging.WARN,
+    format="%(asctime)s %(levelname)-8s %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
 logger = logging.getLogger(__name__)
 
 TERMS = utils.get_query_terms()
@@ -35,7 +40,9 @@ def run():
     for query in TERMS:
         for source, faucet in DRIPPING_FAUCETS.items():
             try:
-                print(f"Crawling {source}...")
+                msg = f"Crawling {source}..."
+                print(msg)
+                logger.warn(msg)
                 start = time.time()
 
                 docs = faucet.find(query, existing)
@@ -46,9 +53,9 @@ def run():
                 if len(docs):
                     average = delta / len(docs)
 
-                print(
-                    f"Got {len(docs)} in {round(delta, 2)} seconds ({round(average, 2)}s average)"
-                )
+                msg = f"Got {len(docs)} in {round(delta, 2)} seconds ({round(average, 2)}s average)"
+                print(msg)
+                logger.warn(msg)
             except Exception as e:
                 logger.error(e)
                 print(f"Failed: {e}")
