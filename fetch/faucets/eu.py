@@ -178,7 +178,7 @@ def find(query, existing):
                                 count += 1
                                 logger.info(f"Parsed {url}")
                             except Exception as e:
-                                logger.error(f"Could not parse {url}, {e}")
+                                logger.error(f"[URL: {url}] {e}")
 
                 print(f"Page {page_num + 1} out of {num_pages} fetched for {query}")
 

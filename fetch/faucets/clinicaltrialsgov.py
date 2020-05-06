@@ -99,6 +99,7 @@ def find(term, existing):
             sys.stdout.flush()
         except Exception as e:
             print(e)
+            logger.error(f"[ID: {identifier}, URL: {url}] {e}")
             continue
 
     sys.stdout.write("                               \r")

@@ -36,9 +36,8 @@ def find(query, existing):
         this_entry = {"_source": SOURCE}
         main = trial.find("main")
         trial_id = main.find("trial_id").text
+        url = main.find("url").text
         try:
-            url = main.find("url").text
-
             # skip duplicates
             if url in existing:
                 continue
@@ -168,6 +167,7 @@ def find(query, existing):
                         )
             except Exception as e:
                 print(e)
+                logger.error(f"[ID: {trial_id}, URL: {url}] {e}")
 
             this_entry["title"] = title
             this_entry["url"] = url
@@ -188,7 +188,8 @@ def find(query, existing):
             # pprint(this_entry)
             logger.info(f"Parsed {url}")
         except Exception as e:
-            print(f"Failed on trial id: {trial_id} - {e}")
+            print(e)
+            logger.error(f"[ID: {trial_id}, URL: {url}] {e}")
 
     print(f"Fetched {count} results for {query}")
     return data
