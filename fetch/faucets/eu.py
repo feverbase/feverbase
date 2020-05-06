@@ -14,16 +14,11 @@ FILENAME = "eu.json"
 BASE_URL = "https://www.clinicaltrialsregister.eu"
 QUERY_URL = "{BASE_URL}/ctr-search/search?query={query}&dateFrom=2019-12-01"
 PAGINATE_QUERY = "&page={page_num}"
-LOG_FILENAME = "logs/eu.log"
 
-
-def setup_logging():
-    os.makedirs(os.path.dirname(LOG_FILENAME), exist_ok=True)
-    logging.basicConfig(filename=LOG_FILENAME, level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 
 def find(query, existing):
-    setup_logging()
     data = {}
     count = 0
     url = QUERY_URL.format(BASE_URL=BASE_URL, query=query)
@@ -181,9 +176,9 @@ def find(query, existing):
 
                                 data[url] = this_entry
                                 count += 1
-                                logging.info(f"Parsed {url}")
+                                logger.info(f"Parsed {url}")
                             except Exception as e:
-                                logging.error(f"Could not parse {url}, {e}")
+                                logger.error(f"Could not parse {url}, {e}")
 
                 print(f"Page {page_num + 1} out of {num_pages} fetched for {query}")
 

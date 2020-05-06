@@ -7,6 +7,7 @@ from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 import re
 import sys
+import logging
 
 SOURCE = "clinicaltrials.gov"
 FILENAME = "clinicaltrialsgov.json"
@@ -14,6 +15,8 @@ POSTED_WITHIN_DAYS = (
     datetime.now() - datetime(2019, 12, 1)
 ).days  # posted December 1, 2019
 STATUS_INDICATORS = ["|", "/", "-", "\\"]
+
+logger = logging.getLogger(__name__)
 
 
 def find(term, existing):

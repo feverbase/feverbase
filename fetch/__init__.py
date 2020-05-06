@@ -1,4 +1,7 @@
 import sys
+import time
+import logging
+import os
 
 sys.path.append("./fetch")
 # from faucets import chictr
@@ -11,6 +14,11 @@ sys.path.append("../")
 from utils import db, ms, location
 
 from search import mongo_to_meili
+
+LOG_FILENAME = "logs/fetch.log"
+os.makedirs(os.path.dirname(LOG_FILENAME), exist_ok=True)
+logging.basicConfig(filename=LOG_FILENAME, level=logging.WARNING)
+logger = logging.getLogger(__name__)
 
 TERMS = utils.get_query_terms()
 DRIPPING_FAUCETS = {
@@ -28,9 +36,22 @@ def run():
         for source, faucet in DRIPPING_FAUCETS.items():
             try:
                 print(f"Crawling {source}...")
-                data.update(faucet.find(query, existing))
+                start = time.time()
+
+                docs = faucet.find(query, existing)
+                data.update(docs)
+
+                delta = time.time() - start
+                average = 0
+                if len(docs):
+                    average = delta / len(docs)
+
+                print(
+                    f"Got {len(docs)} in {round(delta, 2)} seconds ({round(average, 2)}s average)"
+                )
             except Exception as e:
-                print(e)
+                logger.error(e)
+                print(f"Failed: {e}")
 
     articles = list(map(translate, data.values()))
     articles_with_location = location.add_location_data(articles)

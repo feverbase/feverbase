@@ -12,12 +12,8 @@ import re
 SOURCE = "isrctn.com"
 FILENAME = "isrctn.json"
 API_URL = "http://www.isrctn.com/api/query/format/who?q={query}&dateAssigned%20GT%202019-12-01"
-LOG_FILENAME = "logs/isrctn.log"
 
-
-def setup_logging():
-    os.makedirs(os.path.dirname(LOG_FILENAME), exist_ok=True)
-    logging.basicConfig(filename=LOG_FILENAME, level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 
 def to_iso8601(date):
@@ -190,7 +186,7 @@ def find(query, existing):
             data[url] = this_entry
             count += 1
             # pprint(this_entry)
-            logging.info(f"Parsed {url}")
+            logger.info(f"Parsed {url}")
         except Exception as e:
             print(f"Failed on trial id: {trial_id} - {e}")
 
