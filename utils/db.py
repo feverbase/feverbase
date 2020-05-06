@@ -78,6 +78,16 @@ class Article(ExtendedDocument):
         return self.url
 
 
+class FilterOption(ExtendedDocument):
+    key = StringField()
+    value = StringField()
+
+    meta = {
+        "indexes": [{"fields": ["key", "value"], "unique": True}],
+        "ordering": ["key", "value"],
+    }
+
+
 def create(Model, objects):
     """
     Input: list of objects (dictionaries).
