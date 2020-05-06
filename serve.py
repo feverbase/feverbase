@@ -32,7 +32,7 @@ import requests
 import html
 from itertools import groupby
 
-from utils import db, ms
+from utils import db, ms, config
 
 load_dotenv()
 
@@ -345,6 +345,9 @@ def search():
             elif okey.startswith("max-"):
                 op = ("lte", "<=")
                 okey = okey[4:]
+            # if select filter, match exactly
+            elif okey in config.FILTER_OPTION_KEYS:
+                op = ("iexact", "=")
             else:
                 op = ("icontains", "*=")
 

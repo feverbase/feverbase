@@ -22,8 +22,8 @@ from mongoengine_mate import ExtendedDocument
 from . import config
 
 # try each env var in order
-if config.mongodb_uri:
-    connect(host=config.mongodb_uri)
+if config.MONGODB_URI:
+    connect(host=config.MONGODB_URI)
 else:
     raise Exception("No MongoDB URI specified.")
 

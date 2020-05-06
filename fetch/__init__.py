@@ -12,6 +12,7 @@ from . import utils
 
 sys.path.append("../")
 from utils import db, ms, location
+from utils.config import FILTER_OPTION_KEYS
 
 from search import mongo_to_meili
 
@@ -51,7 +52,9 @@ def run():
                 if len(docs):
                     average = delta / len(docs)
 
-                logger.warn(f"Got {len(docs)} in {round(delta, 2)} seconds ({round(average, 2)}s average)")
+                logger.warn(
+                    f"Got {len(docs)} in {round(delta, 2)} seconds ({round(average, 2)}s average)"
+                )
             except Exception as e:
                 logger.error(e)
 
@@ -70,13 +73,6 @@ def translate(info):
     if faucet:
         return faucet.translate(info)
     return info
-
-
-FILTER_OPTION_KEYS = [
-    "sponsor",
-    # "location",
-    "recruiting_status",
-]
 
 
 def preload_filter_options():
