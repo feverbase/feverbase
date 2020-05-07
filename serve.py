@@ -59,6 +59,11 @@ CMDS = {
     f"maxdate:{quoted_or_single_word}": "max-timestamp",
 }
 
+TRIM_KEYS = [
+    "summary",
+    "intervention",
+]
+
 # -----------------------------------------------------------------------------
 # connection handlers
 # -----------------------------------------------------------------------------
@@ -118,8 +123,8 @@ def postprocess(papers):
             if type(v) == str:
                 v = v.replace("&lt;em&gt;", "<em>").replace("&lt;/em&gt;", "</em>")
 
-            # trim summary
-            if k == "summary" and v:
+            # trim value if in TRIM_KEYS
+            if k in TRIM_KEYS and v:
                 orig = v
                 v = v[0:500]
                 if len(orig) > 500:
