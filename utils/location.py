@@ -33,7 +33,7 @@ def add_location_data(articles):
 
     Return the list of articles
     """
-    print("Beginning to add location data...")
+    logger.warn("Adding location data...")
     institutions = [a.get("institution") for a in articles]
 
     # get locations for given institutions
@@ -79,7 +79,7 @@ def get_location_ids(queries):
             this_location_data = geocode_query(inst)
             if this_location_data:
                 new_location_data.append(this_location_data)
-                print(
+                logger.info(
                     f"[{i + 1}/{len(new_location_names)}] Geocoded institution {inst}"
                 )
             else:
@@ -92,18 +92,18 @@ def get_location_ids(queries):
                 #         "latitude": None,
                 #         "longitude": None,
                 #     }
-                # n
-                err = f"Unable to geocode institution `{inst}`"
-                print(f"[{i + 1}/{len(new_location_names)}] {err}")
-                logger.error(err)
+                # )
+                logger.error(
+                    f"[{i + 1}/{len(new_location_names)}] Unable to geocode institution `{inst}` (no data returned)"
+                )
         except Exception as e:
-            err = f"Unable to geocode institution `{inst}`"
-            print(f"[{i + 1}/{len(new_location_names)}] {err}")
-            logger.error(err)
+            logger.error(
+                f"[{i + 1}/{len(new_location_names)}] Unable to geocode institution `{inst}`: {e}"
+            )
 
     # add new locations
     if len(new_location_data):
-        print("Inserting new locations into database...")
+        logger.info("Inserting new locations into database...")
         db.create(db.Location, new_location_data)
 
     # get all locations after inserting the new ones

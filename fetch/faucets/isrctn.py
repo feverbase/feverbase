@@ -168,7 +168,6 @@ def find(query, existing):
                             "Recruitment status", **status_context
                         )
             except Exception as e:
-                print(e)
                 logger.error(f"[ID: {trial_id}, URL: {url}] {e}")
 
             this_entry["title"] = title
@@ -188,9 +187,7 @@ def find(query, existing):
             data[url] = this_entry
             count += 1
             # pprint(this_entry)
-            logger.info(f"Parsed {url}")
         except Exception as e:
-            print(e)
             logger.error(f"[ID: {trial_id}, URL: {url}] {e}")
 
     print(f"Fetched {count} results for {query}")

@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 def find(term, existing):
     data = {}
 
-    print(f"Fetching data for last {POSTED_WITHIN_DAYS} days...")
+    logger.info(f"Fetching data for last {POSTED_WITHIN_DAYS} days...")
 
     url = f"https://clinicaltrials.gov/ct2/results/rss.xml?rcv_d={POSTED_WITHIN_DAYS}&cond={term}&count=10000"
     get_scrape_url = (
@@ -41,7 +41,7 @@ def find(term, existing):
     # namespaces
     feed = feedparser.parse(url)
     total = len(feed["entries"])
-    print(f"Fetched {total} results for {term}. Parsing...")
+    logger.info(f"Fetched {total} results for {term}. Parsing...")
 
     for idx, entry in enumerate(feed["entries"]):
         identifier = entry["id"]
@@ -98,13 +98,12 @@ def find(term, existing):
             )
             sys.stdout.flush()
         except Exception as e:
-            print(e)
             logger.error(f"[ID: {identifier}, URL: {url}] {e}")
             continue
 
     sys.stdout.write("                               \r")
     sys.stdout.flush()
-    print(f"Parsed {len(data)} results")
+    logger.info(f"Parsed {len(data)} results")
 
     return data
 

@@ -1,8 +1,11 @@
 import os
 import meilisearch
+import logging
+
 from dotenv import load_dotenv
 load_dotenv()
 
+logger = logging.getLogger(__name__)
 
 def get_ms_client():
     master_key = os.environ.get("MEILI_KEY")
@@ -20,11 +23,11 @@ def get_ms_trials_index(client):
 
     # no indexes, create one
     if indexes == []:
-        print("No index 'trials', creating...")
+        logger.warn("[Meili] No index 'trials', creating...")
         index = client.create_index(uid="trials", primary_key="ms-id")
     else:
-        # if index exists already, delete all documents
-        print("Index 'trials' already exists...")
+        # if index exists already
+        logger.warn("[Meili] Index 'trials' already exists")
         index = client.get_index("trials")
 
     return index

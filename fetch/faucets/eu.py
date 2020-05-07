@@ -176,13 +176,14 @@ def find(query, existing):
 
                                 data[url] = this_entry
                                 count += 1
-                                logger.info(f"Parsed {url}")
                             except Exception as e:
                                 logger.error(f"[URL: {url}] {e}")
 
-                print(f"Page {page_num + 1} out of {num_pages} fetched for {query}")
+                logger.info(
+                    f"Page {page_num + 1} out of {num_pages} fetched for {query}"
+                )
 
-    print(f"Fetched {count} results for {query}")
+    logger.info(f"Fetched {count} results for {query}")
 
     return data
 

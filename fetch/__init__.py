@@ -24,7 +24,12 @@ logging.basicConfig(
     format="%(asctime)s %(levelname)-8s %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S",
 )
-logging.getLogger().addHandler(logging.StreamHandler(sys.stdout))
+
+# print to stdout also
+stdout_handler = logging.StreamHandler(sys.stdout)
+stdout_handler.setLevel(logging.DEBUG)
+logging.getLogger().addHandler(stdout_handler)
+
 logger = logging.getLogger(__name__)
 
 TERMS = utils.get_query_terms()
@@ -42,7 +47,7 @@ def run():
     for query in TERMS:
         for source, faucet in DRIPPING_FAUCETS.items():
             try:
-                logger.warn(f"Crawling {source}...")
+                logger.warn(f"----- Crawling {source} -----")
                 start = time.time()
 
                 docs = faucet.find(query, existing)
@@ -54,7 +59,7 @@ def run():
                     average = delta / len(docs)
 
                 logger.warn(
-                    f"Got {len(docs)} in {round(delta, 2)} seconds ({round(average, 2)}s average)"
+                    f"----- Got {len(docs)} in {round(delta, 2)} seconds ({round(average, 2)}s average) -----"
                 )
             except Exception as e:
                 logger.error(e)
