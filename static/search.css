@@ -1,5 +1,7 @@
 body {
-  margin: 10px;
+  margin: 0 auto;
+  width: 60em;
+  max-width: 92%;
 }
 
 blockquote {
@@ -44,6 +46,7 @@ form.horizontal > header > span {
 #hint {
   margin-top: 1rem;
   color: #aaa;
+  line-height: 2em;
 }
 
 #hint > em {
