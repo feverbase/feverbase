@@ -45,8 +45,9 @@ form.horizontal > header > span {
 
 #hint {
   margin-top: 1rem;
+  width: 60%;
   color: #aaa;
-  line-height: 2em;
+  line-height: 1.8em;
 }
 
 #hint > em {
@@ -73,7 +74,8 @@ form.horizontal > header > span {
     margin-right: 0;
   }
 
-  #sbox {
+  #sbox,
+  #hint {
     width: 100%;
   }
 }
