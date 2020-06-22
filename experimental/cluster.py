@@ -26,6 +26,7 @@ import tensorflow_hub as hub
 FLAGS = flags.FLAGS
 
 flags.DEFINE_string('data', './articles.json', 'JSON file path.')
+flags.DEFINE_integer('n_sim', 100, 'Number of embeddings to visualize.')
 flags.DEFINE_integer('k', 10, 'Number of nearest neighbors.')
 
 
@@ -60,6 +61,11 @@ def main(unused_argv):
 
     embed = hub.load("https://tfhub.dev/google/universal-sentence-encoder/4")
     embeddings = embed(sentences).numpy()
+
+    # TODO: Use t-SNE visualization instead of self-similarity
+    e = embeddings[:FLAGS.n_sim]
+    sns.heatmap(e @ e.T)
+    plt.show()
 
     sampled = np.random.choice(sentences)
     print("Sampled: {}".format(sampled))
