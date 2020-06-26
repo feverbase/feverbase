@@ -15,6 +15,7 @@ from utils import db, ms, location
 from utils.config import FILTER_OPTION_KEYS
 
 from search import mongo_to_meili
+from visualize import mongo_to_vis
 
 LOG_FILENAME = "logs/fetch.log"
 os.makedirs(os.path.dirname(LOG_FILENAME), exist_ok=True)
@@ -71,6 +72,7 @@ def run():
 
     preload_filter_options()
     mongo_to_meili()
+    mongo_to_vis()
 
 
 def translate(info):

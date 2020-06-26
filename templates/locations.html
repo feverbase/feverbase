@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  {% include "partials/head.html" %}
+
+  <title>Feverbase</title>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='search.css') }}">
+
+  <!-- Load image before running scripts -->
+  <style type="text/css">
+    .load-img-early {
+      display: none;
+    }
+  </style>
+  <img
+    src="{{ url_for('static', filename='search.png') }}"
+    class="load-img-early"
+  >
+
+  <!-- Library JS -->
+  <script src="{{ url_for('static', filename='moment.min.js') }}"></script>
+
+  <!-- Custom JS -->
+  <script src="{{ url_for('static', filename='locations.js') }}"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+  <script src="{{ url_for('static', filename='datamaps.world.min.js') }}"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+</head>
+
+<body>
+  <form action="/search" method="get" {{ 'class=horizontal' if url_for(request.endpoint) != '/' else '' }}>
+    <header class="center">
+      <nav>
+        <a href="/about">About</a>
+        <a href="/volunteer">Volunteer for Trials</a>
+        <button type="button" class="textbn" onclick="toggleFeedback()">Give Feedback</button>
+      </nav>
+
+      <h1 id="logo"><a href="/">feverbase</a></h1>
+      <span id="blurb">Search {{ total_count }} clinical trials from around the world.</span>
+
+      <div id="sbox">
+        <input type="submit" alt="Search" id="search-icon" value="">
+        <input name="q" type="text" id="qfield" value="{{ filters.q if filters and 'q' in filters else '' }}"
+          autocomplete="off" autocapitalize="off" spellcheck="false">
+      </div>
+
+      <span id="hint">Hint: try adding <em class="shortcut-filter" data-text="mindate:&quot;|&quot;">mindate:"April 1, 2020"</em> or <em class="shortcut-filter" data-text="maxdate:&quot;|&quot;">maxdate:2020-03-15</em> to your search</span>
+    </header>
+
+    <div id="filters-box" {{ 'style=display:none' if url_for(request.endpoint) == '/' else '' }}>
+      <a onclick="toggleAdvancedFilters()">
+        <span id="filters-status">{{ 'Hide' if adv_filters_in_use else '' }}</span>
+        Advanced Filters
+      </a>
+      <br>
+      <div id="filters-container" style="display: {{ 'grid' if adv_filters_in_use else 'none' }};">
+        <label for="date">Date Posted:</label>
+        <div class="inputs">
+          <input name="min-timestamp" type="text" id="filter-min-timestamp" value="{{ filters.get("min-timestamp", "") }}"
+            placeholder="min">
+          <input name="max-timestamp" type="text" id="filter-max-timestamp" value="{{ filters.get("max-timestamp", "") }}"
+            placeholder="max">
+        </div>
+
+        <label for="sponsor">Sponsor:</label>
+        <select name="sponsor" type="text" id="filter-sponsor">
+          <!-- Add blank option -->
+          {% if filters and not 'sponsor' in filters %}
+          <option value="" selected></option>
+          {% else %}
+          <option value=""></option>
+          {% endif %}
+
+          <!-- Loop over options -->
+          {% if filter_options and 'sponsor' in filter_options %}
+          {% for sponsor in filter_options.sponsor %}
+          {% if filters and 'sponsor' in filters and filters.sponsor == sponsor %}
+          <option value="{{ sponsor }}" selected>{{ sponsor }}</option>
+          {% else %}
+          <option value="{{ sponsor }}">{{ sponsor }}</option>
+          {% endif %}
+          {% endfor %}
+          {% endif %}
+        </select>
+
+        <label for="target_disease">Condition:</label>
+        <input name="target_disease" type="text" id="filter-target_disease"
+          value="{{ filters.target_disease if filters and 'target_disease' in filters else '' }}" autocomplete="off" autocapitalize="off" spellcheck="false">
+
+        <label for="intervention">Intervention:</label>
+        <input name="intervention" type="text" id="filter-intervention"
+          value="{{ filters.intervention if filters and 'intervention' in filters else '' }}" autocomplete="off" autocapitalize="off" spellcheck="false">
+
+        <label for="sample_size">Sample Size:</label>
+        <div class="inputs">
+          <input name="min-sample_size" type="text" id="filter-min-sample_size" value="{{ filters.get("min-sample_size", "") }}"
+            placeholder="min" autocomplete="off" autocapitalize="off" spellcheck="false">
+          <input name="max-sample_size" type="text" id="filter-max-sample_size" value="{{ filters.get("max-sample_size", "") }}"
+            placeholder="max" autocomplete="off" autocapitalize="off" spellcheck="false">
+        </div>
+
+        <label for="location">Location:</label>
+        <input name="location" type="text" id="filter-location"
+          value="{{ filters.location if filters and 'location' in filters else '' }}" autocomplete="off" autocapitalize="off" spellcheck="false">
+
+        <label for="recruiting_status">Status:</label>
+        <select name="recruiting_status" type="text" id="filter-recruiting_status">
+          <!-- Add blank option -->
+          {% if filters and not 'recruiting_status' in filters %}
+          <option value="" selected></option>
+          {% else %}
+          <option value=""></option>
+          {% endif %}
+
+          <!-- Loop over options -->
+          {% if filter_options and 'recruiting_status' in filter_options %}
+          {% for recruiting_status in filter_options.recruiting_status %}
+          {% if filters and 'recruiting_status' in filters and filters.recruiting_status == recruiting_status %}
+          <option value="{{ recruiting_status }}" selected>{{ recruiting_status }}</option>
+          {% else %}
+          <option value="{{ recruiting_status }}">{{ recruiting_status }}</option>
+          {% endif %}
+          {% endfor %}
+          {% endif %}
+        </select>
+
+        <input type="submit" value="Search">
+      </div>
+    </div>
+  </form>
+
+  <p style="display:none" id="stats"></p>
+
+  <div id="main">
+
+    <div id="tester" style="height:600px;"></div>
+    <div id="rtable"></div>
+
+    <div class="center">
+      <div class="lds-ring" id="loader" style="display:none">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <div id="noresults" style="display: none">
+      <h4>No more results.</h4>
+    </div>
+
+  </div>
+
+  <br><br><br>
+
+  {% include "partials/end_body.html" %}
+</body>
+
+</html>

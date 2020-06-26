@@ -335,6 +335,104 @@ def feedback():
     return "Thank you for submitting feedback!"
 
 
+@app.route("/locations")
+def locations():
+    ctx = default_context(render_format="search", filters=request.args)
+
+    if request.headers.get("Content-Type", "") == "application/json":
+        page = get_page()
+        filters = ctx.get("filters", {})
+
+        alerts = []
+
+        # { key, op, value }
+        # all 2-tuples, first mongo, second meili
+        dynamic_filters = []
+        # o = original
+        for okey, ovalue in filters.items():
+            if okey not in ACCEPTED_DYNAMIC_FILTERS or not ovalue:
+                continue
+
+            if okey.startswith("min-"):
+                op = ("gte", ">=")
+                okey = okey[4:]
+            elif okey.startswith("max-"):
+                op = ("lte", "<=")
+                okey = okey[4:]
+            # if select filter, match exactly
+            elif okey in config.FILTER_OPTION_KEYS:
+                op = ("iexact", "=")
+            else:
+                op = ("icontains", "*=")
+
+            key = (okey, okey)
+            value = (ovalue, ovalue)
+
+            if okey == "timestamp":
+                try:
+                    d = dateutil.parser.parse(ovalue)
+                    ts = int(d.timestamp())
+                    value = (
+                        f"datetime.fromtimestamp({ts})",
+                        str(ts),
+                    )
+                    key = ("timestamp", "parsed_timestamp")
+                except:
+                    alerts.append(
+                        {
+                            "type": "error",
+                            "message": f"Could not parse date filter '{ovalue}'. Please try another date format (e.g. YYYY-MM-DD)",
+                        }
+                    )
+                    continue
+            elif okey == "sample_size":
+                try:
+                    v = int(ovalue)
+                    if v < 0:
+                        v = 0
+                    v = str(v)
+                    value = (v, v)
+                except:
+                    value = ("0", "0")
+
+            dynamic_filters.append({"key": key, "op": op, "value": value})
+
+        old_page = page
+        papers, page, total_hits, query_time = filter_papers(
+            page, filters.get("q", ""), dynamic_filters
+        )
+
+        # if returned 0 results on first page, give warning
+        if old_page == 1 and not len(papers):
+            alerts.append(
+                {
+                    "type": "warning",
+                    "message": "Sorry, your search did not return any results. Please try rephrasing your query.",
+                }
+            )
+
+        stats = f"returned"
+        if total_hits:
+            stats += f" {total_hits} result{'' if total_hits == 1 else 's'}"
+        if query_time or query_time == 0:
+            stats += f" in {query_time if query_time else '<1'}ms"
+
+        if len(papers) and is_article(papers[0]):
+            papers = list(map(lambda p: json.loads(p.to_json()), papers))
+
+        papers = postprocess(papers)
+
+        return jsonify(dict(page=page, papers=papers, stats=stats, alerts=alerts))
+    else:
+        # add filter options for those that exist
+        filter_options = db.FilterOption.objects()
+        ctx["filter_options"] = {
+            k: list(map(lambda o: o.value, v))
+            for k, v in groupby(filter_options, key=lambda o: o.key)
+        }
+
+        return render_template("locations.html", **ctx)
+
 @app.route("/assets/<path:path>")
 @limiter.exempt
 def send_assets(path):
@@ -442,15 +540,6 @@ def search():
         papers = postprocess(papers)
 
         return jsonify(dict(page=page, papers=papers, stats=stats, alerts=alerts))
-    else:
-        # add filter options for those that exist
-        filter_options = db.FilterOption.objects()
-        ctx["filter_options"] = {
-            k: list(map(lambda o: o.value, v))
-            for k, v in groupby(filter_options, key=lambda o: o.key)
-        }
-
-        return render_template("search.html", **ctx)
 
 
 @app.route("/volunteer", methods=["GET", "POST"])
