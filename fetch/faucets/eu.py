@@ -84,6 +84,7 @@ def find(query, existing):
                                 institution = None
                                 contact_email = None
                                 contact_street_address = None
+                                contact_town_city = None
                                 contact_country = None
                                 sample_size = None
 
