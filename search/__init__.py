@@ -58,10 +58,6 @@ def push_to_meili(documents):
 
 
 def mongo_to_meili():
-    # if not on prod, dont push to meili (to prevent accidents)
-    if not (config.MONGODB_URI or "").startswith("mongodb+srv://prod:"):
-        return
-
     docs = parse_documents()
     push_to_meili(docs)
 
