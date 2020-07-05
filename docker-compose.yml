@@ -4,14 +4,15 @@ services:
   app:
     build:
       context: .
-    container_name: feverbase-flask
+    image: feverbase_app
+    container_name: feverbase_flask
     env_file: .env
     restart: unless-stopped
     environment:
       WAIT_HOSTS: db:27017, meili:7700
-      MONGODB_URI: mongodb://dev:dev@feverbase-mongo/dev?retryWrites=true&w=majority
-      MONGODB_TEST_URI: mongodb://dev:dev@feverbase-mongo/dev?retryWrites=true&w=majority
-      MEILI_URL: http://feverbase-meili:7700
+      MONGODB_URI: mongodb://dev:dev@feverbase_db/dev?retryWrites=true&w=majority
+      MONGODB_TEST_URI: mongodb://dev:dev@feverbase_db/dev?retryWrites=true&w=majority
+      MEILI_URL: http://feverbase_meili:7700
     ports:
       - '5000:5000'
     depends_on:
@@ -24,7 +25,7 @@ services:
     tty: true
   db:
     image: mongo:4.2.8
-    container_name: feverbase-mongo
+    container_name: feverbase_db
     restart: unless-stopped
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
@@ -36,7 +37,7 @@ services:
       - app-network
   meili:
     image: feverbase/meilisearch:containsfilter
-    container_name: feverbase-meili
+    container_name: feverbase_meili
     restart: unless-stopped
     volumes:
       - feverbase-meili-db:/data.ms
@@ -45,7 +46,7 @@ services:
 
 networks:
   app-network:
-    driver: bridge
+    driver: overlay
 
 volumes:
   feverbase-db:
