@@ -44,8 +44,3 @@ docker-compose exec app pytest
 ```
 
 This will execute the tests in the container which is already running!
-
-## Contributing
-Feverbase is open-sourced! Feel free to tackle open issues or create your own.
-## License
-Feverbase is MIT-licensed. Use it however you see fit.
